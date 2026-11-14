@@ -1,5 +1,5 @@
 {
- "verificado_em_utc": "2026-11-14T21:10:19Z",
+ "verificado_em_utc": "2026-11-14T21:11:44Z",
  "nota": "Séries que o Atlas promete atualizar sozinho. 'max_horas' é o atraso máximo aceito desde o último dado real (não desde a última tentativa). Mesmo critério do ODI Atlas.",
  "series": [
   {
@@ -55,14 +55,14 @@
   {
    "nome": "Notícias e artigos · sites",
    "serie": "sites",
-   "situacao": "inativa (ainda não executada)",
+   "situacao": "em dia",
    "max_horas": 36,
-   "ultimo_dado": null,
-   "horas_desde_ultimo_dado": null,
-   "ultima_execucao": null,
-   "status_ultima_execucao": "—"
+   "ultimo_dado": "2026-11-14T21:10:50Z",
+   "horas_desde_ultimo_dado": 0.0,
+   "ultima_execucao": "2026-11-14T21:10:50Z",
+   "status_ultima_execucao": "parcial: 1 site(s) não lido(s)"
   }
  ],
- "em_dia": 0,
+ "em_dia": 1,
  "atrasadas": []
 }
