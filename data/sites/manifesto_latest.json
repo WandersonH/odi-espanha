@@ -1,0 +1,109 @@
+{
+ "run_started_utc": "2026-11-14T21:10:50Z",
+ "ferramenta": "API pública do WordPress (wp-json) · RSS",
+ "modo": "carga",
+ "user_agent": "odi-espanha-coletor/1.0 (+https://github.com/WandersonH/odi-espanha)",
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": null
+ },
+ "custo_usd": 0.0,
+ "texto_integral": "não pedido (sem repositório privado)",
+ "sites": [
+  {
+   "site_id": "disenso",
+   "base": "https://fundaciondisenso.org",
+   "robots": "lido · não permite /wp-json",
+   "via": "rss",
+   "tipos": [
+    {
+     "tipo": "post",
+     "universo_total": null,
+     "universo_no_periodo": null,
+     "lidos": 129,
+     "erro": null,
+     "cobertura": "lido até a data inicial; universo ⛔ desconhecido (o RSS não informa total)"
+    }
+   ],
+   "lidos_no_periodo": 129,
+   "novos": 129,
+   "erro": null,
+   "cobertura": "parcial ⛔ ou universo desconhecido (ver tipos)"
+  },
+  {
+   "site_id": "foro-madrid",
+   "base": "https://foromadrid.org",
+   "robots": "lido",
+   "via": "wp-json",
+   "tipos": [
+    {
+     "tipo": "post",
+     "universo_total": 185,
+     "universo_no_periodo": 20,
+     "lidos": 20,
+     "erro": null,
+     "cobertura": "completa: lidos todos os que o site informa no período"
+    },
+    {
+     "tipo": "salient_g_sections",
+     "universo_total": 2,
+     "universo_no_periodo": 0,
+     "lidos": 0,
+     "erro": null,
+     "cobertura": "completa: lidos todos os que o site informa no período"
+    },
+    {
+     "tipo": "encuentros-reg",
+     "universo_total": 5,
+     "universo_no_periodo": 1,
+     "lidos": 1,
+     "erro": null,
+     "cobertura": "completa: lidos todos os que o site informa no período"
+    },
+    {
+     "tipo": "programas",
+     "universo_total": 7,
+     "universo_no_periodo": 0,
+     "lidos": 0,
+     "erro": null,
+     "cobertura": "completa: lidos todos os que o site informa no período"
+    },
+    {
+     "tipo": "wpb_gutenberg_param",
+     "universo_total": 0,
+     "universo_no_periodo": 0,
+     "lidos": 0,
+     "erro": null,
+     "cobertura": "completa: lidos todos os que o site informa no período"
+    }
+   ],
+   "lidos_no_periodo": 21,
+   "novos": 21,
+   "erro": null,
+   "cobertura": "completa"
+  },
+  {
+   "site_id": "vox",
+   "base": "https://www.voxespana.es",
+   "robots": "lido",
+   "via": "rss",
+   "tipos": [
+    {
+     "tipo": "post",
+     "universo_total": null,
+     "universo_no_periodo": null,
+     "lidos": 0,
+     "erro": "HTTP 403 no RSS (página 1)",
+     "cobertura": "parcial ⛔: HTTP 403 no RSS (página 1)"
+    }
+   ],
+   "lidos_no_periodo": 0,
+   "novos": 0,
+   "erro": "HTTP 403 no RSS (página 1)",
+   "cobertura": "⛔ não lido"
+  }
+ ],
+ "artigos_no_acervo": 150,
+ "artigos_novos": 150,
+ "status": "parcial: 1 site(s) não lido(s)"
+}
