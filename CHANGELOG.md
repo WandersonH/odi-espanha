@@ -20,11 +20,12 @@
 **O que foi realmente executado.**
 - `python -m unittest discover -s tests` → 24 testes, OK (Python 3.13.18, local, 14/11/2026). Os coletores foram exercitados só com respostas simuladas.
 - `python scripts/build_acervo.py` e `python scripts/build_saude_coleta.py` na raiz → `data/site/resumo.json`, `data/site/indice.json` e `data/saude_coleta.json` do estado atual (0 publicações; 5 de 18 perfis confirmados; 4 séries inativas).
+- Workflow *Testes* no GitHub: run 43639027359, sucesso (push do commit `942de21`, 14/11/2026, 20h43 UTC).
 - Página aberta no Chrome sem interface nos cinco cadernos, sem erro de console, em dois estados: o deste repositório (vazio) e uma pasta temporária com publicações sintéticas, que não foi commitada.
 
 **O que NÃO foi executado (⛔).**
 - Nenhuma chamada à Apify. Nenhuma publicação real foi lida. Os pedidos enviados a cada ator são os do ODI Atlas, mas não foram testados contra a Apify neste repositório.
-- Nenhum workflow rodou no GitHub.
+- Os workflows *Coleta* e *Saúde da coleta* ainda não rodaram no GitHub (só o de testes).
 - Os preços não foram reconferidos na loja da Apify (são os de 17 e 18/10/2026).
 
 **Pendências, todas do responsável.**
