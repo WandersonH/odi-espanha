@@ -24,7 +24,9 @@
   "tribe_venue",
   "tribe_organizer",
   "popup",
-  "portfolio"
+  "portfolio",
+  "salient_g_sections",
+  "wpb_gutenberg_param"
  ],
  "sites": [
   {
@@ -51,5 +53,6 @@
    "secao_informada": "",
    "fonte": "Endereço informado pelo responsável em 14/11/2026"
   }
- ]
+ ],
+ "achados": "1ª leitura real (run 43641402671, 14/11/2026): foromadrid.org respondeu pela API do WordPress; fundaciondisenso.org proíbe /wp-json no robots.txt e foi lido pelo RSS (a seção 'Artículos' é uma categoria dos posts); voxespana.es devolveu HTTP 403 ao servidor do GitHub."
 }
