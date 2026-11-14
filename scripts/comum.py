@@ -28,8 +28,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from apify import custo_run, erro_curto, run_actor  # noqa: E402
 from net import now_utc  # noqa: E402
 
-REDES = ("instagram", "x", "facebook")
-ROTULO = {"instagram": "Instagram", "x": "X", "facebook": "Facebook"}
+REDES_APIFY = ("instagram", "x", "facebook")   # coletores pagos, com teto (comum.rodar)
+REDES = REDES_APIFY + ("youtube",)           # todas as redes do acervo (o YouTube usa a API oficial, sem custo)
+ROTULO = {"instagram": "Instagram", "x": "X", "facebook": "Facebook", "youtube": "YouTube"}
 MODOS = ("teste", "carga", "diario")
 COLS = ["ator_id", "ator_nome", "rede", "perfil", "post_id", "url", "publicado_em", "texto", "tipo", "duracao_s",
         "visualizacoes", "curtidas", "comentarios", "compartilhamentos", "primeira_coleta", "ultima_coleta", "capa_url"]

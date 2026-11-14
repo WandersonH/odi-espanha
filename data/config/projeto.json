@@ -1,6 +1,6 @@
 {
  "nome": "ODI Espanha",
- "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X e no Facebook.",
+ "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X, no Facebook e no YouTube, e as notícias e artigos dos sites oficiais.",
  "base": "Arquitetura do ODI Atlas (github.com/WandersonH/odi-atlas): coletores collect_*.py com teto de gasto e manifesto, agregadores build_*.py, GitHub Actions, bruto no repositório privado, página estática que lê JSON.",
  "pedido": "Responsável em 14/11/2026: 'vamos criar um novo Atlas porém com outro foco: contas do Insta, X e Facebook dos seguintes perfis: Foro de Madrid, partido espanhol Vox, Fundación Disenso, Santiago Abascal (presidente do Vox), Jorge Martín Frías, Eduardo Cader. Período de 16/02/2026 até 30/20/2027. Preciso de todos os posts deles, assim como fizemos do Flávio e Lula.'",
  "periodo": {
@@ -12,7 +12,8 @@
  "redes": [
   "instagram",
   "x",
-  "facebook"
+  "facebook",
+  "youtube"
  ],
  "creditos": "Observatório de Desinformação e Intolerância Digital (ODI) · PPGCOM/UNIP",
  "creditos_nota": "Crédito herdado do ODI Atlas pelo nome dos repositórios (odi-*). Fomento (ex.: CNPq) só entra aqui quando o responsável confirmar que vale para este Atlas.",
@@ -20,5 +21,9 @@
   "publico": "WandersonH/odi-espanha",
   "privado": "WandersonH/odi-secret-esp",
   "nota": "Criados pelo responsável em 14/11/2026. No público: código, configuração, acervo de posts dos perfis monitorados, manifestos e página. No privado: o bruto devolvido pela Apify."
+ },
+ "contexto": {
+  "eleicao": "Eleições gerais na Espanha em 29/11/2026",
+  "fonte": "https://www.juntaelectoralcentral.es/cs/jec/inicio (lido em 14/11/2026: seção 'Elecciones generales 2026')"
  }
 }

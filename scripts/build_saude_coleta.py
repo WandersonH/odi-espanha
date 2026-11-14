@@ -34,6 +34,8 @@ def instante(s) -> dt.datetime | None:
 
 
 def autorizada(geral: dict, s: dict) -> bool:
+    if s.get("gratuita"):  # sem custo (API oficial do YouTube, sites): ativa desde a primeira execução
+        return True
     bloco = geral["perfis"]["diario"] if s["serie"] == "perfis" else geral["redes"][s["serie"]]["diario"]
     return float(bloco.get("teto_dia_usd") or 0) > 0 and float(bloco.get("teto_mes_usd") or 0) > 0
 
@@ -58,6 +60,8 @@ def main(argv=None, root=None, agora: dt.datetime | None = None) -> int:
             sit = "encerrada (período terminou em " + ate + ")"
         elif not autorizada(geral, s):
             sit = "inativa (coleta diária sem teto autorizado)"
+        elif dado is None and s.get("gratuita") and not mans:
+            sit = "inativa (ainda não executada)"
         elif dado is None:
             sit = "⛔ nunca coletou"
         elif horas > s["max_horas"]:

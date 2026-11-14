@@ -34,7 +34,7 @@ def num(v):
 def universos(root: Path) -> dict:
     """(rede, perfil em minúsculas) → o que a plataforma informou, da foto mais recente."""
     out = {}
-    for nome in ("latest.csv", "x_latest.csv"):
+    for nome in ("latest.csv", "x_latest.csv", "youtube_latest.csv"):
         p = root / "data/perfis" / nome
         if not p.exists():
             continue
@@ -58,6 +58,26 @@ def leituras(root: Path, rede: str) -> tuple[dict, dict, dict | None]:
             if m.get("modo") == "carga" and not r.get("erro"):
                 carga[k] = reg
     return carga, ultima, ultimo_man
+
+
+def resumo_sites(root: Path) -> dict:
+    """Notícias e artigos dos sites oficiais: o que cada site informa (universo), o que foi lido e a lista para a página."""
+    import collect_sites
+    cfg = comum.ler_json(root / "data/config/sites.json")
+    acervo = sorted(collect_sites.ler_acervo(root / "data/sites/artigos.csv.gz").values(), key=lambda r: (r["publicado_em"], r["artigo_id"]), reverse=True)
+    ultima = {}
+    for m in comum.manifestos(root / "data/sites"):
+        for s in m.get("sites") or []:
+            ultima[s["site_id"]] = {"quando": m.get("run_started_utc"), **{k: s.get(k) for k in ("via", "robots", "tipos", "lidos_no_periodo", "cobertura", "erro")}}
+    sites = []
+    for s in cfg["sites"]:
+        meus = [r for r in acervo if r["site_id"] == s["id"]]
+        sites.append({"id": s["id"], "nome": s["nome"], "ator_id": s["ator_id"], "base": s["base"], "artigos_no_acervo": len(meus) if meus or s["id"] in ultima else None,
+                      "primeiro": meus[-1]["publicado_em"] if meus else None, "ultimo": meus[0]["publicado_em"] if meus else None, "leitura": ultima.get(s["id"])})
+    por_mes = Counter((r["publicado_em"][:7], r["site_id"]) for r in acervo)
+    return {"gerado_em_utc": now_utc(), "nota": cfg.get("nota", ""), "sites": sites,
+            "por_mes": [{"mes": m, "site_id": s, "artigos": n} for (m, s), n in sorted(por_mes.items())],
+            "artigos": [{"s": r["site_id"], "k": r["tipo"], "d": r["publicado_em"], "t": r["titulo"], "u": r["url"], "c": r["categorias"], "a": r["autor"]} for r in acervo]}
 
 
 def main(argv=None, root=None) -> int:
@@ -116,7 +136,7 @@ def main(argv=None, root=None) -> int:
     conf_n = sum(1 for p in perfis if p["confirmado"])
     resumo = {
         "gerado_em_utc": now_utc(),
-        "projeto": {k: proj.get(k) for k in ("nome", "descricao", "periodo", "creditos", "fuso_das_datas", "repositorios")},
+        "projeto": {k: proj.get(k) for k in ("nome", "descricao", "periodo", "creditos", "fuso_das_datas", "repositorios", "contexto")},
         "totais": {"posts": len(posts) if posts else None, "atores": len(atores), "perfis_previstos": len(perfis), "perfis_confirmados": conf_n,
                    "perfis_candidatos": sum(1 for p in perfis if p["situacao"] == "candidato a conferir"),
                    "perfis_nao_localizados": sum(1 for p in perfis if p["situacao"] == "não localizado"),
@@ -131,6 +151,9 @@ def main(argv=None, root=None) -> int:
         "mencoes": [{"ator_id": a, "rede": r, "conta": t, "posts": n} for (a, r), c in sorted(arrobas.items()) for t, n in c.most_common(15)],
     }
     (site / "resumo.json").write_text(json.dumps(resumo, ensure_ascii=False, indent=1), encoding="utf-8")
+    rs = resumo_sites(root)
+    (site / "sites.json").write_text(json.dumps(rs, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"sites: {len(rs['artigos'])} notícias e artigos de {sum(1 for s in rs['sites'] if s['artigos_no_acervo'])} site(s)")
     print(f"acervo: {len(posts)} posts · {conf_n} de {len(perfis)} perfis confirmados · {len(meses)} mês(es)")
     return 0
 

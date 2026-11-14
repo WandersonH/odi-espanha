@@ -1,0 +1,24 @@
+{
+ "nome": "ODI Espanha",
+ "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X e no Facebook.",
+ "base": "Arquitetura do ODI Atlas (github.com/WandersonH/odi-atlas): coletores collect_*.py com teto de gasto e manifesto, agregadores build_*.py, GitHub Actions, bruto no repositório privado, página estática que lê JSON.",
+ "pedido": "Responsável em 14/11/2026: 'vamos criar um novo Atlas porém com outro foco: contas do Insta, X e Facebook dos seguintes perfis: Foro de Madrid, partido espanhol Vox, Fundación Disenso, Santiago Abascal (presidente do Vox), Jorge Martín Frías, Eduardo Cader. Período de 16/02/2026 até 30/20/2027. Preciso de todos os posts deles, assim como fizemos do Flávio e Lula.'",
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": null,
+  "ate_nota": "O pedido traz '30/20/2027' (mês 20 não existe). Enquanto o responsável não confirmar a data final, 'ate' fica nulo: a carga lê de 16/02/2026 até o dia da execução e o diário segue rodando. Ao confirmar, gravar a data aqui (AAAA-MM-DD): posts depois dela deixam de entrar e o diário para sozinho."
+ },
+ "fuso_das_datas": "UTC (como as plataformas entregam); os limites do período comparam a data UTC da publicação.",
+ "redes": [
+  "instagram",
+  "x",
+  "facebook"
+ ],
+ "creditos": "Observatório de Desinformação e Intolerância Digital (ODI) · PPGCOM/UNIP",
+ "creditos_nota": "Crédito herdado do ODI Atlas pelo nome dos repositórios (odi-*). Fomento (ex.: CNPq) só entra aqui quando o responsável confirmar que vale para este Atlas.",
+ "repositorios": {
+  "publico": "WandersonH/odi-espanha",
+  "privado": "WandersonH/odi-secret-esp",
+  "nota": "Criados pelo responsável em 14/11/2026. No público: código, configuração, acervo de posts dos perfis monitorados, manifestos e página. No privado: o bruto devolvido pela Apify."
+ }
+}

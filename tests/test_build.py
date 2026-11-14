@@ -24,7 +24,7 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(build_acervo.main(root=t), 0)
         r = json.loads((t / "data/site/resumo.json").read_text(encoding="utf-8"))
         self.assertIsNone(r["totais"]["posts"])
-        self.assertEqual((r["totais"]["perfis_previstos"], r["totais"]["perfis_confirmados"], r["totais"]["perfis_candidatos"], r["totais"]["perfis_nao_localizados"]), (18, 5, 8, 5))
+        self.assertEqual((r["totais"]["perfis_previstos"], r["totais"]["perfis_confirmados"], r["totais"]["perfis_candidatos"], r["totais"]["perfis_nao_localizados"]), (24, 5, 8, 11))  # a configuração fixa não tem YouTube: os 6 canais contam como não localizados
         self.assertTrue(all(p["posts_no_acervo"] is None and p["universo"] is None for p in r["perfis"]))
         self.assertEqual({p["situacao"] for p in r["perfis"]}, {"confirmado", "candidato a conferir", "não localizado"})
         self.assertEqual(json.loads((t / "data/site/indice.json").read_text(encoding="utf-8")), {"meses": []})
@@ -93,7 +93,7 @@ class TestConfig(unittest.TestCase):
 
     def test_perfil_confirmado_tem_fonte(self):
         for a in json.loads((RAIZ / "data/config/atores.json").read_text(encoding="utf-8"))["atores"]:
-            self.assertEqual(sorted(a["perfis"]), ["facebook", "instagram", "x"], a["id"])
+            self.assertEqual(sorted(a["perfis"]), ["facebook", "instagram", "x", "youtube"], a["id"])
             for rede, p in a["perfis"].items():
                 if p.get("confirmado"):
                     self.assertTrue(p["perfil"] and p["url"].startswith("https://") and len(p.get("fonte", "")) > 20 and p.get("conferido_em"), f"{a['id']}/{rede}: confirmado sem fonte")

@@ -97,7 +97,7 @@ def main(argv=None, executar=None, root=None, hoje=None) -> int:
         return fim(f"⛔ {geral['segredo']} ausente (cadastre o segredo no GitHub)", 1)
     executar = executar or (lambda ator, pl, cap: run_actor(token, ator, pl, cap))
 
-    redes = comum.REDES if modo == "sonda" else ("instagram", "facebook")
+    redes = comum.REDES_APIFY if modo == "sonda" else ("instagram", "facebook")
     por_rede = {}
     for rede in redes:
         conf, fora = comum.perfis_da_rede(root, rede)

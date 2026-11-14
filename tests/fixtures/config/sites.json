@@ -1,0 +1,55 @@
+{
+ "nota": "Sites oficiais cujas notícias e artigos entram no caderno 'Sites'. Coleta gratuita, sem Apify: API pública do WordPress (wp-json) e, se ela não responder, o RSS paginado. O coletor respeita o robots.txt, se identifica no User-Agent e espera entre os pedidos. No público ficam só os metadados (título, data, seção, endereço); resumo e texto integral, quando lidos, vão para o repositório privado.",
+ "intervalo_s": 1.0,
+ "max_paginas_por_tipo": 200,
+ "tipos_ignorados": [
+  "page",
+  "attachment",
+  "nav_menu_item",
+  "wp_block",
+  "wp_template",
+  "wp_template_part",
+  "wp_navigation",
+  "wp_global_styles",
+  "wp_font_family",
+  "wp_font_face",
+  "elementor_library",
+  "e-landing-page",
+  "e-floating-buttons",
+  "vc_grid_item",
+  "templatera",
+  "wpcf7_contact_form",
+  "product",
+  "tribe_events",
+  "tribe_venue",
+  "tribe_organizer",
+  "popup",
+  "portfolio"
+ ],
+ "sites": [
+  {
+   "id": "disenso",
+   "ator_id": "disenso",
+   "nome": "Fundación Disenso",
+   "base": "https://fundaciondisenso.org",
+   "secao_informada": "https://fundaciondisenso.org/articulos/",
+   "fonte": "Endereço informado pelo responsável em 14/11/2026"
+  },
+  {
+   "id": "foro-madrid",
+   "ator_id": "foro-madrid",
+   "nome": "Foro Madrid",
+   "base": "https://foromadrid.org",
+   "secao_informada": "https://foromadrid.org/noticias/",
+   "fonte": "Endereço informado pelo responsável em 14/11/2026; seção de notícias vista na página inicial"
+  },
+  {
+   "id": "vox",
+   "ator_id": "vox",
+   "nome": "Vox",
+   "base": "https://www.voxespana.es",
+   "secao_informada": "",
+   "fonte": "Endereço informado pelo responsável em 14/11/2026"
+  }
+ ]
+}

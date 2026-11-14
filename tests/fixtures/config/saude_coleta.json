@@ -1,0 +1,46 @@
+{
+ "nota": "Séries que o Atlas promete atualizar sozinho. 'max_horas' é o atraso máximo aceito desde o último dado real (não desde a última tentativa). Mesmo critério do ODI Atlas.",
+ "series": [
+  {
+   "nome": "Posts · Instagram",
+   "serie": "instagram",
+   "pasta": "data/instagram",
+   "max_horas": 36
+  },
+  {
+   "nome": "Posts · X",
+   "serie": "x",
+   "pasta": "data/x",
+   "max_horas": 36
+  },
+  {
+   "nome": "Posts · Facebook",
+   "serie": "facebook",
+   "pasta": "data/facebook",
+   "max_horas": 36
+  },
+  {
+   "nome": "Seguidores e universo · Instagram e Facebook",
+   "serie": "perfis",
+   "pasta": "data/perfis",
+   "modos": [
+    "diario"
+   ],
+   "max_horas": 36
+  },
+  {
+   "nome": "Vídeos · YouTube",
+   "serie": "youtube",
+   "pasta": "data/youtube",
+   "gratuita": true,
+   "max_horas": 36
+  },
+  {
+   "nome": "Notícias e artigos · sites",
+   "serie": "sites",
+   "pasta": "data/sites",
+   "gratuita": true,
+   "max_horas": 36
+  }
+ ]
+}

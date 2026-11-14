@@ -1,6 +1,6 @@
 {
- "nota": "Atores e perfis deste Atlas. Só perfil com \"confirmado\": true é coletado. 'fonte' diz onde o endereço foi conferido; perfil sem fonte é candidato (endereço provável, ainda não conferido em fonte) e fica fora da coleta até alguém abrir o perfil e confirmar. A sonda (scripts/collect_perfis.py --sonda) lê nome, selo e seguidores dos candidatos para apoiar essa conferência; ela não confirma nada sozinha.",
- "levantamento": "14/11/2026, por busca na web. Os sites foromadrid.org e fundaciondisenso.org não puderam ser abertos pela ferramenta de leitura; por isso os perfis dessas duas organizações ficaram como candidatos.",
+ "nota": "Atores e perfis deste Atlas. Só perfil com \"confirmado\": true é coletado. 'fonte' diz onde o endereço foi conferido; perfil sem fonte é candidato (endereço provável, ainda não conferido em fonte) e fica fora da coleta até alguém abrir o perfil e confirmar. A sonda (scripts/collect_perfis.py --sonda) lê nome, selo e seguidores dos candidatos de Instagram, X e Facebook para apoiar essa conferência; ela não confirma nada sozinha.",
+ "levantamento": "14/11/2026. 1ª rodada, por busca na web: os candidatos de Foro Madrid (ForoMadrid_, foromadrid_) estavam errados e nunca foram coletados. 2ª rodada, no mesmo dia: o responsável informou endereços e os sites; foromadrid.org foi lido e seus links oficiais substituíram os candidatos. fundaciondisenso.org/articulos/ não mostra links de redes na leitura; voxespana.es recusou a leitura (erro do site).",
  "atores": [
   {
    "id": "foro-madrid",
@@ -9,9 +9,34 @@
    "descricao": "Aliança internacional criada em 26/10/2020 pela Fundación Disenso; documento fundador: Carta de Madrid.",
    "descricao_fonte": "https://www.wikipedia.org/wiki/Madrid_Forum",
    "perfis": {
-    "x": {"perfil": "ForoMadrid_", "url": "https://x.com/ForoMadrid_", "confirmado": false, "fonte": "", "nota": "candidato sem fonte conferida"},
-    "instagram": {"perfil": "foromadrid_", "url": "https://www.instagram.com/foromadrid_/", "confirmado": false, "fonte": "", "nota": "candidato sem fonte conferida"},
-    "facebook": {"perfil": "", "url": "", "confirmado": false, "fonte": "", "nota": "não localizado"}
+    "x": {
+     "perfil": "Foro_MAD",
+     "url": "https://x.com/Foro_MAD",
+     "confirmado": true,
+     "fonte": "Site oficial foromadrid.org (links de redes da página inicial), lido em 14/11/2026 (link 'Twitter' para twitter.com/Foro_MAD)",
+     "conferido_em": "2026-11-14"
+    },
+    "instagram": {
+     "perfil": "foromadrid",
+     "url": "https://www.instagram.com/foromadrid/",
+     "confirmado": true,
+     "fonte": "Site oficial foromadrid.org (links de redes da página inicial), lido em 14/11/2026",
+     "conferido_em": "2026-11-14"
+    },
+    "facebook": {
+     "perfil": "ForoMadridOficial",
+     "url": "https://www.facebook.com/ForoMadridOficial",
+     "confirmado": true,
+     "fonte": "Site oficial foromadrid.org (links de redes da página inicial), lido em 14/11/2026",
+     "conferido_em": "2026-11-14"
+    },
+    "youtube": {
+     "perfil": "UCANexQ2_g7B5QgoSIdsHtCQ",
+     "url": "https://www.youtube.com/channel/UCANexQ2_g7B5QgoSIdsHtCQ",
+     "confirmado": true,
+     "fonte": "Site oficial foromadrid.org (links de redes da página inicial), lido em 14/11/2026",
+     "conferido_em": "2026-11-14"
+    }
    }
   },
   {
@@ -21,9 +46,34 @@
    "descricao": "Partido político espanhol presidido por Santiago Abascal.",
    "descricao_fonte": "https://www.voxespana.es/",
    "perfis": {
-    "x": {"perfil": "vox_es", "url": "https://x.com/vox_es", "confirmado": true, "fonte": "Metadados do site oficial voxespana.es (twitter:site @vox_es; sameAs twitter.com/vox_es), cópia de 18/08/2022 em https://explorer.ooni.org/m/20220818220148.955696_BO_webconnectivity_8c8aa030eb1dc3ae", "conferido_em": "2026-11-14"},
-    "instagram": {"perfil": "vox_es", "url": "https://www.instagram.com/vox_es/", "confirmado": true, "fonte": "Metadados do site oficial voxespana.es (sameAs instagram.com/vox_es), mesma cópia de 18/08/2022", "conferido_em": "2026-11-14"},
-    "facebook": {"perfil": "vox.espana", "url": "https://www.facebook.com/vox.espana", "confirmado": true, "fonte": "Metadados do site oficial voxespana.es (article:publisher facebook.com/vox.espana), mesma cópia de 18/08/2022", "conferido_em": "2026-11-14"}
+    "x": {
+     "perfil": "vox_es",
+     "url": "https://x.com/vox_es",
+     "confirmado": true,
+     "fonte": "Metadados do site oficial voxespana.es (twitter:site @vox_es; sameAs twitter.com/vox_es), cópia de 18/08/2022 em https://explorer.ooni.org/m/20220818220148.955696_BO_webconnectivity_8c8aa030eb1dc3ae",
+     "conferido_em": "2026-11-14"
+    },
+    "instagram": {
+     "perfil": "vox_es",
+     "url": "https://www.instagram.com/vox_es/",
+     "confirmado": true,
+     "fonte": "Metadados do site oficial voxespana.es (sameAs instagram.com/vox_es), mesma cópia de 18/08/2022",
+     "conferido_em": "2026-11-14"
+    },
+    "facebook": {
+     "perfil": "vox.espana",
+     "url": "https://www.facebook.com/vox.espana",
+     "confirmado": true,
+     "fonte": "Metadados do site oficial voxespana.es (article:publisher facebook.com/vox.espana), mesma cópia de 18/08/2022",
+     "conferido_em": "2026-11-14"
+    },
+    "youtube": {
+     "perfil": "voxespana",
+     "url": "https://www.youtube.com/user/voxespana",
+     "confirmado": true,
+     "fonte": "Metadados do site oficial voxespana.es (sameAs youtube.com/user/voxespana), cópia de 18/08/2022 em https://explorer.ooni.org/m/20220818220148.955696_BO_webconnectivity_8c8aa030eb1dc3ae",
+     "conferido_em": "2026-11-14"
+    }
    }
   },
   {
@@ -33,9 +83,34 @@
    "descricao": "Fundação (think tank) ligada ao Vox, presidida por Santiago Abascal e dirigida por Jorge Martín Frías.",
    "descricao_fonte": "https://fundaciondisenso.org/wp-content/uploads/2026/04/Memoria2025_web.pdf",
    "perfis": {
-    "x": {"perfil": "FDisenso", "url": "https://x.com/FDisenso", "confirmado": false, "fonte": "", "nota": "candidato sem fonte conferida"},
-    "instagram": {"perfil": "fundaciondisenso", "url": "https://www.instagram.com/fundaciondisenso/", "confirmado": false, "fonte": "", "nota": "candidato sem fonte conferida"},
-    "facebook": {"perfil": "fundaciondisenso", "url": "https://www.facebook.com/fundaciondisenso", "confirmado": false, "fonte": "", "nota": "candidato sem fonte conferida"}
+    "x": {
+     "perfil": "FDisenso",
+     "url": "https://x.com/FDisenso",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "candidato sem fonte conferida"
+    },
+    "instagram": {
+     "perfil": "fundaciondisenso",
+     "url": "https://www.instagram.com/fundaciondisenso/",
+     "confirmado": true,
+     "fonte": "Endereço informado pelo responsável em 14/11/2026",
+     "conferido_em": "2026-11-14"
+    },
+    "facebook": {
+     "perfil": "fundaciondisenso",
+     "url": "https://www.facebook.com/fundaciondisenso",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "candidato sem fonte conferida"
+    },
+    "youtube": {
+     "perfil": "@fundaciondisenso",
+     "url": "https://www.youtube.com/@fundaciondisenso",
+     "confirmado": true,
+     "fonte": "Endereço informado pelo responsável em 14/11/2026",
+     "conferido_em": "2026-11-14"
+    }
    }
   },
   {
@@ -45,9 +120,34 @@
    "descricao": "Presidente do Vox e do patronato da Fundación Disenso.",
    "descricao_fonte": "https://fundaciondisenso.org/wp-content/uploads/2026/04/Memoria2025_web.pdf",
    "perfis": {
-    "x": {"perfil": "Santi_ABASCAL", "url": "https://x.com/Santi_ABASCAL", "confirmado": true, "fonte": "Post do próprio perfil reproduzido em https://www.elindependiente.com/politica/2020/05/10/abascal-denuncia-que-twitter-permita-la-tendencia-matar-a-abascal/", "conferido_em": "2026-11-14"},
-    "instagram": {"perfil": "santi_abascal", "url": "https://www.instagram.com/santi_abascal/", "confirmado": false, "fonte": "", "nota": "candidato sem fonte conferida"},
-    "facebook": {"perfil": "SantiagoAbascalConde", "url": "https://www.facebook.com/SantiagoAbascalConde", "confirmado": false, "fonte": "", "nota": "candidato sem fonte conferida"}
+    "x": {
+     "perfil": "Santi_ABASCAL",
+     "url": "https://x.com/Santi_ABASCAL",
+     "confirmado": true,
+     "fonte": "Post do próprio perfil reproduzido em https://www.elindependiente.com/politica/2020/05/10/abascal-denuncia-que-twitter-permita-la-tendencia-matar-a-abascal/",
+     "conferido_em": "2026-11-14"
+    },
+    "instagram": {
+     "perfil": "santi_abascal",
+     "url": "https://www.instagram.com/santi_abascal/",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "candidato sem fonte conferida"
+    },
+    "facebook": {
+     "perfil": "SantiagoAbascalConde",
+     "url": "https://www.facebook.com/SantiagoAbascalConde",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "candidato sem fonte conferida"
+    },
+    "youtube": {
+     "perfil": "",
+     "url": "",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "não localizado"
+    }
    }
   },
   {
@@ -57,9 +157,34 @@
    "descricao": "Diretor da Fundación Disenso desde 2020; eleito ao Parlamento Europeu pelo Vox em 2024.",
    "descricao_fonte": "https://www.wikiwand.com/en/articles/Jorge_Martin_Frias",
    "perfis": {
-    "x": {"perfil": "jm_frias", "url": "https://x.com/jm_frias", "confirmado": true, "fonte": "Documento 'Órganos de dirección' da própria Fundación Disenso (https://fundaciondisenso.org/wp-content/uploads/2023/09/20230904_OrganosDeDireccion.pdf) e página de autor em https://www.dailysignal.com/author/jorge-martin-frias/", "conferido_em": "2026-11-14"},
-    "instagram": {"perfil": "", "url": "", "confirmado": false, "fonte": "", "nota": "não localizado"},
-    "facebook": {"perfil": "", "url": "", "confirmado": false, "fonte": "", "nota": "não localizado"}
+    "x": {
+     "perfil": "jm_frias",
+     "url": "https://x.com/jm_frias",
+     "confirmado": true,
+     "fonte": "Documento 'Órganos de dirección' da própria Fundación Disenso (https://fundaciondisenso.org/wp-content/uploads/2023/09/20230904_OrganosDeDireccion.pdf) e página de autor em https://www.dailysignal.com/author/jorge-martin-frias/",
+     "conferido_em": "2026-11-14"
+    },
+    "instagram": {
+     "perfil": "jmartinfrias",
+     "url": "https://www.instagram.com/jmartinfrias/",
+     "confirmado": true,
+     "fonte": "Endereço informado pelo responsável em 14/11/2026",
+     "conferido_em": "2026-11-14"
+    },
+    "facebook": {
+     "perfil": "",
+     "url": "",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "não localizado"
+    },
+    "youtube": {
+     "perfil": "",
+     "url": "",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "não localizado"
+    }
    }
   },
   {
@@ -69,10 +194,43 @@
    "descricao": "Diretor de Foro Madrid e membro do Comitê Executivo da Fundación Disenso, segundo o documento 'Órganos de dirección' de 09/2023 (cargo a reconferir para 2026).",
    "descricao_fonte": "https://fundaciondisenso.org/wp-content/uploads/2023/09/20230904_OrganosDeDireccion.pdf",
    "perfis": {
-    "x": {"perfil": "ecader", "url": "https://x.com/ecader", "confirmado": false, "fonte": "Documento 'Órganos de dirección' da Fundación Disenso (09/2023): o endereço aparece junto ao nome, mas a leitura do PDF casou nomes e endereços pela ordem da página; conferir abrindo o perfil", "nota": "candidato com fonte de 2023, a conferir"},
-    "instagram": {"perfil": "", "url": "", "confirmado": false, "fonte": "", "nota": "não localizado"},
-    "facebook": {"perfil": "", "url": "", "confirmado": false, "fonte": "", "nota": "não localizado"}
+    "x": {
+     "perfil": "ecader",
+     "url": "https://x.com/ecader",
+     "confirmado": false,
+     "fonte": "Documento 'Órganos de dirección' da Fundación Disenso (09/2023): o endereço aparece junto ao nome, mas a leitura do PDF casou nomes e endereços pela ordem da página; conferir abrindo o perfil",
+     "nota": "candidato com fonte de 2023, a conferir"
+    },
+    "instagram": {
+     "perfil": "",
+     "url": "",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "não localizado"
+    },
+    "facebook": {
+     "perfil": "",
+     "url": "",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "não localizado"
+    },
+    "youtube": {
+     "perfil": "",
+     "url": "",
+     "confirmado": false,
+     "fonte": "",
+     "nota": "não localizado"
+    }
    }
+  }
+ ],
+ "correcoes": [
+  {
+   "quando": "2026-11-14",
+   "ator": "foro-madrid",
+   "o_que": "X: ForoMadrid_ (candidato, errado) → Foro_MAD; Instagram: foromadrid_ (candidato, errado) → foromadrid; Facebook: não localizado → ForoMadridOficial",
+   "fonte": "foromadrid.org"
   }
  ]
 }

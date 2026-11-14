@@ -12,9 +12,11 @@ sys.path.insert(0, str(RAIZ / "scripts"))
 
 
 def projeto(tetos: dict | None = None, confirmar: list[tuple[str, str]] | None = None, ate: str | None = None, perfis_teto: dict | None = None) -> Path:
-    """Copia data/config para uma pasta temporária. tetos = {rede: {modo: {campo: valor}}}; confirmar = [(ator_id, rede)]."""
+    """Copia a configuração FIXA de tests/fixtures/config (a da versão E1.0: 5 perfis confirmados) para uma pasta
+    temporária, para os testes dos coletores não mudarem quando um perfil real é confirmado ou corrigido.
+    tetos = {rede: {modo: {campo: valor}}}; confirmar = [(ator_id, rede)]."""
     t = Path(tempfile.mkdtemp(prefix="odi-esp-"))
-    shutil.copytree(RAIZ / "data/config", t / "data/config")
+    shutil.copytree(RAIZ / "tests/fixtures/config", t / "data/config")
     c = json.loads((t / "data/config/coleta.json").read_text(encoding="utf-8"))
     for rede, modos in (tetos or {}).items():
         for modo, campos in modos.items():

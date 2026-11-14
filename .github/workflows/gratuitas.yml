@@ -1,0 +1,93 @@
+name: Coletas sem custo — sites oficiais e YouTube
+
+# Sites: API pública do WordPress (wp-json) ou RSS de data/config/sites.json; respeita robots.txt; sem Apify.
+# YouTube: API oficial (Data API v3) com o segredo YOUTUBE_API_KEY; sem o segredo, o YouTube é pulado com aviso (não é falha).
+on:
+  schedule:
+    - cron: "47 4 * * *"   # todo dia, 01h47 em Brasília
+  workflow_dispatch:
+    inputs:
+      o_que:
+        description: "o que coletar"
+        type: choice
+        options: [tudo, sites, youtube]
+        default: tudo
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  gratuitas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: scripts/testes_ci.sh
+      - name: Repositório privado (texto integral dos artigos)
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-esp.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice title=Repositório privado::ODI_INTERNO_TOKEN ausente: só os metadados públicos serão lidos (sem texto integral)"
+          fi
+      - name: Sites oficiais (notícias e artigos)
+        id: sites
+        if: github.event_name == 'schedule' || github.event.inputs.o_que != 'youtube'
+        continue-on-error: true
+        env:
+          ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          rc=0; python scripts/collect_sites.py > s.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Sites::$(echo "$l" | cut -c1-900)"; done < s.txt
+          rm -f s.txt; exit $rc
+      - name: YouTube (API oficial)
+        id: youtube
+        if: github.event_name == 'schedule' || github.event.inputs.o_que != 'sites'
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then echo "::notice title=YouTube::segredo YOUTUBE_API_KEY ausente — YouTube pulado"; exit 0; fi
+          rc=0; python scripts/collect_youtube.py > y.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=YouTube::$(echo "$l" | cut -c1-900)"; done < y.txt
+          rm -f y.txt; exit $rc
+      - name: Gravar a coleta antes das análises
+        if: always()
+        run: scripts/commit_push.sh "Coletas sem custo (run ${{ github.run_id }})"
+      - name: Agregados da página, corpus e rede de menções
+        if: always()
+        continue-on-error: true
+        run: |
+          rc=0
+          { python scripts/build_acervo.py && python scripts/exportar_corpus.py && python scripts/build_rede_mencoes.py && python scripts/build_saude_coleta.py; } > b.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Análises::$(echo "$l" | cut -c1-400)"; done < b.txt
+          rm -f b.txt; exit $rc
+      - name: Gravar texto integral no repositório privado
+        if: always() && steps.interno.outputs.dir != ''
+        run: |
+          cd "${{ steps.interno.outputs.dir }}"
+          git config user.name "odi-espanha-coletor"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Sites (run ${{ github.run_id }})"
+          for t in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Commitar
+        if: always()
+        run: scripts/commit_push.sh "Coletas sem custo e análises (run ${{ github.run_id }})"
+      - name: Resultado
+        if: steps.sites.outcome == 'failure' || steps.youtube.outcome == 'failure'
+        run: |
+          echo "::error title=Coletas sem custo::sites=${{ steps.sites.outcome }} youtube=${{ steps.youtube.outcome }} (ver anotações e manifestos)"
+          exit 1
