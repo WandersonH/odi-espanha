@@ -1,0 +1,45 @@
+{
+ "nota": "Atores Apify, preços e tetos de gasto por rede. Teto 0 = sem autorização: o coletor não roda. O responsável autoriza gravando o teto e a frase de autorização (quem, quando, o quê) em 'autorizacao'. O custo fica nos manifestos e nunca aparece na página.",
+ "segredo": "APIFY_TOKEN_ESP",
+ "regra_contas": "Uma conta Apify dedicada a este Atlas, lida só do segredo acima. Nenhuma chamada de consulta de saldo ou de limites da conta: o controle é o teto por execução (maxTotalChargeUsd) e a soma dos manifestos. (Regras do responsável no ODI Atlas: conta dedicada por tarefa; consultas de saldo foram desativadas por coincidirem com bloqueio de contas.)",
+ "precos_nota": "Atores e preços herdados de data/config/*_posts.json do ODI Atlas, com a data em que foram lidos na loja da Apify. Reconferir o preço na primeira execução de teste (o manifesto registra o custo real cobrado).",
+ "redes": {
+  "instagram": {
+   "ator": "esdrasdw~instagram-content-scraper",
+   "preco_usd": {"item": 5e-05, "inicio": 0.0, "fonte": "loja Apify, 18/10/2026: US$ 0,05 por 1.000 itens (ODI Atlas, instagram_posts.json)"},
+   "leitura": "Uma execução por perfil para os posts e uma segunda, no modo reels, só para as visualizações (este ator só informa plays no modo reels).",
+   "teste": {"posts": 10, "teto_usd": 0.0},
+   "carga": {"posts_por_perfil": {"padrao": 5000}, "teto_usd": 0.0},
+   "diario": {"posts_por_perfil": {"padrao": 60}, "janela_dias": 2, "teto_dia_usd": 0.0, "teto_mes_usd": 0.0},
+   "autorizacao": ""
+  },
+  "x": {
+   "ator": "xquik~x-tweet-scraper",
+   "preco_usd": {"item": 0.00015, "inicio": 0.0, "fonte": "README do ator, 17/10/2026: US$ 0,00015 por linha em qualquer plano (ODI Atlas, x_posts.json)"},
+   "leitura": "Busca do próprio X: from:perfil since:data, sem reposts. Entram posts, respostas e citações do perfil.",
+   "incluir_reposts": false,
+   "teste": {"posts": 20, "teto_usd": 0.0},
+   "carga": {"posts_por_perfil": {"padrao": 20000}, "teto_usd": 0.0},
+   "diario": {"posts_por_perfil": {"padrao": 200}, "janela_dias": 2, "teto_dia_usd": 0.0, "teto_mes_usd": 0.0},
+   "autorizacao": ""
+  },
+  "facebook": {
+   "ator": "apify~facebook-posts-scraper",
+   "preco_usd": {"item": 0.005, "inicio": 0.001, "fonte": "loja Apify, plano gratuito, 17/10/2026: US$ 0,005 por post (ODI Atlas, facebook_posts.json)"},
+   "leitura": "Uma execução por página, do post mais recente para trás até a data inicial. O ator não aceita data final.",
+   "limite_ator_itens": 700,
+   "limite_ator_fonte": "ODI Atlas, facebook_posts.json (17 e 22/10/2026): o ator para perto de 1.000 posts por página, 700 com filtro de data. Leitura que chega a esse número é marcada como parcial.",
+   "teste": {"posts": 10, "teto_usd": 0.0},
+   "carga": {"posts_por_perfil": {"padrao": 3000}, "teto_usd": 0.0},
+   "diario": {"posts_por_perfil": {"padrao": 30}, "janela_dias": 2, "teto_dia_usd": 0.0, "teto_mes_usd": 0.0},
+   "autorizacao": ""
+  }
+ },
+ "perfis": {
+  "nota": "Seguidores e total de publicações que a plataforma informa (o universo), por perfil e por dia. No X, vem do próprio post (sem custo extra).",
+  "atores": {"instagram": "apify~instagram-profile-scraper", "facebook": "apify~facebook-pages-scraper"},
+  "sonda": {"teto_usd": 0.0},
+  "diario": {"teto_dia_usd": 0.0, "teto_mes_usd": 0.0},
+  "autorizacao": ""
+ }
+}

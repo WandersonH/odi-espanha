@@ -1,0 +1,48 @@
+name: Saúde da coleta (verificação automática)
+
+# Lê os arquivos publicados e marca ⛔ toda série automática sem dado novo dentro do prazo (data/config/saude_coleta.json).
+# Série sem teto autorizado aparece como inativa e série com período encerrado como encerrada: nenhuma das duas é atraso.
+# Se houver série atrasada, este workflow termina VERMELHO e o GitHub avisa por e-mail.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 11,23 * * *"   # 08h41 e 20h41 em Brasília
+
+concurrency:
+  group: saude-coleta
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  saude:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Há coleta diária autorizada?
+        id: aut
+        run: python scripts/autorizacao.py | tee -a "$GITHUB_OUTPUT"
+      - name: Verificar
+        if: github.event_name != 'schedule' || steps.aut.outputs.diario == 'sim'
+        run: |
+          python scripts/build_saude_coleta.py
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          S = json.load(open("data/saude_coleta.json", encoding="utf-8"))
+          print(f"## Saúde da coleta — {S['em_dia']} de {len(S['series'])} séries em dia\n")
+          print("| Situação | Série | Último dado novo | Horas | Última tentativa |\n|---|---|---|---|---|")
+          for x in S["series"]:
+              print(f"| {x['situacao']} | {x['nome']} | {x['ultimo_dado'] or '—'} | {x['horas_desde_ultimo_dado'] if x['horas_desde_ultimo_dado'] is not None else '—'} | {x['status_ultima_execucao'][:80]} |")
+          PY
+      - name: Commitar
+        if: github.event_name != 'schedule' || steps.aut.outputs.diario == 'sim'
+        run: scripts/commit_push.sh "Saúde da coleta (run ${{ github.run_id }})"
+      - name: Falhar se houver série atrasada
+        if: github.event_name != 'schedule' || steps.aut.outputs.diario == 'sim'
+        run: |
+          python scripts/build_saude_coleta.py --falhar > /dev/null || { python -c "import json; [print('::error title=Coleta atrasada::' + a) for a in json.load(open('data/saude_coleta.json', encoding='utf-8'))['atrasadas']]"; exit 1; }

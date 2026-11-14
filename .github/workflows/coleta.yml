@@ -1,0 +1,93 @@
+name: Coleta — posts de Instagram, X e Facebook (Apify, com teto)
+
+# Perfis confirmados em data/config/atores.json, no período de data/config/projeto.json. Atores, preços e tetos em
+# data/config/coleta.json: teto 0 = sem autorização. O diário agendado só coleta as séries com teto autorizado; sem
+# nenhuma autorizada, termina sem coletar e sem falhar. Conta Apify dedicada (segredo APIFY_TOKEN_ESP), sem consulta de saldo.
+on:
+  schedule:
+    - cron: "23 5 * * *"   # todo dia, 02h23 em Brasília (07h23 em Madri no verão): dia anterior completo na Espanha
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "teste (poucos posts por perfil) · carga (todo o período) · diario · sonda (conferência de perfis) · so-analises (sem coleta, sem custo)"
+        type: choice
+        options: [teste, carga, diario, sonda, so-analises]
+        default: teste
+      rede:
+        description: "rede (a sonda ignora este campo)"
+        type: choice
+        options: [todas, instagram, x, facebook, perfis]
+        default: todas
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  coleta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: scripts/testes_ci.sh
+      - name: Há coleta diária autorizada?
+        id: aut
+        run: python scripts/autorizacao.py | tee -a "$GITHUB_OUTPUT"
+      - name: Repositório privado (bruto da Apify)
+        id: interno
+        if: (github.event_name == 'schedule' && steps.aut.outputs.diario == 'sim') || (github.event_name != 'schedule' && github.event.inputs.modo != 'so-analises')
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-esp.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning title=Repositório privado::ODI_INTERNO_TOKEN ausente ou sem acesso: o bruto desta execução não será guardado"
+          fi
+      - name: Coletar (Apify, com teto)
+        id: coletar
+        if: (github.event_name == 'schedule' && steps.aut.outputs.diario == 'sim') || (github.event_name != 'schedule' && github.event.inputs.modo != 'so-analises')
+        continue-on-error: true
+        env:
+          APIFY_TOKEN_ESP: ${{ secrets.APIFY_TOKEN_ESP }}
+          ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+          MODO: ${{ github.event_name == 'schedule' && 'diario' || github.event.inputs.modo }}
+          REDE: ${{ github.event_name == 'schedule' && 'todas' || github.event.inputs.rede }}
+        run: scripts/coletar.sh "$MODO" "$REDE"
+      - name: Gravar a coleta antes das análises
+        if: always() && steps.coletar.outcome != 'skipped'
+        run: scripts/commit_push.sh "Coleta (run ${{ github.run_id }})"
+      - name: Agregados da página, corpus e rede de menções
+        if: always() && (steps.coletar.outcome != 'skipped' || github.event_name != 'schedule')
+        continue-on-error: true
+        run: |
+          rc=0
+          { python scripts/build_acervo.py && python scripts/exportar_corpus.py && python scripts/build_rede_mencoes.py && python scripts/build_saude_coleta.py; } > b.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Análises::$(echo "$l" | cut -c1-400)"; done < b.txt
+          rm -f b.txt
+          exit $rc
+      - name: Gravar bruto no repositório privado
+        if: always() && steps.interno.outputs.dir != '' && steps.coletar.outcome != 'skipped'
+        run: |
+          cd "${{ steps.interno.outputs.dir }}"
+          git config user.name "odi-espanha-coletor"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Coleta (run ${{ github.run_id }})"
+          for t in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Commitar
+        if: always() && (steps.coletar.outcome != 'skipped' || github.event_name != 'schedule')
+        run: scripts/commit_push.sh "Coleta e análises (run ${{ github.run_id }})"
+      - name: Resultado da coleta
+        if: steps.coletar.outcome == 'failure'
+        run: |
+          echo "::error title=Coleta::alguma coleta executada terminou com erro (ver anotações acima e data/<rede>/manifesto_latest.json)"
+          exit 1
