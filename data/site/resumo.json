@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-15T18:29:43Z",
+ "gerado_em_utc": "2026-11-15T18:37:09Z",
  "projeto": {
   "nome": "ODI Espanha",
   "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X, no Facebook e no YouTube, e as notícias e artigos dos sites oficiais.",
@@ -2247,12 +2247,6 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "manuel.litzke",
-   "posts": 1
-  },
-  {
-   "ator_id": "disenso",
-   "rede": "instagram",
    "conta": "fpoe_at",
    "posts": 1
   },
@@ -2260,6 +2254,12 @@
    "ator_id": "disenso",
    "rede": "instagram",
    "conta": "hafenecker",
+   "posts": 1
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "instagram",
+   "conta": "manuel.litzke",
    "posts": 1
   },
   {
@@ -2295,25 +2295,13 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "joshua.s.trevino",
-   "posts": 2
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "instagram",
    "conta": "ferrerpicadoricardo",
    "posts": 2
   },
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "enriquegomezsn",
-   "posts": 2
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "instagram",
-   "conta": "garibaycamarena",
+   "conta": "joshua.s.trevino",
    "posts": 2
   },
   {
@@ -2325,7 +2313,13 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "dianajacome32",
+   "conta": "garibaycamarena",
+   "posts": 2
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "instagram",
+   "conta": "enriquegomezsn",
    "posts": 2
   },
   {
@@ -2337,7 +2331,13 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "ipalma.a",
+   "conta": "dianajacome32",
+   "posts": 2
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "instagram",
+   "conta": "cristianarayal",
    "posts": 2
   },
   {
@@ -2349,7 +2349,7 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "cristianarayal",
+   "conta": "ipalma.a",
    "posts": 2
   },
   {
@@ -2397,13 +2397,13 @@
   {
    "ator_id": "foro-madrid",
    "rede": "x",
-   "conta": "aphall_cne",
+   "conta": "cossetteoficial",
    "posts": 8
   },
   {
    "ator_id": "foro-madrid",
    "rede": "x",
-   "conta": "cossetteoficial",
+   "conta": "aphall_cne",
    "posts": 8
   },
   {
@@ -2469,13 +2469,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "fpoe_tv",
+   "conta": "patriotseu",
    "posts": 1
   },
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "patriotseu",
+   "conta": "fpoe_tv",
    "posts": 1
   },
   {
@@ -2529,13 +2529,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "mariacorinaya",
+   "conta": "perkinsrocha",
    "posts": 2
   },
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "perkinsrocha",
+   "conta": "mariacorinaya",
    "posts": 2
   },
   {
@@ -2589,13 +2589,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "noeliacampr",
+   "conta": "santi_abascal",
    "posts": 1
   },
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "santi_abascal",
+   "conta": "carretoalfonso_",
    "posts": 1
   },
   {
