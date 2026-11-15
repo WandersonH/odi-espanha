@@ -1,0 +1,3021 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-11-15">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="publicacoes" type="long" />
+      <attribute id="1" title="ator_dominante" type="string" />
+      <attribute id="2" title="dominancia" type="double" />
+      <attribute id="3" title="comunidade" type="long" />
+      <attribute id="4" title="grau" type="long" />
+      <attribute id="5" title="intermediacao" type="double" />
+    </attributes>
+    <nodes>
+      <node id="abascal" label="abascal">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="96.35" />
+        <viz:position x="545.5" y="-424.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="989" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.993" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="138" />
+          <attvalue for="5" value="0.2673" />
+        </attvalues>
+      </node>
+      <node id="santi" label="santi">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="94.9" />
+        <viz:position x="555.7" y="-438.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="959" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.995" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="133" />
+          <attvalue for="5" value="0.2286" />
+        </attvalues>
+      </node>
+      <node id="espana" label="espana">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="68.14" />
+        <viz:position x="448.8" y="-433.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="486" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.782" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="113" />
+          <attvalue for="5" value="0.1553" />
+        </attvalues>
+      </node>
+      <node id="sanchez" label="sanchez">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="67.86" />
+        <viz:position x="461.5" y="-505.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="482" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.876" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="77" />
+          <attvalue for="5" value="0.0577" />
+        </attvalues>
+      </node>
+      <node id="espanoles" label="espanoles">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="61.09" />
+        <viz:position x="556.1" y="-546.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="388" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.876" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="90" />
+          <attvalue for="5" value="0.0815" />
+        </attvalues>
+      </node>
+      <node id="gobierno" label="gobierno">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="48.18" />
+        <viz:position x="432.7" y="-547.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="237" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.865" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="50" />
+          <attvalue for="5" value="0.0183" />
+        </attvalues>
+      </node>
+      <node id="gracias" label="gracias">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="46.4" />
+        <viz:position x="697.9" y="-221.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="219" />
+          <attvalue for="1" value="Santiago Abascal" />
+          <attvalue for="2" value="0.502" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="21" />
+          <attvalue for="5" value="0.0047" />
+        </attvalues>
+      </node>
+      <node id="nacional" label="nacional">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="45.99" />
+        <viz:position x="719.2" y="-389.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="215" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.758" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="45" />
+          <attvalue for="5" value="0.0343" />
+        </attvalues>
+      </node>
+      <node id="pedro" label="pedro">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="41.69" />
+        <viz:position x="474.0" y="-511.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="175" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.926" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="24" />
+          <attvalue for="5" value="0.0023" />
+        </attvalues>
+      </node>
+      <node id="sentido" label="sentido">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="41.34" />
+        <viz:position x="707.0" y="-322.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="172" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.663" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="25" />
+          <attvalue for="5" value="0.0053" />
+        </attvalues>
+      </node>
+      <node id="comun" label="comun">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="41.0" />
+        <viz:position x="722.7" y="-290.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="169" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.663" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="31" />
+          <attvalue for="5" value="0.0093" />
+        </attvalues>
+      </node>
+      <node id="prioridad" label="prioridad">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="40.54" />
+        <viz:position x="724.4" y="-401.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="165" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.842" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="29" />
+          <attvalue for="5" value="0.0062" />
+        </attvalues>
+      </node>
+      <node id="acto" label="acto">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="37.87" />
+        <viz:position x="583.6" y="-384.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="143" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.825" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="0.0022" />
+        </attvalues>
+      </node>
+      <node id="ceuta" label="ceuta">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="37.24" />
+        <viz:position x="389.9" y="-485.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="138" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.855" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="21" />
+          <attvalue for="5" value="0.0021" />
+        </attvalues>
+      </node>
+      <node id="plaza" label="plaza">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="37.24" />
+        <viz:position x="599.4" y="-400.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="138" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.913" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="15" />
+          <attvalue for="5" value="0.0014" />
+        </attvalues>
+      </node>
+      <node id="medios" label="medios">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="35.81" />
+        <viz:position x="607.0" y="-435.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="127" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.898" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0007" />
+        </attvalues>
+      </node>
+      <node id="ignacio" label="ignacio">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="35.41" />
+        <viz:position x="610.6" y="-663.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="124" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.903" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="17" />
+          <attvalue for="5" value="0.0044" />
+        </attvalues>
+      </node>
+      <node id="garriga" label="garriga">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="35.0" />
+        <viz:position x="616.6" y="-667.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="121" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.926" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="15" />
+          <attvalue for="5" value="0.0011" />
+        </attvalues>
+      </node>
+      <node id="declaracion" label="declaracion">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="33.18" />
+        <viz:position x="592.6" y="-439.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="108" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.852" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0008" />
+        </attvalues>
+      </node>
+      <node id="gran" label="gran">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="32.89" />
+        <viz:position x="593.6" y="-367.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="106" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.736" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="gente" label="gente">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="32.74" />
+        <viz:position x="638.4" y="-350.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="105" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.752" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="15" />
+          <attvalue for="5" value="0.0012" />
+        </attvalues>
+      </node>
+      <node id="andalucia" label="andalucia">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="32.45" />
+        <viz:position x="744.9" y="-331.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="103" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.806" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="17" />
+          <attvalue for="5" value="0.0033" />
+        </attvalues>
+      </node>
+      <node id="publico" label="publico">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="32.3" />
+        <viz:position x="587.8" y="-396.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="102" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.941" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="0.0006" />
+        </attvalues>
+      </node>
+      <node id="#sentidocomun" label="#sentidocomun">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="32.0" />
+        <viz:position x="701.8" y="-138.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100" />
+          <attvalue for="1" value="Santiago Abascal" />
+          <attvalue for="2" value="0.63" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="0.0037" />
+        </attvalues>
+      </node>
+      <node id="psoe" label="psoe">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="32.0" />
+        <viz:position x="574.3" y="-614.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.96" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="0.0011" />
+        </attvalues>
+      </node>
+      <node id="elecciones" label="elecciones">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="31.55" />
+        <viz:position x="445.3" y="-389.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="97" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.825" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="0.0005" />
+        </attvalues>
+      </node>
+      <node id="vivienda" label="vivienda">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="31.55" />
+        <viz:position x="667.6" y="-499.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="97" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.928" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="19" />
+          <attvalue for="5" value="0.0019" />
+        </attvalues>
+      </node>
+      <node id="libertad" label="libertad">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="31.24" />
+        <viz:position x="154.5" y="-141.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="95" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.484" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="21" />
+          <attvalue for="5" value="0.006" />
+        </attvalues>
+      </node>
+      <node id="personas" label="personas">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="30.77" />
+        <viz:position x="547.4" y="-368.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="92" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.88" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="0.0006" />
+        </attvalues>
+      </node>
+      <node id="presidente" label="presidente">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="29.5" />
+        <viz:position x="334.7" y="-274.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="84" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.583" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="0.0061" />
+        </attvalues>
+      </node>
+      <node id="cambio" label="cambio">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="28.32" />
+        <viz:position x="661.2" y="-303.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="77" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.753" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="encuentro" label="encuentro">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="28.32" />
+        <viz:position x="142.7" y="-44.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="77" />
+          <attvalue for="1" value="Foro Madrid" />
+          <attvalue for="2" value="0.792" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="17" />
+          <attvalue for="5" value="0.0034" />
+        </attvalues>
+      </node>
+      <node id="partido" label="partido">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="28.32" />
+        <viz:position x="451.3" y="-327.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="77" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.779" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="0.0049" />
+        </attvalues>
+      </node>
+      <node id="tenemos" label="tenemos">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="28.32" />
+        <viz:position x="503.8" y="-469.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="77" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.857" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="vox" label="vox">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="28.15" />
+        <viz:position x="497.6" y="-28.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="76" />
+          <attvalue for="1" value="Santiago Abascal" />
+          <attvalue for="2" value="0.697" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="0.0057" />
+        </attvalues>
+      </node>
+      <node id="inmigracion" label="inmigracion">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="27.81" />
+        <viz:position x="254.3" y="-529.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="74" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.595" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="0.0009" />
+        </attvalues>
+      </node>
+      <node id="invasion" label="invasion">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="27.63" />
+        <viz:position x="385.8" y="-536.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="73" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.753" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="15" />
+          <attvalue for="5" value="0.0007" />
+        </attvalues>
+      </node>
+      <node id="politicas" label="politicas">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="27.1" />
+        <viz:position x="571.0" y="-642.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="70" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.786" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="moreno" label="moreno">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="26.92" />
+        <viz:position x="763.8" y="-372.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="69" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.928" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="0.0011" />
+        </attvalues>
+      </node>
+      <node id="campana" label="campana">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="26.37" />
+        <viz:position x="611.5" y="-283.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="66" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.773" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="0.0006" />
+        </attvalues>
+      </node>
+      <node id="mafia" label="mafia">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="26.37" />
+        <viz:position x="469.8" y="-538.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="66" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.788" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="poder" label="poder">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="26.37" />
+        <viz:position x="492.9" y="-538.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="66" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.818" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="regional" label="regional">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="26.0" />
+        <viz:position x="120.7" y="-23.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="64" />
+          <attvalue for="1" value="Foro Madrid" />
+          <attvalue for="2" value="0.953" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="0.0014" />
+        </attvalues>
+      </node>
+      <node id="marruecos" label="marruecos">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="25.81" />
+        <viz:position x="408.0" y="-502.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="63" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.873" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="esperamos" label="esperamos">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="25.62" />
+        <viz:position x="601.2" y="-401.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="62" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.984" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="estado" label="estado">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="25.62" />
+        <viz:position x="242.3" y="-532.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="62" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.419" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="pueblo" label="pueblo">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="25.62" />
+        <viz:position x="600.3" y="-211.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="62" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.613" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="masiva" label="masiva">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="25.43" />
+        <viz:position x="312.9" y="-501.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="61" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.705" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="seguridad" label="seguridad">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="25.24" />
+        <viz:position x="236.8" y="-372.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="60" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.6" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="decir" label="decir">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="24.65" />
+        <viz:position x="511.5" y="-361.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="57" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.982" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="queremos" label="queremos">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="24.65" />
+        <viz:position x="338.6" y="-404.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="57" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.895" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="leon" label="leon">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="24.45" />
+        <viz:position x="734.8" y="-159.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="56" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.714" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="quiere" label="quiere">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="24.25" />
+        <viz:position x="545.8" y="-490.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="55" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.909" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="santiago" label="santiago">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="24.25" />
+        <viz:position x="225.2" y="-103.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="55" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.527" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0014" />
+        </attvalues>
+      </node>
+      <node id="ayudas" label="ayudas">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="23.84" />
+        <viz:position x="699.6" y="-490.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="53" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.925" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="14" />
+          <attvalue for="5" value="0.0007" />
+        </attvalues>
+      </node>
+      <node id="corrupcion" label="corrupcion">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="23.84" />
+        <viz:position x="503.1" y="-587.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="53" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.849" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="extremadura" label="extremadura">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="23.63" />
+        <viz:position x="807.2" y="-572.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="52" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.942" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0004" />
+        </attvalues>
+      </node>
+      <node id="impuestos" label="impuestos">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="23.63" />
+        <viz:position x="511.9" y="-713.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="52" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.885" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="provincia" label="provincia">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="23.63" />
+        <viz:position x="745.0" y="-73.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="52" />
+          <attvalue for="1" value="Santiago Abascal" />
+          <attvalue for="2" value="0.942" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="apoyo" label="apoyo">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="23.42" />
+        <viz:position x="750.3" y="-214.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="51" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.549" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="politica" label="politica">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="23.42" />
+        <viz:position x="605.0" y="-704.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="51" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.627" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0004" />
+        </attvalues>
+      </node>
+      <node id="senor" label="senor">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="23.42" />
+        <viz:position x="540.4" y="-333.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="51" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.902" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="bonilla" label="bonilla">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="23.21" />
+        <viz:position x="780.8" y="-372.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="50" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.96" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="0.0009" />
+        </attvalues>
+      </node>
+      <node id="criminal" label="criminal">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="23.21" />
+        <viz:position x="449.8" y="-603.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="50" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.72" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="electoral" label="electoral">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="22.78" />
+        <viz:position x="407.5" y="-346.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="48" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.75" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="acuerdo" label="acuerdo">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="22.35" />
+        <viz:position x="800.5" y="-618.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="46" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.935" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="0.0008" />
+        </attvalues>
+      </node>
+      <node id="cosas" label="cosas">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="22.35" />
+        <viz:position x="557.7" y="-266.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="46" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.848" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0005" />
+        </attvalues>
+      </node>
+      <node id="denuncia" label="denuncia">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="22.35" />
+        <viz:position x="470.0" y="-582.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="46" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.87" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="europa" label="europa">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="22.35" />
+        <viz:position x="109.6" y="-318.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="46" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.457" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="fuera" label="fuera">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="22.35" />
+        <viz:position x="616.8" y="-499.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="46" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.87" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="mujeres" label="mujeres">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="22.35" />
+        <viz:position x="341.8" y="-458.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="46" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.804" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="calles" label="calles">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="22.12" />
+        <viz:position x="297.4" y="-443.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.756" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="castilla" label="castilla">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="22.12" />
+        <viz:position x="754.5" y="-149.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.778" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="pais" label="pais">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="22.12" />
+        <viz:position x="466.3" y="-292.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.867" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="politicos" label="politicos">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="22.12" />
+        <viz:position x="620.8" y="-573.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.689" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="sociales" label="sociales">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="22.12" />
+        <viz:position x="691.5" y="-484.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.933" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="violencia" label="violencia">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="22.12" />
+        <viz:position x="359.7" y="-501.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="45" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.778" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="primero" label="primero">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="21.9" />
+        <viz:position x="726.1" y="-440.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="44" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.773" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="claro" label="claro">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="21.67" />
+        <viz:position x="385.2" y="-373.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.907" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="declaraciones" label="declaraciones">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="21.67" />
+        <viz:position x="527.2" y="-476.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="entrevista" label="entrevista">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="21.67" />
+        <viz:position x="546.8" y="-307.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.721" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="habla" label="habla">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="21.67" />
+        <viz:position x="644.8" y="-415.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.907" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="jorge" label="jorge">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="21.67" />
+        <viz:position x="0.0" y="-186.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.558" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0005" />
+        </attvalues>
+      </node>
+      <node id="migratoria" label="migratoria">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="21.67" />
+        <viz:position x="389.5" y="-544.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.837" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="nunca" label="nunca">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="21.67" />
+        <viz:position x="449.8" y="-680.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.837" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="espanol" label="espanol">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="21.44" />
+        <viz:position x="620.9" y="-172.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="42" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.833" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="manologavira" label="manologavira">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="21.44" />
+        <viz:position x="632.9" y="-368.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="42" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.952" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0004" />
+        </attvalues>
+      </node>
+      <node id="madrid" label="madrid">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="21.21" />
+        <viz:position x="172.8" y="-284.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="41" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.537" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="campo" label="campo">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="20.97" />
+        <viz:position x="837.2" y="-391.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.875" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="dinero" label="dinero">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.97" />
+        <viz:position x="518.2" y="-656.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="junto" label="junto">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="20.97" />
+        <viz:position x="275.3" y="-248.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.55" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="ley" label="ley">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="20.97" />
+        <viz:position x="352.5" y="-374.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.85" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="millones" label="millones">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.97" />
+        <viz:position x="470.5" y="-373.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.875" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="presentacion" label="presentacion">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="20.97" />
+        <viz:position x="212.3" y="-536.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="Fundación Disenso" />
+          <attvalue for="2" value="0.6" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="responde" label="responde">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="20.97" />
+        <viz:position x="571.8" y="-325.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.95" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="traicion" label="traicion">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.97" />
+        <viz:position x="401.5" y="-592.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.8" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="frente" label="frente">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="20.73" />
+        <viz:position x="283.0" y="-168.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="39" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.615" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.001" />
+        </attvalues>
+      </node>
+      <node id="politico" label="politico">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="20.73" />
+        <viz:position x="652.1" y="-777.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="39" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.564" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="fustervox" label="fustervox">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.49" />
+        <viz:position x="590.1" y="-887.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="38" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.921" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="futuro" label="futuro">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.49" />
+        <viz:position x="134.3" y="-367.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="38" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.553" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="hecho" label="hecho">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="20.49" />
+        <viz:position x="629.2" y="-604.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="38" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.816" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="posible" label="posible">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.49" />
+        <viz:position x="567.6" y="-715.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="38" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.816" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="problema" label="problema">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="20.49" />
+        <viz:position x="512.8" y="-304.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="38" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.947" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="ahora" label="ahora">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.25" />
+        <viz:position x="397.9" y="-663.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="37" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.865" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="defiende" label="defiende">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.25" />
+        <viz:position x="631.9" y="-537.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="37" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.919" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="despues" label="despues">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.25" />
+        <viz:position x="365.1" y="-602.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="37" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.649" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="problemas" label="problemas">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="20.25" />
+        <viz:position x="684.1" y="-181.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="37" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.622" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="verdad" label="verdad">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="20.25" />
+        <viz:position x="474.4" y="-221.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="37" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.811" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="andaluces" label="andaluces">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="805.7" y="-336.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.806" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="cualquier" label="cualquier">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="506.7" y="-553.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.861" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="falta" label="falta">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="683.2" y="-538.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.861" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="feijoo" label="feijoo">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="495.5" y="-334.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.972" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="menos" label="menos">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="529.4" y="-757.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.917" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="ponente" label="ponente">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="142.9" y="-12.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="Foro Madrid" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0004" />
+        </attvalues>
+      </node>
+      <node id="sanidad" label="sanidad">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="672.6" y="-593.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.889" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="figaredojosem" label="figaredojosem">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="19.75" />
+        <viz:position x="984.1" y="-649.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="35" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.886" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="mayor" label="mayor">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="19.75" />
+        <viz:position x="626.4" y="-407.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="35" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.971" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="popular" label="popular">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="19.75" />
+        <viz:position x="439.8" y="-306.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="35" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.886" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="congreso" label="congreso">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="19.49" />
+        <viz:position x="357.7" y="-69.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.588" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0026" />
+        </attvalues>
+      </node>
+      <node id="defensa" label="defensa">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="19.49" />
+        <viz:position x="147.5" y="-91.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.529" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0016" />
+        </attvalues>
+      </node>
+      <node id="jovenes" label="jovenes">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="19.49" />
+        <viz:position x="761.4" y="-666.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.735" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="movilizacion" label="movilizacion">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="19.49" />
+        <viz:position x="647.6" y="-86.5" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="Santiago Abascal" />
+          <attvalue for="2" value="0.676" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0014" />
+        </attvalues>
+      </node>
+      <node id="nadie" label="nadie">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="19.49" />
+        <viz:position x="413.4" y="-754.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.765" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="patriotas" label="patriotas">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="19.49" />
+        <viz:position x="90.3" y="-285.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.412" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0018" />
+        </attvalues>
+      </node>
+      <node id="publica" label="publica">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="19.49" />
+        <viz:position x="736.3" y="-530.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.735" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="consecuencias" label="consecuencias">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="19.23" />
+        <viz:position x="219.7" y="-594.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="33" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.818" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="debe" label="debe">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="19.23" />
+        <viz:position x="300.5" y="-691.2" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="33" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.758" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="desregulacion" label="desregulacion">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="19.23" />
+        <viz:position x="791.5" y="-414.6" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="33" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.727" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="mayoria" label="mayoria">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="19.23" />
+        <viz:position x="768.2" y="-608.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="33" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.879" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+      <node id="publicos" label="publicos">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="19.23" />
+        <viz:position x="476.4" y="-763.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="33" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.848" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="remigracion" label="remigracion">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="19.23" />
+        <viz:position x="759.1" y="-463.9" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="33" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.879" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="servicios" label="servicios">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="19.23" />
+        <viz:position x="473.5" y="-771.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="33" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.848" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="vida" label="vida">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="19.23" />
+        <viz:position x="218.6" y="-704.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="33" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.818" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="#prioridadnacional" label="#prioridadnacional">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="18.97" />
+        <viz:position x="841.6" y="-0.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="Santiago Abascal" />
+          <attvalue for="2" value="0.688" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0007" />
+        </attvalues>
+      </node>
+      <node id="aragon" label="aragon">
+        <viz:color r="61" g="111" b="142" a="1.0" />
+        <viz:size value="18.97" />
+        <viz:position x="876.2" y="-513.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.938" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0004" />
+        </attvalues>
+      </node>
+      <node id="completo" label="completo">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="18.97" />
+        <viz:position x="41.1" y="-49.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="Fundación Disenso" />
+          <attvalue for="2" value="0.469" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0012" />
+        </attvalues>
+      </node>
+      <node id="prosperidad" label="prosperidad">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="18.97" />
+        <viz:position x="149.7" y="-179.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.594" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0009" />
+        </attvalues>
+      </node>
+      <node id="unico" label="unico">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="18.97" />
+        <viz:position x="402.6" y="-697.0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.875" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="defender" label="defender">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="186.1" y="-414.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.774" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0011" />
+        </attvalues>
+      </node>
+      <node id="dice" label="dice">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="529.3" y="-244.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.968" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="esperanza" label="esperanza">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="837.9" y="-273.3" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.548" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="fin" label="fin">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="1000.0" y="-152.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.516" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0004" />
+        </attvalues>
+      </node>
+      <node id="maria" label="maria">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="93.5" y="-136.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.419" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0009" />
+        </attvalues>
+      </node>
+      <node id="mercosur" label="mercosur">
+        <viz:color r="180" g="71" b="43" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="830.3" y="-419.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.903" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="ola" label="ola">
+        <viz:color r="47" g="125" b="91" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="723.3" y="-263.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.774" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0001" />
+        </attvalues>
+      </node>
+      <node id="participara" label="participara">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="119.0" y="-16.8" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Foro Madrid" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="7" />
+          <attvalue for="5" value="0.0003" />
+        </attvalues>
+      </node>
+      <node id="soberania" label="soberania">
+        <viz:color r="122" g="79" b="176" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="122.2" y="-81.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Foro Madrid" />
+          <attvalue for="2" value="0.258" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="9" />
+          <attvalue for="5" value="0.0011" />
+        </attvalues>
+      </node>
+      <node id="tiempo" label="tiempo">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="323.3" y="-563.7" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.806" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="traidor" label="traidor">
+        <viz:color r="22" g="94" b="189" a="1.0" />
+        <viz:size value="18.7" />
+        <viz:position x="331.9" y="-622.1" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.839" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="carloshquero" label="carloshquero">
+        <viz:color r="168" g="116" b="26" a="1.0" />
+        <viz:size value="18.43" />
+        <viz:position x="958.8" y="-630.4" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="Vox" />
+          <attvalue for="2" value="0.967" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0.0002" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="abascal" target="#prioridadnacional" id="0" weight="3" />
+      <edge source="abascal" target="#sentidocomun" id="1" weight="16" />
+      <edge source="abascal" target="acto" id="2" weight="103" />
+      <edge source="abascal" target="acuerdo" id="3" weight="17" />
+      <edge source="abascal" target="ahora" id="4" weight="18" />
+      <edge source="abascal" target="andaluces" id="5" weight="16" />
+      <edge source="abascal" target="andalucia" id="6" weight="52" />
+      <edge source="abascal" target="apoyo" id="7" weight="14" />
+      <edge source="abascal" target="aragon" id="8" weight="14" />
+      <edge source="abascal" target="ayudas" id="9" weight="34" />
+      <edge source="abascal" target="bonilla" id="10" weight="37" />
+      <edge source="abascal" target="calles" id="11" weight="17" />
+      <edge source="abascal" target="cambio" id="12" weight="29" />
+      <edge source="abascal" target="campana" id="13" weight="32" />
+      <edge source="abascal" target="campo" id="14" weight="18" />
+      <edge source="abascal" target="castilla" id="15" weight="14" />
+      <edge source="abascal" target="ceuta" id="16" weight="56" />
+      <edge source="abascal" target="claro" id="17" weight="27" />
+      <edge source="abascal" target="completo" id="18" weight="4" />
+      <edge source="abascal" target="comun" id="19" weight="60" />
+      <edge source="abascal" target="congreso" id="20" weight="9" />
+      <edge source="abascal" target="consecuencias" id="21" weight="9" />
+      <edge source="abascal" target="corrupcion" id="22" weight="24" />
+      <edge source="abascal" target="cosas" id="23" weight="29" />
+      <edge source="abascal" target="criminal" id="24" weight="19" />
+      <edge source="abascal" target="cualquier" id="25" weight="25" />
+      <edge source="abascal" target="debe" id="26" weight="9" />
+      <edge source="abascal" target="decir" id="27" weight="45" />
+      <edge source="abascal" target="declaracion" id="28" weight="67" />
+      <edge source="abascal" target="declaraciones" id="29" weight="38" />
+      <edge source="abascal" target="defender" id="30" weight="13" />
+      <edge source="abascal" target="defensa" id="31" weight="11" />
+      <edge source="abascal" target="defiende" id="32" weight="21" />
+      <edge source="abascal" target="denuncia" id="33" weight="29" />
+      <edge source="abascal" target="despues" id="34" weight="19" />
+      <edge source="abascal" target="desregulacion" id="35" weight="14" />
+      <edge source="abascal" target="dice" id="36" weight="22" />
+      <edge source="abascal" target="dinero" id="37" weight="18" />
+      <edge source="abascal" target="elecciones" id="38" weight="50" />
+      <edge source="abascal" target="electoral" id="39" weight="22" />
+      <edge source="abascal" target="entrevista" id="40" weight="26" />
+      <edge source="abascal" target="espana" id="41" weight="197" />
+      <edge source="abascal" target="espanol" id="42" weight="15" />
+      <edge source="abascal" target="espanoles" id="43" weight="192" />
+      <edge source="abascal" target="esperamos" id="44" weight="52" />
+      <edge source="abascal" target="esperanza" id="45" weight="11" />
+      <edge source="abascal" target="estado" id="46" weight="20" />
+      <edge source="abascal" target="europa" id="47" weight="12" />
+      <edge source="abascal" target="extremadura" id="48" weight="20" />
+      <edge source="abascal" target="falta" id="49" weight="22" />
+      <edge source="abascal" target="feijoo" id="50" weight="25" />
+      <edge source="abascal" target="fin" id="51" weight="5" />
+      <edge source="abascal" target="frente" id="52" weight="11" />
+      <edge source="abascal" target="fuera" id="53" weight="20" />
+      <edge source="abascal" target="futuro" id="54" weight="11" />
+      <edge source="abascal" target="gente" id="55" weight="60" />
+      <edge source="abascal" target="gobierno" id="56" weight="124" />
+      <edge source="abascal" target="gracias" id="57" weight="46" />
+      <edge source="abascal" target="gran" id="58" weight="66" />
+      <edge source="abascal" target="habla" id="59" weight="34" />
+      <edge source="abascal" target="hecho" id="60" weight="22" />
+      <edge source="abascal" target="impuestos" id="61" weight="24" />
+      <edge source="abascal" target="inmigracion" id="62" weight="19" />
+      <edge source="abascal" target="invasion" id="63" weight="32" />
+      <edge source="abascal" target="jorge" id="64" weight="4" />
+      <edge source="abascal" target="jovenes" id="65" weight="13" />
+      <edge source="abascal" target="junto" id="66" weight="20" />
+      <edge source="abascal" target="leon" id="67" weight="18" />
+      <edge source="abascal" target="ley" id="68" weight="17" />
+      <edge source="abascal" target="libertad" id="69" weight="23" />
+      <edge source="abascal" target="madrid" id="70" weight="16" />
+      <edge source="abascal" target="mafia" id="71" weight="31" />
+      <edge source="abascal" target="manologavira" id="72" weight="36" />
+      <edge source="abascal" target="maria" id="73" weight="10" />
+      <edge source="abascal" target="marruecos" id="74" weight="26" />
+      <edge source="abascal" target="masiva" id="75" weight="24" />
+      <edge source="abascal" target="mayor" id="76" weight="28" />
+      <edge source="abascal" target="mayoria" id="77" weight="18" />
+      <edge source="abascal" target="medios" id="78" weight="80" />
+      <edge source="abascal" target="menos" id="79" weight="15" />
+      <edge source="abascal" target="mercosur" id="80" weight="20" />
+      <edge source="abascal" target="migratoria" id="81" weight="21" />
+      <edge source="abascal" target="millones" id="82" weight="17" />
+      <edge source="abascal" target="moreno" id="83" weight="53" />
+      <edge source="abascal" target="movilizacion" id="84" weight="10" />
+      <edge source="abascal" target="mujeres" id="85" weight="20" />
+      <edge source="abascal" target="nacional" id="86" weight="83" />
+      <edge source="abascal" target="nadie" id="87" weight="14" />
+      <edge source="abascal" target="nunca" id="88" weight="18" />
+      <edge source="abascal" target="ola" id="89" weight="17" />
+      <edge source="abascal" target="pais" id="90" weight="21" />
+      <edge source="abascal" target="partido" id="91" weight="40" />
+      <edge source="abascal" target="patriotas" id="92" weight="10" />
+      <edge source="abascal" target="pedro" id="93" weight="101" />
+      <edge source="abascal" target="personas" id="94" weight="60" />
+      <edge source="abascal" target="plaza" id="95" weight="110" />
+      <edge source="abascal" target="poder" id="96" weight="32" />
+      <edge source="abascal" target="politica" id="97" weight="13" />
+      <edge source="abascal" target="politicas" id="98" weight="30" />
+      <edge source="abascal" target="politico" id="99" weight="14" />
+      <edge source="abascal" target="politicos" id="100" weight="21" />
+      <edge source="abascal" target="popular" id="101" weight="21" />
+      <edge source="abascal" target="posible" id="102" weight="15" />
+      <edge source="abascal" target="presentacion" id="103" weight="7" />
+      <edge source="abascal" target="presidente" id="104" weight="43" />
+      <edge source="abascal" target="primero" id="105" weight="14" />
+      <edge source="abascal" target="prioridad" id="106" weight="73" />
+      <edge source="abascal" target="problema" id="107" weight="20" />
+      <edge source="abascal" target="problemas" id="108" weight="14" />
+      <edge source="abascal" target="prosperidad" id="109" weight="7" />
+      <edge source="abascal" target="psoe" id="110" weight="42" />
+      <edge source="abascal" target="publica" id="111" weight="16" />
+      <edge source="abascal" target="publico" id="112" weight="86" />
+      <edge source="abascal" target="publicos" id="113" weight="14" />
+      <edge source="abascal" target="pueblo" id="114" weight="21" />
+      <edge source="abascal" target="queremos" id="115" weight="21" />
+      <edge source="abascal" target="quiere" id="116" weight="39" />
+      <edge source="abascal" target="remigracion" id="117" weight="21" />
+      <edge source="abascal" target="responde" id="118" weight="30" />
+      <edge source="abascal" target="sanchez" id="119" weight="234" />
+      <edge source="abascal" target="sanidad" id="120" weight="17" />
+      <edge source="abascal" target="santi" id="121" weight="958" />
+      <edge source="abascal" target="santiago" id="122" weight="31" />
+      <edge source="abascal" target="seguridad" id="123" weight="14" />
+      <edge source="abascal" target="senor" id="124" weight="43" />
+      <edge source="abascal" target="sentido" id="125" weight="64" />
+      <edge source="abascal" target="servicios" id="126" weight="9" />
+      <edge source="abascal" target="soberania" id="127" weight="7" />
+      <edge source="abascal" target="sociales" id="128" weight="35" />
+      <edge source="abascal" target="tenemos" id="129" weight="31" />
+      <edge source="abascal" target="tiempo" id="130" weight="21" />
+      <edge source="abascal" target="traicion" id="131" weight="15" />
+      <edge source="abascal" target="traidor" id="132" weight="10" />
+      <edge source="abascal" target="unico" id="133" weight="14" />
+      <edge source="abascal" target="verdad" id="134" weight="18" />
+      <edge source="abascal" target="vida" id="135" weight="5" />
+      <edge source="abascal" target="violencia" id="136" weight="24" />
+      <edge source="abascal" target="vivienda" id="137" weight="44" />
+      <edge source="santi" target="#sentidocomun" id="138" weight="15" />
+      <edge source="santi" target="acto" id="139" weight="102" />
+      <edge source="santi" target="acuerdo" id="140" weight="17" />
+      <edge source="santi" target="ahora" id="141" weight="18" />
+      <edge source="santi" target="andaluces" id="142" weight="16" />
+      <edge source="santi" target="andalucia" id="143" weight="52" />
+      <edge source="santi" target="apoyo" id="144" weight="14" />
+      <edge source="santi" target="aragon" id="145" weight="13" />
+      <edge source="santi" target="ayudas" id="146" weight="34" />
+      <edge source="santi" target="bonilla" id="147" weight="37" />
+      <edge source="santi" target="calles" id="148" weight="17" />
+      <edge source="santi" target="cambio" id="149" weight="29" />
+      <edge source="santi" target="campana" id="150" weight="30" />
+      <edge source="santi" target="campo" id="151" weight="18" />
+      <edge source="santi" target="castilla" id="152" weight="13" />
+      <edge source="santi" target="ceuta" id="153" weight="54" />
+      <edge source="santi" target="claro" id="154" weight="26" />
+      <edge source="santi" target="comun" id="155" weight="58" />
+      <edge source="santi" target="congreso" id="156" weight="8" />
+      <edge source="santi" target="consecuencias" id="157" weight="9" />
+      <edge source="santi" target="corrupcion" id="158" weight="24" />
+      <edge source="santi" target="cosas" id="159" weight="29" />
+      <edge source="santi" target="criminal" id="160" weight="19" />
+      <edge source="santi" target="cualquier" id="161" weight="25" />
+      <edge source="santi" target="debe" id="162" weight="9" />
+      <edge source="santi" target="decir" id="163" weight="45" />
+      <edge source="santi" target="declaracion" id="164" weight="61" />
+      <edge source="santi" target="declaraciones" id="165" weight="38" />
+      <edge source="santi" target="defender" id="166" weight="13" />
+      <edge source="santi" target="defensa" id="167" weight="11" />
+      <edge source="santi" target="defiende" id="168" weight="21" />
+      <edge source="santi" target="denuncia" id="169" weight="28" />
+      <edge source="santi" target="despues" id="170" weight="17" />
+      <edge source="santi" target="desregulacion" id="171" weight="13" />
+      <edge source="santi" target="dice" id="172" weight="22" />
+      <edge source="santi" target="dinero" id="173" weight="18" />
+      <edge source="santi" target="elecciones" id="174" weight="48" />
+      <edge source="santi" target="electoral" id="175" weight="22" />
+      <edge source="santi" target="entrevista" id="176" weight="24" />
+      <edge source="santi" target="espana" id="177" weight="194" />
+      <edge source="santi" target="espanol" id="178" weight="15" />
+      <edge source="santi" target="espanoles" id="179" weight="188" />
+      <edge source="santi" target="esperamos" id="180" weight="47" />
+      <edge source="santi" target="esperanza" id="181" weight="11" />
+      <edge source="santi" target="estado" id="182" weight="20" />
+      <edge source="santi" target="europa" id="183" weight="11" />
+      <edge source="santi" target="extremadura" id="184" weight="19" />
+      <edge source="santi" target="falta" id="185" weight="22" />
+      <edge source="santi" target="feijoo" id="186" weight="25" />
+      <edge source="santi" target="frente" id="187" weight="11" />
+      <edge source="santi" target="fuera" id="188" weight="20" />
+      <edge source="santi" target="futuro" id="189" weight="10" />
+      <edge source="santi" target="gente" id="190" weight="60" />
+      <edge source="santi" target="gobierno" id="191" weight="122" />
+      <edge source="santi" target="gracias" id="192" weight="45" />
+      <edge source="santi" target="gran" id="193" weight="65" />
+      <edge source="santi" target="habla" id="194" weight="33" />
+      <edge source="santi" target="hecho" id="195" weight="21" />
+      <edge source="santi" target="impuestos" id="196" weight="24" />
+      <edge source="santi" target="inmigracion" id="197" weight="18" />
+      <edge source="santi" target="invasion" id="198" weight="32" />
+      <edge source="santi" target="jovenes" id="199" weight="12" />
+      <edge source="santi" target="junto" id="200" weight="18" />
+      <edge source="santi" target="leon" id="201" weight="17" />
+      <edge source="santi" target="ley" id="202" weight="17" />
+      <edge source="santi" target="libertad" id="203" weight="22" />
+      <edge source="santi" target="madrid" id="204" weight="14" />
+      <edge source="santi" target="mafia" id="205" weight="31" />
+      <edge source="santi" target="manologavira" id="206" weight="36" />
+      <edge source="santi" target="maria" id="207" weight="9" />
+      <edge source="santi" target="marruecos" id="208" weight="26" />
+      <edge source="santi" target="masiva" id="209" weight="24" />
+      <edge source="santi" target="mayor" id="210" weight="27" />
+      <edge source="santi" target="mayoria" id="211" weight="18" />
+      <edge source="santi" target="medios" id="212" weight="74" />
+      <edge source="santi" target="menos" id="213" weight="13" />
+      <edge source="santi" target="mercosur" id="214" weight="20" />
+      <edge source="santi" target="migratoria" id="215" weight="21" />
+      <edge source="santi" target="millones" id="216" weight="17" />
+      <edge source="santi" target="moreno" id="217" weight="53" />
+      <edge source="santi" target="movilizacion" id="218" weight="10" />
+      <edge source="santi" target="mujeres" id="219" weight="20" />
+      <edge source="santi" target="nacional" id="220" weight="83" />
+      <edge source="santi" target="nadie" id="221" weight="14" />
+      <edge source="santi" target="nunca" id="222" weight="18" />
+      <edge source="santi" target="ola" id="223" weight="16" />
+      <edge source="santi" target="pais" id="224" weight="21" />
+      <edge source="santi" target="partido" id="225" weight="40" />
+      <edge source="santi" target="patriotas" id="226" weight="10" />
+      <edge source="santi" target="pedro" id="227" weight="98" />
+      <edge source="santi" target="personas" id="228" weight="58" />
+      <edge source="santi" target="plaza" id="229" weight="104" />
+      <edge source="santi" target="poder" id="230" weight="32" />
+      <edge source="santi" target="politica" id="231" weight="12" />
+      <edge source="santi" target="politicas" id="232" weight="29" />
+      <edge source="santi" target="politico" id="233" weight="14" />
+      <edge source="santi" target="politicos" id="234" weight="21" />
+      <edge source="santi" target="popular" id="235" weight="21" />
+      <edge source="santi" target="posible" id="236" weight="15" />
+      <edge source="santi" target="presentacion" id="237" weight="7" />
+      <edge source="santi" target="presidente" id="238" weight="39" />
+      <edge source="santi" target="primero" id="239" weight="14" />
+      <edge source="santi" target="prioridad" id="240" weight="73" />
+      <edge source="santi" target="problema" id="241" weight="17" />
+      <edge source="santi" target="problemas" id="242" weight="13" />
+      <edge source="santi" target="prosperidad" id="243" weight="7" />
+      <edge source="santi" target="psoe" id="244" weight="39" />
+      <edge source="santi" target="publica" id="245" weight="16" />
+      <edge source="santi" target="publico" id="246" weight="87" />
+      <edge source="santi" target="publicos" id="247" weight="13" />
+      <edge source="santi" target="pueblo" id="248" weight="21" />
+      <edge source="santi" target="queremos" id="249" weight="21" />
+      <edge source="santi" target="quiere" id="250" weight="38" />
+      <edge source="santi" target="remigracion" id="251" weight="21" />
+      <edge source="santi" target="responde" id="252" weight="30" />
+      <edge source="santi" target="sanchez" id="253" weight="225" />
+      <edge source="santi" target="sanidad" id="254" weight="16" />
+      <edge source="santi" target="santiago" id="255" weight="9" />
+      <edge source="santi" target="seguridad" id="256" weight="14" />
+      <edge source="santi" target="senor" id="257" weight="43" />
+      <edge source="santi" target="sentido" id="258" weight="62" />
+      <edge source="santi" target="servicios" id="259" weight="9" />
+      <edge source="santi" target="sociales" id="260" weight="35" />
+      <edge source="santi" target="tenemos" id="261" weight="31" />
+      <edge source="santi" target="tiempo" id="262" weight="21" />
+      <edge source="santi" target="traicion" id="263" weight="15" />
+      <edge source="santi" target="traidor" id="264" weight="10" />
+      <edge source="santi" target="unico" id="265" weight="13" />
+      <edge source="santi" target="verdad" id="266" weight="18" />
+      <edge source="santi" target="vida" id="267" weight="5" />
+      <edge source="santi" target="violencia" id="268" weight="24" />
+      <edge source="santi" target="vivienda" id="269" weight="43" />
+      <edge source="espana" target="#sentidocomun" id="270" weight="14" />
+      <edge source="espana" target="acto" id="271" weight="16" />
+      <edge source="espana" target="ahora" id="272" weight="5" />
+      <edge source="espana" target="apoyo" id="273" weight="13" />
+      <edge source="espana" target="calles" id="274" weight="14" />
+      <edge source="espana" target="cambio" id="275" weight="20" />
+      <edge source="espana" target="campana" id="276" weight="11" />
+      <edge source="espana" target="carloshquero" id="277" weight="6" />
+      <edge source="espana" target="ceuta" id="278" weight="53" />
+      <edge source="espana" target="claro" id="279" weight="8" />
+      <edge source="espana" target="completo" id="280" weight="7" />
+      <edge source="espana" target="comun" id="281" weight="35" />
+      <edge source="espana" target="congreso" id="282" weight="12" />
+      <edge source="espana" target="consecuencias" id="283" weight="7" />
+      <edge source="espana" target="corrupcion" id="284" weight="15" />
+      <edge source="espana" target="cosas" id="285" weight="5" />
+      <edge source="espana" target="criminal" id="286" weight="7" />
+      <edge source="espana" target="cualquier" id="287" weight="7" />
+      <edge source="espana" target="debe" id="288" weight="6" />
+      <edge source="espana" target="decir" id="289" weight="6" />
+      <edge source="espana" target="declaracion" id="290" weight="13" />
+      <edge source="espana" target="declaraciones" id="291" weight="13" />
+      <edge source="espana" target="defender" id="292" weight="9" />
+      <edge source="espana" target="defensa" id="293" weight="7" />
+      <edge source="espana" target="defiende" id="294" weight="17" />
+      <edge source="espana" target="denuncia" id="295" weight="9" />
+      <edge source="espana" target="despues" id="296" weight="10" />
+      <edge source="espana" target="desregulacion" id="297" weight="9" />
+      <edge source="espana" target="dice" id="298" weight="4" />
+      <edge source="espana" target="dinero" id="299" weight="5" />
+      <edge source="espana" target="elecciones" id="300" weight="24" />
+      <edge source="espana" target="electoral" id="301" weight="9" />
+      <edge source="espana" target="espanol" id="302" weight="8" />
+      <edge source="espana" target="espanoles" id="303" weight="112" />
+      <edge source="espana" target="esperanza" id="304" weight="10" />
+      <edge source="espana" target="estado" id="305" weight="13" />
+      <edge source="espana" target="europa" id="306" weight="13" />
+      <edge source="espana" target="falta" id="307" weight="12" />
+      <edge source="espana" target="figaredojosem" id="308" weight="10" />
+      <edge source="espana" target="frente" id="309" weight="8" />
+      <edge source="espana" target="fuera" id="310" weight="17" />
+      <edge source="espana" target="fustervox" id="311" weight="7" />
+      <edge source="espana" target="futuro" id="312" weight="16" />
+      <edge source="espana" target="garriga" id="313" weight="18" />
+      <edge source="espana" target="gente" id="314" weight="21" />
+      <edge source="espana" target="gobierno" id="315" weight="61" />
+      <edge source="espana" target="gracias" id="316" weight="35" />
+      <edge source="espana" target="gran" id="317" weight="19" />
+      <edge source="espana" target="habla" id="318" weight="6" />
+      <edge source="espana" target="hecho" id="319" weight="6" />
+      <edge source="espana" target="ignacio" id="320" weight="18" />
+      <edge source="espana" target="inmigracion" id="321" weight="20" />
+      <edge source="espana" target="invasion" id="322" weight="25" />
+      <edge source="espana" target="jovenes" id="323" weight="7" />
+      <edge source="espana" target="junto" id="324" weight="11" />
+      <edge source="espana" target="ley" id="325" weight="7" />
+      <edge source="espana" target="libertad" id="326" weight="19" />
+      <edge source="espana" target="madrid" id="327" weight="8" />
+      <edge source="espana" target="mafia" id="328" weight="26" />
+      <edge source="espana" target="maria" id="329" weight="8" />
+      <edge source="espana" target="marruecos" id="330" weight="23" />
+      <edge source="espana" target="masiva" id="331" weight="13" />
+      <edge source="espana" target="medios" id="332" weight="15" />
+      <edge source="espana" target="menos" id="333" weight="6" />
+      <edge source="espana" target="migratoria" id="334" weight="15" />
+      <edge source="espana" target="millones" id="335" weight="14" />
+      <edge source="espana" target="movilizacion" id="336" weight="9" />
+      <edge source="espana" target="mujeres" id="337" weight="12" />
+      <edge source="espana" target="nacional" id="338" weight="50" />
+      <edge source="espana" target="nadie" id="339" weight="7" />
+      <edge source="espana" target="nunca" id="340" weight="11" />
+      <edge source="espana" target="pais" id="341" weight="17" />
+      <edge source="espana" target="partido" id="342" weight="13" />
+      <edge source="espana" target="patriotas" id="343" weight="10" />
+      <edge source="espana" target="pedro" id="344" weight="40" />
+      <edge source="espana" target="personas" id="345" weight="27" />
+      <edge source="espana" target="poder" id="346" weight="14" />
+      <edge source="espana" target="politica" id="347" weight="16" />
+      <edge source="espana" target="politicas" id="348" weight="14" />
+      <edge source="espana" target="politico" id="349" weight="9" />
+      <edge source="espana" target="politicos" id="350" weight="8" />
+      <edge source="espana" target="popular" id="351" weight="5" />
+      <edge source="espana" target="posible" id="352" weight="10" />
+      <edge source="espana" target="presentacion" id="353" weight="7" />
+      <edge source="espana" target="presidente" id="354" weight="14" />
+      <edge source="espana" target="primero" id="355" weight="12" />
+      <edge source="espana" target="prioridad" id="356" weight="29" />
+      <edge source="espana" target="problema" id="357" weight="12" />
+      <edge source="espana" target="prosperidad" id="358" weight="7" />
+      <edge source="espana" target="psoe" id="359" weight="18" />
+      <edge source="espana" target="publico" id="360" weight="10" />
+      <edge source="espana" target="publicos" id="361" weight="8" />
+      <edge source="espana" target="pueblo" id="362" weight="13" />
+      <edge source="espana" target="queremos" id="363" weight="15" />
+      <edge source="espana" target="quiere" id="364" weight="10" />
+      <edge source="espana" target="sanchez" id="365" weight="107" />
+      <edge source="espana" target="sanidad" id="366" weight="7" />
+      <edge source="espana" target="santiago" id="367" weight="9" />
+      <edge source="espana" target="seguridad" id="368" weight="17" />
+      <edge source="espana" target="sentido" id="369" weight="34" />
+      <edge source="espana" target="servicios" id="370" weight="9" />
+      <edge source="espana" target="soberania" id="371" weight="12" />
+      <edge source="espana" target="sociales" id="372" weight="10" />
+      <edge source="espana" target="tenemos" id="373" weight="18" />
+      <edge source="espana" target="tiempo" id="374" weight="11" />
+      <edge source="espana" target="traicion" id="375" weight="5" />
+      <edge source="espana" target="traidor" id="376" weight="9" />
+      <edge source="espana" target="vida" id="377" weight="9" />
+      <edge source="espana" target="violencia" id="378" weight="14" />
+      <edge source="espana" target="vivienda" id="379" weight="23" />
+      <edge source="espana" target="vox" id="380" weight="14" />
+      <edge source="sanchez" target="ahora" id="381" weight="13" />
+      <edge source="sanchez" target="calles" id="382" weight="13" />
+      <edge source="sanchez" target="ceuta" id="383" weight="48" />
+      <edge source="sanchez" target="claro" id="384" weight="10" />
+      <edge source="sanchez" target="congreso" id="385" weight="9" />
+      <edge source="sanchez" target="corrupcion" id="386" weight="27" />
+      <edge source="sanchez" target="criminal" id="387" weight="18" />
+      <edge source="sanchez" target="cualquier" id="388" weight="20" />
+      <edge source="sanchez" target="debe" id="389" weight="11" />
+      <edge source="sanchez" target="decir" id="390" weight="9" />
+      <edge source="sanchez" target="declaraciones" id="391" weight="14" />
+      <edge source="sanchez" target="denuncia" id="392" weight="12" />
+      <edge source="sanchez" target="despues" id="393" weight="9" />
+      <edge source="sanchez" target="dice" id="394" weight="9" />
+      <edge source="sanchez" target="dinero" id="395" weight="8" />
+      <edge source="sanchez" target="elecciones" id="396" weight="40" />
+      <edge source="sanchez" target="electoral" id="397" weight="20" />
+      <edge source="sanchez" target="entrevista" id="398" weight="5" />
+      <edge source="sanchez" target="espanoles" id="399" weight="98" />
+      <edge source="sanchez" target="esperanza" id="400" weight="5" />
+      <edge source="sanchez" target="estado" id="401" weight="10" />
+      <edge source="sanchez" target="falta" id="402" weight="8" />
+      <edge source="sanchez" target="feijoo" id="403" weight="14" />
+      <edge source="sanchez" target="fuera" id="404" weight="6" />
+      <edge source="sanchez" target="fustervox" id="405" weight="8" />
+      <edge source="sanchez" target="futuro" id="406" weight="10" />
+      <edge source="sanchez" target="garriga" id="407" weight="18" />
+      <edge source="sanchez" target="gente" id="408" weight="17" />
+      <edge source="sanchez" target="gobierno" id="409" weight="101" />
+      <edge source="sanchez" target="habla" id="410" weight="11" />
+      <edge source="sanchez" target="hecho" id="411" weight="6" />
+      <edge source="sanchez" target="ignacio" id="412" weight="18" />
+      <edge source="sanchez" target="impuestos" id="413" weight="11" />
+      <edge source="sanchez" target="invasion" id="414" weight="25" />
+      <edge source="sanchez" target="jorge" id="415" weight="5" />
+      <edge source="sanchez" target="ley" id="416" weight="14" />
+      <edge source="sanchez" target="mafia" id="417" weight="28" />
+      <edge source="sanchez" target="marruecos" id="418" weight="41" />
+      <edge source="sanchez" target="masiva" id="419" weight="22" />
+      <edge source="sanchez" target="migratoria" id="420" weight="13" />
+      <edge source="sanchez" target="millones" id="421" weight="13" />
+      <edge source="sanchez" target="mujeres" id="422" weight="13" />
+      <edge source="sanchez" target="nadie" id="423" weight="5" />
+      <edge source="sanchez" target="nunca" id="424" weight="6" />
+      <edge source="sanchez" target="partido" id="425" weight="22" />
+      <edge source="sanchez" target="pedro" id="426" weight="165" />
+      <edge source="sanchez" target="poder" id="427" weight="32" />
+      <edge source="sanchez" target="politicas" id="428" weight="16" />
+      <edge source="sanchez" target="politico" id="429" weight="7" />
+      <edge source="sanchez" target="politicos" id="430" weight="6" />
+      <edge source="sanchez" target="popular" id="431" weight="6" />
+      <edge source="sanchez" target="posible" id="432" weight="10" />
+      <edge source="sanchez" target="presidente" id="433" weight="18" />
+      <edge source="sanchez" target="problema" id="434" weight="8" />
+      <edge source="sanchez" target="problemas" id="435" weight="6" />
+      <edge source="sanchez" target="psoe" id="436" weight="24" />
+      <edge source="sanchez" target="publicos" id="437" weight="7" />
+      <edge source="sanchez" target="pueblo" id="438" weight="10" />
+      <edge source="sanchez" target="queremos" id="439" weight="7" />
+      <edge source="sanchez" target="quiere" id="440" weight="23" />
+      <edge source="sanchez" target="responde" id="441" weight="9" />
+      <edge source="sanchez" target="seguridad" id="442" weight="9" />
+      <edge source="sanchez" target="senor" id="443" weight="15" />
+      <edge source="sanchez" target="servicios" id="444" weight="7" />
+      <edge source="sanchez" target="tenemos" id="445" weight="20" />
+      <edge source="sanchez" target="tiempo" id="446" weight="8" />
+      <edge source="sanchez" target="traicion" id="447" weight="23" />
+      <edge source="sanchez" target="traidor" id="448" weight="20" />
+      <edge source="sanchez" target="unico" id="449" weight="16" />
+      <edge source="sanchez" target="verdad" id="450" weight="5" />
+      <edge source="sanchez" target="vida" id="451" weight="7" />
+      <edge source="sanchez" target="violencia" id="452" weight="15" />
+      <edge source="sanchez" target="vivienda" id="453" weight="23" />
+      <edge source="sanchez" target="vox" id="454" weight="12" />
+      <edge source="espanoles" target="#sentidocomun" id="455" weight="15" />
+      <edge source="espanoles" target="acuerdo" id="456" weight="9" />
+      <edge source="espanoles" target="ayudas" id="457" weight="31" />
+      <edge source="espanoles" target="calles" id="458" weight="15" />
+      <edge source="espanoles" target="campo" id="459" weight="7" />
+      <edge source="espanoles" target="carloshquero" id="460" weight="8" />
+      <edge source="espanoles" target="ceuta" id="461" weight="30" />
+      <edge source="espanoles" target="claro" id="462" weight="8" />
+      <edge source="espanoles" target="consecuencias" id="463" weight="8" />
+      <edge source="espanoles" target="corrupcion" id="464" weight="14" />
+      <edge source="espanoles" target="cosas" id="465" weight="11" />
+      <edge source="espanoles" target="criminal" id="466" weight="13" />
+      <edge source="espanoles" target="cualquier" id="467" weight="9" />
+      <edge source="espanoles" target="debe" id="468" weight="6" />
+      <edge source="espanoles" target="decir" id="469" weight="17" />
+      <edge source="espanoles" target="declaraciones" id="470" weight="8" />
+      <edge source="espanoles" target="defender" id="471" weight="9" />
+      <edge source="espanoles" target="defiende" id="472" weight="14" />
+      <edge source="espanoles" target="denuncia" id="473" weight="17" />
+      <edge source="espanoles" target="despues" id="474" weight="8" />
+      <edge source="espanoles" target="dice" id="475" weight="7" />
+      <edge source="espanoles" target="dinero" id="476" weight="22" />
+      <edge source="espanoles" target="espanol" id="477" weight="7" />
+      <edge source="espanoles" target="esperanza" id="478" weight="10" />
+      <edge source="espanoles" target="falta" id="479" weight="14" />
+      <edge source="espanoles" target="feijoo" id="480" weight="6" />
+      <edge source="espanoles" target="figaredojosem" id="481" weight="8" />
+      <edge source="espanoles" target="fuera" id="482" weight="15" />
+      <edge source="espanoles" target="fustervox" id="483" weight="10" />
+      <edge source="espanoles" target="futuro" id="484" weight="6" />
+      <edge source="espanoles" target="garriga" id="485" weight="19" />
+      <edge source="espanoles" target="gobierno" id="486" weight="51" />
+      <edge source="espanoles" target="habla" id="487" weight="10" />
+      <edge source="espanoles" target="hecho" id="488" weight="6" />
+      <edge source="espanoles" target="ignacio" id="489" weight="19" />
+      <edge source="espanoles" target="impuestos" id="490" weight="25" />
+      <edge source="espanoles" target="inmigracion" id="491" weight="12" />
+      <edge source="espanoles" target="invasion" id="492" weight="18" />
+      <edge source="espanoles" target="jovenes" id="493" weight="9" />
+      <edge source="espanoles" target="junto" id="494" weight="8" />
+      <edge source="espanoles" target="ley" id="495" weight="6" />
+      <edge source="espanoles" target="madrid" id="496" weight="7" />
+      <edge source="espanoles" target="mafia" id="497" weight="13" />
+      <edge source="espanoles" target="marruecos" id="498" weight="14" />
+      <edge source="espanoles" target="mayoria" id="499" weight="11" />
+      <edge source="espanoles" target="menos" id="500" weight="7" />
+      <edge source="espanoles" target="mercosur" id="501" weight="10" />
+      <edge source="espanoles" target="migratoria" id="502" weight="12" />
+      <edge source="espanoles" target="millones" id="503" weight="8" />
+      <edge source="espanoles" target="nacional" id="504" weight="57" />
+      <edge source="espanoles" target="nadie" id="505" weight="11" />
+      <edge source="espanoles" target="nunca" id="506" weight="13" />
+      <edge source="espanoles" target="pais" id="507" weight="12" />
+      <edge source="espanoles" target="pedro" id="508" weight="40" />
+      <edge source="espanoles" target="personas" id="509" weight="12" />
+      <edge source="espanoles" target="poder" id="510" weight="14" />
+      <edge source="espanoles" target="politicas" id="511" weight="12" />
+      <edge source="espanoles" target="politico" id="512" weight="6" />
+      <edge source="espanoles" target="politicos" id="513" weight="15" />
+      <edge source="espanoles" target="posible" id="514" weight="8" />
+      <edge source="espanoles" target="presentacion" id="515" weight="7" />
+      <edge source="espanoles" target="primero" id="516" weight="26" />
+      <edge source="espanoles" target="prioridad" id="517" weight="51" />
+      <edge source="espanoles" target="problema" id="518" weight="10" />
+      <edge source="espanoles" target="problemas" id="519" weight="10" />
+      <edge source="espanoles" target="prosperidad" id="520" weight="7" />
+      <edge source="espanoles" target="psoe" id="521" weight="16" />
+      <edge source="espanoles" target="publica" id="522" weight="16" />
+      <edge source="espanoles" target="publicos" id="523" weight="12" />
+      <edge source="espanoles" target="pueblo" id="524" weight="10" />
+      <edge source="espanoles" target="queremos" id="525" weight="5" />
+      <edge source="espanoles" target="quiere" id="526" weight="13" />
+      <edge source="espanoles" target="remigracion" id="527" weight="13" />
+      <edge source="espanoles" target="responde" id="528" weight="11" />
+      <edge source="espanoles" target="sanidad" id="529" weight="17" />
+      <edge source="espanoles" target="servicios" id="530" weight="12" />
+      <edge source="espanoles" target="sociales" id="531" weight="25" />
+      <edge source="espanoles" target="tenemos" id="532" weight="22" />
+      <edge source="espanoles" target="tiempo" id="533" weight="7" />
+      <edge source="espanoles" target="traicion" id="534" weight="11" />
+      <edge source="espanoles" target="traidor" id="535" weight="7" />
+      <edge source="espanoles" target="unico" id="536" weight="7" />
+      <edge source="espanoles" target="verdad" id="537" weight="7" />
+      <edge source="espanoles" target="vida" id="538" weight="12" />
+      <edge source="espanoles" target="violencia" id="539" weight="11" />
+      <edge source="espanoles" target="vivienda" id="540" weight="32" />
+      <edge source="gobierno" target="acuerdo" id="541" weight="14" />
+      <edge source="gobierno" target="ahora" id="542" weight="4" />
+      <edge source="gobierno" target="ceuta" id="543" weight="29" />
+      <edge source="gobierno" target="claro" id="544" weight="5" />
+      <edge source="gobierno" target="consecuencias" id="545" weight="7" />
+      <edge source="gobierno" target="corrupcion" id="546" weight="13" />
+      <edge source="gobierno" target="criminal" id="547" weight="19" />
+      <edge source="gobierno" target="debe" id="548" weight="7" />
+      <edge source="gobierno" target="decir" id="549" weight="8" />
+      <edge source="gobierno" target="defender" id="550" weight="7" />
+      <edge source="gobierno" target="denuncia" id="551" weight="12" />
+      <edge source="gobierno" target="despues" id="552" weight="7" />
+      <edge source="gobierno" target="dinero" id="553" weight="6" />
+      <edge source="gobierno" target="elecciones" id="554" weight="10" />
+      <edge source="gobierno" target="electoral" id="555" weight="9" />
+      <edge source="gobierno" target="estado" id="556" weight="12" />
+      <edge source="gobierno" target="feijoo" id="557" weight="6" />
+      <edge source="gobierno" target="frente" id="558" weight="7" />
+      <edge source="gobierno" target="garriga" id="559" weight="19" />
+      <edge source="gobierno" target="hecho" id="560" weight="8" />
+      <edge source="gobierno" target="ignacio" id="561" weight="19" />
+      <edge source="gobierno" target="invasion" id="562" weight="17" />
+      <edge source="gobierno" target="ley" id="563" weight="10" />
+      <edge source="gobierno" target="mafia" id="564" weight="20" />
+      <edge source="gobierno" target="marruecos" id="565" weight="13" />
+      <edge source="gobierno" target="mayoria" id="566" weight="5" />
+      <edge source="gobierno" target="migratoria" id="567" weight="9" />
+      <edge source="gobierno" target="millones" id="568" weight="8" />
+      <edge source="gobierno" target="mujeres" id="569" weight="13" />
+      <edge source="gobierno" target="nunca" id="570" weight="5" />
+      <edge source="gobierno" target="pedro" id="571" weight="34" />
+      <edge source="gobierno" target="poder" id="572" weight="12" />
+      <edge source="gobierno" target="politica" id="573" weight="9" />
+      <edge source="gobierno" target="posible" id="574" weight="6" />
+      <edge source="gobierno" target="presidente" id="575" weight="22" />
+      <edge source="gobierno" target="quiere" id="576" weight="10" />
+      <edge source="gobierno" target="seguridad" id="577" weight="10" />
+      <edge source="gobierno" target="tenemos" id="578" weight="13" />
+      <edge source="gobierno" target="tiempo" id="579" weight="6" />
+      <edge source="gobierno" target="traicion" id="580" weight="12" />
+      <edge source="gobierno" target="traidor" id="581" weight="9" />
+      <edge source="gobierno" target="unico" id="582" weight="5" />
+      <edge source="gobierno" target="verdad" id="583" weight="6" />
+      <edge source="gobierno" target="vida" id="584" weight="7" />
+      <edge source="gobierno" target="violencia" id="585" weight="7" />
+      <edge source="gracias" target="#prioridadnacional" id="586" weight="10" />
+      <edge source="gracias" target="#sentidocomun" id="587" weight="37" />
+      <edge source="gracias" target="apoyo" id="588" weight="22" />
+      <edge source="gracias" target="cambio" id="589" weight="13" />
+      <edge source="gracias" target="campana" id="590" weight="13" />
+      <edge source="gracias" target="castilla" id="591" weight="10" />
+      <edge source="gracias" target="comun" id="592" weight="34" />
+      <edge source="gracias" target="gran" id="593" weight="15" />
+      <edge source="gracias" target="hecho" id="594" weight="6" />
+      <edge source="gracias" target="jovenes" id="595" weight="5" />
+      <edge source="gracias" target="leon" id="596" weight="16" />
+      <edge source="gracias" target="movilizacion" id="597" weight="13" />
+      <edge source="gracias" target="nacional" id="598" weight="17" />
+      <edge source="gracias" target="ola" id="599" weight="9" />
+      <edge source="gracias" target="presentacion" id="600" weight="5" />
+      <edge source="gracias" target="provincia" id="601" weight="11" />
+      <edge source="gracias" target="sentido" id="602" weight="36" />
+      <edge source="gracias" target="vox" id="603" weight="14" />
+      <edge source="nacional" target="acuerdo" id="604" weight="9" />
+      <edge source="nacional" target="andaluces" id="605" weight="15" />
+      <edge source="nacional" target="andalucia" id="606" weight="33" />
+      <edge source="nacional" target="aragon" id="607" weight="10" />
+      <edge source="nacional" target="ayudas" id="608" weight="20" />
+      <edge source="nacional" target="bonilla" id="609" weight="10" />
+      <edge source="nacional" target="campo" id="610" weight="10" />
+      <edge source="nacional" target="carloshquero" id="611" weight="5" />
+      <edge source="nacional" target="comun" id="612" weight="62" />
+      <edge source="nacional" target="congreso" id="613" weight="5" />
+      <edge source="nacional" target="defiende" id="614" weight="9" />
+      <edge source="nacional" target="desregulacion" id="615" weight="17" />
+      <edge source="nacional" target="espanol" id="616" weight="7" />
+      <edge source="nacional" target="extremadura" id="617" weight="13" />
+      <edge source="nacional" target="figaredojosem" id="618" weight="5" />
+      <edge source="nacional" target="fin" id="619" weight="5" />
+      <edge source="nacional" target="fuera" id="620" weight="6" />
+      <edge source="nacional" target="fustervox" id="621" weight="7" />
+      <edge source="nacional" target="gente" id="622" weight="16" />
+      <edge source="nacional" target="habla" id="623" weight="7" />
+      <edge source="nacional" target="jorge" id="624" weight="5" />
+      <edge source="nacional" target="manologavira" id="625" weight="16" />
+      <edge source="nacional" target="mercosur" id="626" weight="9" />
+      <edge source="nacional" target="moreno" id="627" weight="14" />
+      <edge source="nacional" target="participara" id="628" weight="7" />
+      <edge source="nacional" target="partido" id="629" weight="9" />
+      <edge source="nacional" target="politica" id="630" weight="10" />
+      <edge source="nacional" target="politicos" id="631" weight="7" />
+      <edge source="nacional" target="ponente" id="632" weight="9" />
+      <edge source="nacional" target="primero" id="633" weight="16" />
+      <edge source="nacional" target="prioridad" id="634" weight="148" />
+      <edge source="nacional" target="publica" id="635" weight="10" />
+      <edge source="nacional" target="quiere" id="636" weight="8" />
+      <edge source="nacional" target="regional" id="637" weight="11" />
+      <edge source="nacional" target="remigracion" id="638" weight="19" />
+      <edge source="nacional" target="sentido" id="639" weight="62" />
+      <edge source="nacional" target="soberania" id="640" weight="7" />
+      <edge source="nacional" target="sociales" id="641" weight="16" />
+      <edge source="nacional" target="vivienda" id="642" weight="20" />
+      <edge source="nacional" target="vox" id="643" weight="15" />
+      <edge source="pedro" target="ahora" id="644" weight="7" />
+      <edge source="pedro" target="ceuta" id="645" weight="13" />
+      <edge source="pedro" target="corrupcion" id="646" weight="11" />
+      <edge source="pedro" target="criminal" id="647" weight="7" />
+      <edge source="pedro" target="cualquier" id="648" weight="10" />
+      <edge source="pedro" target="debe" id="649" weight="5" />
+      <edge source="pedro" target="declaraciones" id="650" weight="6" />
+      <edge source="pedro" target="denuncia" id="651" weight="6" />
+      <edge source="pedro" target="despues" id="652" weight="5" />
+      <edge source="pedro" target="elecciones" id="653" weight="16" />
+      <edge source="pedro" target="mafia" id="654" weight="12" />
+      <edge source="pedro" target="masiva" id="655" weight="9" />
+      <edge source="pedro" target="mujeres" id="656" weight="6" />
+      <edge source="pedro" target="poder" id="657" weight="12" />
+      <edge source="pedro" target="traicion" id="658" weight="8" />
+      <edge source="pedro" target="traidor" id="659" weight="6" />
+      <edge source="pedro" target="unico" id="660" weight="5" />
+      <edge source="pedro" target="violencia" id="661" weight="7" />
+      <edge source="sentido" target="andaluces" id="662" weight="10" />
+      <edge source="sentido" target="andalucia" id="663" weight="35" />
+      <edge source="sentido" target="apoyo" id="664" weight="7" />
+      <edge source="sentido" target="cambio" id="665" weight="14" />
+      <edge source="sentido" target="campana" id="666" weight="10" />
+      <edge source="sentido" target="campo" id="667" weight="8" />
+      <edge source="sentido" target="castilla" id="668" weight="7" />
+      <edge source="sentido" target="comun" id="669" weight="165" />
+      <edge source="sentido" target="desregulacion" id="670" weight="8" />
+      <edge source="sentido" target="esperanza" id="671" weight="6" />
+      <edge source="sentido" target="gente" id="672" weight="15" />
+      <edge source="sentido" target="gran" id="673" weight="13" />
+      <edge source="sentido" target="leon" id="674" weight="7" />
+      <edge source="sentido" target="manologavira" id="675" weight="17" />
+      <edge source="sentido" target="movilizacion" id="676" weight="9" />
+      <edge source="sentido" target="ola" id="677" weight="31" />
+      <edge source="sentido" target="primero" id="678" weight="8" />
+      <edge source="sentido" target="prioridad" id="679" weight="60" />
+      <edge source="sentido" target="provincia" id="680" weight="14" />
+      <edge source="sentido" target="tenemos" id="681" weight="8" />
+      <edge source="comun" target="#prioridadnacional" id="682" weight="3" />
+      <edge source="comun" target="andaluces" id="683" weight="9" />
+      <edge source="comun" target="andalucia" id="684" weight="35" />
+      <edge source="comun" target="apoyo" id="685" weight="7" />
+      <edge source="comun" target="cambio" id="686" weight="13" />
+      <edge source="comun" target="campo" id="687" weight="8" />
+      <edge source="comun" target="castilla" id="688" weight="7" />
+      <edge source="comun" target="cualquier" id="689" weight="4" />
+      <edge source="comun" target="desregulacion" id="690" weight="7" />
+      <edge source="comun" target="espanol" id="691" weight="6" />
+      <edge source="comun" target="esperanza" id="692" weight="6" />
+      <edge source="comun" target="frente" id="693" weight="7" />
+      <edge source="comun" target="gente" id="694" weight="15" />
+      <edge source="comun" target="leon" id="695" weight="7" />
+      <edge source="comun" target="manologavira" id="696" weight="17" />
+      <edge source="comun" target="movilizacion" id="697" weight="9" />
+      <edge source="comun" target="ola" id="698" weight="31" />
+      <edge source="comun" target="personas" id="699" weight="12" />
+      <edge source="comun" target="politico" id="700" weight="5" />
+      <edge source="comun" target="primero" id="701" weight="8" />
+      <edge source="comun" target="prioridad" id="702" weight="60" />
+      <edge source="comun" target="problemas" id="703" weight="5" />
+      <edge source="comun" target="provincia" id="704" weight="14" />
+      <edge source="comun" target="pueblo" id="705" weight="7" />
+      <edge source="comun" target="tenemos" id="706" weight="7" />
+      <edge source="prioridad" target="andaluces" id="707" weight="15" />
+      <edge source="prioridad" target="andalucia" id="708" weight="33" />
+      <edge source="prioridad" target="aragon" id="709" weight="10" />
+      <edge source="prioridad" target="ayudas" id="710" weight="22" />
+      <edge source="prioridad" target="bonilla" id="711" weight="9" />
+      <edge source="prioridad" target="campo" id="712" weight="10" />
+      <edge source="prioridad" target="carloshquero" id="713" weight="5" />
+      <edge source="prioridad" target="decir" id="714" weight="7" />
+      <edge source="prioridad" target="defiende" id="715" weight="7" />
+      <edge source="prioridad" target="desregulacion" id="716" weight="15" />
+      <edge source="prioridad" target="extremadura" id="717" weight="13" />
+      <edge source="prioridad" target="fin" id="718" weight="5" />
+      <edge source="prioridad" target="fustervox" id="719" weight="4" />
+      <edge source="prioridad" target="gente" id="720" weight="14" />
+      <edge source="prioridad" target="moreno" id="721" weight="14" />
+      <edge source="prioridad" target="pais" id="722" weight="6" />
+      <edge source="prioridad" target="primero" id="723" weight="16" />
+      <edge source="prioridad" target="publica" id="724" weight="10" />
+      <edge source="prioridad" target="quiere" id="725" weight="8" />
+      <edge source="prioridad" target="remigracion" id="726" weight="18" />
+      <edge source="prioridad" target="sociales" id="727" weight="17" />
+      <edge source="prioridad" target="vivienda" id="728" weight="22" />
+      <edge source="acto" target="#prioridadnacional" id="729" weight="3" />
+      <edge source="acto" target="campana" id="730" weight="14" />
+      <edge source="acto" target="esperamos" id="731" weight="37" />
+      <edge source="acto" target="fuera" id="732" weight="8" />
+      <edge source="acto" target="gran" id="733" weight="49" />
+      <edge source="acto" target="manologavira" id="734" weight="21" />
+      <edge source="acto" target="mayor" id="735" weight="7" />
+      <edge source="acto" target="personas" id="736" weight="12" />
+      <edge source="acto" target="plaza" id="737" weight="48" />
+      <edge source="acto" target="politico" id="738" weight="6" />
+      <edge source="acto" target="presentacion" id="739" weight="6" />
+      <edge source="acto" target="publico" id="740" weight="73" />
+      <edge source="acto" target="vox" id="741" weight="10" />
+      <edge source="ceuta" target="calles" id="742" weight="8" />
+      <edge source="ceuta" target="congreso" id="743" weight="6" />
+      <edge source="ceuta" target="defender" id="744" weight="6" />
+      <edge source="ceuta" target="defensa" id="745" weight="7" />
+      <edge source="ceuta" target="defiende" id="746" weight="11" />
+      <edge source="ceuta" target="europa" id="747" weight="6" />
+      <edge source="ceuta" target="futuro" id="748" weight="5" />
+      <edge source="ceuta" target="invasion" id="749" weight="31" />
+      <edge source="ceuta" target="junto" id="750" weight="9" />
+      <edge source="ceuta" target="madrid" id="751" weight="6" />
+      <edge source="ceuta" target="marruecos" id="752" weight="24" />
+      <edge source="ceuta" target="traicion" id="753" weight="10" />
+      <edge source="ceuta" target="traidor" id="754" weight="5" />
+      <edge source="ceuta" target="vida" id="755" weight="4" />
+      <edge source="plaza" target="#prioridadnacional" id="756" weight="5" />
+      <edge source="plaza" target="#sentidocomun" id="757" weight="14" />
+      <edge source="plaza" target="cambio" id="758" weight="12" />
+      <edge source="plaza" target="campana" id="759" weight="12" />
+      <edge source="plaza" target="declaracion" id="760" weight="37" />
+      <edge source="plaza" target="esperamos" id="761" weight="43" />
+      <edge source="plaza" target="gran" id="762" weight="22" />
+      <edge source="plaza" target="manologavira" id="763" weight="27" />
+      <edge source="plaza" target="mayor" id="764" weight="20" />
+      <edge source="plaza" target="medios" id="765" weight="38" />
+      <edge source="plaza" target="ola" id="766" weight="6" />
+      <edge source="plaza" target="publico" id="767" weight="37" />
+      <edge source="medios" target="declaracion" id="768" weight="98" />
+      <edge source="medios" target="declaraciones" id="769" weight="5" />
+      <edge source="medios" target="esperamos" id="770" weight="19" />
+      <edge source="medios" target="garriga" id="771" weight="18" />
+      <edge source="medios" target="ignacio" id="772" weight="18" />
+      <edge source="medios" target="mayor" id="773" weight="11" />
+      <edge source="ignacio" target="acuerdo" id="774" weight="11" />
+      <edge source="ignacio" target="declaracion" id="775" weight="17" />
+      <edge source="ignacio" target="encuentro" id="776" weight="12" />
+      <edge source="ignacio" target="extremadura" id="777" weight="13" />
+      <edge source="ignacio" target="frente" id="778" weight="7" />
+      <edge source="ignacio" target="garriga" id="779" weight="121" />
+      <edge source="ignacio" target="politica" id="780" weight="11" />
+      <edge source="ignacio" target="politicas" id="781" weight="11" />
+      <edge source="ignacio" target="popular" id="782" weight="5" />
+      <edge source="ignacio" target="posible" id="783" weight="6" />
+      <edge source="ignacio" target="psoe" id="784" weight="19" />
+      <edge source="ignacio" target="regional" id="785" weight="9" />
+      <edge source="garriga" target="acuerdo" id="786" weight="11" />
+      <edge source="garriga" target="declaracion" id="787" weight="17" />
+      <edge source="garriga" target="defiende" id="788" weight="5" />
+      <edge source="garriga" target="extremadura" id="789" weight="13" />
+      <edge source="garriga" target="politica" id="790" weight="11" />
+      <edge source="garriga" target="politicas" id="791" weight="11" />
+      <edge source="garriga" target="posible" id="792" weight="6" />
+      <edge source="garriga" target="psoe" id="793" weight="19" />
+      <edge source="garriga" target="queremos" id="794" weight="5" />
+      <edge source="declaracion" target="esperamos" id="795" weight="18" />
+      <edge source="declaracion" target="jorge" id="796" weight="4" />
+      <edge source="declaracion" target="mayor" id="797" weight="10" />
+      <edge source="gran" target="apoyo" id="798" weight="7" />
+      <edge source="gran" target="campana" id="799" weight="11" />
+      <edge source="gran" target="esperanza" id="800" weight="5" />
+      <edge source="gran" target="publico" id="801" weight="34" />
+      <edge source="gente" target="carloshquero" id="802" weight="4" />
+      <edge source="gente" target="habla" id="803" weight="7" />
+      <edge source="gente" target="jovenes" id="804" weight="4" />
+      <edge source="gente" target="menos" id="805" weight="5" />
+      <edge source="gente" target="partido" id="806" weight="8" />
+      <edge source="gente" target="problema" id="807" weight="5" />
+      <edge source="gente" target="problemas" id="808" weight="13" />
+      <edge source="andalucia" target="#prioridadnacional" id="809" weight="6" />
+      <edge source="andalucia" target="andaluces" id="810" weight="16" />
+      <edge source="andalucia" target="apoyo" id="811" weight="7" />
+      <edge source="andalucia" target="aragon" id="812" weight="6" />
+      <edge source="andalucia" target="bonilla" id="813" weight="13" />
+      <edge source="andalucia" target="cambio" id="814" weight="14" />
+      <edge source="andalucia" target="cosas" id="815" weight="8" />
+      <edge source="andalucia" target="moreno" id="816" weight="20" />
+      <edge source="andalucia" target="popular" id="817" weight="4" />
+      <edge source="andalucia" target="problemas" id="818" weight="6" />
+      <edge source="andalucia" target="provincia" id="819" weight="6" />
+      <edge source="publico" target="dinero" id="820" weight="7" />
+      <edge source="publico" target="entrevista" id="821" weight="6" />
+      <edge source="publico" target="esperamos" id="822" weight="33" />
+      <edge source="publico" target="manologavira" id="823" weight="17" />
+      <edge source="publico" target="mayor" id="824" weight="6" />
+      <edge source="#sentidocomun" target="#prioridadnacional" id="825" weight="7" />
+      <edge source="#sentidocomun" target="castilla" id="826" weight="9" />
+      <edge source="#sentidocomun" target="espanol" id="827" weight="7" />
+      <edge source="#sentidocomun" target="leon" id="828" weight="13" />
+      <edge source="#sentidocomun" target="nadie" id="829" weight="3" />
+      <edge source="#sentidocomun" target="ola" id="830" weight="10" />
+      <edge source="#sentidocomun" target="problemas" id="831" weight="8" />
+      <edge source="#sentidocomun" target="provincia" id="832" weight="17" />
+      <edge source="#sentidocomun" target="pueblo" id="833" weight="12" />
+      <edge source="#sentidocomun" target="vox" id="834" weight="11" />
+      <edge source="psoe" target="corrupcion" id="835" weight="12" />
+      <edge source="psoe" target="figaredojosem" id="836" weight="6" />
+      <edge source="psoe" target="mayoria" id="837" weight="5" />
+      <edge source="psoe" target="menos" id="838" weight="6" />
+      <edge source="psoe" target="partido" id="839" weight="12" />
+      <edge source="psoe" target="politicas" id="840" weight="17" />
+      <edge source="psoe" target="popular" id="841" weight="8" />
+      <edge source="elecciones" target="claro" id="842" weight="5" />
+      <edge source="elecciones" target="cosas" id="843" weight="8" />
+      <edge source="elecciones" target="despues" id="844" weight="6" />
+      <edge source="elecciones" target="electoral" id="845" weight="14" />
+      <edge source="elecciones" target="feijoo" id="846" weight="6" />
+      <edge source="elecciones" target="ley" id="847" weight="5" />
+      <edge source="elecciones" target="senor" id="848" weight="10" />
+      <edge source="vivienda" target="ayudas" id="849" weight="24" />
+      <edge source="vivienda" target="carloshquero" id="850" weight="13" />
+      <edge source="vivienda" target="impuestos" id="851" weight="10" />
+      <edge source="vivienda" target="jovenes" id="852" weight="7" />
+      <edge source="vivienda" target="migratoria" id="853" weight="10" />
+      <edge source="vivienda" target="millones" id="854" weight="12" />
+      <edge source="vivienda" target="personas" id="855" weight="17" />
+      <edge source="vivienda" target="problema" id="856" weight="12" />
+      <edge source="vivienda" target="publica" id="857" weight="13" />
+      <edge source="vivienda" target="sanidad" id="858" weight="11" />
+      <edge source="vivienda" target="sociales" id="859" weight="20" />
+      <edge source="vivienda" target="verdad" id="860" weight="5" />
+      <edge source="libertad" target="completo" id="861" weight="9" />
+      <edge source="libertad" target="defender" id="862" weight="6" />
+      <edge source="libertad" target="defensa" id="863" weight="12" />
+      <edge source="libertad" target="encuentro" id="864" weight="19" />
+      <edge source="libertad" target="fin" id="865" weight="5" />
+      <edge source="libertad" target="frente" id="866" weight="8" />
+      <edge source="libertad" target="fustervox" id="867" weight="5" />
+      <edge source="libertad" target="jorge" id="868" weight="6" />
+      <edge source="libertad" target="junto" id="869" weight="8" />
+      <edge source="libertad" target="madrid" id="870" weight="7" />
+      <edge source="libertad" target="maria" id="871" weight="12" />
+      <edge source="libertad" target="menos" id="872" weight="7" />
+      <edge source="libertad" target="pais" id="873" weight="7" />
+      <edge source="libertad" target="prosperidad" id="874" weight="17" />
+      <edge source="libertad" target="regional" id="875" weight="15" />
+      <edge source="libertad" target="santiago" id="876" weight="11" />
+      <edge source="libertad" target="seguridad" id="877" weight="18" />
+      <edge source="libertad" target="soberania" id="878" weight="19" />
+      <edge source="personas" target="claro" id="879" weight="5" />
+      <edge source="personas" target="fuera" id="880" weight="7" />
+      <edge source="personas" target="millones" id="881" weight="13" />
+      <edge source="personas" target="ola" id="882" weight="7" />
+      <edge source="personas" target="problema" id="883" weight="5" />
+      <edge source="presidente" target="encuentro" id="884" weight="17" />
+      <edge source="presidente" target="participara" id="885" weight="5" />
+      <edge source="presidente" target="ponente" id="886" weight="7" />
+      <edge source="presidente" target="prosperidad" id="887" weight="5" />
+      <edge source="presidente" target="regional" id="888" weight="12" />
+      <edge source="presidente" target="santiago" id="889" weight="12" />
+      <edge source="encuentro" target="completo" id="890" weight="7" />
+      <edge source="encuentro" target="congreso" id="891" weight="4" />
+      <edge source="encuentro" target="defender" id="892" weight="4" />
+      <edge source="encuentro" target="defensa" id="893" weight="10" />
+      <edge source="encuentro" target="frente" id="894" weight="6" />
+      <edge source="encuentro" target="maria" id="895" weight="7" />
+      <edge source="encuentro" target="participara" id="896" weight="31" />
+      <edge source="encuentro" target="patriotas" id="897" weight="7" />
+      <edge source="encuentro" target="ponente" id="898" weight="36" />
+      <edge source="encuentro" target="prosperidad" id="899" weight="5" />
+      <edge source="encuentro" target="regional" id="900" weight="63" />
+      <edge source="encuentro" target="santiago" id="901" weight="20" />
+      <edge source="encuentro" target="soberania" id="902" weight="9" />
+      <edge source="encuentro" target="vox" id="903" weight="13" />
+      <edge source="partido" target="nadie" id="904" weight="4" />
+      <edge source="partido" target="participara" id="905" weight="5" />
+      <edge source="partido" target="ponente" id="906" weight="6" />
+      <edge source="partido" target="popular" id="907" weight="31" />
+      <edge source="partido" target="responde" id="908" weight="7" />
+      <edge source="partido" target="unico" id="909" weight="6" />
+      <edge source="tenemos" target="pais" id="910" weight="6" />
+      <edge source="vox" target="congreso" id="911" weight="5" />
+      <edge source="vox" target="jorge" id="912" weight="5" />
+      <edge source="vox" target="movilizacion" id="913" weight="10" />
+      <edge source="vox" target="participara" id="914" weight="3" />
+      <edge source="vox" target="ponente" id="915" weight="4" />
+      <edge source="vox" target="provincia" id="916" weight="10" />
+      <edge source="vox" target="santiago" id="917" weight="8" />
+      <edge source="inmigracion" target="ayudas" id="918" weight="10" />
+      <edge source="inmigracion" target="carloshquero" id="919" weight="4" />
+      <edge source="inmigracion" target="completo" id="920" weight="7" />
+      <edge source="inmigracion" target="consecuencias" id="921" weight="10" />
+      <edge source="inmigracion" target="estado" id="922" weight="22" />
+      <edge source="inmigracion" target="masiva" id="923" weight="26" />
+      <edge source="inmigracion" target="presentacion" id="924" weight="23" />
+      <edge source="inmigracion" target="sanidad" id="925" weight="7" />
+      <edge source="invasion" target="calles" id="926" weight="6" />
+      <edge source="invasion" target="consecuencias" id="927" weight="7" />
+      <edge source="invasion" target="marruecos" id="928" weight="10" />
+      <edge source="invasion" target="mercosur" id="929" weight="7" />
+      <edge source="invasion" target="migratoria" id="930" weight="34" />
+      <edge source="invasion" target="publicos" id="931" weight="5" />
+      <edge source="invasion" target="sanidad" id="932" weight="8" />
+      <edge source="invasion" target="servicios" id="933" weight="6" />
+      <edge source="politicas" target="politico" id="934" weight="5" />
+      <edge source="politicas" target="unico" id="935" weight="5" />
+      <edge source="moreno" target="andaluces" id="936" weight="13" />
+      <edge source="moreno" target="bonilla" id="937" weight="50" />
+      <edge source="moreno" target="cosas" id="938" weight="7" />
+      <edge source="moreno" target="dice" id="939" weight="5" />
+      <edge source="moreno" target="figaredojosem" id="940" weight="5" />
+      <edge source="moreno" target="mayoria" id="941" weight="7" />
+      <edge source="moreno" target="mercosur" id="942" weight="10" />
+      <edge source="moreno" target="responde" id="943" weight="8" />
+      <edge source="moreno" target="senor" id="944" weight="18" />
+      <edge source="campana" target="ahora" id="945" weight="4" />
+      <edge source="campana" target="fin" id="946" weight="7" />
+      <edge source="campana" target="madrid" id="947" weight="6" />
+      <edge source="mafia" target="criminal" id="948" weight="7" />
+      <edge source="mafia" target="poder" id="949" weight="12" />
+      <edge source="poder" target="cualquier" id="950" weight="7" />
+      <edge source="regional" target="completo" id="951" weight="7" />
+      <edge source="regional" target="defensa" id="952" weight="7" />
+      <edge source="regional" target="participara" id="953" weight="31" />
+      <edge source="regional" target="patriotas" id="954" weight="6" />
+      <edge source="regional" target="ponente" id="955" weight="36" />
+      <edge source="regional" target="santiago" id="956" weight="18" />
+      <edge source="regional" target="soberania" id="957" weight="8" />
+      <edge source="marruecos" target="debe" id="958" weight="8" />
+      <edge source="esperamos" target="manologavira" id="959" weight="14" />
+      <edge source="esperamos" target="mayor" id="960" weight="9" />
+      <edge source="estado" target="politicos" id="961" weight="6" />
+      <edge source="estado" target="presentacion" id="962" weight="20" />
+      <edge source="estado" target="seguridad" id="963" weight="8" />
+      <edge source="estado" target="vida" id="964" weight="4" />
+      <edge source="pueblo" target="espanol" id="965" weight="14" />
+      <edge source="masiva" target="consecuencias" id="966" weight="9" />
+      <edge source="masiva" target="movilizacion" id="967" weight="9" />
+      <edge source="seguridad" target="calles" id="968" weight="12" />
+      <edge source="seguridad" target="mujeres" id="969" weight="9" />
+      <edge source="seguridad" target="prosperidad" id="970" weight="8" />
+      <edge source="decir" target="feijoo" id="971" weight="6" />
+      <edge source="decir" target="politicos" id="972" weight="5" />
+      <edge source="decir" target="responde" id="973" weight="7" />
+      <edge source="decir" target="verdad" id="974" weight="5" />
+      <edge source="queremos" target="calles" id="975" weight="5" />
+      <edge source="queremos" target="claro" id="976" weight="5" />
+      <edge source="leon" target="castilla" id="977" weight="42" />
+      <edge source="leon" target="electoral" id="978" weight="8" />
+      <edge source="ayudas" target="falta" id="979" weight="8" />
+      <edge source="ayudas" target="habla" id="980" weight="6" />
+      <edge source="ayudas" target="nadie" id="981" weight="3" />
+      <edge source="ayudas" target="pais" id="982" weight="7" />
+      <edge source="ayudas" target="publica" id="983" weight="11" />
+      <edge source="ayudas" target="remigracion" id="984" weight="11" />
+      <edge source="ayudas" target="sociales" id="985" weight="35" />
+      <edge source="corrupcion" target="politica" id="986" weight="7" />
+      <edge source="extremadura" target="acuerdo" id="987" weight="23" />
+      <edge source="extremadura" target="aragon" id="988" weight="23" />
+      <edge source="impuestos" target="dinero" id="989" weight="9" />
+      <edge source="impuestos" target="menos" id="990" weight="9" />
+      <edge source="impuestos" target="nunca" id="991" weight="5" />
+      <edge source="impuestos" target="publicos" id="992" weight="12" />
+      <edge source="impuestos" target="servicios" id="993" weight="12" />
+      <edge source="provincia" target="#prioridadnacional" id="994" weight="7" />
+      <edge source="provincia" target="movilizacion" id="995" weight="8" />
+      <edge source="apoyo" target="fin" id="996" weight="4" />
+      <edge source="politica" target="patriotas" id="997" weight="6" />
+      <edge source="senor" target="bonilla" id="998" weight="8" />
+      <edge source="senor" target="cosas" id="999" weight="6" />
+      <edge source="senor" target="dice" id="1000" weight="5" />
+      <edge source="senor" target="feijoo" id="1001" weight="18" />
+      <edge source="bonilla" target="andaluces" id="1002" weight="8" />
+      <edge source="bonilla" target="dice" id="1003" weight="4" />
+      <edge source="bonilla" target="figaredojosem" id="1004" weight="5" />
+      <edge source="bonilla" target="mayoria" id="1005" weight="5" />
+      <edge source="bonilla" target="mercosur" id="1006" weight="8" />
+      <edge source="bonilla" target="responde" id="1007" weight="6" />
+      <edge source="criminal" target="fin" id="1008" weight="5" />
+      <edge source="electoral" target="castilla" id="1009" weight="7" />
+      <edge source="electoral" target="ley" id="1010" weight="9" />
+      <edge source="acuerdo" target="aragon" id="1011" weight="7" />
+      <edge source="acuerdo" target="figaredojosem" id="1012" weight="4" />
+      <edge source="acuerdo" target="mayoria" id="1013" weight="4" />
+      <edge source="cosas" target="entrevista" id="1014" weight="4" />
+      <edge source="cosas" target="verdad" id="1015" weight="4" />
+      <edge source="denuncia" target="tiempo" id="1016" weight="3" />
+      <edge source="denuncia" target="violencia" id="1017" weight="6" />
+      <edge source="europa" target="futuro" id="1018" weight="9" />
+      <edge source="europa" target="jorge" id="1019" weight="6" />
+      <edge source="europa" target="madrid" id="1020" weight="8" />
+      <edge source="europa" target="patriotas" id="1021" weight="10" />
+      <edge source="mujeres" target="hecho" id="1022" weight="6" />
+      <edge source="calles" target="violencia" id="1023" weight="6" />
+      <edge source="castilla" target="aragon" id="1024" weight="6" />
+      <edge source="politicos" target="maria" id="1025" weight="5" />
+      <edge source="sociales" target="falta" id="1026" weight="8" />
+      <edge source="sociales" target="remigracion" id="1027" weight="10" />
+      <edge source="declaraciones" target="mercosur" id="1028" weight="5" />
+      <edge source="jorge" target="madrid" id="1029" weight="6" />
+      <edge source="nunca" target="ahora" id="1030" weight="6" />
+      <edge source="campo" target="mercosur" id="1031" weight="11" />
+      <edge source="junto" target="defensa" id="1032" weight="6" />
+      <edge source="junto" target="soberania" id="1033" weight="7" />
+      <edge source="politico" target="fustervox" id="1034" weight="4" />
+      <edge source="fustervox" target="andaluces" id="1035" weight="3" />
+      <edge source="futuro" target="jovenes" id="1036" weight="4" />
+      <edge source="futuro" target="maria" id="1037" weight="4" />
+      <edge source="futuro" target="patriotas" id="1038" weight="6" />
+      <edge source="falta" target="remigracion" id="1039" weight="6" />
+      <edge source="ponente" target="congreso" id="1040" weight="3" />
+      <edge source="ponente" target="participara" id="1041" weight="31" />
+      <edge source="sanidad" target="publica" id="1042" weight="9" />
+      <edge source="figaredojosem" target="carloshquero" id="1043" weight="6" />
+      <edge source="defensa" target="soberania" id="1044" weight="10" />
+      <edge source="desregulacion" target="remigracion" id="1045" weight="13" />
+      <edge source="publicos" target="servicios" id="1046" weight="25" />
+      <edge source="aragon" target="fin" id="1047" weight="4" />
+      <edge source="completo" target="maria" id="1048" weight="5" />
+      <edge source="completo" target="soberania" id="1049" weight="5" />
+      <edge source="defender" target="tiempo" id="1050" weight="3" />
+    </edges>
+  </graph>
+</gexf>

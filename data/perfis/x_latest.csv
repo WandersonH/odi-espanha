@@ -1,3 +1,7 @@
 ator_id;ator_nome;rede;perfil;url;nome_exibido;seguidores;posts_total;verificado;captured_at;fonte
-disenso;Fundación Disenso;x;FDisenso;https://x.com/FDisenso;Fundación Disenso;30515;6846;;2026-11-15;campo author do post (Apify · xquik/x-tweet-scraper)
+abascal;Santiago Abascal;x;Santi_ABASCAL;https://x.com/Santi_ABASCAL;Santiago Abascal 🇪🇸;1018767;50476;;2026-11-15;campo author do post (Apify · xquik/x-tweet-scraper)
 cader;Eduardo Cader;x;ecader;https://x.com/ecader;Eduardo Cader;11041;17841;;2026-11-15;campo author do post (Apify · xquik/x-tweet-scraper)
+disenso;Fundación Disenso;x;FDisenso;https://x.com/FDisenso;Fundación Disenso;30515;6846;;2026-11-15;campo author do post (Apify · xquik/x-tweet-scraper)
+foro-madrid;Foro Madrid;x;Foro_MAD;https://x.com/Foro_MAD;Foro Madrid;33300;2963;;2026-11-15;campo author do post (Apify · xquik/x-tweet-scraper)
+martin-frias;Jorge Martín Frías;x;jm_frias;https://x.com/jm_frias;Jorge Martín Frías;8118;19881;;2026-11-15;campo author do post (Apify · xquik/x-tweet-scraper)
+vox;Vox;x;vox_es;https://x.com/vox_es;VOX 🇪🇸;678700;108587;;2026-11-15;campo author do post (Apify · xquik/x-tweet-scraper)

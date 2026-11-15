@@ -102,10 +102,16 @@ def depois(root: Path, man: dict, conf: list, agora: str) -> None:
     d = root / "data/perfis"
     d.mkdir(parents=True, exist_ok=True)
     for nome in (f"x_{agora[:10]}.csv", "x_latest.csv"):
+        # Soma ao que já existe: uma leitura só de alguns perfis (--perfis) não pode apagar o número dos outros.
+        antes = {}
+        if (d / nome).exists():
+            with open(d / nome, encoding="utf-8", newline="") as f:
+                antes = {r["perfil"].lower(): r for r in csv.DictReader(f, delimiter=";")}
+        antes.update({r["perfil"].lower(): r for r in linhas})
         with open(d / nome, "w", encoding="utf-8", newline="") as f:
-            w = csv.DictWriter(f, comum.PCOLS, delimiter=";", lineterminator="\n")
+            w = csv.DictWriter(f, comum.PCOLS, delimiter=";", lineterminator="\n", extrasaction="ignore")
             w.writeheader()
-            w.writerows(linhas)
+            w.writerows(sorted(antes.values(), key=lambda r: (r["ator_id"], r["perfil"].lower())))
 
 
 def main(argv=None, executar=None, root=None, hoje=None) -> int:

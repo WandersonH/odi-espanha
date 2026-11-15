@@ -76,3 +76,13 @@ class TestTrendsConfig(unittest.TestCase):
             self.assertLessEqual(len(g["termos"]), 5, g["nome"])                      # o Trends compara no máximo 5 termos
         self.assertTrue(set(c["relacionados"]["grupos"]) <= {g["nome"] for g in c["grupos"]})
         self.assertNotIn("BR", (RAIZ / "scripts/build_trends_caderno.py").read_text(encoding="utf-8").replace("BRT", ""))
+
+
+class TestRedeCoocorrencia(unittest.TestCase):
+    def test_montar_e_deterministico_e_marca_ator_dominante(self):
+        import build_rede_coocorrencia as br
+        pubs = [("vox", {"espana", "sanchez", "#x"})] * 9 + [("disenso", {"espana", "libertad"})] * 9 + [("disenso", {"libertad", "sanchez"})] * 4
+        g1, g2 = br.montar(pubs, ["vox", "disenso"], min_pubs=8, min_peso=3), br.montar(pubs, ["vox", "disenso"], min_pubs=8, min_peso=3)
+        self.assertEqual(sorted(g1.edges(data=True)), sorted(g2.edges(data=True)))
+        self.assertEqual((g1.nodes["sanchez"]["dominante"], g1.nodes["libertad"]["dominante"], g1.nodes["espana"]["pubs"]), ("vox", "disenso", 18))
+        self.assertEqual(g1["espana"]["sanchez"]["weight"], 9)

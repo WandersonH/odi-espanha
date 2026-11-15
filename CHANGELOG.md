@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## E1.28 — 15/11/2026 · Rede de coocorrência; gráfico mensal do Panorama e seguidores do X corrigidos
+
+**Correções de erros meus.**
+
+- **Gráfico "Publicações por mês e por rede" (Panorama) desmontado** desde a E1.10: a barrinha nova das telas usava o mesmo nome de estilo (`esp-barra`) do gráfico antigo e o desfigurou (rótulos riscados, barra uma linha abaixo do mês). A barrinha nova passou a se chamar `esp-medidor`.
+- **Seguidores do X apagados para 4 perfis** (Vox, Abascal, Foro Madrid, Martín Frías) desde o run 43755154891: a carga só de `FDisenso` e `ecader` regravou `data/perfis/x_latest.csv` com dois perfis. `collect_x_posts.depois` agora soma ao arquivo existente; os quatro números foram restaurados da versão do commit 12c72db (leitura de 15/11/2026, run 43740489231). Teste novo cobre o caso.
+- **Série mensal de comentários:** barras relativas ao maior ator escondiam os menores; agora cada ator tem a própria escala, e mês com zero não mostra traço.
+
+**Novo: rede de coocorrência** (`scripts/build_rede_coocorrencia.py`), método do ODI Atlas (`build_rede.py`) para seis atores: nó = palavra ou #tag em 8+ publicações (até 150), aresta = mesma publicação (peso mínimo 3, até 8 por nó), Louvain e ForceAtlas2 com semente fixa. Saídas por rede: `rede.json`, `rede.gexf` (Gephi), `rede_nos.csv`, `rede_arestas.csv`, `rede_publicacoes_termos.csv`. Na página, caderno "O que dizem": desenho com cor por comunidade, clique para isolar um termo, tabela de comunidades e downloads. Diferença do original: a opção `distributed_action` (o "dissuade hubs" do Gephi) foi desligada, porque empurrava os termos mais frequentes para os cantos. A rede passou a rodar nos dois workflows (networkx 3.6.1, mesma versão do ODI Atlas).
+
+**O que foi realmente executado.** `python scripts/build_rede_coocorrencia.py` no acervo local: Instagram 150 nós, 1.051 arestas, 6 comunidades, modularidade 0,244; X 150, 1.070, 4, 0,247; Facebook 150, 970, 6, 0,353; YouTube 150, 830, 6, 0,379. Página aberta em navegador sem interface: gráfico mensal correto, seguidores do X com os seis perfis, rede desenhada nas quatro redes, sem erro de console. `python -m unittest discover -s tests` → 64 testes, OK.
+
 ## E1.27 — 15/11/2026 · Correção: teste do Telegram dependia da configuração real
 
 **O que aconteceu.** O commit d1a42c7 (E1.26) foi enviado com um teste falhando: `test_telegram` copiava `data/config/telegram.json` do projeto e quebrou quando entraram dois canais. O run 43766888293 parou no passo de testes e o Telegram não foi lido. A entrada E1.26 diz "62 testes, OK" e isso estava errado: eram 61 passando e 1 falhando; a verificação do comando não olhava o código de saída.

@@ -30,7 +30,7 @@
 .esp-listas .card,.esp-atores .card{margin-top:0}
 h2.tk-h2{margin-top:0}.card+.card,.card+.esp-atores,.esp-atores+.card{margin-top:17px}.esp-nota{font-size:11.5px;color:#6b7a8c;margin:12px 0 0;line-height:1.55}
 .esp-sites .card,.esp-listas .card,.esp-atores .card{margin-top:0!important}
-.esp-barra{display:block;height:9px;background:#eef1f3;min-width:60px}.esp-barra i{display:block;height:9px}
+.esp-medidor{display:block;height:9px;background:#eef1f3;min-width:60px}.esp-medidor i{display:block;height:9px}
 .esp-cloud{line-height:1.45;padding:6px 0}.esp-cloud .yt-word{display:inline-block;margin:1px 8px 1px 0;font-family:Georgia,'Times New Roman',serif;color:var(--c)}
 a.esp-item{text-decoration:none;margin-top:10px}.esp-item small{font:10.5px/1.5 monospace;color:#6b7a8c}
 .esp-chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0;align-items:center;font-size:12px;color:#4a5b71}
@@ -332,7 +332,7 @@ const COR = ["#165ebd", "#b4472b", "#2f7d5b", "#7a4fb0", "#a8741a", "#3d6f8e"];
 const DZ = {rede: "youtube", tema: "", voto: false, adv: false, br: false, cache: {}};
 const conteudo = async r => DZ.cache[r] !== undefined ? DZ.cache[r] : (DZ.cache[r] = await json(`data/${r}/conteudo.json`));
 const pct = (a, b) => b ? (100 * a / b).toLocaleString("pt-BR", {maximumFractionDigits: 1}) + "%" : "—";
-const barra = (v, max, cor) => `<span class="esp-barra"><i style="width:${max ? Math.max(1, Math.round(100 * v / max)) : 0}%;background:${cor || "#165ebd"}"></i></span>`;
+const barra = (v, max, cor) => `<span class="esp-medidor"><i style="width:${max && v ? Math.max(1, Math.round(100 * v / max)) : 0}%;background:${cor || "#165ebd"}"></i></span>`;
 const chip = (rot, attrs, on) => `<button class="yt-chip" ${attrs} aria-pressed="${on ? "true" : "false"}">${rot}</button>`;
 
 async function dizem(rede) {
@@ -402,10 +402,36 @@ async function dizem(rede) {
     <div class="sectionlabel"><h2>${DZ.br ? "Publicações que citam o Brasil" : "Publicações de maior audiência"}</h2><p>${DZ.br ? "até 40 por ator, da mais recente para a mais antiga" : "5 por ator, pelo filtro escolhido"}</p></div>
     <div class="esp-duas">${ids.map(lista).join("")}</div>
     <div class="card"><div class="eyebrow">Análise de conteúdo · Bardin + CHD de Reinert</div><div class="esp-vazio">⛔ Ainda não calculado neste Atlas. Falta o livro de códigos de estratégias populistas em espanhol e a classificação hierárquica descendente (CHD) sobre o corpus. O corpus para IRaMuTeQ já é exportado no caderno "Marcações, hashtags e exportações".</div></div>
-    <div class="card"><div class="eyebrow">Análise de redes · coocorrência e menções</div><div class="esp-vazio">⛔ A rede de coocorrência de palavras ainda não foi gerada. A rede de menções (quem cada perfil marca) está no caderno "Marcações, hashtags e exportações", com os arquivos para Gephi e NodeXL.</div></div>
+    <div class="card" id="dzRede"><div class="eyebrow">Análise de redes · coocorrência</div><div class="esp-vazio">Carregando a rede…</div></div>
     <div class="card"><div class="eyebrow">Método e limites</div><p class="esp-nota" style="margin-top:0">${esc(D.metodo || "")}</p><p class="esp-nota"><b>Estado do dicionário:</b> ${esc((D.dicionario || {}).estado || "—")}</p><p class="esp-nota">Fonte: ${esc(D.fonte || "")}.</p></div>`;
+  redeCoocorrencia(DZ.rede);
   c.querySelectorAll("#dzChips button").forEach(b => b.onclick = () => { DZ.tema = b.dataset.t; dizem(); });
   c.querySelectorAll("button[data-f]").forEach(b => b.onclick = () => { DZ[b.dataset.f] = !DZ[b.dataset.f]; dizem(); });
+}
+
+async function redeCoocorrencia(rede) {
+  const el = $("dzRede"); if (!el) return;
+  const G = await json(`data/${rede}/rede.json`);
+  if (rede !== DZ.rede || !$("dzRede")) return;
+  if (!G || !(G.nos || []).length) { el.innerHTML = `<div class="eyebrow">Análise de redes · coocorrência</div><div class="esp-vazio">⛔ Rede de coocorrência de ${REDE[rede]} ainda não gerada (data/${rede}/rede.json não existe).</div>`; return; }
+  const W = 980, H = 720, M = 30, P = Object.fromEntries(G.nos.map(x => [x.id, x])), mxv = Math.max(...G.nos.map(x => x.v)), mxp = Math.max(...G.arestas.map(a => a[2]));
+  const X = x => M + x / 1000 * (W - 2 * M), Y = y => M + y / 1000 * (H - 2 * M), r = x => 3 + 11 * Math.sqrt(x.v / mxv), CC = ["#165ebd", "#b4472b", "#2f7d5b", "#7a4fb0", "#a8741a", "#3d6f8e", "#c0457a", "#5c7a1f", "#8a5a44", "#2b8a8a"], corC = c => CC[c % CC.length];
+  const rot = new Set(), caixas = []; [...G.nos].sort((a, b) => b.v - a.v).forEach(x => { const fs = 9.5 + 3 * Math.sqrt(x.v / mxv), x0 = X(x.x) + r(x) + 2, y0 = Y(x.y) - fs * .8, w = x.id.length * fs * .55, h = fs * 1.1; if (rot.size < 60 && !caixas.some(c => x0 < c[0] + c[2] && c[0] < x0 + w && y0 < c[1] + c[3] && c[1] < y0 + h)) { rot.add(x.id); caixas.push([x0, y0, w, h]); } });
+  let svg = `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:${W}px;background:#fffdf8;border:1px solid #e3e6e8" role="img" aria-label="Rede de coocorrência de ${REDE[rede]}">`;
+  G.arestas.forEach(([a, b, p]) => { svg += `<line data-a="${esc(a)}" data-b="${esc(b)}" x1="${X(P[a].x).toFixed(1)}" y1="${Y(P[a].y).toFixed(1)}" x2="${X(P[b].x).toFixed(1)}" y2="${Y(P[b].y).toFixed(1)}" stroke="#9aa6b2" stroke-opacity="${(.12 + .5 * p / mxp).toFixed(2)}" stroke-width="${(.4 + 2.2 * p / mxp).toFixed(2)}"/>`; });
+  G.nos.forEach(x => { svg += `<g class="no" data-id="${esc(x.id)}" style="cursor:pointer"><circle cx="${X(x.x).toFixed(1)}" cy="${Y(x.y).toFixed(1)}" r="${r(x).toFixed(1)}" fill="${corC(x.c)}" fill-opacity=".8" stroke="#fff" stroke-width=".8"><title>${esc(x.id)} · ${n(x.v)} publicações · comunidade C${x.c + 1} · mais usado por ${esc((G.atores[x.d] || {}).nome || x.d)} · ${Object.entries(x.u).map(([a, q]) => esc((G.atores[a] || {}).nome || a) + " " + n(q)).join(", ")}</title></circle>${rot.has(x.id) ? `<text x="${(X(x.x) + r(x) + 2).toFixed(1)}" y="${(Y(x.y) + 3.5).toFixed(1)}" font-size="${(9.5 + 3 * Math.sqrt(x.v / mxv)).toFixed(1)}" fill="#172238" style="font-family:Georgia,serif;pointer-events:none;paint-order:stroke;stroke:#fffdf8;stroke-width:3px">${esc(x.id)}</text>` : ""}</g>`; });
+  svg += "</svg>";
+  const arq = ["rede.gexf", "rede_nos.csv", "rede_arestas.csv", "rede_publicacoes_termos.csv"];
+  el.innerHTML = `<div class="eyebrow">Análise de redes · coocorrência · ${REDE[rede]}</div><h2 class="tk-h2">Que palavras e #tags aparecem juntas</h2>
+    <div class="esp-chips">${G.comunidades.map(k => `<span><b style="color:${corC(k.id)}">●</b> C${k.id + 1}</span>`).join("")}<button class="yt-chip" id="dzRedeLimpa">mostrar tudo</button></div>
+    <div class="tk-tlwrap" style="margin-top:10px">${svg}</div>
+    <div class="kpigrid" style="margin-top:14px"><div class="kpi"><div class="klabel">Nós</div><div class="kval">${n(G.nos_total)}</div><div class="knote">palavras e #tags</div></div><div class="kpi"><div class="klabel">Arestas</div><div class="kval">${n(G.arestas_total)}</div><div class="knote">pares que aparecem juntos</div></div><div class="kpi"><div class="klabel">Comunidades</div><div class="kval">${n(G.comunidades.length)}</div><div class="knote">Louvain</div></div><div class="kpi"><div class="klabel">Modularidade</div><div class="kval">${G.modularidade != null ? G.modularidade.toLocaleString("pt-BR") : "—"}</div><div class="knote">quanto as comunidades se separam</div></div></div>
+    <div class="tablewrap" style="margin-top:14px"><table class="datatable"><thead><tr><th>Comunidade</th><th>Nós</th><th>Ator mais presente</th><th>Termos principais</th></tr></thead><tbody>${G.comunidades.map(k => `<tr><td><b style="color:${corC(k.id)}">●</b> C${k.id + 1}</td><td>${n(k.nos)}</td><td>${esc((G.atores[k.ator_mais_presente] || {}).nome || "")}</td><td>${k.principais.map(esc).join(", ")}</td></tr>`).join("")}</tbody></table></div>
+    <p class="esp-nota">Cor = comunidade. Passe o cursor num termo para ver quem o usa; clique para ver só as ligações dele. Publicações por ator na rede: ${Object.entries(G.publicacoes).map(([a, q]) => esc((G.atores[a] || {}).nome || a) + " " + n(q)).join(" · ")}. ${esc(G.metodo)}</p>
+    <div class="esp-baixar">${arq.map(f => `<a href="data/${rede}/${f}" download>↓ ${f}${f.endsWith(".gexf") ? " (Gephi)" : ""}</a>`).join("")}</div>
+    <p class="esp-nota">A rede de menções (quem cada perfil marca) está no caderno "Marcações, hashtags e exportações".</p>`;
+  const sv = el.querySelector("svg"), foco = id => { const viz = new Set([id]); sv.querySelectorAll("line").forEach(l => { const on = !id || l.dataset.a === id || l.dataset.b === id; l.style.display = on ? "" : "none"; if (on && id) { viz.add(l.dataset.a); viz.add(l.dataset.b); } }); sv.querySelectorAll("g.no").forEach(g => g.style.opacity = !id || viz.has(g.dataset.id) ? 1 : .12); };
+  sv.querySelectorAll("g.no").forEach(g => g.onclick = () => foco(g.dataset.id)); el.querySelector("#dzRedeLimpa").onclick = () => foco(null);
 }
 
 function seguidores() {
@@ -439,8 +465,8 @@ async function comentarios() {
       <div class="card"><div class="eyebrow">Universo × amostra, por ator</div><div class="tablewrap"><table class="datatable"><thead><tr><th>Ator</th><th>Vídeos</th><th>Com contador</th><th>Universo</th><th>Lidos</th><th>Respostas</th><th>Autores distintos</th><th>Comentários desativados</th><th>Cobertura</th></tr></thead><tbody>${A.map(o =>
         `<tr><td><b>${esc(o.nome)}</b></td><td>${n(o.videos)}</td><td>${n(o.videos_com_contador)}</td><td>${o.universo_comentarios != null ? n(o.universo_comentarios) : "⛔ não informado"}</td><td>${n(o.comentarios_lidos)}</td><td>${n(o.dos_quais_respostas)}</td><td>${n(o.autores_distintos)}</td><td>${n(o.videos_com_comentarios_desativados)} vídeos</td><td><span class="esp-sit ${/^completa/.test(o.cobertura) ? "ok" : "bloq"}">${esc(o.cobertura.split(":")[0])}</span></td></tr>`).join("")}</tbody></table></div>
         <p class="esp-nota">${esc(Y.nota || "")}</p></div>
-      <div class="card"><div class="eyebrow">Série mensal</div><h2 class="tk-h2">Quando os comentários foram escritos</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Mês</th>${A.map(o => `<th colspan="2">${esc(o.nome)}</th>`).join("")}</tr></thead><tbody>${meses.map(m => `<tr><td>${mesNome(m)}</td>${A.map((o, i) => { const q = (o.por_mes || {})[m] || 0; return `<td>${n(q)}</td><td style="width:${Math.round(60 / A.length)}%">${barra(q, mxM, COR[i % COR.length])}</td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
-        <p class="esp-nota">Data em que o comentário foi publicado (UTC), não a do vídeo. O último mês está incompleto.</p></div>
+      <div class="card"><div class="eyebrow">Série mensal</div><h2 class="tk-h2">Quando os comentários foram escritos</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Mês</th>${A.map(o => `<th colspan="2">${esc(o.nome)}</th>`).join("")}</tr></thead><tbody>${meses.map(m => `<tr><td>${mesNome(m)}</td>${A.map((o, i) => { const q = (o.por_mes || {})[m] || 0; return `<td>${n(q)}</td><td style="width:${Math.round(60 / A.length)}%">${barra(q, Math.max(1, ...Object.values(o.por_mes || {})), COR[i % COR.length])}</td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
+        <p class="esp-nota">Data em que o comentário foi publicado (UTC), não a do vídeo. Cada barra é relativa ao mês de maior volume do próprio ator (os volumes são muito diferentes entre atores). O último mês está incompleto.</p></div>
       <div class="card"><div class="eyebrow">Análises do modelo ODI Atlas</div><h2 class="tk-h2">O que ainda falta calcular sobre estes comentários</h2><div class="esp-vazio">⛔ Nenhuma destas análises foi rodada ainda; a leitura dos comentários terminou em ${dia(Y.gerado_em_utc)}.</div>
         <ul class="esp-prev"><li>Termos mais frequentes e aderência ao tema do vídeo</li><li>Livro de códigos de intolerância e incivilidade (Rossini 2022) e de estratégias populistas (Bardin), em espanhol</li><li>Sentimento, com modelo para espanhol</li><li>CHD de Reinert sobre amostra de comentários, com corpus para IRaMuTeQ</li><li>Rede de coocorrência de palavras e rede de conversação (Recuero), em GEXF para Gephi</li></ul></div>`;
   }

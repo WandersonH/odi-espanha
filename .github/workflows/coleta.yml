@@ -75,12 +75,14 @@ jobs:
       - name: Gravar a coleta antes das análises
         if: always() && steps.coletar.outcome != 'skipped'
         run: scripts/commit_push.sh "Coleta (run ${{ github.run_id }})"
+      - name: Biblioteca de redes (networkx, mesma versão do ODI Atlas)
+        run: pip install -q networkx==3.6.1 numpy==2.3.4 scipy
       - name: Agregados da página, corpus e rede de menções
         if: always() && (steps.coletar.outcome != 'skipped' || github.event_name != 'schedule')
         continue-on-error: true
         run: |
           rc=0
-          { python scripts/build_acervo.py && python scripts/build_o_que_dizem.py && python scripts/exportar_cita_brasil.py && python scripts/exportar_corpus.py && python scripts/build_rede_mencoes.py && python scripts/build_saude_coleta.py; } > b.txt 2>&1 || rc=$?
+          { python scripts/build_acervo.py && python scripts/build_o_que_dizem.py && python scripts/exportar_cita_brasil.py && python scripts/build_rede_coocorrencia.py && python scripts/exportar_corpus.py && python scripts/build_rede_mencoes.py && python scripts/build_saude_coleta.py; } > b.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=Análises::$(echo "$l" | cut -c1-400)"; done < b.txt
           rm -f b.txt
           exit $rc

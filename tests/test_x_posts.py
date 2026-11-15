@@ -180,3 +180,17 @@ class TestRecuperacao(unittest.TestCase):
             apify.api = original
         self.assertEqual((achou[0]["id"], achou[1], nada), ("bom", [{"shortCode": "A"}], None))   # mesmo pedido, limite diferente: reaproveita; reels: não há
         self.assertFalse(any("limits" in c or "users/me" in c for c in chamadas))             # nenhuma consulta de saldo
+
+
+class TestSeguidoresXSomam(unittest.TestCase):
+    def test_leitura_parcial_nao_apaga_os_outros_perfis(self):
+        import csv, tempfile
+        from pathlib import Path
+        import collect_x_posts as cx
+        root = Path(tempfile.mkdtemp())
+        conf = lambda p: [{"perfil": p, "ator_id": p, "ator_nome": p, "url": "u"}]  # noqa: E731
+        man = lambda p, s: {"ferramenta": "Apify · xquik/x-tweet-scraper", "perfis": [{"perfil": p, "universo": {"seguidores": s, "posts_total_plataforma": 1}}]}  # noqa: E731
+        cx.depois(root, man("a", 10), conf("a"), "2026-11-15T10:00:00Z")
+        cx.depois(root, man("b", 20), conf("b"), "2026-11-15T11:00:00Z")
+        linhas = list(csv.DictReader(open(root / "data/perfis/x_latest.csv", encoding="utf-8"), delimiter=";"))
+        self.assertEqual(sorted((r["perfil"], r["seguidores"]) for r in linhas), [("a", "10"), ("b", "20")])
