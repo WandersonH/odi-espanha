@@ -1,0 +1,63 @@
+{
+ "run_started_utc": "2026-11-15T20:11:03Z",
+ "rede": "facebook",
+ "ferramenta": "Apify · apify/facebook-posts-scraper",
+ "modo": "carga",
+ "conta": "APIFY_TOKEN_ESP",
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": "2027-01-30"
+ },
+ "desde_leitura": "2026-02-16",
+ "teto_autorizado_usd": 5.8,
+ "gasto_antes_usd": 4.489,
+ "teto_execucao_usd": 1.311,
+ "perfis": [
+  {
+   "ator_id": "disenso",
+   "ator_nome": "Fundación Disenso",
+   "perfil": "fundaciondisenso",
+   "pedido": 249,
+   "itens": 0,
+   "posts_do_perfil": 0,
+   "itens_de_outra_conta_ou_descartados": 0,
+   "lidos_no_periodo": 0,
+   "novos": 0,
+   "sem_data": 0,
+   "mais_antigo": null,
+   "mais_recente": null,
+   "bateu_no_limite_pedido": false,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "⛔ não lido",
+   "erro": "IncompleteRead",
+   "run": null,
+   "custo_usd": 0.0,
+   "eventos_cobrados": null
+  }
+ ],
+ "perfis_fora_da_coleta": [
+  {
+   "ator_id": "abascal",
+   "perfil": "SantiagoAbascalConde",
+   "motivo": "candidato a conferir"
+  },
+  {
+   "ator_id": "martin-frias",
+   "perfil": "",
+   "motivo": "não localizado"
+  },
+  {
+   "ator_id": "cader",
+   "perfil": "",
+   "motivo": "não localizado"
+  }
+ ],
+ "so_perfis": [
+  "fundaciondisenso"
+ ],
+ "bruto_no_privado": false,
+ "custo_usd": 0.0,
+ "posts_novos": 0,
+ "posts_no_acervo": 644,
+ "status": "⛔ nenhum perfil lido: IncompleteRead"
+}
