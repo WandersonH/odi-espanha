@@ -19,7 +19,7 @@ on:
         options: [todas, instagram, x, facebook, perfis]
         default: todas
       perfis:
-        description: "só estes perfis (separados por vírgula); vazio = todos. Com 'recuperar', reaproveita execução já paga cujo resultado não foi baixado"
+        description: "só estes perfis (separados por vírgula); vazio = todos. Com 'recuperar', só reaproveita execução já paga (do repositório privado ou da Apify); nunca roda de novo"
         type: string
         default: ""
       recuperar:

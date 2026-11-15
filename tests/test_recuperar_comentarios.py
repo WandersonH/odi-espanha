@@ -178,3 +178,22 @@ class TestAnunciosRecuperacao(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestGuardadaNoPrivado(unittest.TestCase):
+    def test_acha_a_execucao_do_perfil_que_ainda_nao_esta_em_manifesto(self):
+        priv = Path(tempfile.mkdtemp())
+        d = priv / "apify_execucoes/apify~facebook-posts-scraper"
+        d.mkdir(parents=True)
+        for rid, pagina in (("VELHA", "vox.espana"), ("NOVA", "fundaciondisenso"), ("OUTRA", "foromadridoficial")):
+            with gzip.open(d / f"{rid}.jsonl.gz", "wt", encoding="utf-8") as f:
+                f.write(json.dumps({"facebookUrl": f"https://www.facebook.com/{pagina}", "text": "t"}) + "\n")
+        ant = ambiente(ATLAS_INTERNO_DIR=str(priv))
+        try:
+            achada = comum.guardada_no_privado("apify~facebook-posts-scraper", "FundacionDisenso", {"VELHA"})
+            self.assertEqual((achada[0]["id"], len(achada[1])), ("NOVA", 1))
+            self.assertIsNone(comum.guardada_no_privado("apify~facebook-posts-scraper", "FundacionDisenso", {"VELHA", "NOVA"}))   # já registrada: não é reaproveitada duas vezes
+            self.assertIsNone(comum.guardada_no_privado("apify~facebook-posts-scraper", "perfil_que_nao_existe", set()))
+        finally:
+            restaurar(ant)
+        self.assertIsNone(comum.guardada_no_privado("apify~facebook-posts-scraper", "fundaciondisenso", set()))                # sem privado: nada

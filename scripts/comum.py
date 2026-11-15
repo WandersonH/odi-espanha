@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from apify import custo_run, erro_curto, execucao_anterior, run_actor  # noqa: E402
+from apify import api, custo_run, erro_curto, execucao_anterior, run_actor  # noqa: E402
 from net import now_utc  # noqa: E402
 
 REDES_APIFY = ("instagram", "x", "facebook")   # coletores pagos, com teto (comum.rodar)
@@ -159,6 +159,33 @@ def gravar_bruto(rede: str, itens: list, agora: str) -> bool:
     return True
 
 
+def guardada_no_privado(ator: str, perfil: str, ja_registradas: set, token: str = ""):
+    """Execução deste ator já guardada no repositório privado (apify_execucoes/, por recuperar_bruto.py), ainda não registrada
+    em manifesto, cujos itens são deste perfil. Devolve (execução, itens) ou None. Não inicia execução nenhuma."""
+    interno = os.environ.get("ATLAS_INTERNO_DIR") or os.environ.get("ODI_INTERNO_DIR")
+    base = Path(interno) / "apify_execucoes" / ator if interno else None
+    if not base or not base.exists() or not perfil:
+        return None
+    idx = json.loads((base.parent / "indice.json").read_text(encoding="utf-8")) if (base.parent / "indice.json").exists() else {}
+    alvo = perfil.lower()
+    for f in sorted(base.glob("*.jsonl.gz"), key=lambda f: (idx.get(f.name.split(".")[0]) or {}).get("iniciada_em") or "", reverse=True):
+        rid = f.name.split(".")[0]
+        if rid in ja_registradas:
+            continue
+        with gzip.open(f, "rt", encoding="utf-8") as h:
+            itens = [json.loads(ln) for ln in h if ln.strip()]
+        amostra = itens[:20]
+        if amostra and sum(alvo in json.dumps(x, ensure_ascii=False).lower() for x in amostra) * 2 >= len(amostra):
+            run = {"id": rid}
+            if token:
+                try:
+                    run = api("GET", f"/actor-runs/{rid}", token)["data"]
+                except Exception:  # noqa: BLE001 — sem os detalhes, o custo é estimado pelo nº de itens
+                    pass
+            return run, itens
+    return None
+
+
 def classificar(modo: str, erro, itens: int, pedido, lim_ator: int, mais_antigo, desde: str) -> str:
     """Cobertura do período pelo que a leitura devolveu. "Completa" só quando não há NENHUM sinal de corte:
     nem o limite pedido, nem o limite conhecido do ator, nem uma leitura grande que termina longe da data inicial
@@ -239,15 +266,28 @@ def rodar(rede: str, ad, argv=None, executar=None, root=None, hoje: dt.date | No
     if so_perfis:  # releitura dirigida: só estes perfis (os demais não são tocados)
         conf = [p for p in conf if p["perfil"].lower() in so_perfis]
         man["so_perfis"] = so_perfis
+    atual = [None]  # perfil da vez, para a recuperação saber de quem são os itens
     if not executar and "--recuperar" in argv:
         # Reaproveita execução JÁ PAGA das últimas 48 h cujo resultado não foi baixado; só roda de novo o que não existir.
         corte = (dt.datetime.now(UTC) - dt.timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%S")
         man["recuperacao"] = []
 
+        registradas = set()
+        for f in pasta.glob("manifesto-*.json"):
+            try:
+                registradas |= {r.get("run") for r in json.loads(f.read_text(encoding="utf-8")).get("perfis") or []}
+            except Exception:  # noqa: BLE001
+                pass
+
         def executar(pl, cap):
-            ant = execucao_anterior(token, cfg["ator"], pl, corte)
+            # 1º o que já está guardado no privado (recuperar_bruto.py); depois, execução com o mesmo pedido. NUNCA roda de novo:
+            # recuperar existe para não pagar duas vezes por uma execução cujo resultado se perdeu no caminho.
+            ant = guardada_no_privado(cfg["ator"], (atual[0] or {}).get("perfil", ""), registradas, token) or execucao_anterior(token, cfg["ator"], pl, corte)
             man["recuperacao"].append({"pedido": {k: v for k, v in pl.items() if k not in ("selectedFields",)}, "reaproveitou_execucao": (ant[0] or {}).get("id") if ant else None})
-            return ant or run_actor(token, cfg["ator"], pl, cap)
+            if not ant:
+                raise LookupError("nenhuma execução já feita encontrada para este perfil (nada foi rodado de novo)")
+            registradas.add((ant[0] or {}).get("id"))
+            return ant
     executar = executar or (lambda pl, cap: run_actor(token, cfg["ator"], pl, cap))
 
     item, inicio = float(cfg["preco_usd"]["item"]), float(cfg["preco_usd"].get("inicio") or 0)
@@ -255,6 +295,7 @@ def rodar(rede: str, ad, argv=None, executar=None, root=None, hoje: dt.date | No
     acervo = ler_acervo(pasta / "posts.csv.gz")
     sobra, brutos, novos_total, mudou = teto, [], 0, False
     for pf in conf:
+        atual[0] = pf
         n_cfg = int(M["posts"]) if modo == "teste" else cota(M["posts_por_perfil"], pf)
         n = min(n_cfg, int((sobra - inicio) / (item * 1.05))) if item > 0 else n_cfg
         reg = {"ator_id": pf["ator_id"], "ator_nome": pf["ator_nome"], "perfil": pf["perfil"], "pedido": max(n, 0)}

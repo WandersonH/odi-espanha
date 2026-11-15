@@ -137,9 +137,9 @@
     "facebook": {
      "perfil": "SantiagoAbascalConde",
      "url": "https://www.facebook.com/SantiagoAbascalConde",
-     "confirmado": false,
-     "fonte": "",
-     "nota": "candidato sem fonte conferida"
+     "confirmado": true,
+     "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'confirmado https://www.facebook.com/SantiagoAbascalConde'.",
+     "conferido_em": "2026-11-15"
     },
     "youtube": {
      "perfil": "",

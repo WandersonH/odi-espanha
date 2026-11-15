@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## E1.15 — 15/11/2026 · Cargas dos perfis confirmados; recuperação que nunca paga duas vezes
+
+**O que foi realmente executado (workflow `coleta.yml`, modo carga, só os perfis novos).**
+
+- Run 43755154891, X: `FDisenso` 498 publicações no período e `ecader` 17, as duas com cobertura completa (a leitura parou pela data inicial). Acervo do X: 3.887.
+- Run 43755386153, Instagram: `santi_abascal` 372 publicações no período, cobertura completa (1.703 itens lidos; o restante é de fora do período ou de outra conta). Acervo do Instagram: 2.515.
+- Run 43756590226, Facebook: `fundaciondisenso` ⛔ não lido (`IncompleteRead` na chamada à Apify). A execução pode ter sido feita e cobrada sem que o resultado chegasse; o custo dela não está no manifesto.
+
+**O que mudou e por quê.**
+
+- `scripts/comum.py`: `--recuperar` agora procura primeiro a execução guardada no repositório privado (por `recuperar_bruto.py`) que ainda não está em nenhum manifesto e cujos itens são do perfil, e **nunca roda de novo**. Antes, se não achasse a execução pela comparação do pedido, rodava outra vez e pagava de novo; foi o que aconteceu com o `vox_es` do Instagram.
+- `data/config/atores.json`: Facebook `SantiagoAbascalConde` confirmado pelo responsável. Não foi coletado: o teto do Facebook não comporta essa página sem nova autorização.
+
+**Testes.** `python -m unittest discover -s tests` → 55 testes, OK.
+
+**Pendente.** Recuperar a execução do Facebook da Disenso (próxima entrada); teto para o Facebook de Abascal.
+
 ## E1.14 — 15/11/2026 · Etiqueta "cita o Brasil"
 
 **O que mudou e por quê.** O responsável pediu: "classificar com uma etiqueta de cita o Brasil tudo que citar Brasil, Lula ou Flávio Bolsonaro e sua família".
