@@ -9,6 +9,7 @@
 - `build_acervo.py`: o universo lido pela sonda entra na página onde ainda não há foto diária de perfis.
 - `coleta.json` (2º commit do dia): saldo informado de US$ 10; carga do Facebook liberada pelo responsável com teto de US$ 4,50, ciente de que o bruto não será guardado enquanto o `ODI_INTERNO_TOKEN` estiver sem acesso.
 - `comum.py`: o manifesto registra quantos itens devolvidos eram de outra conta ou foram descartados.
+- `apify.py` e `comum.py` (3º commit do dia): o resultado da Apify é baixado em páginas, com nova tentativa; execução feita cujo resultado não foi baixado entra no manifesto com o seu custo; `--recuperar --perfis=...` reaproveita execução já paga das últimas 48 h em vez de pagar de novo. Motivo: na carga do Instagram (run 43741114895) o perfil `vox_es` foi executado na Apify e o download do resultado caiu (IncompleteRead); o manifesto daquele run registra custo zero para esse perfil, o que subestima o gasto real.
 
 **O que foi realmente executado.** `python -m unittest discover -s tests` → 29 testes, OK. As execuções pagas deste passo estão registradas na entrada seguinte, depois de rodarem.
 

@@ -18,6 +18,14 @@ on:
         type: choice
         options: [todas, instagram, x, facebook, perfis]
         default: todas
+      perfis:
+        description: "só estes perfis (separados por vírgula); vazio = todos. Com 'recuperar', reaproveita execução já paga cujo resultado não foi baixado"
+        type: string
+        default: ""
+      recuperar:
+        description: "reaproveitar execuções já pagas das últimas 48 h"
+        type: boolean
+        default: false
 
 concurrency:
   group: coleta
@@ -61,6 +69,8 @@ jobs:
           ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
           MODO: ${{ github.event_name == 'schedule' && 'diario' || github.event.inputs.modo }}
           REDE: ${{ github.event_name == 'schedule' && 'todas' || github.event.inputs.rede }}
+          PERFIS: ${{ github.event.inputs.perfis }}
+          RECUPERAR: ${{ github.event.inputs.recuperar }}
         run: scripts/coletar.sh "$MODO" "$REDE"
       - name: Gravar a coleta antes das análises
         if: always() && steps.coletar.outcome != 'skipped'

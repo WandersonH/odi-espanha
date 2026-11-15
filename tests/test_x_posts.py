@@ -137,3 +137,46 @@ class TestComum(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestRecuperacao(unittest.TestCase):
+    def test_erro_depois_da_execucao_conta_o_custo(self):
+        import apify
+        t = projeto({"x": {"carga": {"teto_usd": 1.0}}})
+
+        def fake(payload, cap):
+            if "vox_es" in payload["searchTerms"][0]:
+                raise apify.ErroDepoisDaExecucao({"id": "runX", "usageTotalUsd": 0.2}, OSError("IncompleteRead"))
+            return OK_RUN, []
+        cx.main(["--carga"], executar=fake, root=t, hoje=HOJE)
+        m = manifesto(t, "x")
+        vox = next(p for p in m["perfis"] if p["perfil"] == "vox_es")
+        self.assertEqual((vox["run"], vox["custo_usd"], vox["cobertura"]), ("runX", 0.2, "⛔ não lido"))   # pago e não lido: o gasto aparece
+        self.assertEqual(m["custo_usd"], 0.2)
+
+    def test_so_perfis_nao_toca_nos_demais(self):
+        t, vistos = projeto({"x": {"carga": {"teto_usd": 1.0}}}), []
+        cx.main(["--carga", "--perfis=VOX_ES"], executar=lambda p, c: vistos.append(p["searchTerms"][0].split()[0]) or (OK_RUN, []), root=t, hoje=HOJE)
+        self.assertEqual(vistos, ["from:vox_es"])
+
+    def test_execucao_anterior_casa_pelo_pedido(self):
+        import apify
+        chamadas = []
+
+        def api_falsa(metodo, caminho, token, body=None, timeout=360):
+            chamadas.append(caminho)
+            if "/runs?desc=1" in caminho:
+                return {"data": {"items": [{"id": "velho", "startedAt": "2026-11-01T00:00:00", "status": "SUCCEEDED"}, {"id": "bom", "startedAt": "2026-11-15T17:30:00", "status": "SUCCEEDED"}]}}
+            if caminho == "/actor-runs/bom":
+                return {"data": {"id": "bom", "defaultKeyValueStoreId": "kv", "defaultDatasetId": "ds"}}
+            if caminho.endswith("/records/INPUT"):
+                return {"directUrls": ["vox_es"], "resultsType": "posts", "resultsLimit": 3640}
+            return [{"shortCode": "A"}] if "offset=0" in caminho else []
+        original, apify.api = apify.api, api_falsa
+        try:
+            achou = apify.execucao_anterior("t", "ator", {"directUrls": ["vox_es"], "resultsType": "posts", "resultsLimit": 99}, "2026-11-14T00:00:00")
+            nada = apify.execucao_anterior("t", "ator", {"directUrls": ["vox_es"], "resultsType": "reels", "resultsLimit": 99}, "2026-11-14T00:00:00")
+        finally:
+            apify.api = original
+        self.assertEqual((achou[0]["id"], achou[1], nada), ("bom", [{"shortCode": "A"}], None))   # mesmo pedido, limite diferente: reaproveita; reels: não há
+        self.assertFalse(any("limits" in c or "users/me" in c for c in chamadas))             # nenhuma consulta de saldo

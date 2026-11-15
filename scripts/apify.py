@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import sys
+import time
 import urllib.error
 import urllib.request
 
@@ -33,13 +34,61 @@ def api(method: str, path: str, token: str, body=None, timeout: int = 360):
         raise
 
 
+class ErroDepoisDaExecucao(Exception):
+    """A execução na Apify aconteceu (e pode ter sido cobrada), mas o resultado não pôde ser baixado."""
+
+    def __init__(self, run: dict, causa: Exception):
+        super().__init__(f"execução {run.get('id')} feita, resultado não baixado: {type(causa).__name__}")
+        self.run = run
+
+
+def baixar_itens(token: str, dataset_id: str, pagina: int = 500) -> list:
+    """Baixa o resultado em páginas, com nova tentativa: um resultado grande não se perde por uma queda de conexão."""
+    itens, offset = [], 0
+    while True:
+        for tentativa in range(4):
+            try:
+                lote = api("GET", f"/datasets/{dataset_id}/items?clean=true&format=json&limit={pagina}&offset={offset}", token) or []
+                break
+            except Exception:  # noqa: BLE001
+                if tentativa == 3:
+                    raise
+                time.sleep(5 * (tentativa + 1))
+        itens += lote
+        if len(lote) < pagina:
+            return itens
+        offset += pagina
+
+
 def run_actor(token: str, actor: str, payload: dict, cap: float):
     """Roda o ator com teto de cobrança `cap` (US$) e devolve (execução, itens)."""
     run = api("POST", f"/acts/{actor}/runs?waitForFinish=300&maxTotalChargeUsd={cap}", token, payload)["data"]
     while run.get("status") in ("READY", "RUNNING"):
         run = api("GET", f"/actor-runs/{run['id']}?waitForFinish=300", token)["data"]
-    items = api("GET", f"/datasets/{run['defaultDatasetId']}/items?clean=true&format=json", token) or []
-    return run, items
+    try:
+        return run, baixar_itens(token, run["defaultDatasetId"])
+    except Exception as e:  # noqa: BLE001
+        raise ErroDepoisDaExecucao(run, e) from e
+
+
+LIMITES = ("resultsLimit", "maxItems")
+
+
+def execucao_anterior(token: str, actor: str, payload: dict, desde_utc: str):
+    """Procura uma execução já feita (e paga) deste ator, desde `desde_utc`, com o mesmo pedido (fora o limite de itens),
+    e devolve (execução, itens) sem rodar nada de novo. None se não houver. Não consulta saldo: só lista execuções do ator."""
+    alvo = {k: v for k, v in payload.items() if k not in LIMITES}
+    for r in (api("GET", f"/acts/{actor}/runs?desc=1&limit=40", token)["data"].get("items") or []):
+        if (r.get("startedAt") or "") < desde_utc or r.get("status") != "SUCCEEDED":
+            continue
+        run = api("GET", f"/actor-runs/{r['id']}", token)["data"]
+        try:
+            entrada = api("GET", f"/key-value-stores/{run['defaultKeyValueStoreId']}/records/INPUT", token) or {}
+        except Exception:  # noqa: BLE001
+            continue
+        if {k: v for k, v in entrada.items() if k not in LIMITES} == alvo:
+            return run, baixar_itens(token, run["defaultDatasetId"])
+    return None
 
 
 def custo_run(run: dict) -> float:

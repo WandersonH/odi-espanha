@@ -25,7 +25,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from apify import custo_run, erro_curto, run_actor  # noqa: E402
+from apify import custo_run, erro_curto, execucao_anterior, run_actor  # noqa: E402
 from net import now_utc  # noqa: E402
 
 REDES_APIFY = ("instagram", "x", "facebook")   # coletores pagos, com teto (comum.rodar)
@@ -215,6 +215,19 @@ def rodar(rede: str, ad, argv=None, executar=None, root=None, hoje: dt.date | No
     token = "x" if executar else os.environ.get(geral["segredo"], "").strip()
     if not token:
         return fim(f"⛔ {geral['segredo']} ausente (cadastre o segredo no GitHub)", 1)
+    so_perfis = next((a.split("=", 1)[1].lower().split(",") for a in argv if a.startswith("--perfis=")), None)
+    if so_perfis:  # releitura dirigida: só estes perfis (os demais não são tocados)
+        conf = [p for p in conf if p["perfil"].lower() in so_perfis]
+        man["so_perfis"] = so_perfis
+    if not executar and "--recuperar" in argv:
+        # Reaproveita execução JÁ PAGA das últimas 48 h cujo resultado não foi baixado; só roda de novo o que não existir.
+        corte = (dt.datetime.now(UTC) - dt.timedelta(hours=48)).strftime("%Y-%m-%dT%H:%M:%S")
+        man["recuperacao"] = []
+
+        def executar(pl, cap):
+            ant = execucao_anterior(token, cfg["ator"], pl, corte)
+            man["recuperacao"].append({"pedido": {k: v for k, v in pl.items() if k not in ("selectedFields",)}, "reaproveitou_execucao": (ant[0] or {}).get("id") if ant else None})
+            return ant or run_actor(token, cfg["ator"], pl, cap)
     executar = executar or (lambda pl, cap: run_actor(token, cfg["ator"], pl, cap))
 
     item, inicio = float(cfg["preco_usd"]["item"]), float(cfg["preco_usd"].get("inicio") or 0)
@@ -236,7 +249,8 @@ def rodar(rede: str, ad, argv=None, executar=None, root=None, hoje: dt.date | No
             run, itens = executar(ad.pedido(cfg, pf, n, desde, ate, hoje), cap)
             run, itens = run or {}, itens or []
         except Exception as e:  # noqa: BLE001 — o token vai no cabeçalho, nunca na mensagem
-            erro = erro_curto(e)
+            erro = erro_curto(e) if not getattr(e, "run", None) else str(e)
+            run = getattr(e, "run", None) or {}  # a execução aconteceu: o custo dela entra no manifesto mesmo sem os itens
         custo = min(cap, max(custo_run(run), round(inicio + item * len(itens), 5))) if run else 0.0
         sobra = round(sobra - custo, 5)
         extra = ad.complemento(cfg, pf, n, desde) if itens and hasattr(ad, "complemento") else None

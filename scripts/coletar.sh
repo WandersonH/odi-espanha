@@ -21,7 +21,10 @@ for r in instagram x facebook; do
   if [ "$modo" = "diario" ] && ! python scripts/autorizacao.py "$r" diario; then
     echo "::notice title=${r}::diário sem teto autorizado em data/config/coleta.json — pulado"; continue
   fi
-  um "$r ($modo)" python "scripts/collect_${r}_posts.py" "--$modo"
+  extra=()
+  [ -n "${PERFIS:-}" ] && extra+=("--perfis=${PERFIS}")
+  [ "${RECUPERAR:-false}" = "true" ] && extra+=("--recuperar")
+  um "$r ($modo)" python "scripts/collect_${r}_posts.py" "--$modo" "${extra[@]}"
 done
 if [ "$modo" = "diario" ] && { [ "$rede" = "todas" ] || [ "$rede" = "perfis" ]; }; then
   if python scripts/autorizacao.py perfis diario; then
