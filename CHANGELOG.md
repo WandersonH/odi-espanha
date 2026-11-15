@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## E1.7 — 15/11/2026 · Resultado dos anúncios, recuperação do bruto sem custo e comentários do YouTube
+
+**Resultado real dos anúncios (run 43748071016, workflow `anuncios.yml`).**
+
+- Meta, Biblioteca de Anúncios, Espanha, todos os tipos de anúncio, desde 16/02/2026: 846 anúncios lidos em 3 das 4 buscas. "Foro Madrid" 502 (154 páginas anunciantes), "VOX España" 342 (106 páginas), "Fundación Disenso" 2, "Santiago Abascal" ⛔ (`IncompleteRead`: a execução foi feita, o resultado não foi baixado e o custo dela não ficou registrado). Nenhuma busca bateu no limite de 600. Custo registrado no manifesto `data/meta/manifesto-2026-11-*.json` (teto US$ 0,40).
+- A busca da Biblioteca casa palavras soltas: em "Foro Madrid" nenhuma das 154 páginas tem o nome de um ator; em "VOX España" a maior anunciante é uma marca de móveis. O número bruto não mede anúncios dos atores. Por isso o coletor passou a marcar, sem publicar texto, quais anúncios trazem o nome como frase exata (`frase_exata` em `data/meta/anuncios_apify.csv`).
+- Google, Central de Transparência, Espanha: 0 anunciantes e 0 anúncios nas 5 buscas e nos 3 sites oficiais. O coletor marcava ⛔ porque não distinguia "li e não há" de "não li"; agora registra se a Central respondeu (`diagnostico` em `data/google_ads/transparencia.json`).
+- O texto dos anúncios desta execução não foi guardado: o repositório privado ainda recusava a gravação.
+
+**O que mudou e por quê.**
+
+- `scripts/recuperar_bruto.py` + `recuperar-bruto.yml`: copia para o repositório privado o resultado das execuções da Apify já feitas e pagas. Não inicia execução, não gasta, não mexe no acervo nem no registro de gasto. No público, só contagens (`data/bruto_privado.json`). Motivo: o responsável avisou em 15/11/2026 que o `ODI_INTERNO_TOKEN` agora grava no `odi-secret-esp`; as cargas foram feitas antes disso.
+- `scripts/collect_meta_anuncios_apify.py`: opção `--recuperar` (relê execuções já pagas, nunca roda de novo; custo de execução já registrada não é somado outra vez); custo de execução feita e não baixada passa a entrar no manifesto; marca de frase exata.
+- `scripts/collect_google_transparencia.py`: diagnóstico de resposta da Central; nomes sugeridos pela busca vão só ao privado.
+- `scripts/collect_comentarios_youtube.py` + `data/config/comentarios.json` + passo em `gratuitas.yml`: comentários e respostas dos vídeos do acervo pela API oficial, sem custo, no método do ODI Atlas. Texto e autor só no privado; no público, `data/youtube/comentarios/cobertura.json` com universo × lido.
+- `AGENTS.md`, regra 11: comentários de terceiros passam a ser lidos, só com o privado disponível e só para o privado, a pedido do responsável (página "Comentários").
+- Gravação no privado tolera repositório ainda vazio (envia antes de puxar).
+
+**Universo de comentários, pelo contador de cada publicação já lida** (`data/<rede>/posts.csv.gz`): Instagram 762.478, X 478.141 (respostas), Facebook 306.326, YouTube 199.735. Ressalvas: no Instagram, 1.424 das 1.928 publicações do Vox trazem contador e as da Disenso e de Martín Frías não trazem; no Facebook, a amostra do Vox é parcial (603 publicações).
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 46 testes, OK. As execuções reais deste passo (verificação do token, bruto, comentários) estão na entrada seguinte.
+
+**Pendente.** Teto de gasto para comentários de Instagram, Facebook e X; busca de anúncios por página (precisa do identificador das páginas); telas "Anúncios" e "Comentários" na página.
+
 ## E1.6 — 15/11/2026 · Anúncios do Google e da Meta, como no ODI Atlas
 
 **O que mudou e por quê.** O responsável pediu: "quero que puxe os anúncios do meta e google também como fizemos no odi atlas".

@@ -10,7 +10,7 @@ on:
       o_que:
         description: "o que coletar"
         type: choice
-        options: [tudo, sites, youtube]
+        options: [tudo, sites, youtube, comentarios]
         default: tudo
 
 concurrency:
@@ -44,7 +44,7 @@ jobs:
           fi
       - name: Sites oficiais (notícias e artigos)
         id: sites
-        if: github.event_name == 'schedule' || github.event.inputs.o_que != 'youtube'
+        if: github.event_name == 'schedule' || github.event.inputs.o_que == 'tudo' || github.event.inputs.o_que == 'sites'
         continue-on-error: true
         env:
           ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
@@ -54,7 +54,7 @@ jobs:
           rm -f s.txt; exit $rc
       - name: YouTube (API oficial)
         id: youtube
-        if: github.event_name == 'schedule' || github.event.inputs.o_que != 'sites'
+        if: github.event_name == 'schedule' || github.event.inputs.o_que == 'tudo' || github.event.inputs.o_que == 'youtube'
         continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -63,6 +63,17 @@ jobs:
           rc=0; python scripts/collect_youtube.py > y.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=YouTube::$(echo "$l" | cut -c1-900)"; done < y.txt
           rm -f y.txt; exit $rc
+      - name: Comentários do YouTube (API oficial; texto e autor só no privado)
+        id: comentarios
+        if: github.event_name == 'schedule' || github.event.inputs.o_que == 'tudo' || github.event.inputs.o_que == 'comentarios'
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          rc=0; python scripts/collect_comentarios_youtube.py > c.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Comentários YouTube::$(echo "$l" | cut -c1-900)"; done < c.txt
+          rm -f c.txt; exit $rc
       - name: Gravar a coleta antes das análises
         if: always()
         run: scripts/commit_push.sh "Coletas sem custo (run ${{ github.run_id }})"
@@ -82,7 +93,7 @@ jobs:
           git add -A
           git diff --cached --quiet && exit 0
           git commit -q -m "Sites (run ${{ github.run_id }})"
-          for t in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((t * 10)); done
+          for t in 1 2 3; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
           exit 1
       - name: Commitar
         if: always()

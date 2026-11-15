@@ -15,6 +15,7 @@ import asyncio
 import csv
 import datetime as dt
 import json
+import os
 import re
 import sys
 import unicodedata
@@ -98,6 +99,7 @@ def aceitar(sug: dict, aceitos: list[str]) -> bool:
 
 async def coletar(cfg: dict) -> tuple[dict, list[dict], list[str]]:
     porDominio = cfg["_por_dominio"]
+    diag = cfg.setdefault("_diag", {"rpc_busca": 0, "rpc_anuncios": 0, "buscas": {}, "nomes_da_regiao": []})
     from playwright.async_api import async_playwright
     anunciantes, criativos, erros = {}, {}, []
     async with async_playwright() as p:
@@ -111,6 +113,7 @@ async def coletar(cfg: dict) -> tuple[dict, list[dict], list[str]]:
 
             async def r1(r, sugs=sugs):
                 if "SearchService/SearchSuggestions" in r.url:
+                    diag["rpc_busca"] += 1
                     try:
                         for it in (await r.json()).get("1", []):
                             a = it.get("1")
@@ -128,6 +131,10 @@ async def coletar(cfg: dict) -> tuple[dict, list[dict], list[str]]:
                 await pg.wait_for_timeout(4500)
             except Exception as e:  # noqa: BLE001
                 erros.append(f"busca '{termo}': {type(e).__name__}")
+            unicas = {s["id"]: s for s in sugs if s["id"]}
+            diag["buscas"][termo] = {"sugestoes": len(unicas), "da_regiao": sum(1 for s in unicas.values() if s["pais"] == REGIAO),
+                                     "aceitas": sum(1 for s in unicas.values() if aceitar(s, cfg["anunciantes_aceitos"]))}
+            diag["nomes_da_regiao"] += [s["nome"] for s in unicas.values() if s["pais"] == REGIAO]
             for s in sugs:
                 if aceitar(s, cfg["anunciantes_aceitos"]):
                     anunciantes.setdefault(s["id"], {"advertiser_id": s["id"], "nome": s["nome"], "encontrado_por": termo})
@@ -141,6 +148,7 @@ async def coletar(cfg: dict) -> tuple[dict, list[dict], list[str]]:
 
             async def r2(r, lidos=lidos, origem=origem):
                 if "SearchService/SearchCreatives" in r.url:
+                    diag["rpc_anuncios"] += 1
                     try:
                         lidos.extend(parse_criativos(await r.json(), origem))
                     except Exception:  # noqa: BLE001
@@ -215,6 +223,8 @@ def main(argv=None, coletar_fn=None) -> int:
         anunciantes, criativos, erros = {}, [], [f"navegador: {type(e).__name__} {e}"[:200]]
     pasta = root / "data/google_ads"
     pasta.mkdir(parents=True, exist_ok=True)
+    diag = cfg.get("_diag") or {}
+    respondeu = bool(diag.get("rpc_busca") and diag.get("rpc_anuncios"))  # a Central respondeu às buscas e às páginas de anúncios
     total_lido, leu = len(criativos), bool(anunciantes or criativos)
     anunciantes, criativos, fora = recortar(anunciantes, criativos, cfg)
     for d in list(cfg["_por_dominio"]):
@@ -223,16 +233,21 @@ def main(argv=None, coletar_fn=None) -> int:
     resumo = resumir(anunciantes, criativos, cfg)
     camp = sorted((c for c in criativos if (c["ultima_exibicao"] or "") >= cfg["inicio_campanha"]),
                   key=lambda c: c["ultima_exibicao"] or "", reverse=True)
-    status = "ok" if leu and not erros else ("⚠️ parcial: " + "; ".join(erros) if leu else "⛔ " + ("; ".join(erros) or "nenhum anunciante encontrado"))
+    status = "ok: a Central respondeu e não há anunciante nem anúncio dos atores (ausência lida, não falha de coleta)" if (not leu and respondeu and not erros) else "ok" if leu and not erros else ("⚠️ parcial: " + "; ".join(erros) if leu else "⛔ " + ("; ".join(erros) or "nenhum anunciante encontrado"))
     out = {"schema_version": 1, "coletado_em_utc": agora, "fonte": "Google · Central de Transparência de Anúncios (navegador sem login)",
            "nota": cfg["nota"], "status": status, "anunciantes": resumo, "total_anuncios": len(criativos),
            "anuncios_exibidos_na_campanha": camp, "erros": erros, "exibir_desde": cfg.get("exibir_desde"),
-           "fora_do_recorte": fora, "total_lido": total_lido,
+           "fora_do_recorte": fora, "total_lido": total_lido, "diagnostico": {"respostas_da_busca": diag.get("rpc_busca"), "respostas_de_anuncios": diag.get("rpc_anuncios"), "buscas": diag.get("buscas")},
            "anuncios_previas": sorted(({k: c.get(k) for k in ("creative_id", "anunciante", "formato", "primeira_exibicao", "ultima_exibicao", "url", "previa")}
                                        for c in criativos if c.get("previa")), key=lambda c: c["ultima_exibicao"] or "", reverse=True),
            "dominios_consultados": [{"dominio": d, "origem": tse.get(d, "partido (config)"),
                                      "anuncios": cfg["_por_dominio"].get(d)} for d in cfg["_dominios"]]}
     (pasta / "transparencia.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    interno = os.environ.get("ATLAS_INTERNO_DIR") or os.environ.get("ODI_INTERNO_DIR")
+    if interno and diag.get("nomes_da_regiao"):  # nomes sugeridos pela Central podem ser de pessoas: só no privado, para conferência humana
+        d = Path(interno) / "google_ads"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / f"sugestoes_{agora[:10]}.json").write_text(json.dumps({"lido_em_utc": agora, "regiao": REGIAO, "nomes": sorted(set(diag["nomes_da_regiao"]))}, ensure_ascii=False, indent=1), encoding="utf-8")
     hist = pasta / "anuncios.csv"
     vistos = {}
     if hist.exists():
@@ -250,9 +265,10 @@ def main(argv=None, coletar_fn=None) -> int:
     sem = [d for d in cfg["_dominios"] if cfg["_por_dominio"].get(d) is None]
     print(f"domínios: {len(cfg['_dominios'])} consultados; com anúncios: "
           f"{', '.join(f'{d} ({n})' for d, n in cfg['_por_dominio'].items() if n) or 'nenhum'}; sem leitura: {', '.join(sem) or 'nenhum'}")
+    print(f"diagnóstico: respostas da busca {diag.get('rpc_busca')} · respostas de anúncios {diag.get('rpc_anuncios')} · por termo {json.dumps(diag.get('buscas') or {}, ensure_ascii=False)[:600]}")
     print(f"google transparência: {status} · {len(resumo)} anunciantes · {len(criativos)} anúncios · {len(camp)} exibidos desde {cfg['inicio_campanha']}")
     print(f"fora do recorte ({fora['criterio']}): {fora['anuncios']} anúncios · {', '.join(fora['anunciantes']) or 'nenhum anunciante inteiro'}")
-    return 0 if leu else 1
+    return 0 if leu or (respondeu and not erros) else 1
 
 
 if __name__ == "__main__":

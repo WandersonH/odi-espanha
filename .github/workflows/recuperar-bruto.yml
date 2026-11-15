@@ -1,0 +1,58 @@
+name: Recuperar bruto — execuções da Apify já pagas → repositório privado (sem custo)
+
+# Não inicia execução nenhuma na Apify: só baixa o resultado das que já foram feitas e grava no repositório privado.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  recuperar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Repositório privado
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-esp.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Repositório privado::clonado"
+          else
+            echo "::error title=Repositório privado::ODI_INTERNO_TOKEN ausente ou sem acesso ao odi-secret-esp"; exit 1
+          fi
+      - name: Baixar o bruto das execuções já feitas
+        id: bruto
+        continue-on-error: true
+        env:
+          APIFY_TOKEN_ESP: ${{ secrets.APIFY_TOKEN_ESP }}
+          ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          rc=0; python scripts/recuperar_bruto.py > r.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Bruto::$(echo "$l" | cut -c1-900)"; done < r.txt
+          rm -f r.txt; exit $rc
+      - name: Gravar no repositório privado
+        run: |
+          cd "${{ steps.interno.outputs.dir }}"
+          git config user.name "odi-espanha-coletor"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "::notice title=Repositório privado::nada novo a gravar"; exit 0; fi
+          git commit -q -m "Bruto das execuções da Apify (run ${{ github.run_id }})"
+          for t in 1 2 3; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && { echo "::notice title=Repositório privado::gravação feita ($(git rev-list --count HEAD) commit(s) locais, $(du -sh . | cut -f1))"; exit 0; }; sleep $((t * 10)); done
+          echo "::error title=Repositório privado::clonou, mas NÃO conseguiu gravar (token sem escrita?)"; exit 1
+      - name: Commitar
+        if: always()
+        run: scripts/commit_push.sh "Bruto no privado, contagens (run ${{ github.run_id }})"
+      - name: Resultado
+        if: steps.bruto.outcome == 'failure'
+        run: exit 1

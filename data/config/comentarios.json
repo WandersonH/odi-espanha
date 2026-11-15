@@ -1,0 +1,9 @@
+{
+ "autorizacao": "Responsável, 15/11/2026: pediu a página 'Comentários' como no ODI Atlas e liberou a gravação no repositório privado (ODI_INTERNO_TOKEN: 'Feito'). YouTube pela API oficial, sem custo. Instagram, Facebook e X dependem de teto de gasto, ainda não autorizado: não são lidos.",
+ "youtube": {
+  "chamadas_por_execucao": 7000,
+  "paralelo": 6,
+  "reler_videos_dos_ultimos_dias": 14,
+  "nota": "Comentários e respostas dos vídeos do acervo, lidos por inteiro pela API oficial do YouTube (todas as páginas de cada vídeo), sem custo. O universo é a soma do contador de comentários que o YouTube informa em cada vídeo; o lido pode ser menor porque o contador inclui comentários retidos ou apagados que a API não entrega. Leitura 'completa' quer dizer que a paginação de todos os vídeos chegou ao fim, não que os números coincidem. Texto e autor ficam só no repositório privado; aqui há apenas contagens."
+ }
+}

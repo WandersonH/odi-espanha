@@ -10,6 +10,10 @@ on:
         type: choice
         options: [tudo, google, meta]
         default: tudo
+      recuperar:
+        description: "Meta: reler execuções já pagas (sem custo), em vez de rodar de novo"
+        type: boolean
+        default: false
 
 concurrency:
   group: coleta
@@ -44,6 +48,8 @@ jobs:
         id: google
         if: github.event.inputs.o_que != 'meta'
         continue-on-error: true
+        env:
+          ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
         run: |
           pip install -q playwright && python -m playwright install --with-deps chromium > /dev/null
           rc=0; python scripts/collect_google_transparencia.py > g.txt 2>&1 || rc=$?
@@ -57,7 +63,7 @@ jobs:
           APIFY_TOKEN_ESP: ${{ secrets.APIFY_TOKEN_ESP }}
           ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
         run: |
-          rc=0; python scripts/collect_meta_anuncios_apify.py --teste > m.txt 2>&1 || rc=$?
+          rc=0; python scripts/collect_meta_anuncios_apify.py ${{ github.event.inputs.recuperar == 'true' && '--recuperar' || '--teste' }} > m.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=Meta::$(echo "$l" | cut -c1-900)"; done < m.txt
           rm -f m.txt; exit $rc
       - name: Gravar no repositório privado
@@ -68,7 +74,7 @@ jobs:
           git add -A
           git diff --cached --quiet && exit 0
           git commit -q -m "Anúncios (run ${{ github.run_id }})"
-          for t in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((t * 10)); done
+          for t in 1 2 3; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
           exit 1
       - name: Commitar
         if: always()

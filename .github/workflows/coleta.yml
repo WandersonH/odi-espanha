@@ -92,7 +92,7 @@ jobs:
           git add -A
           git diff --cached --quiet && exit 0
           git commit -q -m "Coleta (run ${{ github.run_id }})"
-          for t in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((t * 10)); done
+          for t in 1 2 3; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
           exit 1
       - name: Commitar
         if: always() && (steps.coletar.outcome != 'skipped' || github.event_name != 'schedule')
