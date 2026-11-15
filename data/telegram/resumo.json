@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "gerado_em_utc": "2026-11-15T20:49:03Z",
+ "gerado_em_utc": "2026-11-15T20:52:24Z",
  "fonte": "Telegram · prévia pública na web (t.me/s)",
  "nota": "Só canais públicos, lidos pela prévia que o próprio Telegram publica na web (t.me/s), sem login. Grupos e conversas privadas não são lidos. O Telegram informa o número de inscritos, mas não o total de mensagens de um canal; as visualizações são as exibidas na prévia no momento da leitura.",
  "desde": "2026-02-16",
@@ -16,6 +16,8 @@
    "universo_mensagens": null,
    "universo_nota": "⛔ o Telegram não informa o total de mensagens do canal",
    "maior_numero_de_mensagem": 1,
+   "mensagem_mais_recente_do_canal": "2025-11-07T09:07:38Z",
+   "mensagem_mais_antiga_vista": "2025-11-07T09:07:38Z",
    "lidas_nesta_execucao": 0,
    "no_acervo": 0,
    "paginas_lidas": 1,
