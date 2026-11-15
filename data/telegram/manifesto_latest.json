@@ -1,0 +1,25 @@
+{
+ "run_started_utc": "2026-11-15T20:49:03Z",
+ "rede": "telegram",
+ "ferramenta": "prévia pública t.me/s (sem login)",
+ "modo": "carga",
+ "custo_usd": 0.0,
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": "2027-01-30"
+ },
+ "perfis": [
+  {
+   "ator_id": "vox",
+   "canal": "VOXtelegram",
+   "lidas_nesta_execucao": 0,
+   "no_acervo": 0,
+   "paginas_lidas": 1,
+   "cobertura": "completa: a leitura chegou à data inicial do período",
+   "erro": null,
+   "mais_antiga": null,
+   "mais_recente": null
+  }
+ ],
+ "status": "ok"
+}

@@ -1,0 +1,34 @@
+{
+ "schema_version": 1,
+ "gerado_em_utc": "2026-11-15T20:49:03Z",
+ "fonte": "Telegram · prévia pública na web (t.me/s)",
+ "nota": "Só canais públicos, lidos pela prévia que o próprio Telegram publica na web (t.me/s), sem login. Grupos e conversas privadas não são lidos. O Telegram informa o número de inscritos, mas não o total de mensagens de um canal; as visualizações são as exibidas na prévia no momento da leitura.",
+ "desde": "2026-02-16",
+ "canais": [
+  {
+   "ator_id": "vox",
+   "ator_nome": "Vox",
+   "canal": "VOXtelegram",
+   "url": "https://t.me/VOXtelegram",
+   "nome_exibido": "VOX España 🇪🇸",
+   "inscritos": 840,
+   "inscritos_exibido": "840",
+   "universo_mensagens": null,
+   "universo_nota": "⛔ o Telegram não informa o total de mensagens do canal",
+   "maior_numero_de_mensagem": 1,
+   "lidas_nesta_execucao": 0,
+   "no_acervo": 0,
+   "paginas_lidas": 1,
+   "cobertura": "completa: a leitura chegou à data inicial do período",
+   "erro": null,
+   "mais_antiga": null,
+   "mais_recente": null,
+   "por_mes": {},
+   "por_tipo": {},
+   "sem_texto": 0,
+   "citam_o_brasil": 0,
+   "ultimas": []
+  }
+ ],
+ "canais_fora": []
+}
