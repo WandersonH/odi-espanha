@@ -1,5 +1,5 @@
 {
- "run_started_utc": "2026-11-14T21:10:50Z",
+ "run_started_utc": "2026-11-15T12:19:32Z",
  "ferramenta": "API pública do WordPress (wp-json) · RSS",
  "modo": "carga",
  "user_agent": "odi-espanha-coletor/1.0 (+https://github.com/WandersonH/odi-espanha)",
@@ -26,7 +26,7 @@
     }
    ],
    "lidos_no_periodo": 129,
-   "novos": 129,
+   "novos": 0,
    "erro": null,
    "cobertura": "parcial ⛔ ou universo desconhecido (ver tipos)"
   },
@@ -45,14 +45,6 @@
      "cobertura": "completa: lidos todos os que o site informa no período"
     },
     {
-     "tipo": "salient_g_sections",
-     "universo_total": 2,
-     "universo_no_periodo": 0,
-     "lidos": 0,
-     "erro": null,
-     "cobertura": "completa: lidos todos os que o site informa no período"
-    },
-    {
      "tipo": "encuentros-reg",
      "universo_total": 5,
      "universo_no_periodo": 1,
@@ -67,18 +59,10 @@
      "lidos": 0,
      "erro": null,
      "cobertura": "completa: lidos todos os que o site informa no período"
-    },
-    {
-     "tipo": "wpb_gutenberg_param",
-     "universo_total": 0,
-     "universo_no_periodo": 0,
-     "lidos": 0,
-     "erro": null,
-     "cobertura": "completa: lidos todos os que o site informa no período"
     }
    ],
    "lidos_no_periodo": 21,
-   "novos": 21,
+   "novos": 0,
    "erro": null,
    "cobertura": "completa"
   },
@@ -104,6 +88,6 @@
   }
  ],
  "artigos_no_acervo": 150,
- "artigos_novos": 150,
+ "artigos_novos": 0,
  "status": "parcial: 1 site(s) não lido(s)"
 }
