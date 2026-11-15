@@ -10,7 +10,7 @@ on:
       o_que:
         description: "o que coletar"
         type: choice
-        options: [tudo, sites, youtube, comentarios]
+        options: [tudo, sites, youtube, comentarios, telegram]
         default: tudo
 
 concurrency:
@@ -63,6 +63,14 @@ jobs:
           rc=0; python scripts/collect_youtube.py > y.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=YouTube::$(echo "$l" | cut -c1-900)"; done < y.txt
           rm -f y.txt; exit $rc
+      - name: Telegram (canais públicos, prévia t.me/s)
+        id: telegram
+        if: github.event_name == 'schedule' || github.event.inputs.o_que == 'tudo' || github.event.inputs.o_que == 'telegram'
+        continue-on-error: true
+        run: |
+          rc=0; python scripts/collect_telegram.py > g.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Telegram::$(echo "$l" | cut -c1-600)"; done < g.txt
+          rm -f g.txt; exit $rc
       - name: Comentários do YouTube (API oficial; texto e autor só no privado)
         id: comentarios
         if: github.event_name == 'schedule' || github.event.inputs.o_que == 'tudo' || github.event.inputs.o_que == 'comentarios'

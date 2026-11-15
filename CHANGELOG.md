@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## E1.19 — 15/11/2026 · Telegram (canais públicos) e audiência estimada dos sites
+
+**O que mudou e por quê.** O responsável mandou o canal `https://t.me/VOXtelegram` e sete capturas de tela (Semrush e Similarweb) dos três sites oficiais.
+
+- `scripts/collect_telegram.py` + `data/config/telegram.json` + passo em `gratuitas.yml`: mensagens de canais públicos pela prévia do próprio Telegram na web (t.me/s), sem login e sem custo, até a data inicial do período. O Telegram não informa o total de mensagens: o universo fica ⛔ e o maior número de mensagem aparece só como teto.
+- `index.html`: caderno "Telegram · canais públicos" (inscritos, lidas no período, cobertura, por mês, últimas mensagens, etiqueta "cita o Brasil") e bloco "Audiência estimada dos sites" no caderno de sites.
+- `data/config/sites_audiencia.json`: números transcritos das capturas, como exibidos, com ferramenta, recorte e data. São estimativas de terceiros. Semrush lido da imagem; Similarweb lido por reconhecimento de texto das capturas. A duração média da visita de fundaciondisenso.org não saiu legível e está como ⛔. As variações mensais do Similarweb não foram transcritas porque o sinal não ficou legível.
+- O Telegram ainda não entra em "O que dizem" nem na planilha geral de "cita o Brasil"; tem contagem própria no caderno dele.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 59 testes, OK; `node --check` no script da página. A leitura real do canal está na entrada seguinte.
+
 ## E1.18 — 15/11/2026 · Primeira coleta do Google Trends da Espanha; YouTube de Abascal lido
 
 **O que foi realmente executado.**

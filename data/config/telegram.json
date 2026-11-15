@@ -1,0 +1,16 @@
+{
+ "nota": "Só canais públicos, lidos pela prévia que o próprio Telegram publica na web (t.me/s), sem login. Grupos e conversas privadas não são lidos. O Telegram informa o número de inscritos, mas não o total de mensagens de um canal; as visualizações são as exibidas na prévia no momento da leitura.",
+ "intervalo_s": 1,
+ "max_paginas": 400,
+ "canais": [
+  {
+   "ator_id": "vox",
+   "ator_nome": "Vox",
+   "canal": "VOXtelegram",
+   "url": "https://t.me/VOXtelegram",
+   "confirmado": true,
+   "conferido_em": "2026-11-15",
+   "fonte": "Endereço enviado pelo responsável em 15/11/2026; o mesmo endereço aparece na descrição do site voxespana.es reproduzida na captura do Similarweb de 15/11/2026 ('Descárgate Telegram y entra en el siguiente enlace... https://t.me/VOXtelegram')."
+  }
+ ]
+}

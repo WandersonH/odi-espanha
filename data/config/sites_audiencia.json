@@ -1,0 +1,78 @@
+{
+ "nota": "Estimativas de ferramentas comerciais, não medição feita pelos próprios sites. Números transcritos, como exibidos, de capturas de tela feitas pelo responsável em 15/11/2026 (arquivos guardados fora do repositório público). Semrush: base 'todos os países', computador, 15/11/2026; o tráfego orgânico é estimativa mensal de visitas vindas da busca. Similarweb: mundo, outubro de 2026, todos os dispositivos. As duas ferramentas usam métodos diferentes e não se comparam entre si.",
+ "lido_em": "2026-11-15",
+ "sites": [
+  {
+   "dominio": "voxespana.es",
+   "ator": "Vox",
+   "semrush": {
+    "Authority Score": "47",
+    "Tráfego orgânico": "136K (−48%)",
+    "Tráfego pago": "0",
+    "Palavras-chave orgânicas": "26,9K (+3,1%)",
+    "Domínios de referência": "5,9K",
+    "Backlinks": "211,5K",
+    "Visibilidade em IA": "33",
+    "Menções em IA": "1,4K",
+    "Páginas citadas por IA": "85"
+   },
+   "similarweb": {
+    "Visitas no mês": "747.773",
+    "Computador": "29,77%",
+    "Celular": "70,23%",
+    "Posição mundial": "#69.586",
+    "Posição no país": "#1.493 (Espanha)",
+    "Páginas por visita": "2,67",
+    "Duração média da visita": "00:01:34"
+   }
+  },
+  {
+   "dominio": "fundaciondisenso.org",
+   "ator": "Fundación Disenso",
+   "semrush": {
+    "Authority Score": "35",
+    "Tráfego orgânico": "13,7K (+15%)",
+    "Tráfego pago": "0",
+    "Palavras-chave orgânicas": "5,2K (+0,7%)",
+    "Domínios de referência": "924",
+    "Backlinks": "4,6K",
+    "Visibilidade em IA": "25",
+    "Menções em IA": "40",
+    "Páginas citadas por IA": "28"
+   },
+   "similarweb": {
+    "Visitas no mês": "19.726",
+    "Computador": "42,49%",
+    "Celular": "57,51%",
+    "Posição mundial": "#1.303.660",
+    "Posição no país": "#52.201 (Espanha)",
+    "Páginas por visita": "1,79",
+    "Duração média da visita": "⛔ não lida na captura"
+   }
+  },
+  {
+   "dominio": "foromadrid.org",
+   "ator": "Foro Madrid",
+   "semrush": {
+    "Authority Score": "27",
+    "Tráfego orgânico": "1,8K (+119%)",
+    "Tráfego pago": "0",
+    "Palavras-chave orgânicas": "247 (+11%)",
+    "Domínios de referência": "613",
+    "Backlinks": "1,5K",
+    "Visibilidade em IA": "19",
+    "Menções em IA": "22",
+    "Páginas citadas por IA": "7"
+   },
+   "similarweb": {
+    "Visitas no mês": "3.547",
+    "Computador": "39,31%",
+    "Celular": "60,69%",
+    "Posição mundial": "#4.080.387",
+    "Posição no país": "#54.146 (Chile)",
+    "Páginas por visita": "1,98",
+    "Duração média da visita": "00:00:49"
+   }
+  }
+ ]
+}

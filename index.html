@@ -45,6 +45,7 @@ a.esp-item{text-decoration:none;margin-top:10px}.esp-item small{font:10.5px/1.5 
 <button class="navbutton" data-tab="posts"><span class="navicon">≡</span> O que publicam</button>
 <button class="navbutton" data-tab="seguidores"><span class="navicon">▣</span> Quem acompanha</button>
 <button class="navbutton" data-tab="comentarios"><span class="navicon">❝</span> Comentários</button>
+<button class="navbutton" data-tab="telegram"><span class="navicon">✈</span> Telegram · canais públicos</button>
 <button class="navbutton" data-tab="trends"><span class="navicon">↗</span> Buscas · Google Trends</button>
 <button class="navbutton" data-tab="anuncios"><span class="navicon">◈</span> Anúncios · Meta e Google</button>
 <button class="navbutton" data-tab="atores"><span class="navicon">◉</span> Atores e perfis</button>
@@ -96,6 +97,13 @@ a.esp-item{text-decoration:none;margin-top:10px}.esp-item small{font:10.5px/1.5 
   <div id="cmCorpo"></div>
 </section>
 
+<section class="panel" id="telegram" aria-label="Telegram">
+  <div class="paper-ribbon"><span>CADERNO 06 / TELEGRAM · CANAIS PÚBLICOS</span><span id="tgData">—</span></div>
+  <div class="intro"><div class="eyebrow">Canais públicos dos atores</div><h1>O que publicam no Telegram.</h1>
+    <p>Só canais públicos, lidos pela prévia que o próprio Telegram publica na web, sem login. Grupos e conversas privadas não são lidos.</p></div>
+  <div id="tgCorpo"></div>
+</section>
+
 <section class="panel" id="trends" aria-label="Buscas no Google Trends">
   <div class="paper-ribbon"><span>CADERNO 06 / BUSCAS · GOOGLE TRENDS</span><span id="trData">—</span></div>
   <div class="intro"><div class="eyebrow">Google Trends · interesse de busca relativo</div><h1>O que a Espanha procura sobre estes atores.</h1>
@@ -130,6 +138,7 @@ a.esp-item{text-decoration:none;margin-top:10px}.esp-item small{font:10.5px/1.5 
     <p>Título, data, seção, autor e endereço de cada publicação dos sites, lidos do que o próprio site oferece ao público (a API do WordPress ou o RSS), respeitando o robots.txt. O texto integral pertence aos sites e não é reproduzido aqui: o título leva à página original.</p></div>
   <div class="esp-sites" id="p6Sites"></div>
   <div id="p6Corpo"></div>
+  <div id="stAud"></div>
 </section>
 
 <section class="panel" id="metodo" aria-label="Método, fontes e saúde da coleta">
@@ -449,6 +458,30 @@ async function trends() {
   c.innerHTML = `<div class="card"><div class="eyebrow">Como ler</div><p class="esp-nota" style="margin-top:0;font-size:12.5px">${esc(T.aviso || "")} ${esc(T.nota || "")}</p></div>` + grupos.map(g => `<div class="sectionlabel"><h2>${esc(GRUPO[g] || g)}</h2><p>Espanha · 0 a 100, relativo dentro de cada consulta</p></div>` + qs.filter(q => q.grupo === g).map(q => `<div class="card"><div class="eyebrow">${esc(PERIODO[q.periodo] || q.periodo)}</div>${linha(q)}${regioes(q)}${rel(q)}</div>`).join("")).join("") + falta;
 }
 
+async function telegram() {
+  const c = $("tgCorpo"), T = await json("data/telegram/resumo.json");
+  if (!T || !(T.canais || []).length) { c.innerHTML = '<div class="esp-vazio">⛔ <b>Não coletado.</b> Nenhum canal do Telegram foi lido ainda (data/telegram/resumo.json não existe).</div>'; return; }
+  $("tgData").textContent = "lido em " + diaHora(T.gerado_em_utc) + " UTC";
+  c.innerHTML = T.canais.map(k => { const ms = Object.entries(k.por_mes || {}), mx = Math.max(1, ...ms.map(x => x[1]));
+    return `<div class="sectionlabel"><h2>${esc(k.ator_nome)} · ${esc(k.canal)}</h2><p><a href="${url(k.url)}" target="_blank" rel="noopener">${esc(k.url)}</a></p></div>
+      <div class="kpigrid"><div class="kpi"><div class="klabel">Inscritos</div><div class="kval">${k.inscritos != null ? n(k.inscritos) : "⛔"}</div><div class="knote">informado pelo Telegram${k.inscritos_exibido ? " como " + esc(k.inscritos_exibido) : ""}</div></div>
+        <div class="kpi"><div class="klabel">Universo de mensagens</div><div class="kval">⛔</div><div class="knote">o Telegram não informa o total; maior número de mensagem: ${n(k.maior_numero_de_mensagem)} (teto, inclui apagadas)</div></div>
+        <div class="kpi"><div class="klabel">Lidas no período</div><div class="kval">${n(k.no_acervo)}</div><div class="knote">${dia(k.mais_antiga)} a ${dia(k.mais_recente)} · ${n(k.sem_texto)} sem texto</div></div>
+        <div class="kpi"><div class="klabel">Citam o Brasil</div><div class="kval">${n(k.citam_o_brasil)}</div><div class="knote">mesma regra do caderno "O que dizem"</div></div></div>
+      <div class="card"><div class="eyebrow">Cobertura</div><p style="margin:0;font-size:13.5px"><span class="esp-sit ${/^completa/.test(k.cobertura) ? "ok" : "bloq"}">${esc(k.cobertura)}</span></p><p class="esp-nota">${esc(T.nota || "")}</p></div>
+      <div class="esp-duas"><div class="card"><div class="eyebrow">Mensagens por mês</div><table class="datatable"><tbody>${ms.map(([m, q]) => `<tr><td>${mesNome(m)}</td><td>${n(q)}</td><td style="width:60%">${barra(q, mx)}</td></tr>`).join("")}</tbody></table></div>
+        <div class="card"><div class="eyebrow">Por tipo</div><table class="datatable"><tbody>${Object.entries(k.por_tipo || {}).map(([t, q]) => `<tr><td>${esc(t)}</td><td>${n(q)}</td></tr>`).join("")}</tbody></table><p class="esp-nota">Arquivo completo: data/telegram/posts.csv.gz.</p></div></div>
+      <div class="card"><div class="eyebrow">Últimas mensagens</div>${(k.ultimas || []).map(m => `<a class="tk-item esp-item" href="${url(m.url)}" target="_blank" rel="noopener"><p>${esc(m.texto || "(sem texto: " + m.tipo + ")")}</p><small>${diaHora(m.publicado_em)} UTC · ${m.visualizacoes !== "" && m.visualizacoes != null ? n(m.visualizacoes) + " visualizações · " : ""}${esc(m.tipo)}</small></a>`).join("")}</div>`; }).join("");
+}
+
+async function audiencia() {
+  const A = await json("data/config/sites_audiencia.json"), c = $("stAud");
+  if (!A || !(A.sites || []).length) { c.innerHTML = ""; return; }
+  const tab = (rot, k) => { const chaves = [...new Set(A.sites.flatMap(x => Object.keys(x[k] || {})))];
+    return `<div class="card"><div class="eyebrow">${rot}</div><div class="tablewrap"><table class="datatable"><thead><tr><th>Indicador</th>${A.sites.map(x => `<th>${esc(x.dominio)}</th>`).join("")}</tr></thead><tbody>${chaves.map(h => `<tr><td>${esc(h)}</td>${A.sites.map(x => `<td>${esc((x[k] || {})[h] ?? "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div></div>`; };
+  c.innerHTML = `<div class="sectionlabel"><h2>Audiência estimada dos sites</h2><p>Ferramentas de terceiros · leitura de ${dia(A.lido_em)}</p></div>${tab("Similarweb · mundo · outubro de 2026", "similarweb")}${tab("Semrush · todos os países · 15/11/2026", "semrush")}<p class="esp-nota">${esc(A.nota)}</p>`;
+}
+
 async function anuncios() {
   const c = $("adCorpo"), [M, G] = await Promise.all([json("data/meta/anuncios.json"), json("data/google_ads/transparencia.json")]);
   let h = `<div class="card"><div class="eyebrow">Contexto</div><h2 class="tk-h2">Por que quase não há anúncio político</h2><p class="esp-nota" style="margin-top:0;font-size:12.5px">O regulamento europeu de transparência da publicidade política (TTPA) passou a valer em 10/10/2025. Antes disso, o Google deixou de veicular anúncio político na União Europeia (22/09/2025) e a Meta deixou de aceitar anúncios sobre política, eleições e temas sociais (06/10/2025). Para a eleição espanhola de 2026, portanto, não existe anúncio político declarado nestas plataformas. Fontes: <a href="https://about.fb.com/news/2025/07/ending-political-electoral-and-social-issue-advertising-in-the-eu/" target="_blank" rel="noopener">Meta</a> e <a href="https://blog.google/around-the-globe/google-europe/political-advertising-in-eu/" target="_blank" rel="noopener">Google</a>.</p></div>`;
@@ -487,7 +520,7 @@ async function anuncios() {
   if (!R) { $("p1Sinal").innerHTML = "<b>⛔ data/site/resumo.json não foi encontrado.</b> Rode scripts/build_acervo.py."; return; }
   document.title = `${R.projeto.nome} / Foro Madrid, Vox e Fundación Disenso nas redes`;
   document.querySelectorAll(".navbutton").forEach((b, i) => { const r = document.querySelector("#" + b.dataset.tab + " .paper-ribbon span"); if (r) r.textContent = r.textContent.replace(/CADERNO \d+/, "CADERNO " + String(i + 1).padStart(2, "0")); });
-  seguidores(); trends(); anuncios();
+  seguidores(); trends(); anuncios(); telegram(); audiencia();
   panorama(); atores(); marcas(); sites(); metodo(await json("data/saude_coleta.json"));
 })();
 </script>
