@@ -5,8 +5,8 @@
  "pedido": "Responsável em 14/11/2026: 'vamos criar um novo Atlas porém com outro foco: contas do Insta, X e Facebook dos seguintes perfis: Foro de Madrid, partido espanhol Vox, Fundación Disenso, Santiago Abascal (presidente do Vox), Jorge Martín Frías, Eduardo Cader. Período de 16/02/2026 até 30/20/2027. Preciso de todos os posts deles, assim como fizemos do Flávio e Lula.'",
  "periodo": {
   "desde": "2026-02-16",
-  "ate": null,
-  "ate_nota": "O pedido traz '30/20/2027' (mês 20 não existe). Enquanto o responsável não confirmar a data final, 'ate' fica nulo: a carga lê de 16/02/2026 até o dia da execução e o diário segue rodando. Ao confirmar, gravar a data aqui (AAAA-MM-DD): posts depois dela deixam de entrar e o diário para sozinho."
+  "ate": "2027-01-30",
+  "ate_nota": "Data final informada pelo responsável em 15/11/2026 ('final 30/01/2027'). O pedido original trazia '30/20/2027'."
  },
  "fuso_das_datas": "UTC (como as plataformas entregam); os limites do período comparam a data UTC da publicação.",
  "redes": [

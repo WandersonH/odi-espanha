@@ -42,6 +42,13 @@ def universos(root: Path) -> dict:
             for r in csv.DictReader(f, delimiter=";"):
                 out[(r["rede"], r["perfil"].lower())] = {"posts_total_plataforma": num(r.get("posts_total")), "seguidores": num(r.get("seguidores")),
                                                           "nome_exibido": r.get("nome_exibido") or "", "lido_em": r.get("captured_at"), "fonte": r.get("fonte") or ""}
+    sonda = root / "data/perfis/sonda.json"   # leitura avulsa do universo: vale onde ainda não há foto diária
+    if sonda.exists():
+        s = json.loads(sonda.read_text(encoding="utf-8"))
+        for r in s.get("perfis") or []:
+            if r.get("encontrado") and (r["rede"], r["perfil"].lower()) not in out:
+                out[(r["rede"], r["perfil"].lower())] = {"posts_total_plataforma": r.get("posts_total"), "seguidores": r.get("seguidores"), "nome_exibido": r.get("nome_exibido") or "",
+                                                          "lido_em": (s.get("lido_em_utc") or "")[:10], "fonte": "sonda de perfis (Apify, atores oficiais)"}
     return out
 
 

@@ -283,7 +283,7 @@ def rodar(rede: str, ad, argv=None, executar=None, root=None, hoje: dt.date | No
             cobertura = "parcial ⛔: a leitura parou no limite " + ("do ator" if no_limite_ator and not no_limite else "pedido") + ", não pela data"
         else:
             cobertura = "completa: a leitura parou pela data inicial, não pelo limite"
-        reg.update(itens=len(itens), posts_do_perfil=len(posts), lidos_no_periodo=lidos, novos=novos, sem_data=sem_data,
+        reg.update(itens=len(itens), posts_do_perfil=len(posts), itens_de_outra_conta_ou_descartados=len(itens) - len(posts), lidos_no_periodo=lidos, novos=novos, sem_data=sem_data,
                    mais_antigo=min(todas, default=None), mais_recente=max(todas, default=None),
                    bateu_no_limite_pedido=no_limite, bateu_no_limite_do_ator=no_limite_ator, cobertura=cobertura,
                    erro=erro or next((str(x.get("error") or x.get("errorDescription"))[:200] for x in itens if isinstance(x, dict) and x.get("error")), None),

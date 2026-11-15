@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## E1.3 — 15/11/2026 · Data final, carga de X e Instagram, universo por perfil
+
+**O que mudou e por quê.** O responsável respondeu: "final 30/01/2027", "pode rodar" a carga de Instagram e X com o saldo atual, e pediu o tamanho do universo para responder à orientação e prever custos.
+
+- `projeto.json`: `periodo.ate = 2027-01-30`.
+- `coleta.json`: carga liberada no Instagram (teto US$ 0,20) e no X (teto US$ 2,00); uma leitura do universo por perfil (sonda, teto US$ 0,20). Facebook e diário seguem em zero.
+- `build_acervo.py`: o universo lido pela sonda entra na página onde ainda não há foto diária de perfis.
+- `comum.py`: o manifesto registra quantos itens devolvidos eram de outra conta ou foram descartados.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 29 testes, OK. As execuções pagas deste passo estão registradas na entrada seguinte, depois de rodarem.
+
 ## E1.2 — 15/11/2026 · YouTube com dados reais; teste da Apify autorizado
 
 **O que mudou e por quê.** O responsável cadastrou segredos e informou o orçamento: "feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok".
