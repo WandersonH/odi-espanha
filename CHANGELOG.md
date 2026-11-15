@@ -7,6 +7,7 @@
 - `projeto.json`: `periodo.ate = 2027-01-30`.
 - `coleta.json`: carga liberada no Instagram (teto US$ 0,20) e no X (teto US$ 2,00); uma leitura do universo por perfil (sonda, teto US$ 0,20). Facebook e diário seguem em zero.
 - `build_acervo.py`: o universo lido pela sonda entra na página onde ainda não há foto diária de perfis.
+- `coleta.json` (2º commit do dia): saldo informado de US$ 10; carga do Facebook liberada pelo responsável com teto de US$ 4,50, ciente de que o bruto não será guardado enquanto o `ODI_INTERNO_TOKEN` estiver sem acesso.
 - `comum.py`: o manifesto registra quantos itens devolvidos eram de outra conta ou foram descartados.
 
 **O que foi realmente executado.** `python -m unittest discover -s tests` → 29 testes, OK. As execuções pagas deste passo estão registradas na entrada seguinte, depois de rodarem.

@@ -79,7 +79,7 @@
     "posts_por_perfil": {
      "padrao": 3000
     },
-    "teto_usd": 0.0
+    "teto_usd": 4.5
    },
    "diario": {
     "posts_por_perfil": {
@@ -89,7 +89,7 @@
     "teto_dia_usd": 0.0,
     "teto_mes_usd": 0.0
    },
-   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto."
+   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto. | Responsável, 15/11/2026: 'temos 10 dolares na conta agr'. Perguntado 'rodo agora a carga do Facebook (páginas vox.espana e ForoMadridOficial) com teto de US$ 4,50? O bruto dessa leitura não será guardado', respondeu: 'Rodar agora'. Liberada a CARGA do Facebook, teto US$ 4,50. Diário segue em zero."
   }
  },
  "perfis": {
@@ -108,10 +108,10 @@
   "autorizacao": "Responsável, 15/11/2026: 'final 30/01/2027 · Posso rodar já a carga de Instagram e X com o saldo atual? PODE RODAR · tu tá colhendo tamanho do universo, preciso responder pra Carla qual seria o universo total, até pra previsionar custos'. Liberada UMA leitura do universo (modo sonda: seguidores e total de publicações que a plataforma informa por perfil), teto US$ 0,20. O diário de perfis segue em zero."
  },
  "fase": {
-  "saldo_informado_usd": 5.0,
+  "saldo_informado_usd": 10.0,
   "informado_em": "2026-11-15",
   "gasto_ate_aqui_usd": 0.088,
-  "tetos_liberados": "teste 0,50 (gasto 0,088) · carga Instagram 0,20 · carga X 2,00 · sonda de perfis 0,20",
-  "proximo": "carga do Facebook e diário, depois do pacote de US$ 20"
+  "tetos_liberados": "teste 0,50 (gasto 0,088) · carga Instagram 0,20 · carga X 2,00 · sonda de perfis 0,20 · carga Facebook 4,50",
+  "proximo": "diário das três redes e perfis candidatos, com teto a autorizar"
  }
 }
