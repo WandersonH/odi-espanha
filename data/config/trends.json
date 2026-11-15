@@ -104,5 +104,11 @@
    "ate": "2027-01-30"
   }
  ],
- "termos_nota": "Termos propostos em 15/11/2026 a partir dos seis atores monitorados; a confirmar pelos pesquisadores. O Trends compara no máximo 5 termos por consulta."
+ "termos_nota": "Termos propostos em 15/11/2026 a partir dos seis atores monitorados; a confirmar pelos pesquisadores. O Trends compara no máximo 5 termos por consulta.",
+ "noticias_termos": [
+  "Vox",
+  "Santiago Abascal",
+  "Fundación Disenso",
+  "Foro Madrid"
+ ]
 }

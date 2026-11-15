@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## E1.25 — 15/11/2026 · "Em alta agora", Google Notícias e linha do tempo de cada vídeo
+
+**O que mudou e por quê.** O responsável cobrou os dois blocos do caderno de buscas que tinham ficado como "ainda não trazido" e a linha do tempo dos vídeos do YouTube.
+
+- `scripts/collect_trends_agora.py` + passo em `trends.yml`: "Em alta agora" na Espanha e os 5 primeiros resultados do Google Notícias por termo, pelos RSS públicos do Google. É uma versão enxuta do coletor do ODI Atlas, sem a parte dos debates. Grava a leitura e um histórico por dia.
+- `data/config/trends.json`: `noticias_termos` (Vox, Santiago Abascal, Fundación Disenso, Foro Madrid).
+- `index.html`: os dois blocos no caderno de buscas; no caderno "O que dizem", nova linha do tempo com uma bolha por publicação (no YouTube, por vídeo), área pela audiência e clique que abre o vídeo. O caderno passa a abrir no YouTube, como no original.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 62 testes, OK; `node --check`; página aberta em navegador sem interface com os dados do repositório: "O que dizem" abre no YouTube e desenha uma bolha por vídeo, sem erro de console. A coleta real está na entrada seguinte.
+
+**Pendente.** Gráfico normal × pico. A lista "em alta" é lida uma vez por dia; no original era de hora em hora.
+
 ## E1.24 — 15/11/2026 · Termos do glossário de política espanhola testados no dicionário de temas
 
 **O que mudou e por quê.** O responsável indicou `https://www.politicaelectoral.com/es/espana/glosario` (437 termos, sem licença de reuso declarada). Só os nomes de termos de nove categorias foram usados, como candidatos; nenhuma definição foi copiada. Cada candidato foi contado no acervo, e entraram em `data/config/temas.json` os que aparecem em 3 publicações ou mais e ainda não constavam (entre parênteses, o número de publicações):

@@ -31,6 +31,12 @@ jobs:
           rc=0; python scripts/collect_trends.py > t.txt 2>&1 || rc=$?
           tail -n 14 t.txt | while IFS= read -r l; do echo "::notice title=Trends::$(echo "$l" | cut -c1-500)"; done
           rm -f t.txt; exit $rc
+      - name: Em alta agora e Google Notícias (RSS públicos)
+        continue-on-error: true
+        run: |
+          python scripts/collect_trends_agora.py > a.txt 2>&1 || true
+          while IFS= read -r l; do echo "::notice title=Em alta e notícias::$(echo "$l" | cut -c1-400)"; done < a.txt
+          rm -f a.txt
       - name: Caderno de buscas (consolida a coleta mais recente)
         if: always()
         continue-on-error: true
