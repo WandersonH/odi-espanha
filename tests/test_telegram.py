@@ -12,6 +12,13 @@ PAG = '''<div class="tgme_channel_info_header_title"><span dir="auto">VOX 🇪�
 <span class="tgme_widget_message_views">900</span><a class="tgme_widget_message_date" href="x"><time datetime="{db}T09:00:00+00:00" class="time">09:00</time></a></div>'''
 
 
+def config(t):
+    """Configuração fixa do teste (um canal): o teste não depende dos canais cadastrados no projeto."""
+    shutil.copy(RAIZ / "data/config/temas.json", t / "data/config/temas.json")
+    (t / "data/config/telegram.json").write_text(json.dumps({"nota": "teste", "intervalo_s": 0, "max_paginas": 50,
+        "canais": [{"ator_id": "vox", "ator_nome": "Vox", "canal": "VOXtelegram", "url": "https://t.me/VOXtelegram", "confirmado": True}]}), encoding="utf-8")
+
+
 class TestTelegram(unittest.TestCase):
     def test_parse(self):
         ms, canal = ct.parse(PAG.format(a=12, da="2026-09-02", b=11, db="2026-09-01"))
@@ -21,8 +28,7 @@ class TestTelegram(unittest.TestCase):
 
     def test_le_ate_a_data_inicial_e_nao_inventa_universo(self):
         t = projeto()
-        for f in ("telegram.json", "temas.json"):
-            shutil.copy(RAIZ / "data/config" / f, t / "data/config" / f)
+        config(t)
         pedidos = []
 
         def buscar(u):
@@ -37,8 +43,7 @@ class TestTelegram(unittest.TestCase):
 
     def test_erro_de_rede_nao_vira_completa(self):
         t = projeto()
-        for f in ("telegram.json", "temas.json"):
-            shutil.copy(RAIZ / "data/config" / f, t / "data/config" / f)
+        config(t)
 
         def cai(u):
             raise OSError("sem rede")

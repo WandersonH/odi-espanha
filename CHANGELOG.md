@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## E1.27 — 15/11/2026 · Correção: teste do Telegram dependia da configuração real
+
+**O que aconteceu.** O commit d1a42c7 (E1.26) foi enviado com um teste falhando: `test_telegram` copiava `data/config/telegram.json` do projeto e quebrou quando entraram dois canais. O run 43766888293 parou no passo de testes e o Telegram não foi lido. A entrada E1.26 diz "62 testes, OK" e isso estava errado: eram 61 passando e 1 falhando; a verificação do comando não olhava o código de saída.
+
+**O que mudou.** `tests/test_telegram.py` usa configuração própria, fixa. Nenhuma mudança no coletor.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 62 testes, OK, conferido pelo código de saída. A leitura dos canais está na entrada seguinte.
+
 ## E1.26 — 15/11/2026 · Primeira leitura de "Em alta agora" e do Google Notícias; mais dois canais do Telegram
 
 **O que foi realmente executado.** Run 43766518449 (`trends.yml`): "Em alta agora" na Espanha com 10 buscas na leitura de 2026-11-15T22:00:31Z, nenhuma citando os atores; Google Notícias com 20 resultados, 5 para cada um dos 4 termos. Arquivos: `data/trends/agora.json`, `data/trends/noticias.json` e os dois históricos em CSV. O Trends por termo foi relido na mesma execução (9 consultas).
