@@ -1,0 +1,25 @@
+termo;tipo;lista;posicao;texto;tipo_assunto;valor;valor_formatado
+Vox;consultas;principais;1;vox;;100;100
+Vox;consultas;principais;2;vox españa;;4;4
+Vox;consultas;principais;3;programa de vox;;4;4
+Vox;consultas;principais;4;aborto vox;;2;2
+Vox;consultas;principais;5;santiago abascal;;1;1
+Vox;consultas;em_alta;1;santiago abascal;;70;+70 %
+Santiago Abascal;consultas;principais;1;abascal;;100;100
+Santiago Abascal;consultas;principais;2;la revuelta;;27;27
+Santiago Abascal;consultas;principais;3;broncano;;21;21
+Santiago Abascal;consultas;principais;4;abascal broncano;;20;20
+Santiago Abascal;consultas;principais;5;santiago abascal;;17;17
+Santiago Abascal;consultas;principais;6;abascal en la revuelta;;11;11
+Santiago Abascal;consultas;principais;7;entrevista broncano abascal;;7;7
+Santiago Abascal;consultas;principais;8;broncano y abascal;;7;7
+Santiago Abascal;consultas;principais;9;abascal hoy;;3;3
+Santiago Abascal;consultas;principais;10;la revuelta santiago abascal;;3;3
+Santiago Abascal;consultas;principais;11;mujer abascal;;2;2
+Santiago Abascal;consultas;principais;12;abascal hijos;;1;1
+Santiago Abascal;consultas;em_alta;1;entrevista broncano abascal;;650;+650 %
+Santiago Abascal;consultas;em_alta;2;broncano y abascal;;500;+500 %
+Santiago Abascal;consultas;em_alta;3;broncano;;250;+250 %
+Santiago Abascal;consultas;em_alta;4;abascal broncano;;200;+200 %
+Santiago Abascal;consultas;em_alta;5;abascal hijos;;80;+80 %
+Santiago Abascal;consultas;em_alta;6;mujer abascal;;70;+70 %
