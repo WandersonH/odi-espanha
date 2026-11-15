@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## E1.22 — 15/11/2026 · Instagram e Facebook de Eduardo Cader confirmados
+
+**O que mudou e por quê.** O responsável enviou `https://www.instagram.com/ecader/` e `https://www.facebook.com/ecader`. `data/config/atores.json`: os dois perfis passam de "não localizado" a confirmados, com o envio do responsável como fonte. `data/config/coleta.json`: teto da carga do Instagram de US$ 0,35 para US$ 0,40 e do Facebook de US$ 5,80 para US$ 6,15, só para este perfil, com a frase de autorização.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 59 testes, OK. As cargas estão na entrada seguinte.
+
 ## E1.21 — 15/11/2026 · Telegram do Vox: uma mensagem só, de 07/11/2025
 
 **O que foi realmente executado.** Run 43760463042 (`gratuitas.yml`, opção `telegram`): `VOXtelegram` tem 840 inscritos e a prévia pública mostra uma única mensagem, a de número 1, de 07/11/2025. Não há mensagens no período do estudo (desde 16/02/2026). Evidência: `data/telegram/resumo.json` e `data/telegram/manifesto_latest.json`.

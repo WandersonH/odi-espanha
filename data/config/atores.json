@@ -202,18 +202,18 @@
      "conferido_em": "2026-11-15"
     },
     "instagram": {
-     "perfil": "",
-     "url": "",
-     "confirmado": false,
-     "fonte": "",
-     "nota": "não localizado"
+     "perfil": "ecader",
+     "url": "https://www.instagram.com/ecader/",
+     "confirmado": true,
+     "conferido_em": "2026-11-15",
+     "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://www.instagram.com/ecader/)."
     },
     "facebook": {
-     "perfil": "",
-     "url": "",
-     "confirmado": false,
-     "fonte": "",
-     "nota": "não localizado"
+     "perfil": "ecader",
+     "url": "https://www.facebook.com/ecader",
+     "confirmado": true,
+     "conferido_em": "2026-11-15",
+     "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://www.facebook.com/ecader)."
     },
     "youtube": {
      "perfil": "",

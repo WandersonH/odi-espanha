@@ -20,7 +20,7 @@
     "posts_por_perfil": {
      "padrao": 5000
     },
-    "teto_usd": 0.35
+    "teto_usd": 0.4
    },
    "diario": {
     "posts_por_perfil": {
@@ -30,7 +30,7 @@
     "teto_dia_usd": 0.0,
     "teto_mes_usd": 0.0
    },
-   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto. | Responsável, 15/11/2026: 'final 30/01/2027 · Posso rodar já a carga de Instagram e X com o saldo atual? PODE RODAR · tu tá colhendo tamanho do universo, preciso responder pra Carla qual seria o universo total, até pra previsionar custos'. Liberada a CARGA desta rede com o teto proposto e aceito (Instagram US$ 0,20; X US$ 2,00). Diário segue em zero. | Responsável, 15/11/2026: 'a gente ainda tem 4.50 dolares pra vir trazendo essa carga historica' e, ao confirmar perfis que estavam como candidatos, 'correto poq nao coletou'. Teto da carga elevado de US$ 0.2 para US$ 0.35, só para a carga dos perfis confirmados nesse dia (santi_abascal)."
+   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto. | Responsável, 15/11/2026: 'final 30/01/2027 · Posso rodar já a carga de Instagram e X com o saldo atual? PODE RODAR · tu tá colhendo tamanho do universo, preciso responder pra Carla qual seria o universo total, até pra previsionar custos'. Liberada a CARGA desta rede com o teto proposto e aceito (Instagram US$ 0,20; X US$ 2,00). Diário segue em zero. | Responsável, 15/11/2026: 'a gente ainda tem 4.50 dolares pra vir trazendo essa carga historica' e, ao confirmar perfis que estavam como candidatos, 'correto poq nao coletou'. Teto da carga elevado de US$ 0.2 para US$ 0.35, só para a carga dos perfis confirmados nesse dia (santi_abascal). | Responsável, 15/11/2026, 18h11: enviou o endereço do perfil 'ecader' para entrar na coleta, na mesma linha de 'a gente ainda tem 4.50 dolares pra vir trazendo essa carga historica'. Teto da carga elevado de US$ 0.35 para US$ 0.4, só para a carga desse perfil."
   },
   "x": {
    "ator": "xquik~x-tweet-scraper",
@@ -79,7 +79,7 @@
     "posts_por_perfil": {
      "padrao": 3000
     },
-    "teto_usd": 5.8
+    "teto_usd": 6.15
    },
    "diario": {
     "posts_por_perfil": {
@@ -89,7 +89,7 @@
     "teto_dia_usd": 0.0,
     "teto_mes_usd": 0.0
    },
-   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto. | Responsável, 15/11/2026: 'temos 10 dolares na conta agr'. Perguntado 'rodo agora a carga do Facebook (páginas vox.espana e ForoMadridOficial) com teto de US$ 4,50? O bruto dessa leitura não será guardado', respondeu: 'Rodar agora'. Liberada a CARGA do Facebook, teto US$ 4,50. Diário segue em zero. | Responsável, 15/11/2026: 'a gente ainda tem 4.50 dolares pra vir trazendo essa carga historica' e, ao confirmar perfis que estavam como candidatos, 'correto poq nao coletou'. Teto da carga elevado de US$ 4.5 para US$ 5.8, só para a carga dos perfis confirmados nesse dia (fundaciondisenso)."
+   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto. | Responsável, 15/11/2026: 'temos 10 dolares na conta agr'. Perguntado 'rodo agora a carga do Facebook (páginas vox.espana e ForoMadridOficial) com teto de US$ 4,50? O bruto dessa leitura não será guardado', respondeu: 'Rodar agora'. Liberada a CARGA do Facebook, teto US$ 4,50. Diário segue em zero. | Responsável, 15/11/2026: 'a gente ainda tem 4.50 dolares pra vir trazendo essa carga historica' e, ao confirmar perfis que estavam como candidatos, 'correto poq nao coletou'. Teto da carga elevado de US$ 4.5 para US$ 5.8, só para a carga dos perfis confirmados nesse dia (fundaciondisenso). | Responsável, 15/11/2026, 18h11: enviou o endereço do perfil 'ecader' para entrar na coleta, na mesma linha de 'a gente ainda tem 4.50 dolares pra vir trazendo essa carga historica'. Teto da carga elevado de US$ 5.8 para US$ 6.15, só para a carga desse perfil."
   }
  },
  "perfis": {
