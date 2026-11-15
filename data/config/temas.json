@@ -43,7 +43,8 @@
    "machete*",
    "policia*",
    "guardia civil",
-   "calles"
+   "calles",
+   "uco"
   ],
   "vivienda": [
    "vivienda*",
@@ -53,7 +54,8 @@
    "pisos",
    "okupa*",
    "desahuci*",
-   "suelo"
+   "suelo",
+   "vivienda protegida"
   ],
   "economia_impuestos": [
    "economia",
@@ -138,7 +140,9 @@
    "soberania",
    "unidad de espana",
    "reconquista",
-   "gibraltar"
+   "gibraltar",
+   "amnistia",
+   "separatismo"
   ],
   "familia_valores": [
    "familia*",
@@ -155,7 +159,8 @@
    "tradicion*",
    "sentido comun",
    "woke",
-   "adoctrina*"
+   "adoctrina*",
+   "solo si es si"
   ],
   "europa_ue": [
    "europa",
@@ -266,7 +271,8 @@
   "podemos",
   "zapatero",
   "izquierda",
-  "ayuso"
+  "ayuso",
+  "sanchismo"
  ],
  "adversarios_nota": "Marca 'cita adversário': a publicação nomeia outro partido, seus dirigentes ou 'bipartidismo'/'izquierda'. Citar não é atacar: a marca só diz que o nome aparece.",
  "pede_voto": [
@@ -327,5 +333,6 @@
    "ate": "2027-01-30"
   }
  ],
- "fases_nota": "Datas da campanha oficial calculadas pela regra geral da lei eleitoral espanhola (15 dias, encerrando na véspera do dia de reflexão) para a eleição de 29/11/2026. A CONFERIR no calendário oficial da Junta Electoral Central antes de usar em análise."
+ "fases_nota": "Datas da campanha oficial calculadas pela regra geral da lei eleitoral espanhola (15 dias, encerrando na véspera do dia de reflexão) para a eleição de 29/11/2026. A CONFERIR no calendário oficial da Junta Electoral Central antes de usar em análise.",
+ "glossario_nota": "Em 15/11/2026, termos do glossário de politicaelectoral.com/es/espana/glosario (só os nomes dos termos; nenhuma definição foi copiada) foram testados contra o acervo. Entraram no dicionário os que aparecem em 3 publicações ou mais e ainda não constavam. Continua rascunho, a validar pelos pesquisadores."
 }

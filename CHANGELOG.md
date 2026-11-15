@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## E1.24 — 15/11/2026 · Termos do glossário de política espanhola testados no dicionário de temas
+
+**O que mudou e por quê.** O responsável indicou `https://www.politicaelectoral.com/es/espana/glosario` (437 termos, sem licença de reuso declarada). Só os nomes de termos de nove categorias foram usados, como candidatos; nenhuma definição foi copiada. Cada candidato foi contado no acervo, e entraram em `data/config/temas.json` os que aparecem em 3 publicações ou mais e ainda não constavam (entre parênteses, o número de publicações):
+
+- `adversarios`: sanchismo (6)
+- `nacion_unidad`: amnistia (4), separatismo (8)
+- `familia_valores`: solo si es si (3)
+- `seguridad`: uco (25)
+- `vivienda`: vivienda protegida (7)
+
+**O que foi realmente executado.** Contagem sobre as 8490 publicações de Instagram, X, Facebook e YouTube do acervo local: com ao menos um tema, 5800 → 5812 (68.3% → 68.5%); que citam adversário, 2379 → 2379. `python -m unittest discover -s tests` → 59 testes, OK. Os arquivos da página são regerados na próxima execução das análises.
+
+**Pendente.** O dicionário continua rascunho, a validar pelos pesquisadores. Só uma parte do glossário foi testada (as categorias exibidas na página principal).
+
 ## E1.23 — 15/11/2026 · Instagram de Cader é privado; Similarweb da Disenso completado
 
 **O que foi realmente executado.** Run 43762406629 (`coleta.yml`, carga, Instagram, `ecader`): o coletor devolveu um único item com o aviso `private`. O perfil é privado; nenhuma publicação foi lida. O manifesto registra o custo dessa tentativa.
