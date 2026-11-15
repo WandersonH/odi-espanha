@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Roda os testes e, se falharem, publica cada falha como anotação do GitHub (legível sem acesso ao log completo).
-# Este repositório usa só a biblioteca padrão do Python: não há o que instalar antes.
+# A rede de coocorrência usa networkx (mesma versão do ODI Atlas); o resto, só a biblioteca padrão.
+pip install -q networkx==3.6.1 numpy==2.3.4 scipy > /dev/null 2>&1 || echo "::warning title=Testes::networkx não instalado"
 out=$(python -m unittest discover -s tests 2>&1); rc=$?
 echo "$out" | tail -n 3
 if [ $rc -ne 0 ]; then

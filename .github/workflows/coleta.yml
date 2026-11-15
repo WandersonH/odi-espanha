@@ -76,6 +76,7 @@ jobs:
         if: always() && steps.coletar.outcome != 'skipped'
         run: scripts/commit_push.sh "Coleta (run ${{ github.run_id }})"
       - name: Biblioteca de redes (networkx, mesma versão do ODI Atlas)
+        if: always()
         run: pip install -q networkx==3.6.1 numpy==2.3.4 scipy
       - name: Agregados da página, corpus e rede de menções
         if: always() && (steps.coletar.outcome != 'skipped' || github.event_name != 'schedule')

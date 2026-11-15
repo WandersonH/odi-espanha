@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## E1.30 — 15/11/2026 · Correção: testes no GitHub sem a biblioteca de redes
+
+Run 43768506037 falhou: o passo de testes roda antes da instalação do networkx, e o teste da rede de coocorrência (E1.28) quebrou; com a falha, a instalação não rodou e as análises também quebraram. `scripts/testes_ci.sh` passa a instalar networkx 3.6.1 antes dos testes, e o passo de instalação nos workflows roda mesmo depois de falha. Local: 65 testes, OK. A execução no GitHub está na entrada seguinte.
+
 ## E1.29 — 15/11/2026 · Caso "Brasil": cruzamento de todas as fontes com Brasil, Lula e a família Bolsonaro
 
 **O que mudou e por quê.** O responsável pediu "a página de casos": "um cruzamento geral de todos esses perfis com citações a Brasil, Flávio e Lula; tudo, digo redes, sites, mensageria".
