@@ -431,7 +431,7 @@ async function comentarios() {
   c.innerHTML = h; c.dataset.ok = "1";
 }
 
-const PERIODO = {"now 1-d": "Últimas 24 horas", "now 7-d": "Últimos 7 dias", "today 3-m": "Últimos 3 meses", eleitoral: "Período do estudo, dia a dia"};
+const PERIODO = {"now 1-d": "Últimas 24 horas", "now 7-d": "Últimos 7 dias", "today 3-m": "Últimos 3 meses", eleitoral: "Período do estudo (desde 16/02/2026)"};
 const GRUPO = {atores_topicos: "Vox e Abascal · tópicos do Google", atores_palavras: "Os atores · termos de busca", pessoas_palavras: "As pessoas · termos de busca"};
 async function trends() {
   const c = $("trCorpo"), T = await json("data/trends/caderno.json"), qs = (T && T.consultas) || [];

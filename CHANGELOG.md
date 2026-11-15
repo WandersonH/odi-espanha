@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## E1.18 — 15/11/2026 · Primeira coleta do Google Trends da Espanha; YouTube de Abascal lido
+
+**O que foi realmente executado.**
+
+- Run 43759045300 (`trends.yml`): 9 consultas com status ok (3 grupos × 3 períodos), coleta de 15/11/2026 20:36 UTC, em `data/trends/2026-11-15/203644/` e `data/trends/caderno.json`. Os tópicos foram encontrados: Vox como "Partido político" e Santiago Abascal como "Diputado en el Congreso de los Diputados de España". Pontos por série: 169 (7 dias), 93 (3 meses) e 40 (período do estudo, que o Google devolveu por semana). Recorte regional: 19 linhas (17 comunidades autónomas, Ceuta e Melilla). Consultas relacionadas só no grupo de tópicos.
+- Na consulta de tópicos do período do estudo, o máximo (100) é de Abascal na semana de 08/11/2026, quando o tópico Vox marcou 40. "Fundación Disenso", "Jorge Martín Frías" e "Eduardo Cader" ficaram em 0 em todas as janelas: sem volume suficiente para o Google mostrar.
+- Run 43759047498 (`gratuitas.yml`): YouTube `@Santi_ABASCAL` com universo de 208 vídeos, 47 no período, cobertura completa; comentários desses vídeos: universo 3.276, lidos 3.276. Acervo total: 8.490 publicações; comentários guardados no privado: 203.638.
+- Página: caderno de buscas aberto em navegador sem interface com o arquivo real: 30 linhas de série, 9 tabelas regionais, sem erro de console.
+
+**Correção.** O rótulo do período do estudo dizia "dia a dia"; a série veio semanal. Rótulo e nota de configuração corrigidos.
+
+**Pendente.** "Em alta agora", Google Notícias e gráfico normal × pico; termos do Trends a confirmar pelos pesquisadores.
+
 ## E1.17 — 15/11/2026 · Google Trends da Espanha (coletor do ODI Atlas) e canal de Abascal no YouTube
 
 **O que mudou e por quê.** O responsável perguntou por que as buscas da Espanha não tinham sido feitas e mandou o canal `https://www.youtube.com/@Santi_ABASCAL`.

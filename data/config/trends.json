@@ -54,7 +54,7 @@
  "periodo_eleitoral": {
   "inicio": "2026-02-16",
   "fim": "2027-01-30",
-  "nota": "Período do estudo (16/02/2026 a 30/01/2027). Enquanto o período não termina, a data final é a do dia da coleta. Granularidade diária."
+  "nota": "Período do estudo (16/02/2026 a 30/01/2027). Enquanto o período não termina, a data final é a do dia da coleta. A granularidade é a que o Google devolve para o tamanho da janela: na coleta de 15/11/2026 veio semanal (40 pontos)."
  },
  "relacionados": {
   "grupos": [
