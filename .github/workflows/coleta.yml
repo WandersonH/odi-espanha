@@ -49,7 +49,8 @@ jobs:
           if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-esp.git" "$RUNNER_TEMP/interno"; then
             echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
           else
-            echo "::warning title=Repositório privado::ODI_INTERNO_TOKEN ausente ou sem acesso: o bruto desta execução não será guardado"
+            if [ -z "$TOKEN" ]; then m="segredo ODI_INTERNO_TOKEN não cadastrado"; else m="ODI_INTERNO_TOKEN cadastrado, mas sem acesso de escrita ao odi-secret-esp"; fi
+            echo "::warning title=Repositório privado::$m — bruto e texto integral desta execução NÃO serão guardados"
           fi
       - name: Coletar (Apify, com teto)
         id: coletar

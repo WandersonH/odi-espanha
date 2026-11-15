@@ -6,40 +6,111 @@
  "redes": {
   "instagram": {
    "ator": "esdrasdw~instagram-content-scraper",
-   "preco_usd": {"item": 5e-05, "inicio": 0.0, "fonte": "loja Apify, 18/10/2026: US$ 0,05 por 1.000 itens (ODI Atlas, instagram_posts.json)"},
+   "preco_usd": {
+    "item": 5e-05,
+    "inicio": 0.0,
+    "fonte": "loja Apify, 18/10/2026: US$ 0,05 por 1.000 itens (ODI Atlas, instagram_posts.json)"
+   },
    "leitura": "Uma execução por perfil para os posts e uma segunda, no modo reels, só para as visualizações (este ator só informa plays no modo reels).",
-   "teste": {"posts": 10, "teto_usd": 0.0},
-   "carga": {"posts_por_perfil": {"padrao": 5000}, "teto_usd": 0.0},
-   "diario": {"posts_por_perfil": {"padrao": 60}, "janela_dias": 2, "teto_dia_usd": 0.0, "teto_mes_usd": 0.0},
-   "autorizacao": ""
+   "teste": {
+    "posts": 10,
+    "teto_usd": 0.1
+   },
+   "carga": {
+    "posts_por_perfil": {
+     "padrao": 5000
+    },
+    "teto_usd": 0.0
+   },
+   "diario": {
+    "posts_por_perfil": {
+     "padrao": 60
+    },
+    "janela_dias": 2,
+    "teto_dia_usd": 0.0,
+    "teto_mes_usd": 0.0
+   },
+   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto."
   },
   "x": {
    "ator": "xquik~x-tweet-scraper",
-   "preco_usd": {"item": 0.00015, "inicio": 0.0, "fonte": "README do ator, 17/10/2026: US$ 0,00015 por linha em qualquer plano (ODI Atlas, x_posts.json)"},
+   "preco_usd": {
+    "item": 0.00015,
+    "inicio": 0.0,
+    "fonte": "README do ator, 17/10/2026: US$ 0,00015 por linha em qualquer plano (ODI Atlas, x_posts.json)"
+   },
    "leitura": "Busca do próprio X: from:perfil since:data, sem reposts. Entram posts, respostas e citações do perfil.",
    "incluir_reposts": false,
-   "teste": {"posts": 20, "teto_usd": 0.0},
-   "carga": {"posts_por_perfil": {"padrao": 20000}, "teto_usd": 0.0},
-   "diario": {"posts_por_perfil": {"padrao": 200}, "janela_dias": 2, "teto_dia_usd": 0.0, "teto_mes_usd": 0.0},
-   "autorizacao": ""
+   "teste": {
+    "posts": 20,
+    "teto_usd": 0.1
+   },
+   "carga": {
+    "posts_por_perfil": {
+     "padrao": 20000
+    },
+    "teto_usd": 0.0
+   },
+   "diario": {
+    "posts_por_perfil": {
+     "padrao": 200
+    },
+    "janela_dias": 2,
+    "teto_dia_usd": 0.0,
+    "teto_mes_usd": 0.0
+   },
+   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto."
   },
   "facebook": {
    "ator": "apify~facebook-posts-scraper",
-   "preco_usd": {"item": 0.005, "inicio": 0.001, "fonte": "loja Apify, plano gratuito, 17/10/2026: US$ 0,005 por post (ODI Atlas, facebook_posts.json)"},
+   "preco_usd": {
+    "item": 0.005,
+    "inicio": 0.001,
+    "fonte": "loja Apify, plano gratuito, 17/10/2026: US$ 0,005 por post (ODI Atlas, facebook_posts.json)"
+   },
    "leitura": "Uma execução por página, do post mais recente para trás até a data inicial. O ator não aceita data final.",
    "limite_ator_itens": 700,
    "limite_ator_fonte": "ODI Atlas, facebook_posts.json (17 e 22/10/2026): o ator para perto de 1.000 posts por página, 700 com filtro de data. Leitura que chega a esse número é marcada como parcial.",
-   "teste": {"posts": 10, "teto_usd": 0.0},
-   "carga": {"posts_por_perfil": {"padrao": 3000}, "teto_usd": 0.0},
-   "diario": {"posts_por_perfil": {"padrao": 30}, "janela_dias": 2, "teto_dia_usd": 0.0, "teto_mes_usd": 0.0},
-   "autorizacao": ""
+   "teste": {
+    "posts": 10,
+    "teto_usd": 0.3
+   },
+   "carga": {
+    "posts_por_perfil": {
+     "padrao": 3000
+    },
+    "teto_usd": 0.0
+   },
+   "diario": {
+    "posts_por_perfil": {
+     "padrao": 30
+    },
+    "janela_dias": 2,
+    "teto_dia_usd": 0.0,
+    "teto_mes_usd": 0.0
+   },
+   "autorizacao": "Responsável, 15/11/2026: 'feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok'. Leitura registrada: a conta dedicada (APIFY_TOKEN_ESP) tem US$ 5 de saldo e a coleta completa espera o pacote de US$ 20. Nesta fase fica liberado só o TESTE desta rede, com o teto abaixo; carga e diário seguem em zero até o teste mostrar o volume real e o repositório privado estar gravando o bruto."
   }
  },
  "perfis": {
   "nota": "Seguidores e total de publicações que a plataforma informa (o universo), por perfil e por dia. No X, vem do próprio post (sem custo extra).",
-  "atores": {"instagram": "apify~instagram-profile-scraper", "facebook": "apify~facebook-pages-scraper"},
-  "sonda": {"teto_usd": 0.0},
-  "diario": {"teto_dia_usd": 0.0, "teto_mes_usd": 0.0},
+  "atores": {
+   "instagram": "apify~instagram-profile-scraper",
+   "facebook": "apify~facebook-pages-scraper"
+  },
+  "sonda": {
+   "teto_usd": 0.0
+  },
+  "diario": {
+   "teto_dia_usd": 0.0,
+   "teto_mes_usd": 0.0
+  },
   "autorizacao": ""
+ },
+ "fase": {
+  "saldo_informado_usd": 5.0,
+  "informado_em": "2026-11-15",
+  "soma_dos_tetos_liberados_usd": 0.5,
+  "proximo": "carga, depois do pacote de US$ 20 e do segredo ODI_INTERNO_TOKEN funcionando"
  }
 }

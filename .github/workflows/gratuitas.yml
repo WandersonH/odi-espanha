@@ -39,7 +39,8 @@ jobs:
           if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-esp.git" "$RUNNER_TEMP/interno"; then
             echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
           else
-            echo "::notice title=Repositório privado::ODI_INTERNO_TOKEN ausente: só os metadados públicos serão lidos (sem texto integral)"
+            if [ -z "$TOKEN" ]; then m="segredo ODI_INTERNO_TOKEN não cadastrado"; else m="ODI_INTERNO_TOKEN cadastrado, mas sem acesso de escrita ao odi-secret-esp"; fi
+            echo "::warning title=Repositório privado::$m — bruto e texto integral desta execução NÃO serão guardados"
           fi
       - name: Sites oficiais (notícias e artigos)
         id: sites

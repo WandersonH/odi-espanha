@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## E1.2 — 15/11/2026 · YouTube com dados reais; teste da Apify autorizado
+
+**O que mudou e por quê.** O responsável cadastrou segredos e informou o orçamento: "feito apify tem 5 dolares mais vamos contratar um pacote de 20 dolares pra coleta completa ok".
+
+- `data/config/coleta.json`: frase de autorização gravada nas três redes; liberado só o modo **teste** (Instagram US$ 0,10, X US$ 0,10, Facebook US$ 0,30; soma US$ 0,50 de um saldo informado de US$ 5). Carga e diário continuam em zero.
+- Workflows: o aviso do repositório privado agora distingue "segredo não cadastrado" de "sem acesso".
+
+**O que foi realmente executado.**
+- `python -m unittest discover -s tests` → 29 testes, OK.
+- **YouTube, com dados reais:** workflow *Coletas sem custo*, run 43737756941 (15/11/2026, 16h51 UTC), sucesso. Evidência em `data/youtube/manifesto_latest.json`, `data/youtube/posts.csv.gz` e `data/perfis/youtube_latest.csv`. Universo (total de vídeos que o YouTube informa por canal, toda a vida do canal) e amostra (vídeos lidos no período, lista de envios lida até a data inicial):
+  - Vox (`voxespana`): universo 6.172; lidos no período 1.115; cobertura completa.
+  - Fundación Disenso (`@fundaciondisenso`): universo 339; lidos 85; cobertura completa.
+  - Foro Madrid: universo 87; lidos 16; cobertura completa.
+  - Acervo: 1.216 vídeos. Corpus IRaMuTeQ gerado com 1.216 textos (título e descrição).
+- Sites, mesmo run: sem publicações novas (Foro Madrid 20 de 20 e 1 de 1; Disenso 129 pelo RSS; Vox ⛔ HTTP 403).
+
+**O que NÃO foi executado (⛔).** Nenhuma chamada à Apify até este commit. O repositório privado não gravou nada: no run 43737756941 o `ODI_INTERNO_TOKEN` não estava disponível (não cadastrado ou sem acesso), então não há texto integral dos sites.
+
+**Pendências.** `ODI_INTERNO_TOKEN` funcionando antes de qualquer carga paga (sem ele o bruto da Apify se perde); data final do período; pacote de US$ 20; tetos de carga e diário depois do teste.
+
 ## E1.1 — 14/11/2026 · Perfis corrigidos, YouTube e notícias dos sites oficiais
 
 **O que mudou e por quê.** O responsável mandou endereços (Instagram de Jorge Martín Frías e da Fundación Disenso, canal de YouTube da Disenso, os sites foromadrid.org, voxespana.es e fundaciondisenso.org/articulos/, a Junta Electoral Central) e pediu as frentes do ODI Atlas (YouTube, Trends, checagens, buscas nas redes, TikTok, grupos, Telegram) e um quadro com as notícias publicadas pelos sites.
