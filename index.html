@@ -30,13 +30,26 @@
 .esp-listas .card,.esp-atores .card{margin-top:0}
 h2.tk-h2{margin-top:0}.card+.card,.card+.esp-atores,.esp-atores+.card{margin-top:17px}.esp-nota{font-size:11.5px;color:#6b7a8c;margin:12px 0 0;line-height:1.55}
 .esp-sites .card,.esp-listas .card,.esp-atores .card{margin-top:0!important}
+.esp-barra{display:block;height:9px;background:#eef1f3;min-width:60px}.esp-barra i{display:block;height:9px}
+.esp-cloud{line-height:1.45;padding:6px 0}.esp-cloud .yt-word{display:inline-block;margin:1px 8px 1px 0;font-family:Georgia,'Times New Roman',serif;color:var(--c)}
+a.esp-item{text-decoration:none;margin-top:10px}.esp-item small{font:10.5px/1.5 monospace;color:#6b7a8c}
+.esp-chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0;align-items:center;font-size:12px;color:#4a5b71}
+.esp-duas{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:15px;margin-top:17px}.esp-duas .card{margin-top:0}
+.esp-prev{margin:8px 0 0;padding-left:18px;font-size:12.5px;color:#4a5b71;line-height:1.7}
+.datatable small{color:#6b7a8c;font-size:10.5px}.esp-tl text{font-family:Georgia,'Times New Roman',serif}
+.yt-chip[aria-pressed="true"]{background:#172238!important;color:#fff!important;border-color:#172238!important}
 </style></head>
-<body><div class="layout"><aside class="side"><div class="mark" aria-label="Observatório de Desinformação e Intolerância Digital — ODI Espanha"><div class="brand-head"><img class="odi-brand-img" alt="Identidade visual do Observatório de Desinformação e Intolerância Digital" src="./assets/odi-marca.jpg"><div class="brand-name"><strong>ATLAS</strong><span>Observatório de Desinformação<br>e Intolerância Digital</span></div></div><div class="brand-footer"><span>ESPANHA</span><span id="ladoPeriodo">2026</span></div></div><div class="navcaption">ÍNDICE / 6 CADERNOS</div><nav class="nav" id="nav">
+<body><div class="layout"><aside class="side"><div class="mark" aria-label="Observatório de Desinformação e Intolerância Digital — ODI Espanha"><div class="brand-head"><img class="odi-brand-img" alt="Identidade visual do Observatório de Desinformação e Intolerância Digital" src="./assets/odi-marca.jpg"><div class="brand-name"><strong>ATLAS</strong><span>Observatório de Desinformação<br>e Intolerância Digital</span></div></div><div class="brand-footer"><span>ESPANHA</span><span id="ladoPeriodo">2026</span></div></div><div class="navcaption">ÍNDICE / 11 CADERNOS</div><nav class="nav" id="nav">
 <button class="navbutton active" data-tab="panorama"><span class="navicon">◫</span> Panorama · universo e amostra</button>
-<button class="navbutton" data-tab="posts"><span class="navicon">▶</span> O que publicam</button>
-<button class="navbutton" data-tab="atores"><span class="navicon">▣</span> Atores e perfis</button>
-<button class="navbutton" data-tab="marcas"><span class="navicon">◉</span> Marcações, hashtags e exportações</button>
-<button class="navbutton" data-tab="sites"><span class="navicon">❝</span> Sites oficiais · notícias e artigos</button>
+<button class="navbutton" data-tab="dizem"><span class="navicon">▶</span> O que dizem</button>
+<button class="navbutton" data-tab="posts"><span class="navicon">≡</span> O que publicam</button>
+<button class="navbutton" data-tab="seguidores"><span class="navicon">▣</span> Quem acompanha</button>
+<button class="navbutton" data-tab="comentarios"><span class="navicon">❝</span> Comentários</button>
+<button class="navbutton" data-tab="trends"><span class="navicon">↗</span> Buscas · Google Trends</button>
+<button class="navbutton" data-tab="anuncios"><span class="navicon">◈</span> Anúncios · Meta e Google</button>
+<button class="navbutton" data-tab="atores"><span class="navicon">◉</span> Atores e perfis</button>
+<button class="navbutton" data-tab="marcas"><span class="navicon">#</span> Marcações, hashtags e exportações</button>
+<button class="navbutton" data-tab="sites"><span class="navicon">❏</span> Sites oficiais · notícias e artigos</button>
 <button class="navbutton" data-tab="metodo"><span class="navicon">ⓘ</span> Método, fontes e saúde da coleta</button>
 </nav><div class="sidefoot"><span>ESTUDO CONTÍNUO</span><span id="ladoCredito" style="font-weight:400;letter-spacing:0"></span></div></aside>
 <main class="main"><header class="header"><span class="crumb">EDIÇÃO DE PESQUISA  /  ESPANHA  /  FORO MADRID · VOX · DISENSO</span><div class="actions"><span class="datechip" id="chipSaude" role="button" tabindex="0" style="cursor:pointer" title="Séries automáticas com dado novo dentro do prazo; detalhe no caderno de método">● Saúde da coleta…</span></div></header>
@@ -59,6 +72,42 @@ h2.tk-h2{margin-top:0}.card+.card,.card+.esp-atores,.esp-atores+.card{margin-top
   <div class="intro"><div class="eyebrow">Acervo de publicações</div><h1>Cada publicação, com data, texto e números.</h1>
     <p>Texto como publicado pelo perfil. Os números (visualizações, curtidas, comentários, compartilhamentos) são os da última leitura de cada publicação; campo vazio significa que a plataforma não informou, não que seja zero. Datas em UTC.</p></div>
   <div id="p2Corpo"></div>
+</section>
+
+<section class="panel" id="dizem" aria-label="O que dizem">
+  <div class="paper-ribbon"><span>CADERNO 02 / O QUE DIZEM</span><span id="dzData">—</span></div>
+  <div class="intro"><div class="eyebrow">Conteúdo por tema · atores monitorados</div><h1>Do que falam, com que palavras e quando.</h1>
+    <p>Cada publicação do acervo é classificada por um dicionário aberto de temas (regras, não inteligência artificial); uma publicação pode ter mais de um tema. O dicionário está em <b>rascunho</b>, ainda sem validação dos pesquisadores: leia as proporções como primeira aproximação. As nuvens contam publicações, não ocorrências.</p></div>
+  <div class="filterbar"><div class="controls" id="dzRedes"></div></div>
+  <div id="dzCorpo"></div>
+</section>
+
+<section class="panel" id="seguidores" aria-label="Quem acompanha">
+  <div class="paper-ribbon"><span>CADERNO 04 / QUEM ACOMPANHA</span><span id="sgData">—</span></div>
+  <div class="intro"><div class="eyebrow">Audiência declarada pelas plataformas</div><h1>Quantos seguem cada perfil.</h1>
+    <p>Número de seguidores (inscritos, no YouTube) informado pela própria plataforma na data da leitura. Seguidor não é eleitor nem pessoa única: a mesma pessoa pode seguir vários perfis, e as redes não são somadas. O YouTube arredonda o número de inscritos.</p></div>
+  <div id="sgCorpo"></div>
+</section>
+
+<section class="panel" id="comentarios" aria-label="Comentários">
+  <div class="paper-ribbon"><span>CADERNO 05 / COMENTÁRIOS</span><span id="cmData">—</span></div>
+  <div class="intro"><div class="eyebrow">O que a audiência responde</div><h1>Comentários: quanto existe e quanto foi lido.</h1>
+    <p>Comentário é dado de terceiros. O texto e o autor ficam só no repositório privado da pesquisa; aqui aparecem apenas contagens e agregados. O universo é a soma do contador de comentários que a plataforma informa em cada publicação lida.</p></div>
+  <div id="cmCorpo"></div>
+</section>
+
+<section class="panel" id="trends" aria-label="Buscas no Google Trends">
+  <div class="paper-ribbon"><span>CADERNO 06 / BUSCAS · GOOGLE TRENDS</span><span id="trData">—</span></div>
+  <div class="intro"><div class="eyebrow">Google Trends · interesse de busca relativo</div><h1>O que a Espanha procura sobre estes atores.</h1>
+    <p>O Google Trends informa interesse relativo (0 a 100), não número de buscas. Série por termo e por comunidade autónoma, no modelo do caderno de buscas do ODI Atlas.</p></div>
+  <div id="trCorpo"></div>
+</section>
+
+<section class="panel" id="anuncios" aria-label="Anúncios na Meta e no Google">
+  <div class="paper-ribbon"><span>CADERNO 07 / ANÚNCIOS · META E GOOGLE</span><span id="adData">—</span></div>
+  <div class="intro"><div class="eyebrow">Impulsionamento · Biblioteca de Anúncios da Meta e Central de Transparência do Google</div><h1>Quem anuncia com o nome destes atores.</h1>
+    <p>Desde o outono de 2025 nem a Meta nem o Google veiculam anúncio político na União Europeia. O que aparece aqui é anúncio comercial, anúncio que usa o nome dos atores e anúncio que a Meta classificou como político e retirou. Anúncio encontrado é registro para análise, não acusação de irregularidade.</p></div>
+  <div id="adCorpo"></div>
 </section>
 
 <section class="panel" id="atores" aria-label="Atores e perfis">
@@ -110,6 +159,8 @@ document.querySelectorAll(".navbutton").forEach(b => b.addEventListener("click",
   document.querySelectorAll(".navbutton").forEach(x => x.classList.toggle("active", x === b));
   document.querySelectorAll(".panel").forEach(p => p.classList.toggle("active", p.id === b.dataset.tab));
   if (b.dataset.tab === "posts") abrirPosts();
+  if (b.dataset.tab === "dizem") dizem();
+  if (b.dataset.tab === "comentarios") comentarios();
   window.scrollTo(0, 0);
 }));
 $("chipSaude").addEventListener("click", () => document.querySelector('[data-tab="metodo"]').click());
@@ -266,10 +317,164 @@ function metodo(S) {
     return `<tr><td><b>${REDE[r]}</b></td><td>${e.coletada ? "sim" : "⛔ não"}</td><td>${diaHora(e.ultima_execucao)}</td><td>${esc(e.modo_ultima || "—")}</td><td>${esc(e.status_ultima || "nunca executado")}</td></tr>`; }).join("")}</tbody>`;
 }
 
+// ───────── Cadernos no modelo do ODI Atlas: O que dizem, Quem acompanha, Comentários, Trends, Anúncios ─────────
+const TEMA = {inmigracion_fronteras: "Imigração e fronteiras", seguridad: "Segurança", vivienda: "Moradia", economia_impuestos: "Economia e impostos", campo_energia: "Campo e energia", corrupcion_justicia: "Corrupção e justiça", nacion_unidad: "Nação e unidade", familia_valores: "Família e valores", europa_ue: "Europa e UE", internacional_iberosfera: "Internacional e Iberosfera", medios_libertad_expresion: "Mídia e liberdade de expressão", servicios_publicos: "Serviços públicos", eleccion_campana: "Eleição e campanha", sem_tema: "Sem tema do dicionário"};
+const COR = ["#165ebd", "#b4472b", "#2f7d5b", "#7a4fb0", "#a8741a", "#3d6f8e"];
+const DZ = {rede: "instagram", tema: "", voto: false, adv: false, cache: {}};
+const conteudo = async r => DZ.cache[r] !== undefined ? DZ.cache[r] : (DZ.cache[r] = await json(`data/${r}/conteudo.json`));
+const pct = (a, b) => b ? (100 * a / b).toLocaleString("pt-BR", {maximumFractionDigits: 1}) + "%" : "—";
+const barra = (v, max, cor) => `<span class="esp-barra"><i style="width:${max ? Math.max(1, Math.round(100 * v / max)) : 0}%;background:${cor || "#165ebd"}"></i></span>`;
+const chip = (rot, attrs, on) => `<button class="yt-chip" ${attrs} aria-pressed="${on ? "true" : "false"}">${rot}</button>`;
+
+async function dizem(rede) {
+  if (rede) DZ.rede = rede;
+  const c = $("dzCorpo");
+  $("dzRedes").innerHTML = "<span>Rede:</span>" + Object.keys(REDE).map(r => chip(REDE[r], `data-r="${r}"`, r === DZ.rede)).join("");
+  $("dzRedes").querySelectorAll("button").forEach(b => b.onclick = () => { DZ.tema = ""; DZ.voto = DZ.adv = false; dizem(b.dataset.r); });
+  if (DZ.cache[DZ.rede] === undefined) c.innerHTML = '<div class="esp-vazio">Carregando…</div>';
+  const D = await conteudo(DZ.rede);
+  if (!D || !Object.keys(D.atores || {}).length) { c.innerHTML = `<div class="esp-vazio">⛔ Sem conteúdo classificado para ${REDE[DZ.rede]}: data/${DZ.rede}/conteudo.json não existe ou está vazio.</div>`; return; }
+  $("dzData").textContent = "gerado em " + diaHora(D.gerado_em_utc) + " UTC";
+  const ids = Object.keys(D.atores), cor = Object.fromEntries(ids.map((a, i) => [a, COR[i % COR.length]]));
+  const passa = p => (!DZ.tema || p.temas.includes(DZ.tema)) && (!DZ.voto || p.pede_voto) && (!DZ.adv || p.cita_adversario);
+  const tot = k => ids.reduce((s, a) => s + (D.atores[a].por_tema[k] || 0), 0);
+  const perfis = R.perfis.filter(p => p.rede === DZ.rede && p.situacao === "confirmado");
+  const num = (a, k) => { const o = D.atores[a]; return o.com_o_numero && o.com_o_numero[k] ? `${n(o.totais[k])}<br><small>informado em ${n(o.com_o_numero[k])} de ${n(o.total_publicacoes)}</small>` : "⛔ não informado"; };
+  // linha do tempo, semana a semana
+  const t0 = Date.parse(D.desde + "T00:00:00Z"), SEM = 7 * 864e5, grade = {};
+  let ultima = 0;
+  ids.forEach(a => { grade[a] = {}; D.atores[a].publicacoes.forEach(p => { if (!passa(p)) return; const w = Math.floor((Date.parse(p.publicado_em) - t0) / SEM); if (!(w >= 0)) return; grade[a][w] = (grade[a][w] || 0) + 1; if (w > ultima) ultima = w; }); });
+  const maxN = Math.max(1, ...ids.flatMap(a => Object.values(grade[a])));
+  const PX = 22, ESQ = 158, ALT = 42, W = ESQ + (ultima + 1) * PX + 90, H = 28 + ids.length * ALT + 20;
+  const semDia = w => new Date(t0 + w * SEM).toISOString().slice(0, 10);
+  let svg = `<svg class="esp-tl" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Publicações por semana e por ator">`;
+  for (let w = 0; w <= ultima; w++) { const d = semDia(w); if (d.slice(8) <= "07") svg += `<text x="${ESQ + w * PX}" y="12" font-size="9" fill="#6b7a8c" style="font-family:monospace">${mesNome(d)}</text><line x1="${ESQ + w * PX - 3}" y1="16" x2="${ESQ + w * PX - 3}" y2="${H - 18}" stroke="#e3e6e8"/>`; }
+  (D.fases || []).forEach(f => { const w = (Date.parse(f.de + "T00:00:00Z") - t0) / SEM; if (w > 0 && w <= ultima + 1) svg += `<line x1="${ESQ + w * PX - 3}" y1="16" x2="${ESQ + w * PX - 3}" y2="${H - 18}" stroke="#b4472b" stroke-dasharray="3 3"/><text x="${ESQ + w * PX}" y="${H - 5}" font-size="9" fill="#b4472b" style="font-family:monospace">${esc(f.rotulo)}</text>`; });
+  ids.forEach((a, i) => { const y = 28 + i * ALT + ALT / 2;
+    svg += `<text x="0" y="${y + 4}" font-size="12.5" fill="#172238">${esc(D.atores[a].nome)}</text><line x1="${ESQ - 6}" y1="${y}" x2="${W - 6}" y2="${y}" stroke="#eef1f3"/>`;
+    Object.entries(grade[a]).forEach(([w, q]) => { svg += `<circle cx="${ESQ + w * PX + PX / 2 - 3}" cy="${y}" r="${(2 + 12 * Math.sqrt(q / maxN)).toFixed(1)}" fill="${cor[a]}" fill-opacity=".72"><title>${esc(D.atores[a].nome)} · semana de ${dia(semDia(+w))}: ${n(q)} publicações</title></circle>`; }); });
+  svg += "</svg>";
+  const temas = D.temas.filter(t => tot(t) > 0).sort((x, y) => tot(y) - tot(x));
+  const nuvem = a => { const lst = D.atores[a].nuvem.slice(0, 45), mx = lst.length ? lst[0][1] : 1; return `<div class="tk-cloud esp-cloud" style="--c:${cor[a]}">${lst.map(([t, q]) => `<span class="yt-word" style="font-size:${(11 + 15 * Math.sqrt(q / mx)).toFixed(1)}px" title="${n(q)} publicações">${esc(t)}</span>`).join(" ") || '<span class="esp-nota">sem termos acima do mínimo</span>'}</div>`; };
+  const tags = a => `<div class="tk-tags">${D.atores[a].hashtags.slice(0, 18).map(([t, q]) => `<span>#${esc(t)} · ${n(q)}</span>`).join("") || "<span>sem hashtags</span>"}</div>`;
+  const chave = p => p.visualizacoes ?? p.curtidas ?? 0;
+  const lista = a => { const ps = D.atores[a].publicacoes.filter(passa), top = [...ps].sort((x, y) => chave(y) - chave(x)).slice(0, 5);
+    return `<div class="card"><div class="eyebrow" style="color:${cor[a]}">${esc(D.atores[a].nome)} · ${n(ps.length)} publicações no filtro</div>${top.map(p => `<a class="tk-item esp-item" href="${url(p.url)}" target="_blank" rel="noopener"><p>${esc((p.texto || "(sem texto)").slice(0, 240))}${(p.texto || "").length > 240 ? "…" : ""}</p><small>${dia(p.publicado_em)} · ${p.visualizacoes != null ? n(p.visualizacoes) + " visualizações · " : ""}${p.curtidas != null ? n(p.curtidas) + " curtidas · " : ""}${p.temas.map(t => TEMA[t] || t).join(", ")}</small></a>`).join("") || '<p class="esp-nota">Nenhuma publicação neste filtro.</p>'}</div>`; };
+  const cd = D.cobertura_do_dicionario || {};
+  c.innerHTML = `<div class="card"><div class="eyebrow">${REDE[DZ.rede]} público · atores monitorados</div><h2 class="tk-h2">Universo, amostra e números do período</h2>
+      <p class="esp-nota" style="margin-top:0">Coleta ${esc(D.status_coleta || "—")} em ${diaHora(D.coletado_em_utc)} UTC · ${esc(D.ferramenta || "")} · período ${dia(D.desde)} a ${dia(D.ate)}.</p>
+      <div class="tk-perfis">${perfis.map(p => `<span class="tk-perfil ${/^parcial/.test(p.cobertura_do_periodo || "") ? "tk-old" : ""}"><b>${esc(p.perfil)}</b> · universo ${(p.universo || {}).posts_total_plataforma != null ? n(p.universo.posts_total_plataforma) + " (desde a criação)" : "⛔ não informado"} · lidas no período ${n(p.posts_no_acervo)} · ${esc((p.cobertura_do_periodo || "⛔ não lido").split(":")[0])}</span>`).join("")}</div>
+      <div class="tablewrap"><table class="datatable"><thead><tr><th>Ator</th><th>Publicações</th><th>Visualizações</th><th>Curtidas</th><th>Comentários</th><th>Interação mediana</th><th>Cita adversário</th><th>Pede voto</th></tr></thead><tbody>${ids.map(a => { const o = D.atores[a];
+        return `<tr><td><b style="color:${cor[a]}">${esc(o.nome)}</b></td><td>${n(o.total_publicacoes)}</td><td>${num(a, "visualizacoes")}</td><td>${num(a, "curtidas")}</td><td>${num(a, "comentarios")}</td><td>${o.taxa_interacao_mediana != null ? (100 * o.taxa_interacao_mediana).toLocaleString("pt-BR", {maximumFractionDigits: 2}) + "%" : "—"}</td><td>${n(o.cita_adversario)} <small>${pct(o.cita_adversario, o.total_publicacoes)}</small></td><td>${n(o.pede_voto)} <small>${pct(o.pede_voto, o.total_publicacoes)}</small></td></tr>`; }).join("")}</tbody></table></div>
+      <p class="esp-nota">Campo "⛔ não informado" quer dizer que a plataforma não entregou o número, não que seja zero. Interação mediana: (curtidas + comentários + compartilhamentos) ÷ visualizações, só nas publicações com visualizações.</p></div>
+    <div class="card"><div class="eyebrow">Filtro</div><h2 class="tk-h2">Tema e tipo de mensagem</h2>
+      <div class="esp-chips" id="dzChips">${chip("Todos os temas", 'data-t=""', !DZ.tema)}${temas.map(t => chip(`${esc(TEMA[t] || t)} · ${n(tot(t))}`, `data-t="${t}"`, DZ.tema === t)).join("")}</div>
+      <div class="esp-chips"><span>Só mensagens que:</span>${chip("pedem voto", 'data-f="voto"', DZ.voto)}${chip("citam adversário", 'data-f="adv"', DZ.adv)}</div>
+      <p class="esp-nota">O filtro vale para a linha do tempo e para as listas; as nuvens e a tabela de temas são sempre do conjunto inteiro.</p></div>
+    <div class="card"><div class="eyebrow">Linha do tempo · semana a semana</div><h2 class="tk-h2">Quando cada ator publica${DZ.tema ? " sobre " + esc((TEMA[DZ.tema] || DZ.tema).toLowerCase()) : ""}</h2>
+      <div class="tk-tlwrap"><div class="tk-tl">${svg}</div></div><p class="esp-nota">Cada bolha é uma semana; a área cresce com o número de publicações (maior semana: ${n(maxN)}). Linha tracejada: início de fase do calendário eleitoral, ${esc(D.fases_nota || "")}</p></div>
+    <div class="card"><div class="eyebrow">Temas</div><h2 class="tk-h2">Publicações por tema e por ator</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Tema</th>${ids.map(a => `<th style="color:${cor[a]}">${esc(D.atores[a].nome)}</th>`).join("")}</tr></thead><tbody>${temas.map(t => `<tr><td>${esc(TEMA[t] || t)}</td>${ids.map(a => { const q = D.atores[a].por_tema[t] || 0; return `<td>${n(q)} <small>${pct(q, D.atores[a].total_publicacoes)}</small></td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
+      <p class="esp-nota">Percentual sobre as publicações do ator nesta rede. A soma passa de 100% porque uma publicação pode ter vários temas. Dicionário ${esc((D.dicionario || {}).versao || "")}: ${n(cd.com_tema)} de ${n(cd.publicacoes)} publicações (${n(cd.pct_com_tema)}%) receberam ao menos um tema.</p></div>
+    <div class="sectionlabel"><h2>Palavras e hashtags</h2><p>Nº de publicações em que o termo aparece</p></div>
+    <div class="esp-duas">${ids.map(a => `<div class="card"><div class="eyebrow" style="color:${cor[a]}">${esc(D.atores[a].nome)}</div>${nuvem(a)}${tags(a)}</div>`).join("")}</div>
+    <div class="sectionlabel"><h2>Publicações de maior audiência</h2><p>5 por ator, pelo filtro escolhido</p></div>
+    <div class="esp-duas">${ids.map(lista).join("")}</div>
+    <div class="card"><div class="eyebrow">Análise de conteúdo · Bardin + CHD de Reinert</div><div class="esp-vazio">⛔ Ainda não calculado neste Atlas. Falta o livro de códigos de estratégias populistas em espanhol e a classificação hierárquica descendente (CHD) sobre o corpus. O corpus para IRaMuTeQ já é exportado no caderno "Marcações, hashtags e exportações".</div></div>
+    <div class="card"><div class="eyebrow">Análise de redes · coocorrência e menções</div><div class="esp-vazio">⛔ A rede de coocorrência de palavras ainda não foi gerada. A rede de menções (quem cada perfil marca) está no caderno "Marcações, hashtags e exportações", com os arquivos para Gephi e NodeXL.</div></div>
+    <div class="card"><div class="eyebrow">Método e limites</div><p class="esp-nota" style="margin-top:0">${esc(D.metodo || "")}</p><p class="esp-nota"><b>Estado do dicionário:</b> ${esc((D.dicionario || {}).estado || "—")}</p><p class="esp-nota">Fonte: ${esc(D.fonte || "")}.</p></div>`;
+  c.querySelectorAll("#dzChips button").forEach(b => b.onclick = () => { DZ.tema = b.dataset.t; dizem(); });
+  c.querySelectorAll("button[data-f]").forEach(b => b.onclick = () => { DZ[b.dataset.f] = !DZ[b.dataset.f]; dizem(); });
+}
+
+function seguidores() {
+  const c = $("sgCorpo"), conf = R.perfis.filter(p => p.situacao === "confirmado"), fora = R.perfis.filter(p => p.situacao !== "confirmado");
+  const datas = [...new Set(conf.map(p => (p.universo || {}).lido_em).filter(Boolean))].sort();
+  $("sgData").textContent = datas.length ? "leitura de " + dia(datas[datas.length - 1]) : "—";
+  const porRede = r => { const ps = conf.filter(p => p.rede === r).sort((a, b) => ((b.universo || {}).seguidores || 0) - ((a.universo || {}).seguidores || 0)), mx = Math.max(1, ...ps.map(p => (p.universo || {}).seguidores || 0));
+    return `<div class="card"><div class="eyebrow">${REDE[r]}</div><div class="tablewrap"><table class="datatable"><thead><tr><th>Ator</th><th>Perfil</th><th>${r === "youtube" ? "Inscritos" : "Seguidores"}</th><th></th><th>Lido em</th></tr></thead><tbody>${ps.map(p => { const u = p.universo || {};
+      return `<tr><td><b>${esc(p.ator_nome)}</b></td><td><a href="${url(p.url)}" target="_blank" rel="noopener">${esc(p.perfil)}</a></td><td>${u.seguidores != null ? n(u.seguidores) : "⛔ não lido"}</td><td style="width:34%">${u.seguidores != null ? barra(u.seguidores, mx) : ""}</td><td>${dia(u.lido_em)}</td></tr>`; }).join("") || '<tr><td colspan="5">⛔ nenhum perfil confirmado nesta rede</td></tr>'}</tbody></table></div>
+      <p class="esp-nota">Fonte: ${esc(((ps.find(p => (p.universo || {}).fonte) || {}).universo || {}).fonte || "—")}. A barra compara só os perfis desta rede.</p></div>`; };
+  c.innerHTML = `<div class="esp-vazio">⛔ <b>Evolução diária ainda sem série.</b> Há uma leitura só de seguidores${datas.length ? " (" + datas.map(dia).join(", ") + ")" : ""}; a variação precisa de pelo menos duas. A leitura diária de Instagram, X e Facebook depende de autorização de gasto; a do YouTube é gratuita e passa a acumular a partir da próxima execução.</div>
+    ${Object.keys(REDE).map(porRede).join("")}
+    <div class="card"><div class="eyebrow">Fora da leitura</div><h2 class="tk-h2">Perfis sem número</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Ator</th><th>Rede</th><th>Situação</th></tr></thead><tbody>${fora.map(p => `<tr><td>${esc(p.ator_nome)}</td><td>${REDE[p.rede] || esc(p.rede)}</td><td>${sit(p)}</td></tr>`).join("") || '<tr><td colspan="3">Todos os perfis estão confirmados.</td></tr>'}</tbody></table></div>
+      <p class="esp-nota">Perfil candidato só entra na leitura depois que uma pessoa abre o endereço e confirma que é do ator.</p></div>`;
+}
+
+async function comentarios() {
+  const c = $("cmCorpo");
+  if (!c.dataset.ok) c.innerHTML = '<div class="esp-vazio">Carregando…</div>';
+  const Y = await json("data/youtube/comentarios/cobertura.json");
+  let h = "";
+  if (!Y || !Y.atores || !Object.keys(Y.atores).length) h += `<div class="esp-vazio">⛔ Comentários do YouTube ainda não lidos${Y && Y.status ? ": " + esc(Y.status) : " (data/youtube/comentarios/cobertura.json não existe)"}.</div>`;
+  else {
+    $("cmData").textContent = "lido em " + diaHora(Y.gerado_em_utc) + " UTC";
+    const A = Object.values(Y.atores), S = k => A.reduce((s, o) => s + (o[k] || 0), 0), meses = [...new Set(A.flatMap(o => Object.keys(o.por_mes || {})))].sort(), mxM = Math.max(1, ...A.flatMap(o => Object.values(o.por_mes || {})));
+    h += `<div class="sectionlabel"><h2>YouTube</h2><p>${esc(Y.fonte || "")}</p></div>
+      <div class="kpigrid"><div class="kpi"><div class="klabel">Universo informado</div><div class="kval">${n(S("universo_comentarios"))}</div><div class="knote">soma do contador de comentários dos vídeos do acervo</div></div>
+        <div class="kpi"><div class="klabel">Comentários lidos</div><div class="kval">${n(S("comentarios_lidos"))}</div><div class="knote">comentários e respostas guardados</div></div>
+        <div class="kpi"><div class="klabel">Dos quais respostas</div><div class="kval">${n(S("dos_quais_respostas"))}</div><div class="knote">${pct(S("dos_quais_respostas"), S("comentarios_lidos"))} do que foi lido</div></div>
+        <div class="kpi"><div class="klabel">Vídeos lidos até o fim</div><div class="kval">${n(S("videos_lidos_por_inteiro"))}</div><div class="knote">de ${n(S("videos"))} vídeos do acervo</div></div></div>
+      <div class="card"><div class="eyebrow">Universo × amostra, por ator</div><div class="tablewrap"><table class="datatable"><thead><tr><th>Ator</th><th>Vídeos</th><th>Com contador</th><th>Universo</th><th>Lidos</th><th>Respostas</th><th>Autores distintos</th><th>Comentários desativados</th><th>Cobertura</th></tr></thead><tbody>${A.map(o =>
+        `<tr><td><b>${esc(o.nome)}</b></td><td>${n(o.videos)}</td><td>${n(o.videos_com_contador)}</td><td>${o.universo_comentarios != null ? n(o.universo_comentarios) : "⛔ não informado"}</td><td>${n(o.comentarios_lidos)}</td><td>${n(o.dos_quais_respostas)}</td><td>${n(o.autores_distintos)}</td><td>${n(o.videos_com_comentarios_desativados)} vídeos</td><td><span class="esp-sit ${/^completa/.test(o.cobertura) ? "ok" : "bloq"}">${esc(o.cobertura.split(":")[0])}</span></td></tr>`).join("")}</tbody></table></div>
+        <p class="esp-nota">${esc(Y.nota || "")}</p></div>
+      <div class="card"><div class="eyebrow">Série mensal</div><h2 class="tk-h2">Quando os comentários foram escritos</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Mês</th>${A.map(o => `<th colspan="2">${esc(o.nome)}</th>`).join("")}</tr></thead><tbody>${meses.map(m => `<tr><td>${mesNome(m)}</td>${A.map((o, i) => { const q = (o.por_mes || {})[m] || 0; return `<td>${n(q)}</td><td style="width:${Math.round(60 / A.length)}%">${barra(q, mxM, COR[i % COR.length])}</td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
+        <p class="esp-nota">Data em que o comentário foi publicado (UTC), não a do vídeo. O último mês está incompleto.</p></div>
+      <div class="card"><div class="eyebrow">Análises do modelo ODI Atlas</div><h2 class="tk-h2">O que ainda falta calcular sobre estes comentários</h2><div class="esp-vazio">⛔ Nenhuma destas análises foi rodada ainda; a leitura dos comentários terminou em ${dia(Y.gerado_em_utc)}.</div>
+        <ul class="esp-prev"><li>Termos mais frequentes e aderência ao tema do vídeo</li><li>Livro de códigos de intolerância e incivilidade (Rossini 2022) e de estratégias populistas (Bardin), em espanhol</li><li>Sentimento, com modelo para espanhol</li><li>CHD de Reinert sobre amostra de comentários, com corpus para IRaMuTeQ</li><li>Rede de coocorrência de palavras e rede de conversação (Recuero), em GEXF para Gephi</li></ul></div>`;
+  }
+  const outras = await Promise.all(["instagram", "x", "facebook"].map(async r => { const D = await conteudo(r); if (!D) return [r, null]; const as = Object.values(D.atores || {});
+    return [r, {u: as.reduce((s, o) => s + ((o.totais || {}).comentarios || 0), 0), com: as.reduce((s, o) => s + ((o.com_o_numero || {}).comentarios || 0), 0), pubs: as.reduce((s, o) => s + (o.total_publicacoes || 0), 0)}]; }));
+  h += `<div class="sectionlabel"><h2>Instagram, X e Facebook</h2><p>Coleta paga: ⛔ sem teto autorizado</p></div>
+    <div class="card"><div class="tablewrap"><table class="datatable"><thead><tr><th>Rede</th><th>Universo (soma dos contadores)</th><th>Publicações com contador</th><th>Comentários lidos</th></tr></thead><tbody>${outras.map(([r, o]) => `<tr><td><b>${REDE[r]}</b></td><td>${o && o.com ? n(o.u) : "⛔ não informado"}</td><td>${o ? n(o.com) + " de " + n(o.pubs) : "—"}</td><td>⛔ não lido</td></tr>`).join("")}</tbody></table></div>
+      <p class="esp-nota">O universo é a soma do contador de comentários (respostas, no X) das publicações lidas; onde a plataforma não entregou o contador, a publicação fica fora da soma. No Facebook a amostra de publicações do Vox é parcial, então o universo também é. Nenhum comentário destas redes foi lido.</p></div>`;
+  c.innerHTML = h; c.dataset.ok = "1";
+}
+
+function trends() {
+  $("trCorpo").innerHTML = `<div class="esp-vazio">⛔ <b>Não coletado.</b> O coletor de buscas do ODI Atlas ainda não foi trazido para este Atlas; nenhum número de Google Trends foi lido.</div>
+    <div class="card"><div class="eyebrow">O que este caderno terá</div><h2 class="tk-h2">Mesmos blocos do caderno de buscas do ODI Atlas</h2><ul class="esp-prev"><li>Série temporal do interesse relativo por termo, na Espanha</li><li>Método do período: normal × pico</li><li>Consultas e assuntos relacionados</li><li>Interesse por comunidade autónoma, com tabela</li><li>Em alta agora, na Espanha</li><li>Google Notícias: primeiros resultados por dia</li></ul>
+      <p class="esp-nota">Termos propostos, a confirmar pelos pesquisadores: ${R.atores.map(a => esc(a.nome)).join(", ")}.</p></div>`;
+}
+
+async function anuncios() {
+  const c = $("adCorpo"), [M, G] = await Promise.all([json("data/meta/anuncios.json"), json("data/google_ads/transparencia.json")]);
+  let h = `<div class="card"><div class="eyebrow">Contexto</div><h2 class="tk-h2">Por que quase não há anúncio político</h2><p class="esp-nota" style="margin-top:0;font-size:12.5px">O regulamento europeu de transparência da publicidade política (TTPA) passou a valer em 10/10/2025. Antes disso, o Google deixou de veicular anúncio político na União Europeia (22/09/2025) e a Meta deixou de aceitar anúncios sobre política, eleições e temas sociais (06/10/2025). Para a eleição espanhola de 2026, portanto, não existe anúncio político declarado nestas plataformas. Fontes: <a href="https://about.fb.com/news/2025/07/ending-political-electoral-and-social-issue-advertising-in-the-eu/" target="_blank" rel="noopener">Meta</a> e <a href="https://blog.google/around-the-globe/google-europe/political-advertising-in-eu/" target="_blank" rel="noopener">Google</a>.</p></div>`;
+  if (!M || !M.consultas || !Object.keys(M.consultas).length) h += `<div class="esp-vazio">⛔ Biblioteca de Anúncios da Meta ainda não lida${M && M.status ? ": " + esc(M.status) : ""}.</div>`;
+  else {
+    $("adData").textContent = "lido em " + diaHora(M.coletado_em_utc) + " UTC";
+    const Q = Object.values(M.consultas), v = x => x == null ? "⛔ não marcado" : n(x);
+    h += `<div class="sectionlabel"><h2>Meta · Biblioteca de Anúncios</h2><p>Espanha · todos os tipos de anúncio · desde ${dia(M.desde)}</p></div>
+      <div class="card"><div class="eyebrow">Universo × amostra, por busca</div><div class="tablewrap"><table class="datatable"><thead><tr><th>Busca</th><th>Anúncios devolvidos pela Biblioteca</th><th>Lidos</th><th>Com o nome exato</th><th>Páginas anunciantes (nome exato)</th><th>Classificados como políticos pela Meta</th><th>Retirados</th></tr></thead><tbody>${Q.map(q =>
+        `<tr><td><b>${esc(q.termo)}</b></td><td>${q.no_limite ? "⛔ desconhecido (bateu no limite de " + n(q.limite_da_coleta) + ")" : n(q.anuncios)}</td><td>${n(q.anuncios)}</td><td>${v(q.com_frase_exata)}</td><td>${v(q.frase_exata_paginas_distintas)}</td><td>${v(q.classificados_politicos)}</td><td>${v(q.politicos_retirados_pela_meta)}</td></tr>`).join("")}</tbody></table></div>
+        <p class="esp-nota">A busca da Biblioteca casa as palavras soltas, em qualquer ordem: "Foro Madrid" devolve todo anúncio com "foro" e "Madrid". A coluna "com o nome exato" conta só os anúncios em que o nome aparece como frase, no texto ou no nome da página. Nenhuma página dos atores monitorados aparece como anunciante nestas buscas; a busca pela página de cada ator ainda não foi feita.</p></div>`;
+    Q.filter(q => q.com_frase_exata).forEach(q => { const ms = Object.entries(q.frase_exata_por_mes_de_inicio || {}), mx = Math.max(1, ...ms.map(x => x[1])), ds = q.destinos_frase_exata || [], md = Math.max(1, ...ds.map(x => x[1]));
+      h += `<div class="sectionlabel"><h2>${esc(q.termo)}</h2><p>${n(q.com_frase_exata)} anúncios com o nome exato</p></div><div class="esp-duas">
+        <div class="card"><div class="eyebrow">Início da veiculação, por mês</div><table class="datatable"><tbody>${ms.map(([m, k]) => `<tr><td>${mesNome(m)}</td><td>${n(k)}</td><td style="width:60%">${barra(k, mx, "#b4472b")}</td></tr>`).join("")}</tbody></table></div>
+        <div class="card"><div class="eyebrow">Destino exibido no anúncio</div><table class="datatable"><tbody>${ds.map(([d, k]) => `<tr><td>${esc(d)}</td><td>${n(k)}</td><td style="width:45%">${barra(k, md)}</td></tr>`).join("")}</tbody></table>
+          <p class="esp-nota">Domínio que o anúncio mostra como destino; o endereço exibido pode não ser o destino real do clique. Domínios parecidos com os de jornais conhecidos são indício de imitação e pedem conferência humana.</p></div></div>`; });
+    const pol = Q.filter(q => q.classificados_politicos);
+    if (pol.length) h += `<div class="card"><div class="eyebrow">Classificados como políticos e retirados pela Meta</div><h2 class="tk-h2">Anúncios que a plataforma tirou do ar</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Busca</th><th>Anúncios</th><th>Iniciados no período do estudo</th><th>Valor investido pelos anunciantes (faixa informada pela Meta)</th></tr></thead><tbody>${pol.map(q =>
+      `<tr><td><b>${esc(q.termo)}</b></td><td>${n(q.classificados_politicos)}</td><td>${n(q.politicos_iniciados_no_periodo)}</td><td>${Object.entries(q.gasto_por_moeda || {}).map(([m, o]) => `${esc(m)}: ${n(o.gasto_min)} a ${n(o.gasto_max)} em ${n(o.anuncios)} anúncios`).join("<br>") || "—"}</td></tr>`).join("")}</tbody></table></div>
+      <p class="esp-nota">Só estes anúncios trazem valor investido e tamanho estimado do público-alvo; a Meta informa faixas, não valores exatos, e as moedas não são somadas entre si. O mesmo anúncio pode aparecer em mais de uma busca. Os nomes das páginas anunciantes estão em data/meta/anuncios_apify.csv.</p></div>`;
+    h += `<div class="card"><div class="eyebrow">Método · Meta</div><p class="esp-nota" style="margin-top:0">${esc(M.nota || "")}</p></div>`;
+  }
+  if (!G) h += '<div class="esp-vazio">⛔ Central de Transparência de Anúncios do Google ainda não lida.</div>';
+  else { const dg = G.diagnostico || {}, bs = Object.entries(dg.buscas || {});
+    h += `<div class="sectionlabel"><h2>Google e YouTube · Central de Transparência</h2><p>Espanha · lido em ${diaHora(G.coletado_em_utc)} UTC</p></div>
+      <div class="card"><div class="eyebrow">Resultado</div><p style="margin:0 0 10px;font-size:13.5px"><b>${esc(G.status || "—")}</b></p>
+        <div class="kpigrid"><div class="kpi"><div class="klabel">Anunciantes dos atores</div><div class="kval">${n((G.anunciantes || []).length)}</div><div class="knote">com nome verificado igual ao de um ator</div></div><div class="kpi"><div class="klabel">Anúncios no período</div><div class="kval">${n(G.total_anuncios)}</div><div class="knote">de ${n(G.total_lido)} lidos</div></div><div class="kpi"><div class="klabel">Buscas por nome</div><div class="kval">${n(bs.length)}</div><div class="knote">${n(dg.respostas_da_busca)} respostas da Central</div></div><div class="kpi"><div class="klabel">Sites oficiais consultados</div><div class="kval">${n((G.dominios_consultados || []).length)}</div><div class="knote">${n(dg.respostas_de_anuncios)} respostas da Central</div></div></div></div>
+      <div class="esp-duas"><div class="card"><div class="eyebrow">Buscas por nome</div><table class="datatable"><thead><tr><th>Termo</th><th>Sugestões da Central</th><th>Da Espanha</th><th>Aceitas</th></tr></thead><tbody>${bs.map(([t, o]) => `<tr><td>${esc(t)}</td><td>${n(o.sugestoes)}</td><td>${n(o.da_regiao)}</td><td>${n(o.aceitas)}</td></tr>`).join("") || '<tr><td colspan="4">⛔ sem registro das buscas</td></tr>'}</tbody></table><p class="esp-nota">A busca por nome só enxerga as sugestões que a Central oferece (até 10 por termo).</p></div>
+        <div class="card"><div class="eyebrow">Anúncios que apontam para os sites oficiais</div><table class="datatable"><thead><tr><th>Site</th><th>Anúncios</th></tr></thead><tbody>${(G.dominios_consultados || []).map(d => `<tr><td>${esc(d.dominio)}</td><td>${d.anuncios == null ? "⛔ não lido" : n(d.anuncios)}</td></tr>`).join("")}</tbody></table></div></div>
+      <div class="card"><div class="eyebrow">Método · Google</div><p class="esp-nota" style="margin-top:0">${esc(G.nota || "")}</p></div>`; }
+  c.innerHTML = h;
+}
+
 (async () => {
   [R, IDX, ST] = await Promise.all([json("data/site/resumo.json"), json("data/site/indice.json"), json("data/site/sites.json")]);
   if (!R) { $("p1Sinal").innerHTML = "<b>⛔ data/site/resumo.json não foi encontrado.</b> Rode scripts/build_acervo.py."; return; }
   document.title = `${R.projeto.nome} / Foro Madrid, Vox e Fundación Disenso nas redes`;
+  document.querySelectorAll(".navbutton").forEach((b, i) => { const r = document.querySelector("#" + b.dataset.tab + " .paper-ribbon span"); if (r) r.textContent = r.textContent.replace(/CADERNO \d+/, "CADERNO " + String(i + 1).padStart(2, "0")); });
+  seguidores(); trends(); anuncios();
   panorama(); atores(); marcas(); sites(); metodo(await json("data/saude_coleta.json"));
 })();
 </script>

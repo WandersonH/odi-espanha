@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## E1.10 — 15/11/2026 · Telas no modelo do ODI Atlas: O que dizem, Quem acompanha, Comentários, Trends e Anúncios
+
+**O que mudou e por quê.** O responsável pediu as páginas "conforme era no ODI Atlas original" (O que dizem, Comentários, Quem acompanha, Trends), mantendo as telas já feitas. `index.html` passou de 6 para 11 cadernos; os 6 anteriores continuam iguais.
+
+- **O que dizem** (modelo do caderno "O que as campanhas dizem"): por rede, universo e amostra de cada perfil, números por ator, filtro por tema e por tipo de mensagem, linha do tempo semana a semana em bolhas, tabela de temas, nuvens e hashtags por ator, publicações de maior audiência, método. Lê `data/<rede>/conteudo.json`.
+- **Quem acompanha**: seguidores por perfil e por rede, com data e fonte da leitura. Lê `data/site/resumo.json`.
+- **Comentários**: universo × lido do YouTube por ator, série mensal, e o universo de Instagram, X e Facebook pelos contadores. Lê `data/youtube/comentarios/cobertura.json`.
+- **Anúncios · Meta e Google**: contexto do TTPA, buscas da Biblioteca da Meta (lidos, nome exato, classificados como políticos e retirados, meses e destinos), Central de Transparência do Google. Lê `data/meta/anuncios.json` e `data/google_ads/transparencia.json`. O custo da coleta não aparece; o valor investido pelos anunciantes é dado da Biblioteca.
+- **Buscas · Google Trends**: tela criada com ⛔ não coletado.
+
+**Marcado como ⛔ nas próprias telas (não feito):** livro de códigos de populismo e CHD de Reinert; rede de coocorrência; análises dos comentários (termos, códigos de intolerância, sentimento, CHD, redes de conversação); coletor do Google Trends; série diária de seguidores; comentários de Instagram, X e Facebook.
+
+**O que foi realmente executado.** `node --check` no script da página; navegador sem interface (Chrome via Playwright) abrindo a página em servidor local com os dados reais do repositório: os 11 cadernos abrem sem erro de console; "O que dizem" desenha as quatro redes e responde ao filtro de tema; "Comentários" mostra 199.735 / 200.166 / 32.240 / 1.216, iguais aos de `cobertura.json`; "Anúncios" mostra 496/302/36, 342/0/52, 2/1/2 e 502/0/4, iguais aos de `anuncios.json`. `python -m unittest discover -s tests` → 47 testes, OK.
+
+**Pendente.** Conferir a página publicada (GitHub Pages); área interna do pesquisador (Supabase), como no projeto original.
+
 ## E1.9 — 15/11/2026 · Comentários do YouTube lidos por inteiro; agregados dos anúncios regravados
 
 **O que foi realmente executado.**
