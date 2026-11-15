@@ -16,9 +16,15 @@
   - Acervo: 1.216 vídeos. Corpus IRaMuTeQ gerado com 1.216 textos (título e descrição).
 - Sites, mesmo run: sem publicações novas (Foro Madrid 20 de 20 e 1 de 1; Disenso 129 pelo RSS; Vox ⛔ HTTP 403).
 
-**O que NÃO foi executado (⛔).** Nenhuma chamada à Apify até este commit. O repositório privado não gravou nada: no run 43737756941 o `ODI_INTERNO_TOKEN` não estava disponível (não cadastrado ou sem acesso), então não há texto integral dos sites.
+- **Teste da Apify, com dados reais:** workflow *Coleta*, modo teste, run 43737932481 (15/11/2026), sucesso. Custo total cobrado: US$ 0,088 (Instagram 0,004; X 0,012; Facebook 0,072), dentro do teto de US$ 0,50. Evidência nos `manifesto_latest.json` de `data/instagram`, `data/x` e `data/facebook`. O teste lê as publicações mais recentes de cada perfil e não mede cobertura:
+  - X (20 pedidos por perfil, 20 lidos em cada): `Foro_MAD`, `vox_es`, `Santi_ABASCAL`, `jm_frias`. Preço conferido: US$ 0,00015 por post. Universo que o X informa (toda a vida da conta, com reposts): 2.963, 108.587, 50.476 e 19.881 publicações.
+  - Instagram (10 pedidos por perfil, 10 itens em cada): do próprio perfil e no período, `vox_es` 10, `fundaciondisenso` 8, `jmartinfrias` 3, `foromadrid` 2. Os demais itens devolvidos pertencem a outra conta (publicações em colaboração) e ficaram fora pelo filtro de dono. Visualizações dos reels lidas na 2ª leitura.
+  - Facebook (10 pedidos por página, 7 lidos em cada): `vox.espana` e `ForoMadridOficial`. Preço conferido: US$ 0,005 por post + US$ 0,001 por execução.
+  - Acervo depois do teste: 1.333 publicações (1.216 do YouTube, 80 do X, 23 do Instagram, 14 do Facebook).
 
-**Pendências.** `ODI_INTERNO_TOKEN` funcionando antes de qualquer carga paga (sem ele o bruto da Apify se perde); data final do período; pacote de US$ 20; tetos de carga e diário depois do teste.
+**O que NÃO foi executado (⛔).** Nenhuma carga paga: as redes têm só a amostra do teste. O repositório privado não gravou nada: no run 43737932481 o `ODI_INTERNO_TOKEN` estava cadastrado, mas sem acesso de escrita ao `odi-secret-esp`; o bruto do teste não foi guardado e não há texto integral dos sites.
+
+**Pendências.** `ODI_INTERNO_TOKEN` com acesso antes de qualquer carga paga (sem ele o bruto da Apify se perde); data final do período; pacote de US$ 20; tetos de carga e diário; decidir se publicações do Instagram em colaboração (dono é outra conta) entram no acervo; 5 perfis candidatos a conferir.
 
 ## E1.1 — 14/11/2026 · Perfis corrigidos, YouTube e notícias dos sites oficiais
 
