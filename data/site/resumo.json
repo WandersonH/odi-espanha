@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-15T22:18:11Z",
+ "gerado_em_utc": "2026-11-15T22:22:45Z",
  "projeto": {
   "nome": "ODI Espanha",
   "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X, no Facebook e no YouTube, e as notícias e artigos dos sites oficiais.",
@@ -2517,12 +2517,12 @@
   },
   {
    "ator_id": "disenso",
-   "tag": "brasil",
+   "tag": "bolsonaro",
    "posts": 1
   },
   {
    "ator_id": "disenso",
-   "tag": "bolsonaro",
+   "tag": "brasil",
    "posts": 1
   },
   {
@@ -2692,13 +2692,13 @@
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "carlosgarciapozo",
+   "conta": "elmundo_es",
    "posts": 2
   },
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "elmundo_es",
+   "conta": "carlosgarciapozo",
    "posts": 2
   },
   {
@@ -2866,13 +2866,13 @@
   {
    "ator_id": "cader",
    "rede": "x",
-   "conta": "foro_mad",
+   "conta": "cne_colombia",
    "posts": 1
   },
   {
    "ator_id": "cader",
    "rede": "x",
-   "conta": "cne_colombia",
+   "conta": "foro_mad",
    "posts": 1
   },
   {
@@ -2938,13 +2938,13 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "fustervox",
+   "conta": "figaredojosem",
    "posts": 2
   },
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "figaredojosem",
+   "conta": "fustervox",
    "posts": 2
   },
   {
@@ -2974,12 +2974,6 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "manuel.litzke",
-   "posts": 1
-  },
-  {
-   "ator_id": "disenso",
-   "rede": "instagram",
    "conta": "hafenecker",
    "posts": 1
   },
@@ -2987,6 +2981,12 @@
    "ator_id": "disenso",
    "rede": "instagram",
    "conta": "fpoe_at",
+   "posts": 1
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "instagram",
+   "conta": "manuel.litzke",
    "posts": 1
   },
   {
@@ -3112,13 +3112,13 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "ferrerpicadoricardo",
+   "conta": "joshua.s.trevino",
    "posts": 2
   },
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "joshua.s.trevino",
+   "conta": "ferrerpicadoricardo",
    "posts": 2
   },
   {
@@ -3130,13 +3130,13 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "garibaycamarena",
+   "conta": "normayarrow_",
    "posts": 2
   },
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "normayarrow_",
+   "conta": "garibaycamarena",
    "posts": 2
   },
   {
@@ -3154,7 +3154,7 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "raneumannb",
+   "conta": "ipalma.a",
    "posts": 2
   },
   {
@@ -3166,7 +3166,7 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "ipalma.a",
+   "conta": "raneumannb",
    "posts": 2
   },
   {
@@ -3214,13 +3214,13 @@
   {
    "ator_id": "foro-madrid",
    "rede": "x",
-   "conta": "aphall_cne",
+   "conta": "cossetteoficial",
    "posts": 8
   },
   {
    "ator_id": "foro-madrid",
    "rede": "x",
-   "conta": "cossetteoficial",
+   "conta": "aphall_cne",
    "posts": 8
   },
   {
@@ -3286,7 +3286,7 @@
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "patriotseu",
+   "conta": "fpoe_tv",
    "posts": 1
   },
   {
@@ -3298,7 +3298,7 @@
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "fpoe_tv",
+   "conta": "patriotseu",
    "posts": 1
   },
   {
@@ -3340,6 +3340,12 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
+   "conta": "perkinsrocha",
+   "posts": 2
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
    "conta": "mariacorinaya",
    "posts": 2
   },
@@ -3347,12 +3353,6 @@
    "ator_id": "martin-frias",
    "rede": "x",
    "conta": "oavendano",
-   "posts": 2
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "x",
-   "conta": "perkinsrocha",
    "posts": 2
   },
   {
@@ -3406,7 +3406,7 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "santi_abascal",
+   "conta": "carretoalfonso_",
    "posts": 1
   },
   {

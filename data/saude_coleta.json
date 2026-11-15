@@ -1,5 +1,5 @@
 {
- "verificado_em_utc": "2026-11-15T22:05:12Z",
+ "verificado_em_utc": "2026-11-15T22:23:09Z",
  "nota": "Séries que o Atlas promete atualizar sozinho. 'max_horas' é o atraso máximo aceito desde o último dado real (não desde a última tentativa). Mesmo critério do ODI Atlas.",
  "series": [
   {
@@ -8,7 +8,7 @@
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
    "ultimo_dado": "2026-11-15T19:58:42Z",
-   "horas_desde_ultimo_dado": 2.1,
+   "horas_desde_ultimo_dado": 2.4,
    "ultima_execucao": "2026-11-15T21:12:47Z",
    "status_ultima_execucao": "⛔ nenhum perfil lido: private"
   },
@@ -18,7 +18,7 @@
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
    "ultimo_dado": "2026-11-15T19:56:04Z",
-   "horas_desde_ultimo_dado": 2.2,
+   "horas_desde_ultimo_dado": 2.5,
    "ultima_execucao": "2026-11-15T19:56:04Z",
    "status_ultima_execucao": "ok"
   },
@@ -28,7 +28,7 @@
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
    "ultimo_dado": "2026-11-15T20:18:32Z",
-   "horas_desde_ultimo_dado": 1.8,
+   "horas_desde_ultimo_dado": 2.1,
    "ultima_execucao": "2026-11-15T20:18:32Z",
    "status_ultima_execucao": "ok"
   },
@@ -48,7 +48,7 @@
    "situacao": "em dia",
    "max_horas": 36,
    "ultimo_dado": "2026-11-15T20:37:17Z",
-   "horas_desde_ultimo_dado": 1.5,
+   "horas_desde_ultimo_dado": 1.8,
    "ultima_execucao": "2026-11-15T20:37:17Z",
    "status_ultima_execucao": "ok"
   },
@@ -57,9 +57,9 @@
    "serie": "sites",
    "situacao": "em dia",
    "max_horas": 36,
-   "ultimo_dado": "2026-11-15T20:36:44Z",
-   "horas_desde_ultimo_dado": 1.5,
-   "ultima_execucao": "2026-11-15T20:36:44Z",
+   "ultimo_dado": "2026-11-15T22:22:09Z",
+   "horas_desde_ultimo_dado": 0.0,
+   "ultima_execucao": "2026-11-15T22:22:09Z",
    "status_ultima_execucao": "parcial: 1 site(s) não lido(s)"
   }
  ],
