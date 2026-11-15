@@ -1,0 +1,62 @@
+termo;tipo;lista;posicao;texto;tipo_assunto;valor;valor_formatado
+Vox;consultas;principais;1;vox;;100;100
+Vox;consultas;principais;2;pp;;11;11
+Vox;consultas;principais;3;pp vox;;10;10
+Vox;consultas;principais;4;pp y vox;;5;5
+Vox;consultas;principais;5;vox programa electoral;;5;5
+Vox;consultas;principais;6;psoe;;3;3
+Vox;consultas;principais;7;voz;;2;2
+Vox;consultas;principais;8;abascal;;2;2
+Vox;consultas;principais;9;box;;1;1
+Vox;consultas;principais;10;programa de vox 2026;;1;1
+Vox;consultas;principais;11;programa electoral de vox 2026;;0;<1
+Vox;consultas;principais;12;sueldovox;;0;<1
+Vox;consultas;principais;13;candidato vox andalucia;;0;<1
+Vox;consultas;em_alta;1;sueldovox;;12550;Aumento puntual
+Vox;consultas;em_alta;2;programa electoral de vox 2026;;800;+800 %
+Vox;consultas;em_alta;3;programa de vox 2026;;650;+650 %
+Vox;consultas;em_alta;4;candidato vox andalucia;;350;+350 %
+Vox;consultas;em_alta;5;vox programa electoral;;200;+200 %
+Vox;consultas;em_alta;6;pp y vox;;150;+150 %
+Vox;consultas;em_alta;7;pp;;100;+100 %
+Vox;consultas;em_alta;8;pp vox;;100;+100 %
+Santiago Abascal;consultas;principais;1;abascal;;100;100
+Santiago Abascal;consultas;principais;2;santiago abascal;;25;25
+Santiago Abascal;consultas;principais;3;la revuelta;;14;14
+Santiago Abascal;consultas;principais;4;la revuelta abascal;;13;13
+Santiago Abascal;consultas;principais;5;entrevista abascal;;10;10
+Santiago Abascal;consultas;principais;6;broncano;;10;10
+Santiago Abascal;consultas;principais;7;broncano abascal;;9;9
+Santiago Abascal;consultas;principais;8;abascal en la revuelta;;6;6
+Santiago Abascal;consultas;principais;9;vox;;4;4
+Santiago Abascal;consultas;principais;10;abascal hoy;;3;3
+Santiago Abascal;consultas;principais;11;entrevista a abascal;;3;3
+Santiago Abascal;consultas;principais;12;abascal a la revuelta;;2;2
+Santiago Abascal;consultas;principais;13;pedro sanchez;;2;2
+Santiago Abascal;consultas;principais;14;pedro sánchez;;2;2
+Santiago Abascal;consultas;principais;15;jordi wild;;2;2
+Santiago Abascal;consultas;principais;16;abascal en la revuelta publico;;2;2
+Santiago Abascal;consultas;principais;17;abascal jordi wild;;1;1
+Santiago Abascal;consultas;principais;18;entrevista de broncano a abascal;;1;1
+Santiago Abascal;consultas;principais;19;la revuelta abascal hora;;1;1
+Santiago Abascal;consultas;principais;20;audiencia broncano abascal;;0;<1
+Santiago Abascal;consultas;principais;21;ada colau;;0;<1
+Santiago Abascal;consultas;principais;22;la revuelta abascal completo;;0;<1
+Santiago Abascal;consultas;principais;23;opiniones entrevista broncano a abascal;;0;<1
+Santiago Abascal;consultas;em_alta;1;abascal en la revuelta;;553800;Aumento puntual
+Santiago Abascal;consultas;em_alta;2;abascal en la revuelta publico;;149550;Aumento puntual
+Santiago Abascal;consultas;em_alta;3;la revuelta abascal hora;;82400;Aumento puntual
+Santiago Abascal;consultas;em_alta;4;broncano;;52850;Aumento puntual
+Santiago Abascal;consultas;em_alta;5;audiencia broncano abascal;;28950;Aumento puntual
+Santiago Abascal;consultas;em_alta;6;broncano abascal;;28200;Aumento puntual
+Santiago Abascal;consultas;em_alta;7;ada colau;;22600;Aumento puntual
+Santiago Abascal;consultas;em_alta;8;la revuelta abascal;;22300;Aumento puntual
+Santiago Abascal;consultas;em_alta;9;la revuelta;;19150;Aumento puntual
+Santiago Abascal;consultas;em_alta;10;opiniones entrevista broncano a abascal;;12350;Aumento puntual
+Santiago Abascal;consultas;em_alta;11;jordi wild;;8600;Aumento puntual
+Santiago Abascal;consultas;em_alta;12;abascal a la revuelta;;7650;Aumento puntual
+Santiago Abascal;consultas;em_alta;13;entrevista de broncano a abascal;;4350;+4.350 %
+Santiago Abascal;consultas;em_alta;14;abascal jordi wild;;3700;+3.700 %
+Santiago Abascal;consultas;em_alta;15;la revuelta abascal completo;;800;+800 %
+Santiago Abascal;consultas;em_alta;16;entrevista abascal;;600;+600 %
+Santiago Abascal;consultas;em_alta;17;entrevista a abascal;;450;+450 %

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "stage": "coleta-trends",
-  "run_started_utc": "2026-11-15T20:36:44Z",
+  "run_started_utc": "2026-11-15T21:57:27Z",
   "config": {
     "nota": "Google Trends, Espanha. Os valores vão de 0 a 100 e são relativos DENTRO de cada consulta: não são número de buscas e não se comparam entre consultas. Cada consulta é uma amostra do Google; repetir a mesma consulta pode dar valores um pouco diferentes. 'Vox' como termo de busca é ambíguo (a palavra existe fora da política): por isso há também o grupo de tópicos, em que o Google reúne as buscas sobre a entidade.",
     "geo": "ES",
@@ -58,7 +58,7 @@
     "periodo_eleitoral": {
       "inicio": "2026-02-16",
       "fim": "2027-01-30",
-      "nota": "Período do estudo (16/02/2026 a 30/01/2027). Enquanto o período não termina, a data final é a do dia da coleta. Granularidade diária."
+      "nota": "Período do estudo (16/02/2026 a 30/01/2027). Enquanto o período não termina, a data final é a do dia da coleta. A granularidade é a que o Google devolve para o tamanho da janela: na coleta de 15/11/2026 veio semanal (40 pontos)."
     },
     "relacionados": {
       "grupos": [
@@ -108,7 +108,13 @@
         "ate": "2027-01-30"
       }
     ],
-    "termos_nota": "Termos propostos em 15/11/2026 a partir dos seis atores monitorados; a confirmar pelos pesquisadores. O Trends compara no máximo 5 termos por consulta."
+    "termos_nota": "Termos propostos em 15/11/2026 a partir dos seis atores monitorados; a confirmar pelos pesquisadores. O Trends compara no máximo 5 termos por consulta.",
+    "noticias_termos": [
+      "Vox",
+      "Santiago Abascal",
+      "Fundación Disenso",
+      "Foro Madrid"
+    ]
   },
   "aviso_metodologico": "Valores 0-100 relativos dentro de cada consulta (grupo x período). Não são volumes; não compare entre consultas diferentes.",
   "consultas": [
@@ -139,7 +145,7 @@
       "geo": "ES",
       "serie_pontos": 169,
       "uf_linhas": 19,
-      "relacionados_linhas": 24,
+      "relacionados_linhas": 55,
       "status": "ok"
     },
     {
@@ -198,7 +204,7 @@
       "geo": "ES",
       "serie_pontos": 40,
       "uf_linhas": 19,
-      "relacionados_linhas": 30,
+      "relacionados_linhas": 61,
       "status": "ok"
     },
     {
@@ -425,6 +431,6 @@
     }
   ],
   "blocked": [],
-  "run_finished_utc": "2026-11-15T20:39:45Z",
+  "run_finished_utc": "2026-11-15T22:00:31Z",
   "status": "ok"
 }
