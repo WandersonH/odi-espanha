@@ -1,8 +1,8 @@
 {
- "gerado_em_utc": "2026-11-15T19:56:48Z",
- "nos": 457,
- "arestas": 587,
- "posts_com_marcacao": 3055,
+ "gerado_em_utc": "2026-11-15T20:10:45Z",
+ "nos": 471,
+ "arestas": 626,
+ "posts_com_marcacao": 3093,
  "leitura": "Rede de saída: perfil monitorado → conta marcada; peso = nº de posts. Instagram e X; Facebook fora.",
  "maiores": [
   {
