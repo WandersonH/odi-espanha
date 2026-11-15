@@ -1,0 +1,89 @@
+{
+ "run_started_utc": "2026-11-15T19:56:04Z",
+ "rede": "x",
+ "ferramenta": "Apify · xquik/x-tweet-scraper",
+ "modo": "carga",
+ "conta": "APIFY_TOKEN_ESP",
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": "2027-01-30"
+ },
+ "desde_leitura": "2026-02-16",
+ "teto_autorizado_usd": 2.0,
+ "gasto_antes_usd": 0.5058,
+ "teto_execucao_usd": 1.4942,
+ "perfis": [
+  {
+   "ator_id": "disenso",
+   "ator_nome": "Fundación Disenso",
+   "perfil": "FDisenso",
+   "pedido": 9486,
+   "itens": 498,
+   "posts_do_perfil": 498,
+   "itens_de_outra_conta_ou_descartados": 0,
+   "lidos_no_periodo": 498,
+   "novos": 498,
+   "sem_data": 0,
+   "mais_antigo": "2026-02-16T16:34:00Z",
+   "mais_recente": "2026-11-15T19:20:43Z",
+   "bateu_no_limite_pedido": false,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+   "erro": null,
+   "run": "ZdOCtpGncuf4yc2Dk",
+   "custo_usd": 0.0747,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 20
+   },
+   "universo": {
+    "seguidores": 30515,
+    "posts_total_plataforma": 6846,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "Fundación Disenso"
+   }
+  },
+  {
+   "ator_id": "cader",
+   "ator_nome": "Eduardo Cader",
+   "perfil": "ecader",
+   "pedido": 9012,
+   "itens": 17,
+   "posts_do_perfil": 17,
+   "itens_de_outra_conta_ou_descartados": 0,
+   "lidos_no_periodo": 17,
+   "novos": 17,
+   "sem_data": 0,
+   "mais_antigo": "2026-03-11T13:12:46Z",
+   "mais_recente": "2026-11-10T00:26:12Z",
+   "bateu_no_limite_pedido": false,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+   "erro": null,
+   "run": "TVYbHgosQRIPYwR48",
+   "custo_usd": 0.00255,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 0
+   },
+   "universo": {
+    "seguidores": 11041,
+    "posts_total_plataforma": 17841,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "Eduardo Cader"
+   }
+  }
+ ],
+ "perfis_fora_da_coleta": [],
+ "so_perfis": [
+  "fdisenso",
+  "ecader"
+ ],
+ "bruto_no_privado": true,
+ "custo_usd": 0.07725,
+ "posts_novos": 515,
+ "posts_no_acervo": 3887,
+ "status": "ok"
+}
