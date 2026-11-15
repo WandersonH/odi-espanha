@@ -1,0 +1,55 @@
+{
+ "gerado_em_utc": "2026-11-15T18:58:11Z",
+ "por_ator": {
+  "apify/facebook-pages-scraper": {
+   "execucoes_encontradas": 1,
+   "gravadas_agora": 1,
+   "ja_gravadas": 0,
+   "itens_gravados_agora": 2,
+   "sem_itens": 0,
+   "falhas": 0
+  },
+  "apify/facebook-posts-scraper": {
+   "execucoes_encontradas": 4,
+   "gravadas_agora": 4,
+   "ja_gravadas": 0,
+   "itens_gravados_agora": 658,
+   "sem_itens": 0,
+   "falhas": 0
+  },
+  "apify/instagram-profile-scraper": {
+   "execucoes_encontradas": 1,
+   "gravadas_agora": 1,
+   "ja_gravadas": 0,
+   "itens_gravados_agora": 4,
+   "sem_itens": 0,
+   "falhas": 0
+  },
+  "esdrasdw/instagram-content-scraper": {
+   "execucoes_encontradas": 17,
+   "gravadas_agora": 17,
+   "ja_gravadas": 0,
+   "itens_gravados_agora": 6985,
+   "sem_itens": 0,
+   "falhas": 0
+  },
+  "jmlp/meta-ad-library-scraper": {
+   "execucoes_encontradas": 4,
+   "gravadas_agora": 4,
+   "ja_gravadas": 0,
+   "itens_gravados_agora": 1342,
+   "sem_itens": 0,
+   "falhas": 0
+  },
+  "xquik/x-tweet-scraper": {
+   "execucoes_encontradas": 9,
+   "gravadas_agora": 9,
+   "ja_gravadas": 0,
+   "itens_gravados_agora": 3460,
+   "sem_itens": 0,
+   "falhas": 0
+  }
+ },
+ "nota": "Bruto das execuções da Apify já feitas, copiado para o repositório privado sem nova execução e sem custo. Aqui ficam só contagens; o conteúdo pode trazer dados de terceiros e não vem ao público.",
+ "status": "ok · 12451 itens gravados nesta execução"
+}
