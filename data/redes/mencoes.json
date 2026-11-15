@@ -1,10 +1,15 @@
 {
- "gerado_em_utc": "2026-11-15T18:12:39Z",
- "nos": 320,
- "arestas": 394,
- "posts_com_marcacao": 1529,
+ "gerado_em_utc": "2026-11-15T18:28:26Z",
+ "nos": 370,
+ "arestas": 453,
+ "posts_com_marcacao": 2754,
  "leitura": "Rede de saída: perfil monitorado → conta marcada; peso = nº de posts. Instagram e X; Facebook fora.",
  "maiores": [
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:santi_abascal",
+   "posts": 970
+  },
   {
    "de": "x:vox_es",
    "para": "x:santi_abascal",
@@ -14,6 +19,11 @@
    "de": "x:vox_es",
    "para": "x:igarrigavaz",
    "posts": 118
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:garriga_ignacio",
+   "posts": 109
   },
   {
    "de": "x:vox_es",
@@ -31,9 +41,39 @@
    "posts": 46
   },
   {
+   "de": "instagram:vox_es",
+   "para": "instagram:manologavira",
+   "posts": 40
+  },
+  {
    "de": "x:vox_es",
    "para": "x:carloshquero",
    "posts": 38
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:fustervox",
+   "posts": 35
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:figaredojosem",
+   "posts": 30
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:carloshquero",
+   "posts": 29
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:carlospollan",
+   "posts": 29
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:jorge_buxade",
+   "posts": 24
   },
   {
    "de": "x:vox_es",
@@ -76,9 +116,19 @@
    "posts": 11
   },
   {
+   "de": "instagram:vox_es",
+   "para": "instagram:pepa_millan",
+   "posts": 10
+  },
+  {
    "de": "x:foro_mad",
    "para": "x:fdisenso",
    "posts": 10
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:torocarballo",
+   "posts": 9
   },
   {
    "de": "x:foro_mad",
@@ -116,6 +166,21 @@
    "posts": 8
   },
   {
+   "de": "instagram:vox_es",
+   "para": "instagram:fundaciondisenso",
+   "posts": 7
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:mariacorinamachado",
+   "posts": 7
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:orbanviktor",
+   "posts": 7
+  },
+  {
    "de": "instagram:foromadrid",
    "para": "instagram:vox_es",
    "posts": 7
@@ -139,71 +204,6 @@
    "de": "x:vox_es",
    "para": "x:oscarfdezcalle",
    "posts": 7
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:benjaminmorenob",
-   "posts": 7
-  },
-  {
-   "de": "instagram:vox_es",
-   "para": "instagram:santi_abascal",
-   "posts": 6
-  },
-  {
-   "de": "instagram:foromadrid",
-   "para": "instagram:fundaciondisenso",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:espejopublico",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:aliciaterrassa",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:sanchezcastejon",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:vox_alava",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:vox_barcelona",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:vox_tarragona",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:voxbaleares",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:voxsevilla_",
-   "posts": 6
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:guidoprincesa",
-   "posts": 6
-  },
-  {
-   "de": "x:jm_frias",
-   "para": "x:fdisenso",
-   "posts": 6
   }
  ]
 }
