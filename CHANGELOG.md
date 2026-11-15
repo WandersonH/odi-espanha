@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## E1.12 — 15/11/2026 · Contagem do que irá para a área do pesquisador
+
+**O que foi realmente executado.** Run 43754059281 (`area-pesquisador.yml`, modo seco: conta e não envia; não usa o Supabase), com o repositório privado: 207.500 textos — 7.357 publicações e 200.143 comentários do YouTube com texto (dos 200.166 guardados, 23 não têm texto). Por ator: Vox 5.852 publicações e 199.541 comentários; Abascal 836 e 0; Foro Madrid 317 e 58; Fundación Disenso 197 e 544; Martín Frías 155 e 0.
+
+**Pendente.** O mesmo da entrada E1.11: nada foi aplicado nem enviado ao Supabase.
+
 ## E1.11 — 15/11/2026 · Área do pesquisador (Supabase) trazida do ODI Atlas; banco ainda não criado
 
 **O que mudou e por quê.** O responsável pediu "uma área interna como do projeto original" e informou o projeto Supabase `zlrzraqngiszsgoedlfv`.
