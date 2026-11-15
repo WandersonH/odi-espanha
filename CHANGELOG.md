@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## E1.14 — 15/11/2026 · Etiqueta "cita o Brasil"
+
+**O que mudou e por quê.** O responsável pediu: "classificar com uma etiqueta de cita o Brasil tudo que citar Brasil, Lula ou Flávio Bolsonaro e sua família".
+
+- `data/config/temas.json`: lista `cita_brasil` (brasil*, brazil*, lula e formas listadas, bolsonaro*, e os endereços de Jair, Flávio, Eduardo, Carlos e Michelle Bolsonaro) e nota de método. Regra por palavra, sem IA. Não diz se a citação é favorável ou crítica.
+- `scripts/texto.py`, `scripts/build_o_que_dizem.py`: cada publicação ganha `cita_brasil` e `brasil_termos` (o que foi encontrado, para conferência); cada ator ganha a contagem.
+- `scripts/exportar_cita_brasil.py`: `data/site/cita_brasil.csv` (planilha de conferência, todas as redes) e `data/site/cita_brasil.json`. Entrou no passo de análises dos dois workflows.
+- `index.html`, caderno "O que dizem": coluna "Cita o Brasil", filtro "citam o Brasil" (lista até 40 por ator, da mais recente para a mais antiga), marca em cada publicação e link da planilha.
+- Um teste pegou falso positivo de `lula*` (casava qualquer palavra começada por "lula"); a regra ficou em "lula" como palavra inteira mais formas listadas.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 54 testes, OK. `python scripts/build_o_que_dizem.py && python scripts/exportar_cita_brasil.py` na cópia local do acervo, antes das cargas dos perfis confirmados hoje: 15 publicações com a etiqueta em 7.375 (X 11, Instagram 3, Facebook 1, YouTube 0). Os arquivos locais foram descartados; os números publicados saem da próxima execução no GitHub e estão na entrada seguinte.
+
+**Pendente.** A etiqueta vale para as publicações dos perfis. Não foi aplicada aos comentários do YouTube nem aos títulos dos artigos dos sites.
+
 ## E1.13 — 15/11/2026 · Quatro perfis confirmados pelo responsável entram na coleta
 
 **O que mudou e por quê.** O responsável abriu e confirmou quatro endereços que estavam como "candidato a conferir" e perguntou por que não tinham sido coletados. Não tinham porque a regra 10 só deixa coletar perfil confirmado por uma pessoa.

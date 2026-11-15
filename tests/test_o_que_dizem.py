@@ -11,7 +11,7 @@ class TestTexto(unittest.TestCase):
         c = tx.classificar("¡Prioridad Nacional! La INMIGRACIÓN ilegal y la vivienda. Sánchez traidor. #VotaVOX https://t.co/x", temas, adv, voto)
         self.assertEqual(set(c["temas"]), {"inmigracion_fronteras", "vivienda", "corrupcion_justicia"})   # acento e caixa não importam; prefixo casa "ilegal", "traidor"
         self.assertTrue(c["cita_adversario"] and c["pede_voto"])
-        self.assertEqual(tx.classificar("Buenos días a todos", temas, adv, voto), {"temas": ["sem_tema"], "cita_adversario": False, "pede_voto": False})
+        self.assertEqual(tx.classificar("Buenos días a todos", temas, adv, voto), {"temas": ["sem_tema"], "cita_adversario": False, "pede_voto": False, "cita_brasil": False, "brasil_termos": []})
         self.assertFalse(tx.classificar("el pppp y la appa", temas, adv, voto)["cita_adversario"])       # "pp" só como palavra inteira
 
     def test_nuvem_conta_publicacoes_e_tira_palavras_vazias(self):
@@ -46,3 +46,20 @@ class TestBuild(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestCitaBrasil(unittest.TestCase):
+    def test_etiqueta_cita_o_brasil(self):
+        import json
+        from base import RAIZ
+        cfg = json.loads((RAIZ / "data/config/temas.json").read_text(encoding="utf-8"))
+        temas, adv, voto = tx.compilar(cfg)
+        br = tx.compilar_brasil(cfg)
+        sim = {"Con @jairbolsonaro y Flávio Bolsonaro en Madrid": ["bolsonaro", "jairbolsonaro"], "Lula da Silva y el Foro de São Paulo": ["lula"],
+               "Los brasileños merecen libertad #BrasilLibre": ["brasilenos", "brasillibre"], "#BolsonaroLibre": ["bolsonarolibre"], "Elecciones en Brazil": ["brazil"]}
+        for texto, termos in sim.items():
+            c = tx.classificar(texto, temas, adv, voto, br)
+            self.assertEqual((c["cita_brasil"], c["brasil_termos"]), (True, termos), texto)
+        for texto in ("La célula del partido", "Abrasivo y sin lulaby", "Buenos días España"):
+            self.assertFalse(tx.classificar(texto, temas, adv, voto, br)["cita_brasil"], texto)
+        self.assertFalse(tx.classificar("Lula y Bolsonaro", temas, adv, voto)["cita_brasil"])     # sem os termos, a etiqueta não é aplicada

@@ -37,6 +37,7 @@ def main(argv=None, root=None) -> int:
     root = Path(root or ".")
     cfg = comum.ler_json(root / "data/config/temas.json")
     temas, adv, voto = tx.compilar(cfg)
+    brasil = tx.compilar_brasil(cfg)
     desde, ate = comum.periodo(root)
     atores = comum.ler_json(root / "data/config/atores.json")["atores"]
     for rede in comum.REDES:
@@ -66,7 +67,7 @@ def main(argv=None, root=None) -> int:
                 textos.append(util)
                 tg = {tx.tag_key(t) for t in tx.HASHTAG.findall(r["texto"])} - excluir
                 tags.append(tg)
-                c = tx.classificar(util, temas, adv, voto)
+                c = tx.classificar(util, temas, adv, voto, brasil)
                 t_ = taxa(r)
                 pubs.append({"post_id": r["post_id"], "perfil": r["perfil"], "url": r["url"], "texto": r["texto"][:400], "tipo": r["tipo"], "publicado_em": r["publicado_em"],
                              **{k: num(r[k]) for k in ("visualizacoes", "curtidas", "comentarios", "compartilhamentos")},
@@ -92,8 +93,10 @@ def main(argv=None, root=None) -> int:
                 "taxa_interacao_mediana": round(statistics.median(taxas), 4) if taxas else None,
                 "por_tema": dict(por_tema.most_common()), "visualizacoes_por_tema": dict(views_tema.most_common()),
                 "cita_adversario": sum(p["cita_adversario"] for p in pubs), "pede_voto": sum(p["pede_voto"] for p in pubs),
+                "cita_brasil": sum(p["cita_brasil"] for p in pubs),
                 "nuvem": tx.nuvem(textos, excluir), "hashtags": [[t, n] for t, n in Counter(t for s in tags for t in s).most_common(40) if n >= 2],
                 "por_mes": dict(sorted(Counter(p["publicado_em"][:7] for p in pubs).items())), "por_fase": fase, "publicacoes": pubs}
+        out["cita_brasil_nota"], out["cita_brasil_termos"] = cfg.get("cita_brasil_nota"), cfg.get("cita_brasil")
         out["cobertura_do_dicionario"] = {"publicacoes": len(rows), "com_tema": com_tema, "sem_tema": len(rows) - com_tema, "pct_com_tema": round(100 * com_tema / len(rows), 1)}
         (root / "data" / rede / "conteudo.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         tot = Counter(t for a in out["atores"].values() for t, n in a["por_tema"].items() for _ in range(n))

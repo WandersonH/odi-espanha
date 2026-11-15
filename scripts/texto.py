@@ -88,7 +88,14 @@ def compilar(cfg: dict):
     return temas, [term_regex(t) for t in cfg["adversarios"]], [term_regex(t) for t in cfg["pede_voto"]]
 
 
-def classificar(texto: str, temas, adv, voto) -> dict:
+def compilar_brasil(cfg: dict) -> list:
+    """Termos da etiqueta 'cita o Brasil' (Brasil, Lula, família Bolsonaro), de data/config/temas.json."""
+    return [term_regex(t) for t in cfg.get("cita_brasil", [])]
+
+
+def classificar(texto: str, temas, adv, voto, brasil=()) -> dict:
     t = norm(texto)
     achados = [k for k, regs in temas.items() if any(r.search(t) for r in regs)]
-    return {"temas": achados or ["sem_tema"], "cita_adversario": any(r.search(t) for r in adv), "pede_voto": any(r.search(t) for r in voto)}
+    br = sorted({m.group(0).strip() for r in brasil for m in r.finditer(t)})  # o que foi encontrado, para conferência
+    return {"temas": achados or ["sem_tema"], "cita_adversario": any(r.search(t) for r in adv), "pede_voto": any(r.search(t) for r in voto),
+            "cita_brasil": bool(br), "brasil_termos": br}
