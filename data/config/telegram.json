@@ -11,6 +11,24 @@
    "confirmado": true,
    "conferido_em": "2026-11-15",
    "fonte": "Endereço enviado pelo responsável em 15/11/2026; o mesmo endereço aparece na descrição do site voxespana.es reproduzida na captura do Similarweb de 15/11/2026 ('Descárgate Telegram y entra en el siguiente enlace... https://t.me/VOXtelegram')."
+  },
+  {
+   "ator_id": "foro-madrid",
+   "ator_nome": "Foro Madrid",
+   "canal": "foromadrid",
+   "url": "https://t.me/foromadrid",
+   "confirmado": true,
+   "conferido_em": "2026-11-15",
+   "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://t.me/foromadrid)."
+  },
+  {
+   "ator_id": "disenso",
+   "ator_nome": "Fundación Disenso",
+   "canal": "fdisenso",
+   "url": "https://t.me/fdisenso",
+   "confirmado": true,
+   "conferido_em": "2026-11-15",
+   "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://t.me/fdisenso)."
   }
  ]
 }

@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## E1.26 — 15/11/2026 · Primeira leitura de "Em alta agora" e do Google Notícias; mais dois canais do Telegram
+
+**O que foi realmente executado.** Run 43766518449 (`trends.yml`): "Em alta agora" na Espanha com 10 buscas na leitura de 2026-11-15T22:00:31Z, nenhuma citando os atores; Google Notícias com 20 resultados, 5 para cada um dos 4 termos. Arquivos: `data/trends/agora.json`, `data/trends/noticias.json` e os dois históricos em CSV. O Trends por termo foi relido na mesma execução (9 consultas).
+
+**O que mudou e por quê.** `data/config/telegram.json`: canais `foromadrid` (Foro Madrid) e `fdisenso` (Fundación Disenso), endereços enviados pelo responsável. A leitura deles está na entrada seguinte.
+
+**Testes.** `python -m unittest discover -s tests` → 62 testes, OK.
+
 ## E1.25 — 15/11/2026 · "Em alta agora", Google Notícias e linha do tempo de cada vídeo
 
 **O que mudou e por quê.** O responsável cobrou os dois blocos do caderno de buscas que tinham ficado como "ainda não trazido" e a linha do tempo dos vídeos do YouTube.
