@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "coletado_em_utc": "2026-11-15T19:09:13Z",
+ "coletado_em_utc": "2026-11-15T19:13:38Z",
  "fonte": "Meta · Biblioteca de Anúncios via Apify (jmlp/meta-ad-library-scraper)",
  "nota": "Biblioteca de Anúncios da Meta via ator da Apify (jmlp/meta-ad-library-scraper): anúncios veiculados na Espanha desde 16/02/2026 que mencionam o nome do ator (busca por palavra-chave da própria Biblioteca: inclui anúncios do próprio ator, de apoiadores, de adversários e de terceiros). Contexto: a Meta deixou de aceitar anúncios sobre política, eleições e temas sociais na União Europeia em 06/10/2025; por isso a busca é em TODOS os anúncios (ad_type=all), e o que aparece é anúncio comercial ou não declarado como político. Ausência de anúncios é o esperado; anúncio encontrado é registrado para análise, não é acusação de irregularidade. Gasto e alcance são faixas informadas pela Meta, quando informadas. Texto dos anúncios só no repositório privado.",
  "desde": "2026-02-16",
@@ -20,7 +20,7 @@
      21
     ],
     [
-     "Christina Bailey  ",
+     "Hirving Lozano",
      20
     ],
     [
@@ -28,7 +28,7 @@
      20
     ],
     [
-     "Hirving Lozano",
+     "Christina Bailey  ",
      20
     ],
     [
@@ -40,11 +40,11 @@
      12
     ],
     [
-     "Mai My",
+     "Dylan Hill42125",
      9
     ],
     [
-     "Dylan Hill42125",
+     "Mai My",
      9
     ],
     [
@@ -56,7 +56,7 @@
      8
     ],
     [
-     "El Español Jaleos",
+     "Grande Medias",
      6
     ],
     [
@@ -64,14 +64,171 @@
      6
     ],
     [
-     "Antony Fennel",
+     "Grady Burgess  ",
      6
     ],
     [
-     "Grady Burgess  ",
+     "El Español Jaleos",
      6
     ]
    ],
+   "frase_exata_paginas_distintas": 33,
+   "frase_exata_por_mes_de_inicio": {
+    "2026-04": 1,
+    "2026-05": 7,
+    "2026-06": 46,
+    "2026-07": 193,
+    "2026-08": 26,
+    "2026-09": 10,
+    "2026-10": 13,
+    "2026-11": 6
+   },
+   "destinos_frase_exata": [
+    [
+     "elmundo.es",
+     101
+    ],
+    [
+     "amazon.com",
+     95
+    ],
+    [
+     "elmundo-es.com",
+     21
+    ],
+    [
+     "capitalfirst.world",
+     16
+    ],
+    [
+     "elmund0.es",
+     15
+    ],
+    [
+     "webflux.cc",
+     10
+    ],
+    [
+     "google.com",
+     9
+    ],
+    [
+     "elmnd0.es",
+     6
+    ],
+    [
+     "elespanol.com",
+     6
+    ],
+    [
+     "radio.yieldingorchestra.com",
+     5
+    ],
+    [
+     "biogep.com",
+     3
+    ],
+    [
+     "sparkleforce.cc",
+     3
+    ],
+    [
+     "burnion.com",
+     3
+    ],
+    [
+     "instagram.com",
+     2
+    ],
+    [
+     "(sem destino)",
+     2
+    ]
+   ],
+   "classificados_politicos": 36,
+   "politicos_retirados_pela_meta": 36,
+   "politicos_iniciados_no_periodo": 36,
+   "paginas_dos_politicos": [
+    [
+     "Killit NV",
+     10
+    ],
+    [
+     "The News Network",
+     5
+    ],
+    [
+     "Mai My",
+     5
+    ],
+    [
+     "VOX Gandía",
+     4
+    ],
+    [
+     "Molly Katelyn Emma",
+     2
+    ],
+    [
+     "Dante Reno",
+     2
+    ],
+    [
+     "Teleceuta",
+     2
+    ],
+    [
+     "Alex Ring",
+     1
+    ],
+    [
+     "Conchi Bueno Bañez",
+     1
+    ],
+    [
+     "Noticias en Vivo",
+     1
+    ],
+    [
+     "El pendulazo",
+     1
+    ],
+    [
+     "Balance Boosters",
+     1
+    ],
+    [
+     "Instagram User 9083716313",
+     1
+    ]
+   ],
+   "gasto_por_moeda": {
+    "USD": {
+     "anuncios": 16,
+     "gasto_min": 0,
+     "gasto_max": 1600
+    },
+    "CHF": {
+     "anuncios": 1,
+     "gasto_min": 0,
+     "gasto_max": 100
+    },
+    "NOK": {
+     "anuncios": 5,
+     "gasto_min": 12600,
+     "gasto_max": 14298
+    },
+    "GBP": {
+     "anuncios": 3,
+     "gasto_min": 0,
+     "gasto_max": 300
+    },
+    "EUR": {
+     "anuncios": 11,
+     "gasto_min": 0,
+     "gasto_max": 1100
+    }
+   },
    "lidos_nesta_execucao": 496,
    "limite_da_coleta": 600,
    "no_limite": false,
@@ -88,7 +245,11 @@
     "faixas_abertas": 451
    },
    "moedas": [
-    "EUR"
+    "CHF",
+    "EUR",
+    "GBP",
+    "NOK",
+    "USD"
    ],
    "plataformas": {
     "instagram": 488,
@@ -304,8 +465,8 @@
      "pagadores": []
     },
     {
-     "page_id": "162846866908318",
-     "pagina": "Kiran Marisa Doyle",
+     "page_id": "1166839653186889",
+     "pagina": "Dylan Hill42125",
      "anuncios": 12,
      "gasto": {
       "min": 0,
@@ -320,8 +481,8 @@
      "pagadores": []
     },
     {
-     "page_id": "1166839653186889",
-     "pagina": "Dylan Hill42125",
+     "page_id": "162846866908318",
+     "pagina": "Kiran Marisa Doyle",
      "anuncios": 12,
      "gasto": {
       "min": 0,
@@ -416,8 +577,24 @@
      "pagadores": []
     },
     {
-     "page_id": "1093406670519594",
-     "pagina": "Nova247",
+     "page_id": "1111505398714670",
+     "pagina": "Grande Medias",
+     "anuncios": 7,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1033866739820970",
+     "pagina": "Genial Grande",
      "anuncios": 7,
      "gasto": {
       "min": 0,
@@ -464,8 +641,8 @@
      "pagadores": []
     },
     {
-     "page_id": "1033866739820970",
-     "pagina": "Genial Grande",
+     "page_id": "1093406670519594",
+     "pagina": "Nova247",
      "anuncios": 7,
      "gasto": {
       "min": 0,
@@ -480,24 +657,8 @@
      "pagadores": []
     },
     {
-     "page_id": "1111505398714670",
-     "pagina": "Grande Medias",
-     "anuncios": 7,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 7
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 7
-     },
-     "pagadores": []
-    },
-    {
-     "page_id": "912174705544148",
-     "pagina": "El Español Jaleos",
+     "page_id": "1115308975005450",
+     "pagina": "Smart Quizel",
      "anuncios": 6,
      "gasto": {
       "min": 0,
@@ -544,8 +705,8 @@
      "pagadores": []
     },
     {
-     "page_id": "219414621450122",
-     "pagina": "Antony Fennel",
+     "page_id": "912174705544148",
+     "pagina": "El Español Jaleos",
      "anuncios": 6,
      "gasto": {
       "min": 0,
@@ -567,6 +728,91 @@
    "paginas_api": null,
    "com_frase_exata": 0,
    "paginas_com_frase_exata": [],
+   "frase_exata_paginas_distintas": 0,
+   "frase_exata_por_mes_de_inicio": {},
+   "destinos_frase_exata": [],
+   "classificados_politicos": 52,
+   "politicos_retirados_pela_meta": 52,
+   "politicos_iniciados_no_periodo": 50,
+   "paginas_dos_politicos": [
+    [
+     "VOX Gandía",
+     14
+    ],
+    [
+     "PSOE Vega Baja",
+     9
+    ],
+    [
+     "Mónica Naranjo",
+     4
+    ],
+    [
+     "Lola Riqueni del Canto",
+     2
+    ],
+    [
+     "Instagram User 28839121",
+     1
+    ],
+    [
+     "Alex Ring",
+     1
+    ],
+    [
+     "Bierzo 24",
+     1
+    ],
+    [
+     "Instagram User 7194775207",
+     1
+    ],
+    [
+     "El Cronista España",
+     1
+    ],
+    [
+     "PSOE Jaén",
+     1
+    ],
+    [
+     "Quickstop.juego",
+     1
+    ],
+    [
+     "Instagram User 5335279165",
+     1
+    ],
+    [
+     "A.Ramírez y asociados",
+     1
+    ],
+    [
+     "Balance Boosters",
+     1
+    ],
+    [
+     "Juan Gonzalez-Posada",
+     1
+    ]
+   ],
+   "gasto_por_moeda": {
+    "EUR": {
+     "anuncios": 42,
+     "gasto_min": 200,
+     "gasto_max": 4399
+    },
+    "CHF": {
+     "anuncios": 1,
+     "gasto_min": 0,
+     "gasto_max": 100
+    },
+    "USD": {
+     "anuncios": 9,
+     "gasto_min": 100,
+     "gasto_max": 999
+    }
+   },
    "lidos_nesta_execucao": 342,
    "limite_da_coleta": 600,
    "no_limite": false,
@@ -583,7 +829,9 @@
     "faixas_abertas": 269
    },
    "moedas": [
-    "EUR"
+    "CHF",
+    "EUR",
+    "USD"
    ],
    "plataformas": {
     "instagram": 298,
@@ -1067,6 +1315,41 @@
      1
     ]
    ],
+   "frase_exata_paginas_distintas": 1,
+   "frase_exata_por_mes_de_inicio": {
+    "2026-07": 1
+   },
+   "destinos_frase_exata": [
+    [
+     "youtube.com",
+     1
+    ]
+   ],
+   "classificados_politicos": 2,
+   "politicos_retirados_pela_meta": 2,
+   "politicos_iniciados_no_periodo": 2,
+   "paginas_dos_politicos": [
+    [
+     "Alex Ring",
+     1
+    ],
+    [
+     "El pendulazo",
+     1
+    ]
+   ],
+   "gasto_por_moeda": {
+    "CHF": {
+     "anuncios": 1,
+     "gasto_min": 0,
+     "gasto_max": 100
+    },
+    "EUR": {
+     "anuncios": 1,
+     "gasto_min": 0,
+     "gasto_max": 100
+    }
+   },
    "lidos_nesta_execucao": 2,
    "limite_da_coleta": 600,
    "no_limite": false,
@@ -1083,6 +1366,7 @@
     "faixas_abertas": 0
    },
    "moedas": [
+    "CHF",
     "EUR"
    ],
    "plataformas": {
@@ -1190,6 +1474,42 @@
    "paginas_api": null,
    "com_frase_exata": 0,
    "paginas_com_frase_exata": [],
+   "frase_exata_paginas_distintas": 0,
+   "frase_exata_por_mes_de_inicio": {},
+   "destinos_frase_exata": [],
+   "classificados_politicos": 4,
+   "politicos_retirados_pela_meta": 4,
+   "politicos_iniciados_no_periodo": 4,
+   "paginas_dos_politicos": [
+    [
+     "Legados",
+     1
+    ],
+    [
+     "Semana Dominicana en España",
+     1
+    ],
+    [
+     "Sanitas",
+     1
+    ],
+    [
+     "Estrella Digital",
+     1
+    ]
+   ],
+   "gasto_por_moeda": {
+    "EUR": {
+     "anuncios": 3,
+     "gasto_min": 100,
+     "gasto_max": 399
+    },
+    "USD": {
+     "anuncios": 1,
+     "gasto_min": 0,
+     "gasto_max": 100
+    }
+   },
    "lidos_nesta_execucao": 502,
    "limite_da_coleta": 600,
    "no_limite": false,
@@ -1206,7 +1526,8 @@
     "faixas_abertas": 498
    },
    "moedas": [
-    "EUR"
+    "EUR",
+    "USD"
    ],
    "plataformas": {
     "instagram": 477,
@@ -1683,14 +2004,14 @@
  "erros": {},
  "modo": "recuperação",
  "teto_usd": 0.4,
- "gasto_mes_antes_usd": 0.1142,
+ "gasto_mes_antes_usd": 0.1886,
  "runs_apify": [
   {
    "consulta": "abascal",
    "id": "js1xy0hBdHxh2MtcA",
    "status": "SUCCEEDED",
-   "custo_usd": 0.0744,
-   "ja_registrada": false,
+   "custo_usd": 0.0,
+   "ja_registrada": true,
    "itens": 496
   },
   {
@@ -1720,5 +2041,6 @@
  ],
  "janela_desta_execucao": "2026-02-16",
  "status": "ok",
- "custo_usd": 0.0744
+ "custo_usd": 0.0,
+ "nota_campos": "'gasto' de cada consulta soma faixas de moedas diferentes quando há mais de uma: use gasto_por_moeda. publico_estimado é o tamanho do público-alvo informado pela Biblioteca, não alcance. Só anúncios que a Meta classificou como políticos trazem gasto e público estimado."
 }

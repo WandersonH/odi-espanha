@@ -1,0 +1,41 @@
+{
+ "coletado_em_utc": "2026-11-15T19:13:38Z",
+ "modo": "recuperação",
+ "teto_usd": 0.4,
+ "custo_usd": 0.0,
+ "itens": 1342,
+ "runs": [
+  {
+   "consulta": "abascal",
+   "id": "js1xy0hBdHxh2MtcA",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0,
+   "ja_registrada": true,
+   "itens": 496
+  },
+  {
+   "consulta": "vox",
+   "id": "9cASzd3lsM3TTPTM9",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0,
+   "ja_registrada": true,
+   "itens": 342
+  },
+  {
+   "consulta": "disenso",
+   "id": "I0PGBXQjOsgVGZnil",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0,
+   "ja_registrada": true,
+   "itens": 2
+  },
+  {
+   "consulta": "foro-madrid",
+   "id": "nXt1GaD5FXzTZCmne",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0,
+   "ja_registrada": true,
+   "itens": 502
+  }
+ ]
+}
