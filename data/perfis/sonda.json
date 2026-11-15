@@ -1,5 +1,5 @@
 {
- "lido_em_utc": "2026-11-15T17:40:36Z",
+ "lido_em_utc": "2026-11-15T20:20:39Z",
  "nota": "Só perfis confirmados. A ficha dos candidatos fica no repositório privado.",
  "perfis": [
   {
@@ -13,7 +13,7 @@
    "nome_exibido": "Foro Madrid",
    "verificado": false,
    "privado": false,
-   "seguidores": 12680,
+   "seguidores": 12682,
    "posts_total": 578,
    "bio": "En defensa de la Libertad, la Democracia y el Estado de Derecho. Una iniciativa de @fundaciondisenso."
   },
@@ -28,7 +28,7 @@
    "nome_exibido": "VOX 🇪🇸",
    "verificado": true,
    "privado": false,
-   "seguidores": 1270539,
+   "seguidores": 1270978,
    "posts_total": 11493,
    "bio": "ESPAÑA SE DEFIENDE"
   },
@@ -43,9 +43,24 @@
    "nome_exibido": "Fundación Disenso",
    "verificado": true,
    "privado": false,
-   "seguidores": 25689,
+   "seguidores": 25700,
    "posts_total": 1143,
    "bio": "🇪🇸 Defendiendo el derecho a disentir, la libertad, la prosperidad y la soberanía de las naciones a ambos lados del Atlántico. | 👇🏻"
+  },
+  {
+   "ator_id": "abascal",
+   "ator_nome": "Santiago Abascal",
+   "rede": "instagram",
+   "perfil": "santi_abascal",
+   "url": "https://www.instagram.com/santi_abascal/",
+   "confirmado": true,
+   "encontrado": true,
+   "nome_exibido": "🇪🇸 Santiago Abascal 🇪🇸",
+   "verificado": true,
+   "privado": false,
+   "seguidores": 1706302,
+   "posts_total": 6997,
+   "bio": "\"El que resiste, vence\"     \n      Presidente de VOX\n      Presidente de PATRIOTS\n🇪🇸 Diputado nacional 🇪🇸"
   },
   {
    "ator_id": "martin-frias",
@@ -58,7 +73,7 @@
    "nome_exibido": "Jorge Martín Frías",
    "verificado": true,
    "privado": false,
-   "seguidores": 3766,
+   "seguidores": 3776,
    "posts_total": 289,
    "bio": "Director de @fundaciondisenso. \nDiputado del Parlamento Europeo."
   },
@@ -87,6 +102,15 @@
    "encontrado": false
   },
   {
+   "ator_id": "disenso",
+   "ator_nome": "Fundación Disenso",
+   "rede": "x",
+   "perfil": "FDisenso",
+   "url": "https://x.com/FDisenso",
+   "confirmado": true,
+   "encontrado": false
+  },
+  {
    "ator_id": "abascal",
    "ator_nome": "Santiago Abascal",
    "rede": "x",
@@ -101,6 +125,15 @@
    "rede": "x",
    "perfil": "jm_frias",
    "url": "https://x.com/jm_frias",
+   "confirmado": true,
+   "encontrado": false
+  },
+  {
+   "ator_id": "cader",
+   "ator_nome": "Eduardo Cader",
+   "rede": "x",
+   "perfil": "ecader",
+   "url": "https://x.com/ecader",
    "confirmado": true,
    "encontrado": false
   },
@@ -130,9 +163,39 @@
    "nome_exibido": "VOX España | Madrid",
    "verificado": null,
    "privado": null,
-   "seguidores": 1106736,
+   "seguidores": 1107072,
    "posts_total": null,
    "bio": "No te pierdas nuestros vídeos en YouTube:\n\n https://youtube.com/user/voxespana"
+  },
+  {
+   "ator_id": "disenso",
+   "ator_nome": "Fundación Disenso",
+   "rede": "facebook",
+   "perfil": "fundaciondisenso",
+   "url": "https://www.facebook.com/fundaciondisenso",
+   "confirmado": true,
+   "encontrado": true,
+   "nome_exibido": "Fundación Disenso",
+   "verificado": null,
+   "privado": null,
+   "seguidores": 6559,
+   "posts_total": null,
+   "bio": ""
+  },
+  {
+   "ator_id": "abascal",
+   "ator_nome": "Santiago Abascal",
+   "rede": "facebook",
+   "perfil": "SantiagoAbascalConde",
+   "url": "https://www.facebook.com/SantiagoAbascalConde",
+   "confirmado": true,
+   "encontrado": true,
+   "nome_exibido": "Santiago Abascal",
+   "verificado": null,
+   "privado": null,
+   "seguidores": 839102,
+   "posts_total": null,
+   "bio": "Presidente de VOX. Presidente de PATRIOTS. Diputado Nacional."
   }
  ]
 }

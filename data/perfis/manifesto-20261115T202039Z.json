@@ -1,0 +1,177 @@
+{
+ "run_started_utc": "2026-11-15T20:20:39Z",
+ "modo": "sonda",
+ "conta": "APIFY_TOKEN_ESP",
+ "teto_autorizado_usd": 0.2,
+ "gasto_antes_usd": 0.0001,
+ "teto_execucao_usd": 0.1999,
+ "execucoes": [
+  {
+   "rede": "instagram",
+   "ator": "apify~instagram-profile-scraper",
+   "perfis_pedidos": 5,
+   "teto_usd": 0.0666,
+   "run": "4y3tHT1PaqUhmws21",
+   "itens": 5,
+   "custo_usd": 0.0104
+  },
+  {
+   "rede": "x",
+   "ator": "xquik~x-tweet-scraper",
+   "perfis_pedidos": 6,
+   "teto_usd": 0.0948,
+   "run": "qfOQmP0EJJf9h7jDS",
+   "itens": 12,
+   "custo_usd": 0.0001
+  },
+  {
+   "rede": "facebook",
+   "ator": "apify~facebook-pages-scraper",
+   "perfis_pedidos": 4,
+   "teto_usd": 0.1894,
+   "run": "Zqq60WR36J5w5nhBn",
+   "itens": 4,
+   "custo_usd": 0.0
+  }
+ ],
+ "perfis": [
+  {
+   "ator_id": "foro-madrid",
+   "rede": "instagram",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "foromadrid",
+   "seguidores": 12682,
+   "posts_total": 578
+  },
+  {
+   "ator_id": "vox",
+   "rede": "instagram",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "vox_es",
+   "seguidores": 1270978,
+   "posts_total": 11493
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "instagram",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "fundaciondisenso",
+   "seguidores": 25700,
+   "posts_total": 1143
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "instagram",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "santi_abascal",
+   "seguidores": 1706302,
+   "posts_total": 6997
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "instagram",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "jmartinfrias",
+   "seguidores": 3776,
+   "posts_total": 289
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "Foro_MAD",
+   "seguidores": 33300,
+   "posts_total": 2963
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "confirmado": true,
+   "encontrado": false,
+   "perfil": "vox_es",
+   "seguidores": null,
+   "posts_total": null
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "confirmado": true,
+   "encontrado": false,
+   "perfil": "FDisenso",
+   "seguidores": null,
+   "posts_total": null
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "confirmado": true,
+   "encontrado": false,
+   "perfil": "Santi_ABASCAL",
+   "seguidores": null,
+   "posts_total": null
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "confirmado": true,
+   "encontrado": false,
+   "perfil": "jm_frias",
+   "seguidores": null,
+   "posts_total": null
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "confirmado": true,
+   "encontrado": false,
+   "perfil": "ecader",
+   "seguidores": null,
+   "posts_total": null
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "facebook",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "ForoMadridOficial",
+   "seguidores": 2451,
+   "posts_total": null
+  },
+  {
+   "ator_id": "vox",
+   "rede": "facebook",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "vox.espana",
+   "seguidores": 1107072,
+   "posts_total": null
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "facebook",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "fundaciondisenso",
+   "seguidores": 6559,
+   "posts_total": null
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "facebook",
+   "confirmado": true,
+   "encontrado": true,
+   "perfil": "SantiagoAbascalConde",
+   "seguidores": 839102,
+   "posts_total": null
+  }
+ ],
+ "candidatos_sondados": 0,
+ "custo_usd": 0.0105,
+ "status": "parcial: 0 rede(s) com erro, 5 perfil(is) confirmado(s) sem resposta"
+}
