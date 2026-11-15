@@ -68,9 +68,9 @@
     "inicio": 0.001,
     "fonte": "loja Apify, plano gratuito, 17/10/2026: US$ 0,005 por post (ODI Atlas, facebook_posts.json)"
    },
-   "leitura": "Uma execução por página, do post mais recente para trás até a data inicial. O ator não aceita data final.",
-   "limite_ator_itens": 700,
-   "limite_ator_fonte": "ODI Atlas, facebook_posts.json (17 e 22/10/2026): o ator para perto de 1.000 posts por página, 700 com filtro de data. Leitura que chega a esse número é marcada como parcial.",
+   "leitura": "Uma execução por página, do post mais recente para trás. O ator não aceita data final nem 'mais antigos que', e para perto de 600 posts: em página muito ativa, uma carga cobre só as últimas semanas.",
+   "limite_ator_itens": 600,
+   "limite_ator_fonte": "Medido neste Atlas: run 43744078867 (15/11/2026), página vox.espana, pedido 804, o ator devolveu 603 posts e parou em 18/10/2026. No ODI Atlas (10/2026) o registro era 'perto de 1.000, 700 com filtro de data'. Leitura que chega a 600 é marcada como parcial.",
    "teste": {
     "posts": 10,
     "teto_usd": 0.3

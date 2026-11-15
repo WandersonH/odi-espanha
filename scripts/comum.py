@@ -159,6 +159,26 @@ def gravar_bruto(rede: str, itens: list, agora: str) -> bool:
     return True
 
 
+def classificar(modo: str, erro, itens: int, pedido, lim_ator: int, mais_antigo, desde: str) -> str:
+    """Cobertura do período pelo que a leitura devolveu. "Completa" só quando não há NENHUM sinal de corte:
+    nem o limite pedido, nem o limite conhecido do ator, nem uma leitura grande que termina longe da data inicial
+    (foi assim que a página do Vox no Facebook parou em 603 posts, de 18/10 a 15/11/2026, no run 43744078867)."""
+    if erro:
+        return "⛔ não lido"
+    if modo == "teste":
+        return "teste (não mede cobertura)"
+    if isinstance(pedido, int) and pedido > 0 and itens >= pedido:
+        return "parcial ⛔: a leitura parou no limite pedido, não pela data"
+    if lim_ator and itens >= lim_ator:
+        return "parcial ⛔: a leitura parou no limite do ator, não pela data"
+    if itens >= 500 and mais_antigo and len(str(mais_antigo)) >= 10:
+        folga = (dt.date.fromisoformat(str(mais_antigo)[:10]) - dt.date.fromisoformat(desde)).days
+        if folga > 30:
+            d = str(mais_antigo)[:10]
+            return f"parcial ⛔: {itens} itens e a mais antiga lida é de {d[8:10]}/{d[5:7]}/{d[:4]}, {folga} dias depois da data inicial (corte do coletor, não a data)"
+    return "completa: a leitura parou pela data inicial, não pelo limite"
+
+
 def gravar_manifesto(pasta: Path, man: dict) -> None:
     pasta.mkdir(parents=True, exist_ok=True)
     stamp = man["run_started_utc"].replace(":", "").replace("-", "")
@@ -289,14 +309,7 @@ def rodar(rede: str, ad, argv=None, executar=None, root=None, hoje: dt.date | No
             lidos, mudou = lidos + 1, True
         no_limite = len(itens) >= n
         no_limite_ator = bool(lim_ator and len(itens) >= lim_ator)
-        if erro:
-            cobertura = "⛔ não lido"
-        elif modo == "teste":
-            cobertura = "teste (não mede cobertura)"
-        elif no_limite or no_limite_ator:
-            cobertura = "parcial ⛔: a leitura parou no limite " + ("do ator" if no_limite_ator and not no_limite else "pedido") + ", não pela data"
-        else:
-            cobertura = "completa: a leitura parou pela data inicial, não pelo limite"
+        cobertura = classificar(modo, erro, len(itens), n, lim_ator, min(todas, default=None), desde)
         reg.update(itens=len(itens), posts_do_perfil=len(posts), itens_de_outra_conta_ou_descartados=len(itens) - len(posts), lidos_no_periodo=lidos, novos=novos, sem_data=sem_data,
                    mais_antigo=min(todas, default=None), mais_recente=max(todas, default=None),
                    bateu_no_limite_pedido=no_limite, bateu_no_limite_do_ator=no_limite_ator, cobertura=cobertura,

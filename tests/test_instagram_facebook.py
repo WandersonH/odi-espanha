@@ -57,3 +57,14 @@ class TestFacebook(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestCorteSilencioso(unittest.TestCase):
+    def test_leitura_grande_que_termina_longe_do_inicio_e_parcial(self):
+        import comum
+        # caso real: Vox no Facebook, run 43744078867 — 603 itens de 804 pedidos, mais antiga lida em 18/10/2026
+        c = comum.classificar("carga", None, 603, 804, 0, "2026-10-18T09:00:00Z", "2026-02-16")
+        self.assertTrue(c.startswith("parcial ⛔: 603 itens e a mais antiga lida é de 18/10/2026, 244 dias depois"), c)
+        self.assertTrue(comum.classificar("carga", None, 603, 804, 600, "2026-10-18T09:00:00Z", "2026-02-16").startswith("parcial ⛔: a leitura parou no limite do ator"))
+        self.assertTrue(comum.classificar("carga", None, 2220, 12529, 0, "2026-02-16T08:00:00Z", "2026-02-16").startswith("completa"))   # grande, mas chegou ao início
+        self.assertTrue(comum.classificar("carga", None, 82, 3351, 0, "2026-03-22T08:00:00Z", "2026-02-16").startswith("completa"))      # perfil que publica pouco

@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## E1.4 — 15/11/2026 · Cargas de X, Instagram e Facebook; correção da regra de cobertura
+
+**Errata (importante).** O manifesto da carga do Facebook (`data/facebook/manifesto-20261115T…`, run 43744078867) grava a página `vox.espana` como "completa". **Está errado.** O ator devolveu 603 posts, todos de 18/10 a 15/11/2026, e parou sozinho, longe da data inicial (16/02/2026). A regra antiga só olhava se o número de itens tinha batido no limite pedido (804) ou no limite conhecido do ator (700). Correção:
+- `comum.classificar`: cobertura "completa" só sem nenhum sinal de corte; leitura com 500 itens ou mais cuja publicação mais antiga fica a mais de 30 dias da data inicial é "parcial ⛔";
+- `coleta.json`: limite do ator do Facebook passa a 600, com o run como evidência;
+- `build_acervo.py`: a página recalcula a cobertura pela regra atual em vez de confiar no texto gravado no manifesto. O manifesto original não foi alterado.
+- A estimativa dada ao responsável antes da carga (cerca de 7 posts por dia na página do Vox) veio de um teste com 7 posts e estava errada: o ritmo medido é de cerca de 21 por dia (603 em 29 dias).
+
+**O que foi realmente executado (15/11/2026), com universo e amostra.**
+- **X, carga:** run 43740489231, custo US$ 0,5058. Lidos no período, do mais recente até a data inicial: `vox_es` 2.220, `Santi_ABASCAL` 836, `Foro_MAD` 177, `jm_frias` 139 (3.372 com os do teste). A publicação mais antiga lida é de 16/02/2026 em três perfis e de 19/02/2026 em `jm_frias`. Universo que o X informa (toda a vida da conta, com reposts): 108.587, 50.476, 2.963 e 19.881. O X não informa total por período; a leitura é a busca do próprio X (posts, respostas e citações, sem reposts).
+- **Instagram, carga:** run 43741114895, custo registrado US$ 0,031: `fundaciondisenso` 113 no período (182 itens, 69 de outra conta), `foromadrid` 83 (124 itens, 41 de outra conta), `jmartinfrias` 19 (82 itens, 63 de outra conta). `vox_es` foi executado na Apify, mas o download do resultado caiu (IncompleteRead): custo desse perfil não registrado (até US$ 0,19 pelo teto da execução). Releitura do `vox_es`: run 43745182745, custo US$ 0,169: 1.928 no período (2.906 itens, 978 de outra conta), de 16/02 a 15/11/2026; nenhuma execução anterior pôde ser reaproveitada. Itens "de outra conta" são publicações em colaboração cujo dono é outro perfil; ficaram fora do acervo.
+- **Universo por perfil (sonda):** run 43742217822. Instagram informa o total de publicações da conta: `vox_es` 11.493, `fundaciondisenso` 1.143, `foromadrid` 578, `jmartinfrias` 289. O Facebook informa só seguidores. Os 5 candidatos não foram sondados (sem repositório privado). No X, a sonda só devolveu `Foro_MAD`; o universo dos outros três vem da própria carga.
+- **Facebook, carga:** run 43744078867, custo US$ 4,489 (teto 4,50). `ForoMadridOficial`: 41 no período, de 16/02 a 07/09/2026, cobertura completa. `vox.espana`: 603 posts de 18/10 a 15/11/2026, **parcial ⛔** (ver errata).
+- `python -m unittest discover -s tests` → 33 testes, OK.
+
+**Gasto registrado nos manifestos até aqui:** US$ 5,28 (Facebook 4,56; X 0,52; Instagram 0,20) de um saldo informado de US$ 10. Pode haver até US$ 0,19 a mais da execução do Instagram cujo resultado não foi baixado.
+
+**O que NÃO foi feito (⛔).** Bruto da Apify não guardado (o `ODI_INTERNO_TOKEN` segue sem acesso ao `odi-secret-esp`). Facebook do Vox antes de 18/10/2026. Diário. 5 perfis candidatos. Páginas pedidas pelo responsável em 15/11 (O que dizem, Comentários, Quem acompanha, Trends) e redes e IRaMuTeQ no modelo dos casos do ODI Atlas.
+
 ## E1.3 — 15/11/2026 · Data final, carga de X e Instagram, universo por perfil
 
 **O que mudou e por quê.** O responsável respondeu: "final 30/01/2027", "pode rodar" a carga de Instagram e X com o saldo atual, e pediu o tamanho do universo para responder à orientação e prever custos.

@@ -55,11 +55,16 @@ def universos(root: Path) -> dict:
 def leituras(root: Path, rede: str) -> tuple[dict, dict, dict | None]:
     """Por perfil: registro da última carga (mede cobertura) e da última leitura de qualquer modo; e o último manifesto."""
     carga, ultima, ultimo_man = {}, {}, None
+    lim = int((comum.ler_json(root / "data/config/coleta.json")["redes"].get(rede) or {}).get("limite_ator_itens") or 0)
     for m in comum.manifestos(root / "data" / rede):
         ultimo_man = m
         for r in m.get("perfis") or []:
             reg = {"modo": m.get("modo"), "quando": m.get("run_started_utc"), **{k: r.get(k) for k in
                    ("pedido", "itens", "lidos_no_periodo", "mais_antigo", "mais_recente", "cobertura", "erro", "complemento_erro")}}
+            if rede in comum.REDES_APIFY and isinstance(r.get("pedido"), int) and "itens" in r:
+                # a cobertura é recalculada pela regra atual: o texto gravado no manifesto pode ser de uma regra antiga
+                inicio = m.get("desde_leitura") if m.get("modo") == "diario" else (m.get("periodo") or {}).get("desde")
+                reg["cobertura"] = comum.classificar(m.get("modo"), r.get("erro"), r.get("itens") or 0, r.get("pedido"), lim, r.get("mais_antigo"), inicio)
             k = (r.get("perfil") or "").lower()
             ultima[k] = reg
             if m.get("modo") == "carga" and not r.get("erro"):
