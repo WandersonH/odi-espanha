@@ -1,0 +1,158 @@
+{
+ "run_started_utc": "2026-11-15T17:19:57Z",
+ "rede": "x",
+ "ferramenta": "Apify · xquik/x-tweet-scraper",
+ "modo": "carga",
+ "conta": "APIFY_TOKEN_ESP",
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": "2027-01-30"
+ },
+ "desde_leitura": "2026-02-16",
+ "teto_autorizado_usd": 2.0,
+ "gasto_antes_usd": 0,
+ "teto_execucao_usd": 2.0,
+ "perfis": [
+  {
+   "ator_id": "foro-madrid",
+   "ator_nome": "Foro Madrid",
+   "perfil": "Foro_MAD",
+   "pedido": 12698,
+   "itens": 177,
+   "posts_do_perfil": 177,
+   "itens_de_outra_conta_ou_descartados": 0,
+   "lidos_no_periodo": 177,
+   "novos": 157,
+   "sem_data": 0,
+   "mais_antigo": "2026-02-16T19:06:32Z",
+   "mais_recente": "2026-10-22T16:46:43Z",
+   "bateu_no_limite_pedido": false,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+   "erro": null,
+   "run": "773Tfs1jJqnd8E4LQ",
+   "custo_usd": 0.02655,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 20
+   },
+   "universo": {
+    "seguidores": 33300,
+    "posts_total_plataforma": 2963,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "Foro Madrid"
+   }
+  },
+  {
+   "ator_id": "vox",
+   "ator_nome": "Vox",
+   "perfil": "vox_es",
+   "pedido": 12529,
+   "itens": 2220,
+   "posts_do_perfil": 2220,
+   "itens_de_outra_conta_ou_descartados": 0,
+   "lidos_no_periodo": 2220,
+   "novos": 2200,
+   "sem_data": 0,
+   "mais_antigo": "2026-02-16T15:23:43Z",
+   "mais_recente": "2026-11-15T15:48:29Z",
+   "bateu_no_limite_pedido": false,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+   "erro": null,
+   "run": "BZPE4RsVAYe9O3SRY",
+   "custo_usd": 0.333,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 2160
+   },
+   "universo": {
+    "seguidores": 678700,
+    "posts_total_plataforma": 108587,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "VOX 🇪🇸"
+   }
+  },
+  {
+   "ator_id": "abascal",
+   "ator_nome": "Santiago Abascal",
+   "perfil": "Santi_ABASCAL",
+   "pedido": 10415,
+   "itens": 836,
+   "posts_do_perfil": 836,
+   "itens_de_outra_conta_ou_descartados": 0,
+   "lidos_no_periodo": 836,
+   "novos": 816,
+   "sem_data": 0,
+   "mais_antigo": "2026-02-16T12:37:30Z",
+   "mais_recente": "2026-11-15T13:49:29Z",
+   "bateu_no_limite_pedido": false,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+   "erro": null,
+   "run": "B2cPUL5vWpityFpMp",
+   "custo_usd": 0.1254,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 705
+   },
+   "universo": {
+    "seguidores": 1018767,
+    "posts_total_plataforma": 50476,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "Santiago Abascal 🇪🇸"
+   }
+  },
+  {
+   "ator_id": "martin-frias",
+   "ator_nome": "Jorge Martín Frías",
+   "perfil": "jm_frias",
+   "pedido": 9619,
+   "itens": 139,
+   "posts_do_perfil": 139,
+   "itens_de_outra_conta_ou_descartados": 0,
+   "lidos_no_periodo": 139,
+   "novos": 119,
+   "sem_data": 0,
+   "mais_antigo": "2026-02-19T21:27:41Z",
+   "mais_recente": "2026-11-15T13:28:20Z",
+   "bateu_no_limite_pedido": false,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+   "erro": null,
+   "run": "4qVQUMlefosTKz66M",
+   "custo_usd": 0.02085,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 93
+   },
+   "universo": {
+    "seguidores": 8118,
+    "posts_total_plataforma": 19881,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "Jorge Martín Frías"
+   }
+  }
+ ],
+ "perfis_fora_da_coleta": [
+  {
+   "ator_id": "disenso",
+   "perfil": "FDisenso",
+   "motivo": "candidato a conferir"
+  },
+  {
+   "ator_id": "cader",
+   "perfil": "ecader",
+   "motivo": "candidato a conferir"
+  }
+ ],
+ "bruto_no_privado": false,
+ "custo_usd": 0.5058,
+ "posts_novos": 3292,
+ "posts_no_acervo": 3372,
+ "status": "ok"
+}
