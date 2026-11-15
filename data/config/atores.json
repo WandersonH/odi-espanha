@@ -86,9 +86,9 @@
     "x": {
      "perfil": "FDisenso",
      "url": "https://x.com/FDisenso",
-     "confirmado": false,
-     "fonte": "",
-     "nota": "candidato sem fonte conferida"
+     "confirmado": true,
+     "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://x.com/FDisenso ta certo'.",
+     "conferido_em": "2026-11-15"
     },
     "instagram": {
      "perfil": "fundaciondisenso",
@@ -100,9 +100,9 @@
     "facebook": {
      "perfil": "fundaciondisenso",
      "url": "https://www.facebook.com/fundaciondisenso",
-     "confirmado": false,
-     "fonte": "",
-     "nota": "candidato sem fonte conferida"
+     "confirmado": true,
+     "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://www.facebook.com/fundaciondisenso correto'.",
+     "conferido_em": "2026-11-15"
     },
     "youtube": {
      "perfil": "@fundaciondisenso",
@@ -130,9 +130,9 @@
     "instagram": {
      "perfil": "santi_abascal",
      "url": "https://www.instagram.com/santi_abascal/",
-     "confirmado": false,
-     "fonte": "",
-     "nota": "candidato sem fonte conferida"
+     "confirmado": true,
+     "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://www.instagram.com/santi_abascal/ ta correto'.",
+     "conferido_em": "2026-11-15"
     },
     "facebook": {
      "perfil": "SantiagoAbascalConde",
@@ -197,9 +197,9 @@
     "x": {
      "perfil": "ecader",
      "url": "https://x.com/ecader",
-     "confirmado": false,
-     "fonte": "Documento 'Órganos de dirección' da Fundación Disenso (09/2023): o endereço aparece junto ao nome, mas a leitura do PDF casou nomes e endereços pela ordem da página; conferir abrindo o perfil",
-     "nota": "candidato com fonte de 2023, a conferir"
+     "confirmado": true,
+     "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://x.com/ecader correto'. Indício anterior: Documento 'Órganos de dirección' da Fundación Disenso (09/2023): o endereço aparece junto ao nome, mas a leitura do PDF casou nomes e endereços pela ordem da página; conferir abrindo o perfil",
+     "conferido_em": "2026-11-15"
     },
     "instagram": {
      "perfil": "",

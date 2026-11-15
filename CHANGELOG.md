@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## E1.13 — 15/11/2026 · Quatro perfis confirmados pelo responsável entram na coleta
+
+**O que mudou e por quê.** O responsável abriu e confirmou quatro endereços que estavam como "candidato a conferir" e perguntou por que não tinham sido coletados. Não tinham porque a regra 10 só deixa coletar perfil confirmado por uma pessoa.
+
+- `data/config/atores.json`: confirmados X `FDisenso` e Facebook `fundaciondisenso` (Fundación Disenso), Instagram `santi_abascal` (Santiago Abascal) e X `ecader` (Eduardo Cader), com a frase do responsável como fonte. Continua candidato: Facebook `SantiagoAbascalConde`.
+- `data/config/coleta.json`: teto da carga do Instagram de US$ 0,20 para US$ 0,35 e do Facebook de US$ 4,50 para US$ 5,80, só para estes perfis, com a frase de autorização. No X não houve aumento: cabe no teto de US$ 2,00 já autorizado.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 53 testes, OK. As cargas estão na entrada seguinte.
+
 ## E1.12 — 15/11/2026 · Contagem do que irá para a área do pesquisador
 
 **O que foi realmente executado.** Run 43754059281 (`area-pesquisador.yml`, modo seco: conta e não envia; não usa o Supabase), com o repositório privado: 207.500 textos — 7.357 publicações e 200.143 comentários do YouTube com texto (dos 200.166 guardados, 23 não têm texto). Por ator: Vox 5.852 publicações e 199.541 comentários; Abascal 836 e 0; Foro Madrid 317 e 58; Fundación Disenso 197 e 544; Martín Frías 155 e 0.
