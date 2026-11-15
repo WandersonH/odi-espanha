@@ -1,8 +1,8 @@
 {
- "gerado_em_utc": "2026-11-15T17:25:34Z",
- "nos": 254,
- "arestas": 307,
- "posts_com_marcacao": 1443,
+ "gerado_em_utc": "2026-11-15T17:40:25Z",
+ "nos": 320,
+ "arestas": 394,
+ "posts_com_marcacao": 1529,
  "leitura": "Rede de saída: perfil monitorado → conta marcada; peso = nº de posts. Instagram e X; Facebook fora.",
  "maiores": [
   {
@@ -116,6 +116,16 @@
    "posts": 8
   },
   {
+   "de": "instagram:foromadrid",
+   "para": "instagram:vox_es",
+   "posts": 7
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:jmartinfrias",
+   "posts": 7
+  },
+  {
    "de": "x:vox_es",
    "para": "x:toro_ct7",
    "posts": 7
@@ -138,6 +148,11 @@
   {
    "de": "instagram:vox_es",
    "para": "instagram:santi_abascal",
+   "posts": 6
+  },
+  {
+   "de": "instagram:foromadrid",
+   "para": "instagram:fundaciondisenso",
    "posts": 6
   },
   {
@@ -188,21 +203,6 @@
   {
    "de": "x:jm_frias",
    "para": "x:fdisenso",
-   "posts": 6
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:figaredojosem",
-   "posts": 6
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:tommyzambranom",
-   "posts": 6
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:raneumannb",
    "posts": 6
   }
  ]
