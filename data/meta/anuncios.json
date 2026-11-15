@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "coletado_em_utc": "2026-11-15T19:06:51Z",
+ "coletado_em_utc": "2026-11-15T19:09:13Z",
  "fonte": "Meta · Biblioteca de Anúncios via Apify (jmlp/meta-ad-library-scraper)",
  "nota": "Biblioteca de Anúncios da Meta via ator da Apify (jmlp/meta-ad-library-scraper): anúncios veiculados na Espanha desde 16/02/2026 que mencionam o nome do ator (busca por palavra-chave da própria Biblioteca: inclui anúncios do próprio ator, de apoiadores, de adversários e de terceiros). Contexto: a Meta deixou de aceitar anúncios sobre política, eleições e temas sociais na União Europeia em 06/10/2025; por isso a busca é em TODOS os anúncios (ad_type=all), e o que aparece é anúncio comercial ou não declarado como político. Ausência de anúncios é o esperado; anúncio encontrado é registrado para análise, não é acusação de irregularidade. Gasto e alcance são faixas informadas pela Meta, quando informadas. Texto dos anúncios só no repositório privado.",
  "desde": "2026-02-16",
@@ -9,36 +9,106 @@
    "ator": "Santiago Abascal",
    "termo": "Santiago Abascal",
    "paginas_api": null,
-   "com_frase_exata": 0,
-   "paginas_com_frase_exata": [],
-   "lidos_nesta_execucao": 0,
+   "com_frase_exata": 302,
+   "paginas_com_frase_exata": [
+    [
+     "Molly Katelyn Emma",
+     92
+    ],
+    [
+     "Killit NV",
+     21
+    ],
+    [
+     "Christina Bailey  ",
+     20
+    ],
+    [
+     "Lian Lewis  ",
+     20
+    ],
+    [
+     "Hirving Lozano",
+     20
+    ],
+    [
+     "Grayson Davis  ",
+     14
+    ],
+    [
+     "Kiran Marisa Doyle",
+     12
+    ],
+    [
+     "Mai My",
+     9
+    ],
+    [
+     "Dylan Hill42125",
+     9
+    ],
+    [
+     "Wallace Mackenzie Richard",
+     8
+    ],
+    [
+     "World Affairs Central",
+     8
+    ],
+    [
+     "El Español Jaleos",
+     6
+    ],
+    [
+     "Cruz 1",
+     6
+    ],
+    [
+     "Antony Fennel",
+     6
+    ],
+    [
+     "Grady Burgess  ",
+     6
+    ]
+   ],
+   "lidos_nesta_execucao": 496,
    "limite_da_coleta": 600,
    "no_limite": false,
-   "anuncios": 0,
-   "paginas": 0,
+   "anuncios": 496,
+   "paginas": 62,
    "gasto": {
-    "min": 0,
-    "max": 0,
-    "faixas_abertas": 0
+    "min": 12600,
+    "max": null,
+    "faixas_abertas": 460
    },
    "impressoes": {
-    "min": 0,
-    "max": 0,
-    "faixas_abertas": 0
+    "min": 111800,
+    "max": null,
+    "faixas_abertas": 451
    },
-   "moedas": [],
-   "plataformas": {},
+   "moedas": [
+    "EUR"
+   ],
+   "plataformas": {
+    "instagram": 488,
+    "facebook": 479,
+    "audience_network": 406,
+    "threads": 373,
+    "messenger": 339,
+    "whatsapp": 111
+   },
    "fases": [
     {
      "id": "pre",
      "rotulo": "Pré-campanha",
      "de": "2026-02-16",
      "ate": "2026-11-12",
-     "anuncios": 0,
+     "anuncios": 495,
      "gasto": {
-      "min": 0,
-      "max": 0,
-      "faixas_abertas": 0
+      "min": 12600,
+      "max": null,
+      "faixas_abertas": 459
      }
     },
     {
@@ -46,11 +116,11 @@
      "rotulo": "Campanha oficial",
      "de": "2026-11-13",
      "ate": "2026-11-27",
-     "anuncios": 0,
+     "anuncios": 1,
      "gasto": {
       "min": 0,
-      "max": 0,
-      "faixas_abertas": 0
+      "max": null,
+      "faixas_abertas": 1
      }
     },
     {
@@ -88,15 +158,416 @@
     }
    },
    "regioes_gasto_min_estimado": [],
-   "top_paginas": []
+   "top_paginas": [
+    {
+     "page_id": "1770419176515133",
+     "pagina": "Killit NV",
+     "anuncios": 22,
+     "gasto": {
+      "min": 12600,
+      "max": null,
+      "faixas_abertas": 12
+     },
+     "impressoes": {
+      "min": 76000,
+      "max": null,
+      "faixas_abertas": 12
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "155434770986049",
+     "pagina": "Molly Katelyn Emma",
+     "anuncios": 96,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 94
+     },
+     "impressoes": {
+      "min": 1100,
+      "max": null,
+      "faixas_abertas": 89
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "725154877572250",
+     "pagina": "Slim Paul Officiel",
+     "anuncios": 46,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 46
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 46
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1126491897208374",
+     "pagina": "Lian Lewis  ",
+     "anuncios": 34,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 34
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 33
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "103351211646123",
+     "pagina": "Hirving Lozano",
+     "anuncios": 25,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 25
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 25
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1069087346291229",
+     "pagina": "Christina Bailey  ",
+     "anuncios": 24,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 24
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 24
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "51357986117",
+     "pagina": "Mónica Naranjo",
+     "anuncios": 20,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 20
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 20
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1149107708297253",
+     "pagina": "The News Network",
+     "anuncios": 16,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 11
+     },
+     "impressoes": {
+      "min": 4100,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1097004620161001",
+     "pagina": "Grayson Davis  ",
+     "anuncios": 15,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 15
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 15
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "162846866908318",
+     "pagina": "Kiran Marisa Doyle",
+     "anuncios": 12,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 12
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 12
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1166839653186889",
+     "pagina": "Dylan Hill42125",
+     "anuncios": 12,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 12
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 12
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "181027520660920",
+     "pagina": "Mai My",
+     "anuncios": 9,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 1300,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1265538499966599",
+     "pagina": "World Affairs Central",
+     "anuncios": 9,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 9
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "987304047809194",
+     "pagina": "Kamiyah Frederick  ",
+     "anuncios": 8,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "162943153564878",
+     "pagina": "Wallace Mackenzie Richard",
+     "anuncios": 8,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1110433968826100",
+     "pagina": "Nova247",
+     "anuncios": 8,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1093406670519594",
+     "pagina": "Nova247",
+     "anuncios": 7,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "774550582406508",
+     "pagina": "Andelija 1",
+     "anuncios": 7,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1017789984761142",
+     "pagina": "Grady Burgess  ",
+     "anuncios": 7,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1033866739820970",
+     "pagina": "Genial Grande",
+     "anuncios": 7,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1111505398714670",
+     "pagina": "Grande Medias",
+     "anuncios": 7,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "912174705544148",
+     "pagina": "El Español Jaleos",
+     "anuncios": 6,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "107437235797315",
+     "pagina": "Dante Reno",
+     "anuncios": 6,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 9000,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "737213406150511",
+     "pagina": "Cruz 1",
+     "anuncios": 6,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "219414621450122",
+     "pagina": "Antony Fennel",
+     "anuncios": 6,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "pagadores": []
+    }
+   ]
   },
   "vox": {
    "ator": "Vox",
    "termo": "VOX España",
    "paginas_api": null,
-   "com_frase_exata": null,
+   "com_frase_exata": 0,
    "paginas_com_frase_exata": [],
-   "lidos_nesta_execucao": 0,
+   "lidos_nesta_execucao": 342,
    "limite_da_coleta": 600,
    "no_limite": false,
    "anuncios": 342,
@@ -589,9 +1060,14 @@
    "ator": "Fundación Disenso",
    "termo": "Fundación Disenso",
    "paginas_api": null,
-   "com_frase_exata": null,
-   "paginas_com_frase_exata": [],
-   "lidos_nesta_execucao": 0,
+   "com_frase_exata": 1,
+   "paginas_com_frase_exata": [
+    [
+     "Alex Ring",
+     1
+    ]
+   ],
+   "lidos_nesta_execucao": 2,
    "limite_da_coleta": 600,
    "no_limite": false,
    "anuncios": 2,
@@ -712,9 +1188,9 @@
    "ator": "Foro Madrid",
    "termo": "Foro Madrid",
    "paginas_api": null,
-   "com_frase_exata": null,
+   "com_frase_exata": 0,
    "paginas_com_frase_exata": [],
-   "lidos_nesta_execucao": 0,
+   "lidos_nesta_execucao": 502,
    "limite_da_coleta": 600,
    "no_limite": false,
    "anuncios": 502,
@@ -1204,17 +1680,45 @@
    ]
   }
  },
- "erros": {
-  "abascal": "LookupError",
-  "vox": "LookupError",
-  "disenso": "LookupError",
-  "foro-madrid": "LookupError"
- },
+ "erros": {},
  "modo": "recuperação",
  "teto_usd": 0.4,
  "gasto_mes_antes_usd": 0.1142,
- "runs_apify": [],
+ "runs_apify": [
+  {
+   "consulta": "abascal",
+   "id": "js1xy0hBdHxh2MtcA",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0744,
+   "ja_registrada": false,
+   "itens": 496
+  },
+  {
+   "consulta": "vox",
+   "id": "9cASzd3lsM3TTPTM9",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0,
+   "ja_registrada": true,
+   "itens": 342
+  },
+  {
+   "consulta": "disenso",
+   "id": "I0PGBXQjOsgVGZnil",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0,
+   "ja_registrada": true,
+   "itens": 2
+  },
+  {
+   "consulta": "foro-madrid",
+   "id": "nXt1GaD5FXzTZCmne",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0,
+   "ja_registrada": true,
+   "itens": 502
+  }
+ ],
  "janela_desta_execucao": "2026-02-16",
- "status": "⚠️ parcial",
- "custo_usd": 0.0
+ "status": "ok",
+ "custo_usd": 0.0744
 }
