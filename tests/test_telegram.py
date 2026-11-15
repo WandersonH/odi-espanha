@@ -31,7 +31,7 @@ class TestTelegram(unittest.TestCase):
         self.assertEqual(ct.main(root=t, buscar=buscar), 0)
         self.assertEqual(pedidos, ["https://t.me/s/VOXtelegram", "https://t.me/s/VOXtelegram?before=11"])
         k = json.loads((t / "data/telegram/resumo.json").read_text(encoding="utf-8"))["canais"][0]
-        self.assertEqual((k["no_acervo"], k["universo_mensagens"], k["maior_numero_de_mensagem"], k["citam_o_brasil"], k["inscritos"]), (3, None, 12, 2, 95400))   # a de 05/01 fica fora do período
+        self.assertEqual((k["no_acervo"], k["universo_mensagens"], k["maior_numero_de_mensagem"], k["citam_o_brasil"], k["inscritos"], k["mensagem_mais_recente_do_canal"]), (3, None, 12, 2, 95400, "2026-09-02T10:00:00Z"))   # a de 05/01 fica fora do período
         self.assertTrue(k["cobertura"].startswith("completa"))
         self.assertEqual(len(comum.ler_acervo(t / "data/telegram/posts.csv.gz")), 3)
 

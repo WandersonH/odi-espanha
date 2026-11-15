@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## E1.20 — 15/11/2026 · Primeira leitura do Telegram: canal sem mensagens no período
+
+**O que foi realmente executado.** Run 43760163532 (`gratuitas.yml`, opção `telegram`): canal `VOXtelegram` lido; o Telegram informa 840 inscritos; a primeira página da prévia já só tem mensagens anteriores a 16/02/2026, então há 0 mensagens no período. As capturas de Semrush e Similarweb (7 arquivos, 15 MB) foram gravadas no repositório privado em `evidencias/sites_audiencia/2026-11-15/`.
+
+**O que mudou e por quê.** A leitura não guardava a data da mensagem mais recente do canal, que é justamente o dado que explica o zero. `collect_telegram.py` passa a registrar a mensagem mais recente e a mais antiga vistas; a tela mostra essa data quando não há mensagens no período; canal sem mensagens no período deixa de ser tratado como falha.
+
+**Testes.** `python -m unittest discover -s tests` → 59 testes, OK. A nova leitura está na entrada seguinte.
+
 ## E1.19 — 15/11/2026 · Telegram (canais públicos) e audiência estimada dos sites
 
 **O que mudou e por quê.** O responsável mandou o canal `https://t.me/VOXtelegram` e sete capturas de tela (Semrush e Similarweb) dos três sites oficiais.

@@ -81,6 +81,7 @@ def main(argv=None, buscar=None, root=None) -> int:
     erros = 0
     for c in conf:
         info, lidas, paginas, antes, erro, maior, parou_pela_data = {}, 0, 0, None, None, 0, False
+        vistas = []  # datas de tudo o que a prévia mostrou, dentro ou fora do período
         try:
             while paginas < int(cfg.get("max_paginas") or 400):
                 msgs, canal = parse(buscar(f"https://t.me/s/{c['canal']}" + (f"?before={antes}" if antes else "")))
@@ -89,6 +90,7 @@ def main(argv=None, buscar=None, root=None) -> int:
                     parou_pela_data = paginas > 1  # acabou o canal: não há nada mais antigo
                     break
                 maior = max(maior, max(m["n"] for m in msgs))
+                vistas += [m["publicado_em"] for m in msgs]
                 for m in msgs:
                     dia = m["publicado_em"][:10]
                     if dia < desde or (ate and dia > ate):
@@ -116,6 +118,7 @@ def main(argv=None, buscar=None, root=None) -> int:
         reg = {"ator_id": c["ator_id"], "ator_nome": c["ator_nome"], "canal": c["canal"], "url": c["url"], "nome_exibido": info.get("nome_exibido"),
                "inscritos": info.get("inscritos") if info.get("inscritos") != "" else None, "inscritos_exibido": info.get("inscritos_exibido"),
                "universo_mensagens": None, "universo_nota": "⛔ o Telegram não informa o total de mensagens do canal", "maior_numero_de_mensagem": maior or None,
+               "mensagem_mais_recente_do_canal": max(vistas, default=None), "mensagem_mais_antiga_vista": min(vistas, default=None),
                "lidas_nesta_execucao": lidas, "no_acervo": len(meus), "paginas_lidas": paginas, "cobertura": cob, "erro": erro,
                "mais_antiga": min((r["publicado_em"] for r in meus), default=None), "mais_recente": max((r["publicado_em"] for r in meus), default=None),
                "por_mes": dict(sorted(Counter(r["publicado_em"][:7] for r in meus).items())), "por_tipo": dict(Counter(r["tipo"] for r in meus).most_common()),
@@ -124,7 +127,7 @@ def main(argv=None, buscar=None, root=None) -> int:
                            for r in sorted(meus, key=lambda r: r["publicado_em"], reverse=True)[:25]]}
         res["canais"].append(reg)
         man["perfis"].append({k: reg[k] for k in ("ator_id", "canal", "lidas_nesta_execucao", "no_acervo", "paginas_lidas", "cobertura", "erro", "mais_antiga", "mais_recente")})
-        print(f"{c['ator_nome']} · {c['canal']}: inscritos {reg['inscritos_exibido'] or '⛔'} · lidas no período {len(meus)} ({paginas} páginas) · {cob}")
+        print(f"{c['ator_nome']} · {c['canal']}: inscritos {reg['inscritos_exibido'] or '⛔'} · lidas no período {len(meus)} ({paginas} páginas) · mensagem mais recente do canal {reg['mensagem_mais_recente_do_canal']} · maior nº {maior} · {cob}")
     res["canais_fora"] = [{"ator_id": c["ator_id"], "canal": c.get("canal"), "motivo": "candidato a conferir"} for c in cfg["canais"] if not c.get("confirmado")]
     if conf:
         comum.gravar_acervo(pasta / "posts.csv.gz", acervo)
@@ -133,7 +136,7 @@ def main(argv=None, buscar=None, root=None) -> int:
     man["status"] = "⛔ nenhum canal confirmado" if not conf else ("ok" if not erros else f"⚠️ parcial: {erros} canal(is) com erro")
     comum.gravar_manifesto(pasta, man)
     print(f"telegram: {man['status']} · {len(acervo)} mensagens no acervo")
-    return 0 if conf and len(acervo) else 1
+    return 0 if conf and not erros else 1  # canal sem mensagens no período não é falha de coleta
 
 
 if __name__ == "__main__":
