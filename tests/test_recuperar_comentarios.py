@@ -143,6 +143,17 @@ class TestAnunciosRecuperacao(unittest.TestCase):
         self.assertEqual((d["consultas"]["abascal"]["com_frase_exata"], d["consultas"]["foro-madrid"]["com_frase_exata"]), (1, 0))  # 'foro' e 'madrid' soltos não contam
         self.assertNotIn("ABASCAL en Madrid", (t / "data/meta/anuncios_apify.csv").read_text(encoding="utf-8"))
 
+    def test_meta_recuperar_le_do_privado_pelo_termo_do_endereco(self):
+        priv = Path(tempfile.mkdtemp())
+        d = priv / "apify_execucoes/jmlp~meta-ad-library-scraper"
+        d.mkdir(parents=True)
+        url = cm.url_biblioteca("Fundación Disenso", "ES", "2026-02-16")
+        with gzip.open(d / "RUN1.jsonl.gz", "wt", encoding="utf-8") as f:
+            f.write(json.dumps({"ad_archive_id": "1", "page_name": "P", "input": {"url": url}, "snapshot": {"body": {"text": "x"}}}) + "\n")
+        g = cm.do_privado(str(priv), "jmlp~meta-ad-library-scraper")
+        self.assertEqual({k: (v[0]["id"], len(v[1])) for k, v in g.items()}, {"fundacion disenso": ("RUN1", 1)})
+        self.assertEqual(cm.do_privado("", "jmlp~meta-ad-library-scraper"), {})
+
     def test_google_ausencia_lida_nao_e_falha(self):
         t = projeto()
         shutil.copy(RAIZ / "data/config/google_transparencia.json", t / "data/config/google_transparencia.json")

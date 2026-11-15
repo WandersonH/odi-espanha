@@ -99,6 +99,33 @@ def cita(x: dict, termo: str) -> bool:
     return _norm(termo) in _norm(" \n ".join(textos_de(x.get("snapshot")) + [str(x.get("page_name") or "")]))
 
 
+def do_privado(interno: str, ator: str, token: str = "") -> dict:
+    """Execuções deste ator já guardadas no repositório privado por recuperar_bruto.py: {termo buscado (normalizado) → (execução, itens)}.
+    O termo vem do endereço da Biblioteca que o ator devolve no campo `input` de cada item. Não inicia execução nenhuma."""
+    base = Path(interno) / "apify_execucoes" / ator if interno else None
+    if not base or not base.exists():
+        return {}
+    indice = json.loads((base.parent / "indice.json").read_text(encoding="utf-8")) if (base.parent / "indice.json").exists() else {}
+    out = {}
+    for f in sorted(base.glob("*.jsonl.gz"), key=lambda f: (indice.get(f.name.split(".")[0]) or {}).get("iniciada_em") or ""):
+        with gzip.open(f, "rt", encoding="utf-8") as fh:
+            itens = [json.loads(ln) for ln in fh if ln.strip()]
+        rid = f.name.split(".")[0]
+        entrada = urllib.parse.unquote_plus(urllib.parse.unquote_plus(json.dumps([x.get("input") for x in itens[:3]], ensure_ascii=False)))
+        m = re.search(r'[?&]q=([^&"\\]+)', entrada)
+        if not m:
+            print(f"execução {rid}: {len(itens)} itens, termo buscado não identificado (campo input: {type((itens or [{}])[0].get('input')).__name__})")
+            continue
+        run = {"id": rid, "status": (indice.get(rid) or {}).get("status") or "guardada no privado"}
+        if token:
+            try:
+                run = api("GET", f"/actor-runs/{rid}", token)["data"]
+            except Exception:  # noqa: BLE001
+                pass
+        out[_norm(m.group(1))] = (run, itens)  # a mais recente de cada termo prevalece
+    return out
+
+
 COLS = ["id", "consulta", "page_id", "page_name", "bylines", "ad_delivery_start_time", "ad_delivery_stop_time", "gasto_min", "gasto_max",
         "impressoes_min", "impressoes_max", "alcance_min", "alcance_max", "plataformas", "frase_exata", "visto_em"]
 
@@ -182,8 +209,12 @@ def main(argv=None, executar=None) -> int:
     if recuperar and executar is None:
         corte = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=6)).strftime("%Y-%m-%dT%H:%M:%S")
 
+        guardadas = do_privado(os.environ.get("ATLAS_INTERNO_DIR") or os.environ.get("ODI_INTERNO_DIR") or "", cfg["ator"], token)
+        print("execuções guardadas no privado, por termo buscado: " + (", ".join(f"{t} ({len(i)} itens)" for t, (_, i) in guardadas.items()) or "nenhuma"))
+
         def executar(payload, cap):
-            ant = execucao_anterior(token, cfg["ator"], payload, corte)
+            termo = urllib.parse.parse_qs(urllib.parse.urlparse(payload["adLibraryUrls"][0]).query).get("q", [""])[0]
+            ant = guardadas.get(_norm(termo)) or execucao_anterior(token, cfg["ator"], payload, corte)
             if not ant:
                 raise LookupError("sem execução anterior com este pedido")
             return ant
@@ -252,7 +283,7 @@ def main(argv=None, executar=None) -> int:
         json.dumps({"coletado_em_utc": agora, "modo": out["modo"], "teto_usd": teto, "custo_usd": custo, "itens": len(brutos),
                     "runs": runs}, ensure_ascii=False, indent=1), encoding="utf-8")
     interno = os.environ.get("ATLAS_INTERNO_DIR") or os.environ.get("ODI_INTERNO_DIR")
-    if interno and brutos:
+    if interno and brutos and not recuperar:  # na recuperação o bruto já está no privado (apify_execucoes/)
         d = Path(interno) / "meta/anuncios"
         d.mkdir(parents=True, exist_ok=True)
         with gzip.open(d / f"apify_{agora[:10]}.jsonl.gz", "wt", encoding="utf-8") as f:
