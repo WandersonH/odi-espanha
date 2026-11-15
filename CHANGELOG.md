@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## E1.11 — 15/11/2026 · Área do pesquisador (Supabase) trazida do ODI Atlas; banco ainda não criado
+
+**O que mudou e por quê.** O responsável pediu "uma área interna como do projeto original" e informou o projeto Supabase `zlrzraqngiszsgoedlfv`.
+
+- Copiados sem alteração do ODI Atlas: `supabase/migrations/` (6 arquivos), `supabase/functions/odi-area-config/`, `supabase/tests/00_simula_supabase.sql`, `assets/odi-concordancia.js`, `data/config/livro_codigos_validacao.json`. A busca do banco usa configuração neutra de idioma (`simple` + `unaccent`), então serve para textos em espanhol.
+- `area-pesquisador.html`: cópia do original com três trocas (título, endereço do projeto Supabase, link de volta para `index.html`).
+- `scripts/carregar_area_pesquisador.py`: adaptado. Aqui cada "caso" é um ator monitorado. Entram as publicações do acervo público e os comentários do YouTube do repositório privado. Comentário nunca leva autor nem canal do autor. Triagem automática de ofensa e ódio fica vazia: os modelos do original são para português.
+- `data/casos/indice.json`: título de cada "caso" (ator), para a página.
+- `.github/workflows/area-pesquisador.yml`: carga manual; chave de serviço pelo secret `SUPABASE_SERVICE_ROLE_KEY_ESP`.
+- `AGENTS.md`, regra 11: comentários também podem ir, sem autor, para a área interna com login.
+- Não trazido: a função `odi-chat` do original (usa chave do Gemini, com custo).
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 53 testes, OK (carga, RLS em todas as tabelas públicas das migrações, página sem chave). `python scripts/carregar_area_pesquisador.py --seco` no acervo público: 7.357 publicações com texto (Vox 5.852, Abascal 836, Foro Madrid 317, Disenso 197, Martín Frías 155). A contagem com os comentários do privado está na entrada seguinte.
+
+**⛔ Não feito: nada foi aplicado no Supabase.** O conector do Supabase desta sessão não enxerga o projeto `zlrzraqngiszsgoedlfv` (só três projetos de outra organização), então as migrações e a função não foram aplicadas e a página ainda não funciona. Falta: aplicar as 6 migrações em ordem; publicar `odi-area-config` sem exigência de JWT; configurar o endereço da página no login; convidar os pesquisadores e incluí-los em `public.pesquisadores`; cadastrar o secret; rodar a carga.
+
 ## E1.10 — 15/11/2026 · Telas no modelo do ODI Atlas: O que dizem, Quem acompanha, Comentários, Trends e Anúncios
 
 **O que mudou e por quê.** O responsável pediu as páginas "conforme era no ODI Atlas original" (O que dizem, Comentários, Quem acompanha, Trends), mantendo as telas já feitas. `index.html` passou de 6 para 11 cadernos; os 6 anteriores continuam iguais.

@@ -1,0 +1,55 @@
+name: Área do pesquisador — carga do corpus no Supabase
+
+# Envia ao Supabase (tabela public.corpus) as publicações do acervo e os comentários do YouTube guardados no repositório
+# privado. Nenhuma chave no código: a chave de serviço vem do secret SUPABASE_SERVICE_ROLE_KEY_ESP. Só manual, por enquanto.
+on:
+  workflow_dispatch:
+    inputs:
+      caso:
+        description: "id do ator (vazio = todos)"
+        default: ""
+      seco:
+        description: "só contar o que seria enviado (não precisa do Supabase)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: area-pesquisador
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  carga:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q emoji==2.16.0
+      - name: Repositório privado
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-esp.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error title=Área do pesquisador::⛔ sem acesso ao repositório privado (secret ODI_INTERNO_TOKEN)"; exit 1
+          fi
+      - name: Carga
+        env:
+          ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+          SUPABASE_URL: https://zlrzraqngiszsgoedlfv.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY_ESP }}
+          CASO: ${{ github.event.inputs.caso }}
+          SECO: ${{ github.event.inputs.seco }}
+        run: |
+          if [ "$SECO" != "true" ] && [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then echo "::error title=Área do pesquisador::⛔ falta o secret SUPABASE_SERVICE_ROLE_KEY_ESP"; exit 1; fi
+          args=(); [ -n "$CASO" ] && args+=(--caso "$CASO"); [ "$SECO" = "true" ] && args+=(--seco)
+          rc=0; python scripts/carregar_area_pesquisador.py "${args[@]}" > c.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Área do pesquisador::$(echo "$l" | cut -c1-600)"; done < c.txt
+          rm -f c.txt; exit $rc

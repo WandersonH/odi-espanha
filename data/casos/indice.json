@@ -1,0 +1,29 @@
+{
+ "nota": "Na área do pesquisador deste Atlas, cada 'caso' é um ator monitorado (id de data/config/atores.json).",
+ "casos": [
+  {
+   "id": "foro-madrid",
+   "titulo": "Foro Madrid · publicações e comentários"
+  },
+  {
+   "id": "vox",
+   "titulo": "Vox · publicações e comentários"
+  },
+  {
+   "id": "disenso",
+   "titulo": "Fundación Disenso · publicações e comentários"
+  },
+  {
+   "id": "abascal",
+   "titulo": "Santiago Abascal · publicações e comentários"
+  },
+  {
+   "id": "martin-frias",
+   "titulo": "Jorge Martín Frías · publicações e comentários"
+  },
+  {
+   "id": "cader",
+   "titulo": "Eduardo Cader · publicações e comentários"
+  }
+ ]
+}
