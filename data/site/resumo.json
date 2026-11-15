@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-15T20:52:26Z",
+ "gerado_em_utc": "2026-11-15T21:12:55Z",
  "projeto": {
   "nome": "ODI Espanha",
   "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X, no Facebook e no YouTube, e as notícias e artigos dos sites oficiais.",
@@ -24,9 +24,9 @@
   "posts": 8490,
   "atores": 6,
   "perfis_previstos": 24,
-  "perfis_confirmados": 19,
+  "perfis_confirmados": 21,
   "perfis_candidatos": 0,
-  "perfis_nao_localizados": 5,
+  "perfis_nao_localizados": 3,
   "perfis_com_posts": 18,
   "primeiro_post": "2026-02-16T09:19:41Z",
   "ultimo_post": "2026-11-15T20:32:41Z"
@@ -34,8 +34,8 @@
  "redes": {
   "instagram": {
    "coletada": true,
-   "ultima_execucao": "2026-11-15T19:58:42Z",
-   "status_ultima": "ok",
+   "ultima_execucao": "2026-11-15T21:12:47Z",
+   "status_ultima": "⛔ nenhum perfil lido: private",
    "modo_ultima": "carga"
   },
   "x": {
@@ -341,20 +341,31 @@
    "ator_id": "cader",
    "ator_nome": "Eduardo Cader",
    "rede": "instagram",
-   "perfil": "",
-   "url": "",
-   "confirmado": false,
-   "fonte": "",
-   "nota": "não localizado",
-   "situacao": "não localizado",
-   "posts_no_acervo": null,
+   "perfil": "ecader",
+   "url": "https://www.instagram.com/ecader/",
+   "confirmado": true,
+   "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://www.instagram.com/ecader/).",
+   "nota": "",
+   "situacao": "confirmado",
+   "posts_no_acervo": 0,
    "primeiro": null,
    "ultimo": null,
    "universo": null,
    "universo_no_periodo": null,
    "cobertura_do_periodo": null,
    "carga": null,
-   "ultima_leitura": null
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T21:12:47Z",
+    "pedido": 1034,
+    "itens": 1,
+    "lidos_no_periodo": 0,
+    "mais_antigo": null,
+    "mais_recente": null,
+    "cobertura": "⛔ não lido",
+    "erro": "private",
+    "complemento_erro": null
+   }
   },
   {
    "ator_id": "foro-madrid",
@@ -787,15 +798,15 @@
    "ultima_leitura": null
   },
   {
-   "ator_id": "martin-frias",
-   "ator_nome": "Jorge Martín Frías",
+   "ator_id": "cader",
+   "ator_nome": "Eduardo Cader",
    "rede": "facebook",
-   "perfil": "",
-   "url": "",
-   "confirmado": false,
-   "fonte": "",
-   "nota": "não localizado",
-   "situacao": "não localizado",
+   "perfil": "ecader",
+   "url": "https://www.facebook.com/ecader",
+   "confirmado": true,
+   "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://www.facebook.com/ecader).",
+   "nota": "",
+   "situacao": "confirmado",
    "posts_no_acervo": null,
    "primeiro": null,
    "ultimo": null,
@@ -806,8 +817,8 @@
    "ultima_leitura": null
   },
   {
-   "ator_id": "cader",
-   "ator_nome": "Eduardo Cader",
+   "ator_id": "martin-frias",
+   "ator_nome": "Jorge Martín Frías",
    "rede": "facebook",
    "perfil": "",
    "url": "",
@@ -2483,7 +2494,7 @@
   },
   {
    "ator_id": "disenso",
-   "tag": "foromadrid",
+   "tag": "brasil",
    "posts": 1
   },
   {
@@ -2493,7 +2504,7 @@
   },
   {
    "ator_id": "disenso",
-   "tag": "brasil",
+   "tag": "foromadrid",
    "posts": 1
   },
   {
@@ -2633,13 +2644,13 @@
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "antena3com",
+   "conta": "espejopublico",
    "posts": 3
   },
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "espejopublico",
+   "conta": "antena3com",
    "posts": 3
   },
   {
@@ -2699,13 +2710,13 @@
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "joseantoniokast",
+   "conta": "presidente_kast",
    "posts": 1
   },
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "presidente_kast",
+   "conta": "joseantoniokast",
    "posts": 1
   },
   {
@@ -2837,13 +2848,13 @@
   {
    "ator_id": "cader",
    "rede": "x",
-   "conta": "foro_mad",
+   "conta": "cne_colombia",
    "posts": 1
   },
   {
    "ator_id": "cader",
    "rede": "x",
-   "conta": "cne_colombia",
+   "conta": "foro_mad",
    "posts": 1
   },
   {
@@ -2909,13 +2920,13 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "fustervox",
+   "conta": "figaredojosem",
    "posts": 2
   },
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "figaredojosem",
+   "conta": "fustervox",
    "posts": 2
   },
   {
@@ -2951,13 +2962,13 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "manuel.litzke",
+   "conta": "hafenecker",
    "posts": 1
   },
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "hafenecker",
+   "conta": "manuel.litzke",
    "posts": 1
   },
   {
@@ -3101,13 +3112,19 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
+   "conta": "normayarrow_",
+   "posts": 2
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "instagram",
    "conta": "enriquegomezsn",
    "posts": 2
   },
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "normayarrow_",
+   "conta": "tomaszambranomolina",
    "posts": 2
   },
   {
@@ -3119,7 +3136,7 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "tomaszambranomolina",
+   "conta": "raneumannb",
    "posts": 2
   },
   {
@@ -3132,12 +3149,6 @@
    "ator_id": "foro-madrid",
    "rede": "instagram",
    "conta": "cristianarayal",
-   "posts": 2
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "instagram",
-   "conta": "raneumannb",
    "posts": 2
   },
   {
@@ -3257,12 +3268,6 @@
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "fpoe_tv",
-   "posts": 1
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "instagram",
    "conta": "patriotseu",
    "posts": 1
   },
@@ -3270,6 +3275,12 @@
    "ator_id": "martin-frias",
    "rede": "instagram",
    "conta": "herbertkickl",
+   "posts": 1
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "instagram",
+   "conta": "fpoe_tv",
    "posts": 1
   },
   {
@@ -3317,13 +3328,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "perkinsrocha",
+   "conta": "oavendano",
    "posts": 2
   },
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "oavendano",
+   "conta": "perkinsrocha",
    "posts": 2
   },
   {
@@ -3377,13 +3388,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "carretoalfonso_",
+   "conta": "armarioblanca",
    "posts": 1
   },
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "armarioblanca",
+   "conta": "carretoalfonso_",
    "posts": 1
   },
   {
