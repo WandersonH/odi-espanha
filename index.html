@@ -47,6 +47,7 @@ a.esp-item{text-decoration:none;margin-top:10px}.esp-item small{font:10.5px/1.5 
 <button class="navbutton" data-tab="comentarios"><span class="navicon">❝</span> Comentários</button>
 <button class="navbutton" data-tab="telegram"><span class="navicon">✈</span> Telegram · canais públicos</button>
 <button class="navbutton" data-tab="trends"><span class="navicon">↗</span> Buscas · Google Trends</button>
+<button class="navbutton" data-tab="casos"><span class="navicon">◉</span> Casos · Brasil, Lula e Flávio</button>
 <button class="navbutton" data-tab="anuncios"><span class="navicon">◈</span> Anúncios · Meta e Google</button>
 <button class="navbutton" data-tab="atores"><span class="navicon">◉</span> Atores e perfis</button>
 <button class="navbutton" data-tab="marcas"><span class="navicon">#</span> Marcações, hashtags e exportações</button>
@@ -111,6 +112,13 @@ a.esp-item{text-decoration:none;margin-top:10px}.esp-item small{font:10.5px/1.5 
   <div id="trCorpo"></div>
 </section>
 
+<section class="panel" id="casos" aria-label="Casos: Brasil, Lula e Flávio Bolsonaro">
+  <div class="paper-ribbon"><span>CADERNO / CASOS · BRASIL</span><span id="csData">—</span></div>
+  <div class="intro"><div class="eyebrow">Caso 01 · cruzamento de todas as fontes</div><h1>Quando estes atores falam do Brasil, de Lula e de Flávio Bolsonaro.</h1>
+    <p>Todas as fontes do Atlas lidas pela mesma regra: publicações de Instagram, X, Facebook e YouTube, mensagens do Telegram, artigos dos sites oficiais e comentários do público no YouTube. Cada fonte aparece com o que foi lido (o universo da leitura) e quantos itens citam.</p></div>
+  <div id="csCorpo"></div>
+</section>
+
 <section class="panel" id="anuncios" aria-label="Anúncios na Meta e no Google">
   <div class="paper-ribbon"><span>CADERNO 07 / ANÚNCIOS · META E GOOGLE</span><span id="adData">—</span></div>
   <div class="intro"><div class="eyebrow">Impulsionamento · Biblioteca de Anúncios da Meta e Central de Transparência do Google</div><h1>Quem anuncia com o nome destes atores.</h1>
@@ -170,6 +178,7 @@ document.querySelectorAll(".navbutton").forEach(b => b.addEventListener("click",
   if (b.dataset.tab === "posts") abrirPosts();
   if (b.dataset.tab === "dizem") dizem();
   if (b.dataset.tab === "comentarios") comentarios();
+  if (b.dataset.tab === "casos") casos();
   window.scrollTo(0, 0);
 }));
 $("chipSaude").addEventListener("click", () => document.querySelector('[data-tab="metodo"]').click());
@@ -497,6 +506,37 @@ async function trends() {
     return `<div class="esp-listas" style="margin-top:14px">${q.termos.flatMap(t => [...new Set(X.filter(r => r.termo === t).map(r => r.lista))].map(l => `<div class="card"><div class="eyebrow">${esc(t)} · consultas relacionadas · ${esc(String(l).replace(/_/g, " "))}</div><ul class="esp-lista">${X.filter(r => r.termo === t && r.lista === l).slice(0, 8).map(r => `<li><span>${esc(r.texto)}</span><span>${esc(r.rotulo || r.valor || "")}</span></li>`).join("")}</ul></div>`)).join("")}</div>`; };
   const grupos = [...new Set(qs.map(q => q.grupo))];
   c.innerHTML = `<div class="card"><div class="eyebrow">Como ler</div><p class="esp-nota" style="margin-top:0;font-size:12.5px">${esc(T.aviso || "")} ${esc(T.nota || "")}</p></div>` + grupos.map(g => `<div class="sectionlabel"><h2>${esc(GRUPO[g] || g)}</h2><p>Espanha · 0 a 100, relativo dentro de cada consulta</p></div>` + qs.filter(q => q.grupo === g).map(q => `<div class="card"><div class="eyebrow">${esc(PERIODO[q.periodo] || q.periodo)}</div>${linha(q)}${regioes(q)}${rel(q)}</div>`).join("")).join("") + alta + noticias + falta;
+}
+
+const CS = {fonte: "", grupo: "", ator: ""};
+async function casos() {
+  const c = $("csCorpo"), D = await json("data/casos/brasil.json");
+  if (!D) { c.innerHTML = '<div class="esp-vazio">⛔ O cruzamento ainda não foi gerado (data/casos/brasil.json não existe).</div>'; return; }
+  $("csData").textContent = "gerado em " + diaHora(D.gerado_em_utc) + " UTC";
+  const F = D.fontes, fk = Object.keys(F), cf = Object.fromEntries(fk.map((f, i) => [f, COR[i % COR.length] || "#888"]));
+  const pc = (a, b) => b ? (100 * a / b).toLocaleString("pt-BR", {maximumFractionDigits: 2}) + "%" : "—";
+  const ms = Object.entries(D.por_mes), mx = Math.max(1, ...ms.map(([, o]) => Object.values(o).reduce((s, v) => s + v, 0)));
+  const atores = Object.keys(D.matriz).sort((a, b) => Object.values(D.matriz[b]).reduce((s, v) => s + v.citam, 0) - Object.values(D.matriz[a]).reduce((s, v) => s + v.citam, 0));
+  const lista = D.itens.filter(x => (!CS.fonte || x.fonte === CS.fonte) && (!CS.grupo || x.grupos.includes(CS.grupo)) && (!CS.ator || x.ator_id === CS.ator));
+  const sel = (id, rot, ops, v) => `<label class="esp-chips" style="margin:0">${rot} <select id="${id}">${ops.map(([k, t]) => `<option value="${esc(k)}"${k === v ? " selected" : ""}>${esc(t)}</option>`).join("")}</select></label>`;
+  c.innerHTML = `<div class="sectionlabel"><h2>Universo e quantos citam, por fonte</h2><p>período ${dia(D.periodo.desde)} a ${dia(D.periodo.ate)}</p></div>
+    <div class="card"><div class="tablewrap"><table class="datatable"><thead><tr><th>Fonte</th><th>Itens lidos (universo da leitura)</th><th>Citam Brasil, Lula ou Bolsonaro</th><th>%</th><th>${Object.values(D.grupos).map(esc).join("</th><th>")}</th></tr></thead><tbody>${fk.map(f => { const v = F[f];
+      return `<tr><td><b style="color:${cf[f]}">●</b> <b>${esc(v.rotulo)}</b><br><small>${esc(v.universo_nota || "")}${v.aviso ? " · " + esc(v.aviso) : ""}</small></td><td>${v.lidos != null ? n(v.lidos) : "⛔"}</td><td>${v.citam != null ? n(v.citam) : "⛔"}</td><td>${v.lidos ? pc(v.citam, v.lidos) : "—"}</td>${Object.keys(D.grupos).map(g => `<td>${n((D.por_grupo[g] || {})[f] || 0)}</td>`).join("")}</tr>`; }).join("")}</tbody></table></div>
+      <p class="esp-nota">Uma publicação pode citar mais de um grupo; Flávio Bolsonaro também conta em Família Bolsonaro. Nos comentários do público, só contagens: texto e autor ficam no repositório privado.</p></div>
+    <div class="sectionlabel"><h2>Quem cita, e onde</h2><p>citam / lidos</p></div>
+    <div class="card"><div class="tablewrap"><table class="datatable"><thead><tr><th>Ator</th>${fk.map(f => `<th>${esc(F[f].rotulo.split(" · ")[0])}${f === "comentarios_youtube" ? " (público)" : ""}</th>`).join("")}</tr></thead><tbody>${atores.map(a => `<tr><td><b>${esc(D.atores[a] || a)}</b></td>${fk.map(f => { const v = (D.matriz[a] || {})[f]; return `<td>${v ? `<b>${n(v.citam)}</b> <small>de ${n(v.lidos)}</small>` : "—"}</td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
+      <p class="esp-nota">"—" = o ator não tem essa fonte (perfil não localizado, privado ou ainda não coletado). Na coluna de comentários, o ator é o dono do vídeo comentado.</p></div>
+    <div class="sectionlabel"><h2>Quando</h2><p>itens que citam, por mês e fonte</p></div>
+    <div class="card"><div class="esp-chips">${fk.map(f => `<span><b style="color:${cf[f]}">■</b> ${esc(F[f].rotulo)}</span>`).join("")}</div>
+      <table class="datatable" style="margin-top:10px"><tbody>${ms.map(([m, o]) => { const t = Object.values(o).reduce((s, v) => s + v, 0);
+        return `<tr><td style="width:70px">${mesNome(m)}</td><td><div style="display:flex;height:14px;width:${(100 * t / mx).toFixed(1)}%;min-width:2px">${fk.filter(f => o[f]).map(f => `<i title="${esc(F[f].rotulo)}: ${n(o[f])}" style="flex:${o[f]};background:${cf[f]}"></i>`).join("")}</div></td><td style="width:60px;text-align:right">${n(t)}</td></tr>`; }).join("")}</tbody></table>
+      <p class="esp-nota">O último mês está incompleto.</p></div>
+    <div class="sectionlabel"><h2>Os itens</h2><p>publicações, mensagens e artigos de autoria dos atores</p></div>
+    <div class="card"><div class="filterbar" style="margin:0 0 10px"><div class="controls">${sel("csF", "Fonte", [["", "todas"], ...fk.filter(f => f !== "comentarios_youtube").map(f => [f, F[f].rotulo])], CS.fonte)}${sel("csG", "Grupo", [["", "todos"], ...Object.entries(D.grupos)], CS.grupo)}${sel("csA", "Ator", [["", "todos"], ...atores.map(a => [a, D.atores[a] || a])], CS.ator)}</div></div>
+      ${lista.map(x => `<a class="tk-item esp-item" href="${url(x.url)}" target="_blank" rel="noopener"><p>${esc(x.texto || "(sem texto)")}</p><small>${diaHora(x.publicado_em)} UTC · <b>${esc(x.ator)}</b> · ${esc(x.fonte_rotulo)} (${esc(x.perfil)}) · ${x.grupos.map(g => esc(D.grupos[g])).join(", ")} · termos: ${esc(x.termos.join(", "))}${x.lido_no ? " · lido no " + esc(x.lido_no) : ""}${x.visualizacoes ? " · " + n(x.visualizacoes) + " visualizações" : ""}</small></a>`).join("") || '<p class="esp-nota">Nenhum item neste filtro.</p>'}
+      <p class="esp-nota">${n(lista.length)} itens no filtro. Nos artigos dos sites aparece só o título; a busca foi feita no texto integral, guardado no repositório privado. <a href="data/casos/brasil_itens.csv" download>↓ Planilha de conferência (todos os itens)</a></p></div>
+    <div class="card"><div class="eyebrow">Método</div><p class="esp-nota" style="margin-top:0">${esc(D.metodo)}</p></div>`;
+  [["csF", "fonte"], ["csG", "grupo"], ["csA", "ator"]].forEach(([id, k]) => $(id).onchange = e => { CS[k] = e.target.value; casos(); });
 }
 
 async function telegram() {

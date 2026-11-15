@@ -86,3 +86,30 @@ class TestRedeCoocorrencia(unittest.TestCase):
         self.assertEqual(sorted(g1.edges(data=True)), sorted(g2.edges(data=True)))
         self.assertEqual((g1.nodes["sanchez"]["dominante"], g1.nodes["libertad"]["dominante"], g1.nodes["espana"]["pubs"]), ("vox", "disenso", 18))
         self.assertEqual(g1["espana"]["sanchez"]["weight"], 9)
+
+
+class TestCasoBrasil(unittest.TestCase):
+    def test_grupos_e_comentarios_sem_texto_no_publico(self):
+        import csv, gzip, json, os, tempfile
+        from pathlib import Path
+        from base import RAIZ, projeto
+        import build_caso_brasil as cb, comum
+        regs = cb.compilar()
+        self.assertEqual(cb.achar("Flávio Bolsonaro firma con Lula en Brasilia", regs)[0], ["brasil", "lula", "bolsonaro", "flavio"])
+        self.assertEqual(cb.achar("Abrasivo, célula y lulaby", regs)[0], [])
+        t, priv = projeto(), Path(tempfile.mkdtemp())
+        ac = {"1": {**{k: "" for k in comum.COLS}, "post_id": "1", "ator_id": "vox", "ator_nome": "Vox", "rede": "x", "perfil": "vox_es", "url": "https://x.com/1", "publicado_em": "2026-09-01T10:00:00Z", "texto": "Con Lula no"}}
+        comum.gravar_acervo(t / "data/x/posts.csv.gz", ac)
+        (priv / "youtube/comentarios").mkdir(parents=True)
+        with gzip.open(priv / "youtube/comentarios/comentarios.csv.gz", "wt", encoding="utf-8", newline="") as h:
+            w = csv.DictWriter(h, ["comentario_id", "ator_id", "autor", "texto", "publicado_em"], delimiter=";"); w.writeheader()
+            w.writerow({"comentario_id": "c", "ator_id": "vox", "autor": "Fulana", "texto": "segredo sobre Bolsonaro", "publicado_em": "2026-09-02T00:00:00Z"})
+        antes = os.environ.get("ATLAS_INTERNO_DIR"); os.environ["ATLAS_INTERNO_DIR"] = str(priv)
+        try:
+            self.assertEqual(cb.main(root=t), 0)
+        finally:
+            os.environ.pop("ATLAS_INTERNO_DIR") if antes is None else os.environ.__setitem__("ATLAS_INTERNO_DIR", antes)
+        pub = (t / "data/casos/brasil.json").read_text(encoding="utf-8") + (t / "data/casos/brasil_itens.csv").read_text(encoding="utf-8")
+        self.assertNotIn("segredo", pub); self.assertNotIn("Fulana", pub)
+        d = json.loads((t / "data/casos/brasil.json").read_text(encoding="utf-8"))
+        self.assertEqual((d["fontes"]["x"]["citam"], d["fontes"]["comentarios_youtube"]["citam"], d["matriz"]["vox"]["comentarios_youtube"]), (1, 1, {"lidos": 1, "citam": 1}))

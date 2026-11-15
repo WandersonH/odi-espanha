@@ -1,0 +1,1030 @@
+{
+ "schema_version": 1,
+ "gerado_em_utc": "2026-11-15T22:16:32Z",
+ "titulo": "Brasil, Lula e a família Bolsonaro nas fontes do Atlas",
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": "2027-01-30"
+ },
+ "metodo": "Regra por palavra, sem inteligência artificial, sobre o texto normalizado (minúsculas, sem acento). Grupos: Brasil: brasil*, brazil*; Lula: lula, lulaoficial, luladasilva, lulismo, lulista, lulistas, lulalibre, lulalivre; Família Bolsonaro: bolsonaro*, jairbolsonaro, flaviobolsonaro, eduardobolsonaro, carlosbolsonaro, michellebolsonaro; Flávio Bolsonaro: flavio bolsonaro, flaviobolsonaro, flavio bolsonaro*. O asterisco casa por prefixo (brasil* inclui brasileño e Brasilia). 'Flávio Bolsonaro' também conta em 'Família Bolsonaro'. A etiqueta diz que o texto cita, não se a citação é favorável ou crítica. Comentários: só contagens, nenhum texto ou autor.",
+ "grupos": {
+  "brasil": "Brasil",
+  "lula": "Lula",
+  "bolsonaro": "Família Bolsonaro",
+  "flavio": "Flávio Bolsonaro"
+ },
+ "fontes": {
+  "instagram": {
+   "rotulo": "Instagram · publicações",
+   "lidos": 2515,
+   "citam": 4,
+   "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
+   "lido_em": "2026-11-15T22:16:32Z"
+  },
+  "x": {
+   "rotulo": "X · publicações",
+   "lidos": 3887,
+   "citam": 15,
+   "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
+   "lido_em": "2026-11-15T22:16:32Z"
+  },
+  "facebook": {
+   "rotulo": "Facebook · publicações",
+   "lidos": 823,
+   "citam": 4,
+   "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
+   "lido_em": "2026-11-15T22:16:32Z"
+  },
+  "youtube": {
+   "rotulo": "YouTube · publicações",
+   "lidos": 1265,
+   "citam": 0,
+   "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
+   "lido_em": "2026-11-15T22:16:32Z"
+  },
+  "telegram": {
+   "rotulo": "Telegram · publicações",
+   "lidos": 138,
+   "citam": 2,
+   "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
+   "lido_em": "2026-11-15T22:16:32Z"
+  },
+  "sites": {
+   "rotulo": "Sites oficiais · artigos",
+   "lidos": 150,
+   "citam": 14,
+   "lido_em": "2026-11-15T22:16:32Z",
+   "universo_nota": "artigos do período; 150 lidos no texto integral, 0 só pelo título"
+  },
+  "comentarios_youtube": {
+   "rotulo": "YouTube · comentários do público",
+   "lidos": 203638,
+   "citam": 208,
+   "lido_em": "2026-11-15T22:16:32Z",
+   "universo_nota": "todos os comentários e respostas dos vídeos do acervo; texto e autor só no repositório privado"
+  }
+ },
+ "atores": {
+  "foro-madrid": "Foro Madrid",
+  "vox": "Vox",
+  "disenso": "Fundación Disenso",
+  "abascal": "Santiago Abascal",
+  "martin-frias": "Jorge Martín Frías",
+  "cader": "Eduardo Cader"
+ },
+ "matriz": {
+  "vox": {
+   "instagram": {
+    "lidos": 1928,
+    "citam": 0
+   },
+   "x": {
+    "lidos": 2220,
+    "citam": 3
+   },
+   "facebook": {
+    "lidos": 603,
+    "citam": 0
+   },
+   "youtube": {
+    "lidos": 1117,
+    "citam": 0
+   },
+   "comentarios_youtube": {
+    "lidos": 199760,
+    "citam": 204
+   }
+  },
+  "martin-frias": {
+   "instagram": {
+    "lidos": 19,
+    "citam": 0
+   },
+   "x": {
+    "lidos": 139,
+    "citam": 2
+   }
+  },
+  "foro-madrid": {
+   "instagram": {
+    "lidos": 83,
+    "citam": 2
+   },
+   "x": {
+    "lidos": 177,
+    "citam": 3
+   },
+   "facebook": {
+    "lidos": 41,
+    "citam": 1
+   },
+   "youtube": {
+    "lidos": 16,
+    "citam": 0
+   },
+   "telegram": {
+    "lidos": 2,
+    "citam": 0
+   },
+   "sites": {
+    "lidos": 21,
+    "citam": 4
+   },
+   "comentarios_youtube": {
+    "lidos": 58,
+    "citam": 2
+   }
+  },
+  "disenso": {
+   "instagram": {
+    "lidos": 113,
+    "citam": 1
+   },
+   "x": {
+    "lidos": 498,
+    "citam": 4
+   },
+   "facebook": {
+    "lidos": 179,
+    "citam": 3
+   },
+   "youtube": {
+    "lidos": 85,
+    "citam": 0
+   },
+   "telegram": {
+    "lidos": 136,
+    "citam": 2
+   },
+   "sites": {
+    "lidos": 129,
+    "citam": 10
+   },
+   "comentarios_youtube": {
+    "lidos": 544,
+    "citam": 1
+   }
+  },
+  "abascal": {
+   "instagram": {
+    "lidos": 372,
+    "citam": 1
+   },
+   "x": {
+    "lidos": 836,
+    "citam": 3
+   },
+   "youtube": {
+    "lidos": 47,
+    "citam": 0
+   },
+   "comentarios_youtube": {
+    "lidos": 3276,
+    "citam": 1
+   }
+  },
+  "cader": {
+   "x": {
+    "lidos": 17,
+    "citam": 0
+   }
+  }
+ },
+ "por_mes": {
+  "2026-02": {
+   "x": 1,
+   "facebook": 1,
+   "telegram": 1,
+   "sites": 1,
+   "comentarios_youtube": 11
+  },
+  "2026-03": {
+   "instagram": 1,
+   "x": 2,
+   "facebook": 1,
+   "telegram": 1,
+   "sites": 1,
+   "comentarios_youtube": 11
+  },
+  "2026-04": {
+   "instagram": 1,
+   "x": 2,
+   "facebook": 1,
+   "sites": 6,
+   "comentarios_youtube": 17
+  },
+  "2026-05": {
+   "comentarios_youtube": 6
+  },
+  "2026-06": {
+   "instagram": 1,
+   "x": 2,
+   "facebook": 1,
+   "comentarios_youtube": 6
+  },
+  "2026-07": {
+   "x": 1,
+   "comentarios_youtube": 7
+  },
+  "2026-08": {
+   "sites": 1,
+   "comentarios_youtube": 4
+  },
+  "2026-09": {
+   "sites": 1,
+   "comentarios_youtube": 5
+  },
+  "2026-10": {
+   "instagram": 1,
+   "x": 6,
+   "sites": 4,
+   "comentarios_youtube": 77
+  },
+  "2026-11": {
+   "x": 1,
+   "comentarios_youtube": 64
+  }
+ },
+ "por_grupo": {
+  "brasil": {
+   "instagram": 4,
+   "x": 11,
+   "facebook": 4,
+   "telegram": 2,
+   "sites": 13,
+   "comentarios_youtube": 154
+  },
+  "bolsonaro": {
+   "instagram": 3,
+   "x": 8,
+   "facebook": 1,
+   "sites": 3,
+   "comentarios_youtube": 46
+  },
+  "flavio": {
+   "instagram": 1,
+   "x": 4,
+   "sites": 3,
+   "comentarios_youtube": 4
+  },
+  "lula": {
+   "instagram": 1,
+   "x": 5,
+   "sites": 7,
+   "comentarios_youtube": 55
+  }
+ },
+ "itens": [
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "martin-frias",
+   "ator": "Jorge Martín Frías",
+   "perfil": "jm_frias",
+   "publicado_em": "2026-11-14T15:37:00Z",
+   "url": "https://x.com/jm_frias/status/2121628471315009853",
+   "grupos": [
+    "lula"
+   ],
+   "termos": [
+    "lula"
+   ],
+   "visualizacoes": "20158",
+   "texto": "El miércoles nos embarcamos rumbo a Venezuela @hermanntertsch, @oavendano y yo, junto a nuestro amigo @vladimirpetit. Queríamos ver con nuestros propios ojos la nueva etapa que afronta el país y reunirnos con @MariaCorinaYA, líder y referente cuyo regreso a su patria ha traído estabilidad y orden, y también energía y alegría al pueblo venezolano. Su papel es inseparable del proceso irrevocable hacia la democracia que ha iniciado Venezuela. Ella puso la primera piedra al demostrar el colosal fraude de Maduro y Delcy, y ella mantuvo el pulso y la esperanza de su pueblo. Pero esa transición habrí"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "vox",
+   "ator": "Vox",
+   "perfil": "vox_es",
+   "publicado_em": "2026-10-30T13:53:13Z",
+   "url": "https://x.com/vox_es/status/2116166534867374479",
+   "grupos": [
+    "lula"
+   ],
+   "termos": [
+    "lula"
+   ],
+   "visualizacoes": "94592",
+   "texto": "Lo primero que hizo nada más tener conocimiento fue celebrar la victoria de Lula en Twitter. Lo segundo, cebarse con los trabajadores filtrando audios interesados. Una semana antes, estaba bailando y haciendo chistes con el lamentable estado de las vías. Ya sabemos que no vas a dimitir. Por eso te tenemos que echar."
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "FDisenso",
+   "publicado_em": "2026-10-23T13:00:04Z",
+   "url": "https://x.com/FDisenso/status/2113616444898357545",
+   "grupos": [
+    "brasil",
+    "bolsonaro",
+    "flavio"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "brasilenos",
+    "flavio bolsonaro"
+   ],
+   "visualizacoes": "1404",
+   "texto": "✍️ 🇧🇷 “La firma de Flavio Bolsonaro confirma que Iberoamérica ha decidido dejar atrás los proyectos totalitarios y liberticidas que impulsa la izquierda radical. Los brasileños tienen este domingo la oportunidad de recuperar sus libertades y devolver a su país a la senda de la prosperidad”. Eduardo Cader, director de @Foro_MAD y del Área Internacional de la Fundación Disenso. #ForoMadrid #Bolsonaro #Brasil https://t.co/DFVyUzDvV5"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-10-23T11:25:15Z",
+   "url": "https://fundaciondisenso.org/flavio-bolsonaro-firma-carta-madrid/",
+   "grupos": [
+    "brasil",
+    "lula",
+    "bolsonaro",
+    "flavio"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "brasilenos",
+    "flavio bolsonaro",
+    "lula"
+   ],
+   "visualizacoes": null,
+   "texto": "Flavio Bolsonaro firma la Carta de Madrid a días de su victoria en la segunda vuelta electoral en Brasil",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "foro-madrid",
+   "publicado_em": "2026-10-22T16:56:56Z",
+   "url": "https://foromadrid.org/flavio-bolsonaro-assina-a-carta-de-madri-a-dias-de-sua-vitoria-no-segundo-turno-eleitoral-no-brasil/",
+   "grupos": [
+    "brasil",
+    "lula",
+    "bolsonaro",
+    "flavio"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "brasileiros",
+    "flavio bolsonaro",
+    "lula"
+   ],
+   "visualizacoes": null,
+   "texto": "Flávio Bolsonaro assina a Carta de Madri a dias de sua vitória no segundo turno eleitoral no Brasil",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "foro-madrid",
+   "publicado_em": "2026-10-22T16:51:48Z",
+   "url": "https://foromadrid.org/flavio-bolsonaro-firma-la-carta-de-madrid-a-dias-de-su-victoria-en-la-segunda-vuelta-electoral-en-brasil/",
+   "grupos": [
+    "brasil",
+    "lula",
+    "bolsonaro",
+    "flavio"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "brasilenos",
+    "flavio bolsonaro",
+    "lula"
+   ],
+   "visualizacoes": null,
+   "texto": "Flavio Bolsonaro firma la Carta de Madrid a días de su victoria en la segunda vuelta electoral en Brasil",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "Foro_MAD",
+   "publicado_em": "2026-10-22T16:46:43Z",
+   "url": "https://x.com/Foro_MAD/status/2113311094739440115",
+   "grupos": [
+    "brasil",
+    "bolsonaro",
+    "flavio"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "flavio bolsonaro",
+    "flaviobolsonaro"
+   ],
+   "visualizacoes": "284",
+   "texto": "✅ #Brasil 🇧🇷 | FLÁVIO BOLSONARO ASSINA A CARTA DE MADRI! O próximo presidente da República Federativa do Brasil assinou a Carta de Madri. @FlavioBolsonaro se junta a uma extensa lista de signatários, que inclui Giorgia Meloni, Javier Milei, José Antonio Kast e Abelardo de la Espriella."
+  },
+  {
+   "fonte": "instagram",
+   "fonte_rotulo": "Instagram",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "foromadrid",
+   "publicado_em": "2026-10-22T16:41:03Z",
+   "url": "https://www.instagram.com/reel/DezbbYTMvGR/",
+   "grupos": [
+    "brasil",
+    "bolsonaro",
+    "flavio"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "flavio bolsonaro"
+   ],
+   "visualizacoes": "4045",
+   "texto": "✅ #Brasil 🇧🇷 | ¡FLAVIO BOLSONARO FIRMA LA CARTA DE MADRID! El próximo presidente de la República Federativa de Brasil ha firmado la Carta de Madrid. @22flaviobolsonaro se suma a una gran lista de firmantes que incluye a Giorgia Meloni, Javier Milei, José Antonio Kast y Abelardo de la Espriella."
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "Foro_MAD",
+   "publicado_em": "2026-10-22T16:36:18Z",
+   "url": "https://x.com/Foro_MAD/status/2113308476457783483",
+   "grupos": [
+    "brasil",
+    "bolsonaro",
+    "flavio"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "flavio bolsonaro",
+    "flaviobolsonaro"
+   ],
+   "visualizacoes": "8152",
+   "texto": "✅ #Brasil 🇧🇷 | ¡FLAVIO BOLSONARO FIRMA LA CARTA DE MADRID! El próximo presidente de la República Federativa de Brasil ha firmado la Carta de Madrid. @FlavioBolsonaro se suma a una gran lista de firmantes que incluye a Giorgia Meloni, Javier Milei, José Antonio Kast y Abelardo de la Espriella."
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-10-15T12:10:59Z",
+   "url": "https://fundaciondisenso.org/jorge-martin-frias-inmigracion-sobrerregulacion/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "Jorge Martín Frías: “Hay una realidad a la que no quieren mirar: la inmigración, la sobrerregulación y todas sus derivadas”",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "abascal",
+   "ator": "Santiago Abascal",
+   "perfil": "Santi_ABASCAL",
+   "publicado_em": "2026-10-06T17:39:32Z",
+   "url": "https://x.com/Santi_ABASCAL/status/2107526181826548002",
+   "grupos": [
+    "brasil",
+    "bolsonaro",
+    "flavio"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "flaviobolsonaro"
+   ],
+   "visualizacoes": "318900",
+   "texto": "Enhorabuena a @FlavioBolsonaro por su victoria en la primera vuelta. Brasil tiene una oportunidad histórica para acabar con la corrupción y los abusos del socialismo. Ahora, a por la segunda vuelta: a más Bolsonaro, más libertad, más prosperidad y más seguridad. 🇪🇸🤝🇧🇷"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "vox",
+   "ator": "Vox",
+   "perfil": "vox_es",
+   "publicado_em": "2026-10-05T11:12:37Z",
+   "url": "https://x.com/vox_es/status/2107066425584111948",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": "23555",
+   "texto": "🔴 @Santi_ABASCAL recuerda que VOX llevaba meses alertando sobre el voto ligado a la Ley de Nietos: \"Llevamos meses advirtiendo de lo que estaba pasando y desconfiando de quién iba a garantizar que ese voto llegara a España. ¿Quién iba a hacerlo en Cuba, Venezuela, Brasil o México? Los socios de Sánchez\"."
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-09-02T08:03:11Z",
+   "url": "https://fundaciondisenso.org/jorge-martin-frias-habia-un-consenso-entre-la-izquierda-y-la-no-izquierda-sobre-un-mismo-tipo-de-politicas-y-eso-ha-cosechado-hastio/",
+   "grupos": [
+    "lula"
+   ],
+   "termos": [
+    "lula"
+   ],
+   "visualizacoes": null,
+   "texto": "Jorge Martín Frías: “Había un consenso entre la izquierda y la no izquierda sobre un mismo tipo de políticas. Y eso ha cosechado hastío”",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-08-24T10:38:26Z",
+   "url": "https://fundaciondisenso.org/peter-sutherland-y-las-politicas-migratorias-globalistas/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "Peter Sutherland y las políticas migratorias globalistas",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "martin-frias",
+   "ator": "Jorge Martín Frías",
+   "perfil": "jm_frias",
+   "publicado_em": "2026-07-16T19:05:08Z",
+   "url": "https://x.com/jm_frias/status/2077831921036660748",
+   "grupos": [
+    "brasil",
+    "lula",
+    "bolsonaro"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil",
+    "brasileno",
+    "lula"
+   ],
+   "visualizacoes": "59233",
+   "texto": "🚨🇧🇷 Diputados de Patriotas por Europa, ECR y ESN hemos escrito a la Alta Representante Kaja Kallas para denunciar la deriva autoritaria de Brasil. Con el «juez» Alexandre de Moraes, Lula ha convertido Brasil en un régimen de terror, con censura, bloqueo de cuentas, retirada de pasaportes y condenas arbitrarias. No les basta con perseguir a la familia Bolsonaro; quieren reducir la libertad a las conversaciones de cocina, como en el modelo soviético, el último rincón donde un brasileño se atreva a pensar en voz alta. Es el guion del Foro de São Paulo y del Grupo de Puebla: copar las institucione"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "abascal",
+   "ator": "Santiago Abascal",
+   "perfil": "Santi_ABASCAL",
+   "publicado_em": "2026-06-19T21:14:49Z",
+   "url": "https://x.com/Santi_ABASCAL/status/2068080081268818064",
+   "grupos": [
+    "lula",
+    "bolsonaro"
+   ],
+   "termos": [
+    "bolsonarosp",
+    "lula"
+   ],
+   "visualizacoes": "102267",
+   "texto": "Todo mi apoyo a mi buen amigo @BolsonaroSP frente al golpe judicial del socialismo totalitario y corrupto de Lula y su delincuente de cabecera, el juez De Moraes."
+  },
+  {
+   "fonte": "facebook",
+   "fonte_rotulo": "Facebook",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "ForoMadridOficial",
+   "publicado_em": "2026-06-18T14:29:03Z",
+   "url": "https://www.facebook.com/ForoMadridOficial/posts/pfbid02A63ZVfzZRkYU5Z8L1pfZn1cRoNKxcgMFDKzG8dmHRHauvzs1LtJ3WB6qNkpHkVeml",
+   "grupos": [
+    "brasil",
+    "bolsonaro"
+   ],
+   "termos": [
+    "bolsonaro",
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "‼️#Brasil 🇧🇷 | OTRO GOLPE JUDICIAL DEL RÉGIMEN CONTRA EDUARDO BOLSONARO Y EL PUEBLO La sentencia, la inhabilitación y la pérdida de su cargo público forman parte de una estrategia sistemática de acoso judicial, silenciamiento de la oposición y destrucción de las garantías constitucionales básicas en Brasil. Expresamos nuestra solidaridad con Eduardo Bolsonaro y todos los perseguidos por defender la libertad."
+  },
+  {
+   "fonte": "instagram",
+   "fonte_rotulo": "Instagram",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "foromadrid",
+   "publicado_em": "2026-06-18T14:21:33Z",
+   "url": "https://www.instagram.com/p/DZuvmw8AXRH/",
+   "grupos": [
+    "brasil",
+    "bolsonaro"
+   ],
+   "termos": [
+    "bolsonaro",
+    "bolsonarosp",
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "‼️#Brasil 🇧🇷 | OTRO GOLPE JUDICIAL DEL RÉGIMEN CONTRA EDUARDO BOLSONARO Y EL PUEBLO La sentencia, la inhabilitación y la pérdida de su cargo público forman parte de una estrategia sistemática de acoso judicial, silenciamiento de la oposición y destrucción de las garantías constitucionales básicas en Brasil. Expresamos nuestra solidaridad con @bolsonarosp y todos los perseguidos por defender la libertad."
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "Foro_MAD",
+   "publicado_em": "2026-06-18T14:16:15Z",
+   "url": "https://x.com/Foro_MAD/status/2067612361175810135",
+   "grupos": [
+    "brasil",
+    "bolsonaro"
+   ],
+   "termos": [
+    "bolsonaro",
+    "bolsonarosp",
+    "brasil"
+   ],
+   "visualizacoes": "52399",
+   "texto": "‼️#Brasil 🇧🇷 | OTRO GOLPE JUDICIAL DEL RÉGIMEN CONTRA EDUARDO BOLSONARO Y EL PUEBLO La sentencia, la inhabilitación y la pérdida de su cargo público forman parte de una estrategia sistemática de acoso judicial, silenciamiento de la oposición y destrucción de las garantías constitucionales básicas en Brasil. Expresamos nuestra solidaridad con @BolsonaroSP y todos los perseguidos por defender la libertad."
+  },
+  {
+   "fonte": "facebook",
+   "fonte_rotulo": "Facebook",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "fundaciondisenso",
+   "publicado_em": "2026-04-23T10:02:23Z",
+   "url": "https://www.facebook.com/reel/1439689807385496/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasileiro",
+    "brasileno"
+   ],
+   "visualizacoes": "410",
+   "texto": "\"No os avergoncéis de vuestra historia. Como brasileño, estoy orgulloso de mi herencia europea. \" - “Não tenham vergonha da sua história. Como brasileiro, estou orgulhoso da minha herança europeia.” Rodrigo Valadares en la conferencia \"A new alliance: Why the Americas matter for the future of Europe\"."
+  },
+  {
+   "fonte": "instagram",
+   "fonte_rotulo": "Instagram",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "fundaciondisenso",
+   "publicado_em": "2026-04-23T09:40:25Z",
+   "url": "https://www.instagram.com/reel/DXeDBqTiDH9/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasileiro",
+    "brasileno"
+   ],
+   "visualizacoes": "11393",
+   "texto": "“No os avergoncéis de vuestra historia. Como brasileño, estoy orgulloso de mi herencia europea. “ - “Não tenham vergonha da sua história. Como brasileiro, estou orgulhoso da minha herança europeia.” Rodrigo Valadares en la conferencia “A new alliance: Why the Americas matter for the future of Europe”."
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "FDisenso",
+   "publicado_em": "2026-04-23T09:14:38Z",
+   "url": "https://x.com/FDisenso/status/2047242734499480041",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasileiro",
+    "brasileno"
+   ],
+   "visualizacoes": "588",
+   "texto": "\"No os avergoncéis de vuestra historia. Como brasileño, estoy orgulloso de mi herencia europea. \" - “Não tenham vergonha da sua história. Como brasileiro, estou orgulhoso da minha herança europeia.” @rodrivaladares_ en la conferencia \"A new alliance: Why the Americas matter for the future of Europe\"."
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-04-21T08:18:42Z",
+   "url": "https://fundaciondisenso.org/por-que-las-americas-son-importantes-para-el-futuro-de-europa/",
+   "grupos": [
+    "brasil",
+    "lula"
+   ],
+   "termos": [
+    "brasil",
+    "lula"
+   ],
+   "visualizacoes": null,
+   "texto": "¿Por qué las Américas son importantes para el futuro de Europa?",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "vox",
+   "ator": "Vox",
+   "perfil": "vox_es",
+   "publicado_em": "2026-04-18T19:07:45Z",
+   "url": "https://x.com/vox_es/status/2045580057091973518",
+   "grupos": [
+    "lula"
+   ],
+   "termos": [
+    "lula"
+   ],
+   "visualizacoes": "66706",
+   "texto": "En Barcelona se han reunido los aliados del corrupto Sánchez y de Maduro: El carcelero Lula, la socia y protectora de los cárteles de la droga, Sheinbaum, y el narco-terrorista Petro. Ninguno de ellos ha conseguido doblegar a la valiente y ejemplar @MariaCorinaYA, quien les ha recordado al calor de miles de sus compatriotas que Venezuela será libre. Nosotros nos encargaremos de que España deje de ser el epicentro de la izquierda criminal en Europa."
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-04-17T11:39:40Z",
+   "url": "https://fundaciondisenso.org/foro-madrid-advierte-que-sanchez-busca-convertir-espana-en-la-sede-de-la-izquierda-radical-en-europa/",
+   "grupos": [
+    "brasil",
+    "lula"
+   ],
+   "termos": [
+    "brasileno",
+    "lula"
+   ],
+   "visualizacoes": null,
+   "texto": "Foro Madrid advierte que Sánchez busca “convertir España en la sede de la izquierda radical en Europa”",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-04-16T19:12:00Z",
+   "url": "https://fundaciondisenso.org/fundacion-disenso-impulsa-en-madrid-el-debate-estrategico-sobre-la-relacion-entre-europa-y-las-americas-en-un-contexto-global-multipolar/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "Fundación Disenso impulsa en Madrid el debate estratégico sobre la relación entre Europa y las Américas en un contexto global multipolar",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "foro-madrid",
+   "publicado_em": "2026-04-16T18:00:23Z",
+   "url": "https://foromadrid.org/foro-madrid-advierte-que-sanchez-busca-convertir-espana-en-la-sede-de-la-izquierda-radical-en-europa/",
+   "grupos": [
+    "brasil",
+    "lula"
+   ],
+   "termos": [
+    "brasileno",
+    "lula"
+   ],
+   "visualizacoes": null,
+   "texto": "Foro Madrid advierte que Sánchez busca “convertir España en la sede de la izquierda radical en Europa”",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "perfil": "foro-madrid",
+   "publicado_em": "2026-04-16T16:00:34Z",
+   "url": "https://foromadrid.org/foro-madrid-consolida-su-red-de-alianzas-transatlanticas-en-la-jornada-estrategica-por-el-futuro-de-las-americas-y-europa/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "Foro Madrid consolida su red de alianzas transatlánticas en la jornada estratégica por el futuro de las Américas y Europa",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-04-08T16:42:43Z",
+   "url": "https://fundaciondisenso.org/patriots-for-europe-foundation-organiza-en-madrid-la-conferencia-una-nueva-alianza-por-que-las-americas-son-importantes-para-el-futuro-de-europa/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasileno"
+   ],
+   "visualizacoes": null,
+   "texto": "Patriots for Europe Foundation organiza en Madrid la conferencia “Una Nueva Alianza: Por qué las Américas son importantes para el futuro de Europa”",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "facebook",
+   "fonte_rotulo": "Facebook",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "fundaciondisenso",
+   "publicado_em": "2026-03-26T16:14:08Z",
+   "url": "https://www.facebook.com/fundaciondisenso/posts/pfbid0bPHQwjkqWNFTyS88jhULkkKnLFb2iirsbyDydbpLyPcAcwVPffC5hQxXbhQkjPtVl",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "🇪🇸 Tras el éxito de las ediciones anteriores, se abre la inscripción para el III curso «Política Internacional: cómo funciona el poder», dirigido por Ernesto Araújo, exministro de Asuntos Exteriores de Brasil y miembro del Consejo Asesor Internacional de la Fundación. Toda la información, junto con el proceso de inscripción, disponible en el enlace. - 🇧🇷 Após o sucesso das edições anteriores, estão abertas as inscrições para o III curso “Política Internacional: como funciona o poder”, dirigido por Ernesto Araújo, ex-ministro das Relações Exteriores do Brasil e membro do Conselho Consultivo Int"
+  },
+  {
+   "fonte": "telegram",
+   "fonte_rotulo": "Telegram",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "fdisenso",
+   "publicado_em": "2026-03-26T16:13:42Z",
+   "url": "https://t.me/fdisenso/1097",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": "780",
+   "texto": "🇪🇸 Tras el éxito de las ediciones anteriores, se abre la inscripción para el III curso «Política Internacional: cómo funciona el poder», dirigido por Ernesto Araújo, exministro de Asuntos Exteriores de Brasil y miembro del Consejo Asesor Internacional de la Fundación. Toda la información, junto con el proceso de inscripción, disponible en el enlace. - 🇧🇷 Após o sucesso das edições anteriores, estão abertas as inscrições para o III curso “Política Internacional: como funciona o poder”, dirigido por Ernesto Araújo, ex-ministro das Relações Exteriores do Brasil e membro do Conselho Consultivo Int"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "FDisenso",
+   "publicado_em": "2026-03-26T16:10:11Z",
+   "url": "https://x.com/FDisenso/status/2037200451041472603",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": "1250",
+   "texto": "🇪🇸 Tras el éxito de las ediciones anteriores, se abre la inscripción para el III curso «Política Internacional: cómo funciona el poder», dirigido por Ernesto Araújo, exministro de Asuntos Exteriores de Brasil y miembro del Consejo Asesor Internacional de la Fundación. Toda la información, junto con el proceso de inscripción, disponible en el enlace. - 🇧🇷 Após o sucesso das edições anteriores, estão abertas as inscrições para o III curso “Política Internacional: como funciona o poder”, dirigido por @ernestofaraujo, ex-ministro das Relações Exteriores do Brasil e membro do Conselho Consultivo In"
+  },
+  {
+   "fonte": "instagram",
+   "fonte_rotulo": "Instagram",
+   "ator_id": "abascal",
+   "ator": "Santiago Abascal",
+   "perfil": "santi_abascal",
+   "publicado_em": "2026-03-23T13:43:21Z",
+   "url": "https://www.instagram.com/p/DWOqL5OiMWm/",
+   "grupos": [
+    "brasil",
+    "lula",
+    "bolsonaro"
+   ],
+   "termos": [
+    "bolsonarosp",
+    "brasil",
+    "lula"
+   ],
+   "visualizacoes": null,
+   "texto": "En el #CPAC de #Budapest con @bolsonarosp uno de los grandes líderes políticos de Brasil, y ahora opositor perseguido por el régimen de Lula"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "abascal",
+   "ator": "Santiago Abascal",
+   "perfil": "Santi_ABASCAL",
+   "publicado_em": "2026-03-23T09:09:19Z",
+   "url": "https://x.com/Santi_ABASCAL/status/2036007371944665207",
+   "grupos": [
+    "brasil",
+    "bolsonaro"
+   ],
+   "termos": [
+    "bolsonarosp",
+    "brasileno"
+   ],
+   "visualizacoes": "16263",
+   "texto": "Interesantes conversaciones también con el ex primer ministro de Polonia y presidente del @ECRparty @MorawieckiM, con el primer ministro de Hungría @PM_ViktorOrban y con el diputado opositor brasileño @BolsonaroSP https://t.co/NsgRNXa99y"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-03-05T12:24:27Z",
+   "url": "https://fundaciondisenso.org/el-panico-cultural-de-la-izquierda-espanola-al-regreso-del-catolicismo/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasilenos"
+   ],
+   "visualizacoes": null,
+   "texto": "El pánico cultural de la izquierda española al regreso del catolicismo",
+   "lido_no": "texto integral (repositório privado)"
+  },
+  {
+   "fonte": "facebook",
+   "fonte_rotulo": "Facebook",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "fundaciondisenso",
+   "publicado_em": "2026-02-25T18:20:50Z",
+   "url": "https://www.facebook.com/fundaciondisenso/posts/pfbid02AhYAuYHK9duYbTvFiHpBpy9BxWKsqfwothLpucyWEPF9oPueu1M7NSReq4LygExYl",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "Tras el éxito de ediciones anteriores, abrimos la inscripción para el III curso «Política Internacional: cómo funciona el poder», dirigido por Ernesto Araújo, exministro de Asuntos Exteriores de Brasil y miembro del Consejo Asesor Internacional de la Fundación. 📒Encontrarán todos los detalles, así como el proceso de inscripción en el siguiente enlace:"
+  },
+  {
+   "fonte": "telegram",
+   "fonte_rotulo": "Telegram",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "fdisenso",
+   "publicado_em": "2026-02-25T18:20:28Z",
+   "url": "https://t.me/fdisenso/1070",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": "673",
+   "texto": "Tras el éxito de ediciones anteriores, abrimos la inscripción para el III curso «Política Internacional: cómo funciona el poder», dirigido por Ernesto Araújo, exministro de Asuntos Exteriores de Brasil y miembro del Consejo Asesor Internacional de la Fundación. 📒Encontrarán todos los detalles, así como el proceso de inscripción en el siguiente enlace: https://fundaciondisenso.org/propuesta-noticia-curso-politica-internacional/"
+  },
+  {
+   "fonte": "x",
+   "fonte_rotulo": "X",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "FDisenso",
+   "publicado_em": "2026-02-25T18:19:37Z",
+   "url": "https://x.com/FDisenso/status/2026723777783251236",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": "1878",
+   "texto": "Tras el éxito de ediciones anteriores, abrimos la inscripción para el III curso «Política Internacional: cómo funciona el poder», dirigido por Ernesto Araújo, exministro de Asuntos Exteriores de Brasil y miembro del Consejo Asesor Internacional de la Fundación. 📒Encontrarán todos los detalles, así como el proceso de inscripción en el siguiente enlace: https://t.co/OJvZ1Tx2ec"
+  },
+  {
+   "fonte": "sites",
+   "fonte_rotulo": "Site oficial",
+   "ator_id": "disenso",
+   "ator": "Fundación Disenso",
+   "perfil": "disenso",
+   "publicado_em": "2026-02-25T17:13:12Z",
+   "url": "https://fundaciondisenso.org/propuesta-noticia-curso-politica-internacional/",
+   "grupos": [
+    "brasil"
+   ],
+   "termos": [
+    "brasil"
+   ],
+   "visualizacoes": null,
+   "texto": "Abrimos las inscripciones para la tercera edición del curso Política Internacional: cómo funciona el poder",
+   "lido_no": "texto integral (repositório privado)"
+  }
+ ]
+}

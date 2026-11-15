@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## E1.29 — 15/11/2026 · Caso "Brasil": cruzamento de todas as fontes com Brasil, Lula e a família Bolsonaro
+
+**O que mudou e por quê.** O responsável pediu "a página de casos": "um cruzamento geral de todos esses perfis com citações a Brasil, Flávio e Lula; tudo, digo redes, sites, mensageria".
+
+- `scripts/build_caso_brasil.py`: lê publicações de Instagram, X, Facebook e YouTube, mensagens do Telegram, artigos dos sites (texto integral do repositório privado; sem ele, só o título) e comentários do YouTube (só contagens). Quatro grupos por palavra, sem IA: Brasil, Lula, família Bolsonaro e Flávio Bolsonaro. Saídas: `data/casos/brasil.json` e `data/casos/brasil_itens.csv`. Nenhum texto ou autor de comentário vai ao público (teste cobre).
+- `gratuitas.yml`: o cálculo roda no passo de análises, que agora recebe o repositório privado.
+- `index.html`: caderno "Casos · Brasil, Lula e Flávio": universo e quantos citam por fonte, matriz ator × fonte, série mensal por fonte, lista filtrável (fonte, grupo, ator) com termos encontrados, planilha e método.
+
+**O que foi realmente executado.** `ATLAS_INTERNO_DIR=<cópia do privado> python scripts/build_caso_brasil.py` (cópia temporária apagada depois): Instagram 4 de 2.515; X 15 de 3.887; Facebook 4 de 823; YouTube 0 de 1.265; Telegram 2 de 138; sites 14 de 150 (texto integral); comentários do YouTube 208 de 203.638. Por grupo: Brasil 188, Lula 68, família Bolsonaro 61, Flávio Bolsonaro 12. Página aberta em navegador sem interface: 39 itens, 8 com o filtro "Flávio Bolsonaro", sem erro de console. `python -m unittest discover -s tests` → 65 testes, OK.
+
+**Também nesta entrada.** Planilha para a Carla (artefato Sheets, fora do repositório): amostra por rede e custo de 25%, 50% e 100% com fórmulas, a partir de `data/site/resumo.json`, dos manifestos e dos preços de `data/config/coleta.json` e do ODI Atlas.
+
 ## E1.28 — 15/11/2026 · Rede de coocorrência; gráfico mensal do Panorama e seguidores do X corrigidos
 
 **Correções de erros meus.**
