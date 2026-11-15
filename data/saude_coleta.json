@@ -1,5 +1,5 @@
 {
- "verificado_em_utc": "2026-11-15T16:51:43Z",
+ "verificado_em_utc": "2026-11-15T16:54:14Z",
  "nota": "Séries que o Atlas promete atualizar sozinho. 'max_horas' é o atraso máximo aceito desde o último dado real (não desde a última tentativa). Mesmo critério do ODI Atlas.",
  "series": [
   {
@@ -7,30 +7,30 @@
    "serie": "instagram",
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
-   "ultimo_dado": null,
-   "horas_desde_ultimo_dado": null,
-   "ultima_execucao": null,
-   "status_ultima_execucao": "—"
+   "ultimo_dado": "2026-11-15T16:52:51Z",
+   "horas_desde_ultimo_dado": 0.0,
+   "ultima_execucao": "2026-11-15T16:52:51Z",
+   "status_ultima_execucao": "ok"
   },
   {
    "nome": "Posts · X",
    "serie": "x",
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
-   "ultimo_dado": null,
-   "horas_desde_ultimo_dado": null,
-   "ultima_execucao": null,
-   "status_ultima_execucao": "—"
+   "ultimo_dado": "2026-11-15T16:53:27Z",
+   "horas_desde_ultimo_dado": 0.0,
+   "ultima_execucao": "2026-11-15T16:53:27Z",
+   "status_ultima_execucao": "ok"
   },
   {
    "nome": "Posts · Facebook",
    "serie": "facebook",
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
-   "ultimo_dado": null,
-   "horas_desde_ultimo_dado": null,
-   "ultima_execucao": null,
-   "status_ultima_execucao": "—"
+   "ultimo_dado": "2026-11-15T16:53:48Z",
+   "horas_desde_ultimo_dado": 0.0,
+   "ultima_execucao": "2026-11-15T16:53:48Z",
+   "status_ultima_execucao": "ok"
   },
   {
    "nome": "Seguidores e universo · Instagram e Facebook",
@@ -58,7 +58,7 @@
    "situacao": "em dia",
    "max_horas": 36,
    "ultimo_dado": "2026-11-15T16:50:56Z",
-   "horas_desde_ultimo_dado": 0.0,
+   "horas_desde_ultimo_dado": 0.1,
    "ultima_execucao": "2026-11-15T16:50:56Z",
    "status_ultima_execucao": "parcial: 1 site(s) não lido(s)"
   }

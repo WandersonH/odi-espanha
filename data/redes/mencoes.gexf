@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3">
+<meta lastmodifieddate="2026-11-15"><creator>ODI Espanha · build_rede_mencoes.py</creator><description>Perfil monitorado → conta marcada; peso = posts com a marcação</description></meta>
+<graph mode="static" defaultedgetype="directed">
+<attributes class="node"><attribute id="0" title="rede" type="string"/><attribute id="1" title="papel" type="string"/><attribute id="2" title="ator" type="string"/><attribute id="3" title="posts_que_o_marcam" type="integer"/></attributes>
+<nodes>
+<node id="instagram:22flaviobolsonaro" label="@22flaviobolsonaro"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:a1policy" label="@a1policy"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:alandete" label="@alandete"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:alonso_dm" label="@alonso_dm"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:cossetteoficial" label="@cossetteoficial"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:csis" label="@csis"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:ekoulas" label="@ekoulas"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:enriquegarciamaiquez" label="@enriquegarciamaiquez"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:figaredojosem" label="@figaredojosem"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:foromadrid" label="@foromadrid"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="monitorado"/><attvalue for="2" value="Foro Madrid"/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:fpoe_at" label="@fpoe_at"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:fundaciondisenso" label="@fundaciondisenso"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="monitorado"/><attvalue for="2" value="Fundación Disenso"/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:fustervox" label="@fustervox"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:garriga_ignacio" label="@garriga_ignacio"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="instagram:hafenecker" label="@hafenecker"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:henryziemer" label="@henryziemer"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:heritagefoundation" label="@heritagefoundation"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:hermanntertsch" label="@hermanntertsch"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="3"/></attvalues></node>
+<node id="instagram:hudsoninstitute" label="@hudsoninstitute"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:ignaciohocesiniguez" label="@ignaciohocesiniguez"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:issep.madrid" label="@issep.madrid"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:jmartinfrias" label="@jmartinfrias"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="monitorado"/><attvalue for="2" value="Jorge Martín Frías"/><attvalue for="3" value="3"/></attvalues></node>
+<node id="instagram:juancarlosgirauta" label="@juancarlosgirauta"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:manuel.litzke" label="@manuel.litzke"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:mariacorinamachado" label="@mariacorinamachado"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="instagram:michaelgundisalvus" label="@michaelgundisalvus"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:noticierovenevision" label="@noticierovenevision"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:oea_oficial" label="@oea_oficial"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:partidochega" label="@partidochega"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:partijvoordevrijheidnl" label="@partijvoordevrijheidnl"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:patriotsep" label="@patriotsep"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:penaesclusa" label="@penaesclusa"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:pfefondation" label="@pfefondation"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="4"/></attvalues></node>
+<node id="instagram:pfefoundation" label="@pfefoundation"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:rociodemeer" label="@rociodemeer"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:santi_abascal" label="@santi_abascal"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="7"/></attvalues></node>
+<node id="instagram:sebastiankruis" label="@sebastiankruis"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:victimsofcommunism" label="@victimsofcommunism"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:victormsan" label="@victormsan"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="instagram:vox_es" label="@vox_es"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="monitorado"/><attvalue for="2" value="Vox"/><attvalue for="3" value="0"/></attvalues></node>
+<node id="instagram:vox_eu" label="@vox_eu"><attvalues><attvalue for="0" value="instagram"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:armarioblanca" label="@armarioblanca"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:arrepentidoslla" label="@arrepentidoslla"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:benjaminmorenob" label="@benjaminmorenob"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:carretoalfonso_" label="@carretoalfonso_"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:chafuen" label="@chafuen"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:cristian_arayal" label="@cristian_arayal"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:dianajacome" label="@dianajacome"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:emmarincon" label="@emmarincon"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:enrique_gomezm" label="@enrique_gomezm"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:ertzaintzaejgv" label="@ertzaintzaejgv"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:fdisenso" label="@fdisenso"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="x:ferrerpicado" label="@ferrerpicado"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:figaredojosem" label="@figaredojosem"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:flaviobolsonaro" label="@flaviobolsonaro"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="x:foro_mad" label="@foro_mad"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="monitorado"/><attvalue for="2" value="Foro Madrid"/><attvalue for="3" value="0"/></attvalues></node>
+<node id="x:garibaycamarena" label="@garibaycamarena"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:heritage" label="@heritage"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="x:heritage_action" label="@heritage_action"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:hermanntertsch" label="@hermanntertsch"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="3"/></attvalues></node>
+<node id="x:igarrigavaz" label="@igarrigavaz"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="x:ignaciodulger" label="@ignaciodulger"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:ignaciogarriga" label="@ignaciogarriga"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:ignaciopalma_a" label="@ignaciopalma_a"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:jaarreaza" label="@jaarreaza"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:jisamit" label="@jisamit"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:jm_frias" label="@jm_frias"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="monitorado"/><attvalue for="2" value="Jorge Martín Frías"/><attvalue for="3" value="0"/></attvalues></node>
+<node id="x:jmilei" label="@jmilei"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="x:john_walters_" label="@john_walters_"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:jon_echeverria_" label="@jon_echeverria_"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:kevinrobertstx" label="@kevinrobertstx"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="x:manton15" label="@manton15"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:mariacorinaya" label="@mariacorinaya"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:marionagumpert" label="@marionagumpert"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:noeliacampr" label="@noeliacampr"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:normayarrowl" label="@normayarrowl"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:oavendano" label="@oavendano"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="x:panchoorregog" label="@panchoorregog"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:perkinsrocha" label="@perkinsrocha"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:presidentekast" label="@presidentekast"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:raneumannb" label="@raneumannb"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:santi_abascal" label="@santi_abascal"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="monitorado"/><attvalue for="2" value="Santiago Abascal"/><attvalue for="3" value="15"/></attvalues></node>
+<node id="x:tommyzambranom" label="@tommyzambranom"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:tucukere" label="@tucukere"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:undersecpd" label="@undersecpd"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="2"/></attvalues></node>
+<node id="x:vladimirpetit" label="@vladimirpetit"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="marcado"/><attvalue for="2" value=""/><attvalue for="3" value="1"/></attvalues></node>
+<node id="x:vox_es" label="@vox_es"><attvalues><attvalue for="0" value="x"/><attvalue for="1" value="monitorado"/><attvalue for="2" value="Vox"/><attvalue for="3" value="2"/></attvalues></node>
+</nodes><edges>
+<edge id="0" source="instagram:foromadrid" target="instagram:22flaviobolsonaro" weight="1"/>
+<edge id="1" source="instagram:fundaciondisenso" target="instagram:a1policy" weight="1"/>
+<edge id="2" source="instagram:fundaciondisenso" target="instagram:alandete" weight="1"/>
+<edge id="3" source="instagram:fundaciondisenso" target="instagram:alonso_dm" weight="1"/>
+<edge id="4" source="instagram:fundaciondisenso" target="instagram:cossetteoficial" weight="1"/>
+<edge id="5" source="instagram:fundaciondisenso" target="instagram:csis" weight="1"/>
+<edge id="6" source="instagram:fundaciondisenso" target="instagram:ekoulas" weight="1"/>
+<edge id="7" source="instagram:fundaciondisenso" target="instagram:enriquegarciamaiquez" weight="1"/>
+<edge id="8" source="instagram:fundaciondisenso" target="instagram:figaredojosem" weight="1"/>
+<edge id="9" source="instagram:fundaciondisenso" target="instagram:foromadrid" weight="1"/>
+<edge id="10" source="instagram:fundaciondisenso" target="instagram:fpoe_at" weight="1"/>
+<edge id="11" source="instagram:fundaciondisenso" target="instagram:fustervox" weight="1"/>
+<edge id="12" source="instagram:fundaciondisenso" target="instagram:hafenecker" weight="1"/>
+<edge id="13" source="instagram:fundaciondisenso" target="instagram:henryziemer" weight="1"/>
+<edge id="14" source="instagram:fundaciondisenso" target="instagram:heritagefoundation" weight="1"/>
+<edge id="15" source="instagram:fundaciondisenso" target="instagram:hermanntertsch" weight="3"/>
+<edge id="16" source="instagram:fundaciondisenso" target="instagram:hudsoninstitute" weight="1"/>
+<edge id="17" source="instagram:fundaciondisenso" target="instagram:ignaciohocesiniguez" weight="1"/>
+<edge id="18" source="instagram:fundaciondisenso" target="instagram:issep.madrid" weight="1"/>
+<edge id="19" source="instagram:fundaciondisenso" target="instagram:jmartinfrias" weight="3"/>
+<edge id="20" source="instagram:fundaciondisenso" target="instagram:juancarlosgirauta" weight="1"/>
+<edge id="21" source="instagram:fundaciondisenso" target="instagram:manuel.litzke" weight="1"/>
+<edge id="22" source="instagram:fundaciondisenso" target="instagram:mariacorinamachado" weight="2"/>
+<edge id="23" source="instagram:fundaciondisenso" target="instagram:michaelgundisalvus" weight="1"/>
+<edge id="24" source="instagram:fundaciondisenso" target="instagram:noticierovenevision" weight="1"/>
+<edge id="25" source="instagram:fundaciondisenso" target="instagram:oea_oficial" weight="1"/>
+<edge id="26" source="instagram:fundaciondisenso" target="instagram:partidochega" weight="1"/>
+<edge id="27" source="instagram:fundaciondisenso" target="instagram:partijvoordevrijheidnl" weight="1"/>
+<edge id="28" source="instagram:fundaciondisenso" target="instagram:patriotsep" weight="1"/>
+<edge id="29" source="instagram:fundaciondisenso" target="instagram:penaesclusa" weight="1"/>
+<edge id="30" source="instagram:fundaciondisenso" target="instagram:pfefondation" weight="4"/>
+<edge id="31" source="instagram:fundaciondisenso" target="instagram:pfefoundation" weight="1"/>
+<edge id="32" source="instagram:fundaciondisenso" target="instagram:rociodemeer" weight="1"/>
+<edge id="33" source="instagram:fundaciondisenso" target="instagram:santi_abascal" weight="1"/>
+<edge id="34" source="instagram:fundaciondisenso" target="instagram:sebastiankruis" weight="1"/>
+<edge id="35" source="instagram:fundaciondisenso" target="instagram:victimsofcommunism" weight="1"/>
+<edge id="36" source="instagram:fundaciondisenso" target="instagram:victormsan" weight="1"/>
+<edge id="37" source="instagram:fundaciondisenso" target="instagram:vox_eu" weight="1"/>
+<edge id="38" source="instagram:jmartinfrias" target="instagram:fundaciondisenso" weight="1"/>
+<edge id="39" source="instagram:vox_es" target="instagram:garriga_ignacio" weight="2"/>
+<edge id="40" source="instagram:vox_es" target="instagram:santi_abascal" weight="6"/>
+<edge id="41" source="x:foro_mad" target="x:benjaminmorenob" weight="1"/>
+<edge id="42" source="x:foro_mad" target="x:chafuen" weight="1"/>
+<edge id="43" source="x:foro_mad" target="x:cristian_arayal" weight="1"/>
+<edge id="44" source="x:foro_mad" target="x:dianajacome" weight="1"/>
+<edge id="45" source="x:foro_mad" target="x:enrique_gomezm" weight="1"/>
+<edge id="46" source="x:foro_mad" target="x:ferrerpicado" weight="1"/>
+<edge id="47" source="x:foro_mad" target="x:figaredojosem" weight="1"/>
+<edge id="48" source="x:foro_mad" target="x:flaviobolsonaro" weight="2"/>
+<edge id="49" source="x:foro_mad" target="x:garibaycamarena" weight="1"/>
+<edge id="50" source="x:foro_mad" target="x:heritage" weight="2"/>
+<edge id="51" source="x:foro_mad" target="x:heritage_action" weight="1"/>
+<edge id="52" source="x:foro_mad" target="x:igarrigavaz" weight="1"/>
+<edge id="53" source="x:foro_mad" target="x:ignaciodulger" weight="1"/>
+<edge id="54" source="x:foro_mad" target="x:ignaciopalma_a" weight="1"/>
+<edge id="55" source="x:foro_mad" target="x:jisamit" weight="1"/>
+<edge id="56" source="x:foro_mad" target="x:jmilei" weight="1"/>
+<edge id="57" source="x:foro_mad" target="x:john_walters_" weight="1"/>
+<edge id="58" source="x:foro_mad" target="x:kevinrobertstx" weight="2"/>
+<edge id="59" source="x:foro_mad" target="x:manton15" weight="1"/>
+<edge id="60" source="x:foro_mad" target="x:normayarrowl" weight="1"/>
+<edge id="61" source="x:foro_mad" target="x:panchoorregog" weight="1"/>
+<edge id="62" source="x:foro_mad" target="x:presidentekast" weight="1"/>
+<edge id="63" source="x:foro_mad" target="x:raneumannb" weight="1"/>
+<edge id="64" source="x:foro_mad" target="x:tommyzambranom" weight="1"/>
+<edge id="65" source="x:foro_mad" target="x:tucukere" weight="1"/>
+<edge id="66" source="x:foro_mad" target="x:undersecpd" weight="2"/>
+<edge id="67" source="x:foro_mad" target="x:vox_es" weight="1"/>
+<edge id="68" source="x:jm_frias" target="x:armarioblanca" weight="1"/>
+<edge id="69" source="x:jm_frias" target="x:arrepentidoslla" weight="1"/>
+<edge id="70" source="x:jm_frias" target="x:carretoalfonso_" weight="1"/>
+<edge id="71" source="x:jm_frias" target="x:emmarincon" weight="1"/>
+<edge id="72" source="x:jm_frias" target="x:fdisenso" weight="2"/>
+<edge id="73" source="x:jm_frias" target="x:hermanntertsch" weight="3"/>
+<edge id="74" source="x:jm_frias" target="x:jaarreaza" weight="1"/>
+<edge id="75" source="x:jm_frias" target="x:jmilei" weight="1"/>
+<edge id="76" source="x:jm_frias" target="x:mariacorinaya" weight="1"/>
+<edge id="77" source="x:jm_frias" target="x:marionagumpert" weight="1"/>
+<edge id="78" source="x:jm_frias" target="x:noeliacampr" weight="1"/>
+<edge id="79" source="x:jm_frias" target="x:oavendano" weight="2"/>
+<edge id="80" source="x:jm_frias" target="x:perkinsrocha" weight="1"/>
+<edge id="81" source="x:jm_frias" target="x:santi_abascal" weight="1"/>
+<edge id="82" source="x:jm_frias" target="x:vladimirpetit" weight="1"/>
+<edge id="83" source="x:jm_frias" target="x:vox_es" weight="1"/>
+<edge id="84" source="x:santi_abascal" target="x:ertzaintzaejgv" weight="1"/>
+<edge id="85" source="x:santi_abascal" target="x:jon_echeverria_" weight="1"/>
+<edge id="86" source="x:vox_es" target="x:igarrigavaz" weight="1"/>
+<edge id="87" source="x:vox_es" target="x:ignaciogarriga" weight="1"/>
+<edge id="88" source="x:vox_es" target="x:santi_abascal" weight="14"/>
+</edges></graph></gexf>

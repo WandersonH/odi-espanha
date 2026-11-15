@@ -1,0 +1,209 @@
+{
+ "gerado_em_utc": "2026-11-15T16:54:14Z",
+ "nos": 87,
+ "arestas": 89,
+ "posts_com_marcacao": 59,
+ "leitura": "Rede de saída: perfil monitorado → conta marcada; peso = nº de posts. Instagram e X; Facebook fora.",
+ "maiores": [
+  {
+   "de": "x:vox_es",
+   "para": "x:santi_abascal",
+   "posts": 14
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:santi_abascal",
+   "posts": 6
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:pfefondation",
+   "posts": 4
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:hermanntertsch",
+   "posts": 3
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:jmartinfrias",
+   "posts": 3
+  },
+  {
+   "de": "x:jm_frias",
+   "para": "x:hermanntertsch",
+   "posts": 3
+  },
+  {
+   "de": "instagram:vox_es",
+   "para": "instagram:garriga_ignacio",
+   "posts": 2
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:mariacorinamachado",
+   "posts": 2
+  },
+  {
+   "de": "x:jm_frias",
+   "para": "x:fdisenso",
+   "posts": 2
+  },
+  {
+   "de": "x:jm_frias",
+   "para": "x:oavendano",
+   "posts": 2
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:flaviobolsonaro",
+   "posts": 2
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:undersecpd",
+   "posts": 2
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:heritage",
+   "posts": 2
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:kevinrobertstx",
+   "posts": 2
+  },
+  {
+   "de": "instagram:jmartinfrias",
+   "para": "instagram:fundaciondisenso",
+   "posts": 1
+  },
+  {
+   "de": "instagram:foromadrid",
+   "para": "instagram:22flaviobolsonaro",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:fpoe_at",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:hafenecker",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:manuel.litzke",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:alonso_dm",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:ekoulas",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:foromadrid",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:issep.madrid",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:juancarlosgirauta",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:partidochega",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:partijvoordevrijheidnl",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:patriotsep",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:pfefoundation",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:sebastiankruis",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:victormsan",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:vox_eu",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:noticierovenevision",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:santi_abascal",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:enriquegarciamaiquez",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:figaredojosem",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:fustervox",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:ignaciohocesiniguez",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:penaesclusa",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:rociodemeer",
+   "posts": 1
+  },
+  {
+   "de": "instagram:fundaciondisenso",
+   "para": "instagram:a1policy",
+   "posts": 1
+  }
+ ]
+}

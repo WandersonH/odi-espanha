@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-15T16:51:43Z",
+ "gerado_em_utc": "2026-11-15T16:54:14Z",
  "formato": "IRaMuTeQ (**** *variáveis)",
  "idioma_dos_textos": "espanhol (como publicado)",
  "variaveis": [
@@ -10,18 +10,18 @@
  ],
  "redes": {
   "instagram": {
-   "posts_no_acervo": 0,
-   "textos_no_corpus": 0,
-   "sem_texto": 0
+   "posts_no_acervo": 23,
+   "textos_no_corpus": 22,
+   "sem_texto": 1
   },
   "x": {
-   "posts_no_acervo": 0,
-   "textos_no_corpus": 0,
-   "sem_texto": 0
+   "posts_no_acervo": 80,
+   "textos_no_corpus": 79,
+   "sem_texto": 1
   },
   "facebook": {
-   "posts_no_acervo": 0,
-   "textos_no_corpus": 0,
+   "posts_no_acervo": 14,
+   "textos_no_corpus": 14,
    "sem_texto": 0
   },
   "youtube": {
@@ -30,5 +30,5 @@
    "sem_texto": 0
   }
  },
- "textos_no_corpus": 1216
+ "textos_no_corpus": 1331
 }
