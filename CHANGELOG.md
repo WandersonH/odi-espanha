@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## E1.16 — 15/11/2026 · Facebook da Disenso recuperado sem novo gasto; números da etiqueta "cita o Brasil"
+
+**O que foi realmente executado.**
+
+- Run 43757160974 (`recuperar-bruto.yml`, sem custo): a execução do Facebook que tinha falhado com `IncompleteRead` existia na Apify, com 179 itens; foi copiada para o repositório privado, junto com o bruto das cargas de X e Instagram desta tarde (3.608 itens no total).
+- Run 43757302240 (`coleta.yml`, carga, Facebook, `fundaciondisenso`, opção recuperar): 179 publicações no período, cobertura completa (a leitura parou pela data inicial; pedido 249). Nada foi rodado de novo; o custo da execução original entrou no manifesto. Acervo do Facebook: 823.
+- Run 43757519360 (`coleta.yml`, sonda de perfis): seguidores e total de publicações dos perfis novos.
+- Etiqueta "cita o Brasil", gerada nos runs acima (`data/site/cita_brasil.json` e `.csv`): 23 publicações em 8.441. Por rede: X 15, Instagram 4, Facebook 4, YouTube 0. Por ator: Fundación Disenso 8, Foro Madrid 6, Santiago Abascal 4, Vox 3, Jorge Martín Frías 2, Eduardo Cader 0.
+
+**Universo e amostra dos perfis novos** (`data/site/resumo.json`): X `FDisenso` 6.846 publicações desde a criação, 498 no período; X `ecader` 17.841 e 17; Instagram `santi_abascal` 6.997 e 372; Facebook `fundaciondisenso` universo ⛔ não informado pela plataforma, 179 no período. Todas com cobertura completa do período. Acervo total: 8.441 publicações, 18 perfis confirmados.
+
+**Pendente.** Facebook `SantiagoAbascalConde`: confirmado, não coletado, à espera de teto. Etiqueta "cita o Brasil" nos comentários do YouTube e nos títulos dos sites.
+
 ## E1.15 — 15/11/2026 · Cargas dos perfis confirmados; recuperação que nunca paga duas vezes
 
 **O que foi realmente executado (workflow `coleta.yml`, modo carga, só os perfis novos).**
