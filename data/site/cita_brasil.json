@@ -1,0 +1,103 @@
+{
+ "total": 23,
+ "atores": {
+  "foro-madrid": {
+   "nome": "Foro Madrid",
+   "redes": {
+    "instagram": {
+     "publicacoes": 83,
+     "citam_o_brasil": 2
+    },
+    "x": {
+     "publicacoes": 177,
+     "citam_o_brasil": 3
+    },
+    "facebook": {
+     "publicacoes": 41,
+     "citam_o_brasil": 1
+    },
+    "youtube": {
+     "publicacoes": 16,
+     "citam_o_brasil": 0
+    }
+   }
+  },
+  "vox": {
+   "nome": "Vox",
+   "redes": {
+    "instagram": {
+     "publicacoes": 1928,
+     "citam_o_brasil": 0
+    },
+    "x": {
+     "publicacoes": 2220,
+     "citam_o_brasil": 3
+    },
+    "facebook": {
+     "publicacoes": 603,
+     "citam_o_brasil": 0
+    },
+    "youtube": {
+     "publicacoes": 1115,
+     "citam_o_brasil": 0
+    }
+   }
+  },
+  "disenso": {
+   "nome": "Fundación Disenso",
+   "redes": {
+    "instagram": {
+     "publicacoes": 113,
+     "citam_o_brasil": 1
+    },
+    "x": {
+     "publicacoes": 498,
+     "citam_o_brasil": 4
+    },
+    "facebook": {
+     "publicacoes": 179,
+     "citam_o_brasil": 3
+    },
+    "youtube": {
+     "publicacoes": 85,
+     "citam_o_brasil": 0
+    }
+   }
+  },
+  "abascal": {
+   "nome": "Santiago Abascal",
+   "redes": {
+    "instagram": {
+     "publicacoes": 372,
+     "citam_o_brasil": 1
+    },
+    "x": {
+     "publicacoes": 836,
+     "citam_o_brasil": 3
+    }
+   }
+  },
+  "martin-frias": {
+   "nome": "Jorge Martín Frías",
+   "redes": {
+    "instagram": {
+     "publicacoes": 19,
+     "citam_o_brasil": 0
+    },
+    "x": {
+     "publicacoes": 139,
+     "citam_o_brasil": 2
+    }
+   }
+  },
+  "cader": {
+   "nome": "Eduardo Cader",
+   "redes": {
+    "x": {
+     "publicacoes": 17,
+     "citam_o_brasil": 0
+    }
+   }
+  }
+ }
+}

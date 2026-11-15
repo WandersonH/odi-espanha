@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-15T20:13:45Z",
+ "gerado_em_utc": "2026-11-15T20:18:34Z",
  "projeto": {
   "nome": "ODI Espanha",
   "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X, no Facebook e no YouTube, e as notícias e artigos dos sites oficiais.",
@@ -21,14 +21,14 @@
   }
  },
  "totais": {
-  "posts": 8262,
+  "posts": 8441,
   "atores": 6,
   "perfis_previstos": 24,
-  "perfis_confirmados": 17,
-  "perfis_candidatos": 1,
+  "perfis_confirmados": 18,
+  "perfis_candidatos": 0,
   "perfis_nao_localizados": 6,
-  "perfis_com_posts": 16,
-  "primeiro_post": "2026-02-16T11:41:24Z",
+  "perfis_com_posts": 17,
+  "primeiro_post": "2026-02-16T09:19:41Z",
   "ultimo_post": "2026-11-15T19:20:43Z"
  },
  "redes": {
@@ -46,8 +46,8 @@
   },
   "facebook": {
    "coletada": true,
-   "ultima_execucao": "2026-11-15T20:11:03Z",
-   "status_ultima": "⛔ nenhum perfil lido: IncompleteRead",
+   "ultima_execucao": "2026-11-15T20:18:32Z",
+   "status_ultima": "ok",
    "modo_ultima": "carga"
   },
   "youtube": {
@@ -718,23 +718,34 @@
    "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://www.facebook.com/fundaciondisenso correto'.",
    "nota": "",
    "situacao": "confirmado",
-   "posts_no_acervo": 0,
-   "primeiro": null,
-   "ultimo": null,
+   "posts_no_acervo": 179,
+   "primeiro": "2026-02-16T09:19:41Z",
+   "ultimo": "2026-11-11T18:29:03Z",
    "universo": null,
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
+   "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T20:18:32Z",
+    "pedido": 249,
+    "itens": 179,
+    "lidos_no_periodo": 179,
+    "mais_antigo": "2026-02-16T09:19:41Z",
+    "mais_recente": "2026-11-11T18:29:03Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   },
    "ultima_leitura": {
     "modo": "carga",
-    "quando": "2026-11-15T20:11:03Z",
+    "quando": "2026-11-15T20:18:32Z",
     "pedido": 249,
-    "itens": 0,
-    "lidos_no_periodo": 0,
-    "mais_antigo": null,
-    "mais_recente": null,
-    "cobertura": "⛔ não lido",
-    "erro": "IncompleteRead",
+    "itens": 179,
+    "lidos_no_periodo": 179,
+    "mais_antigo": "2026-02-16T09:19:41Z",
+    "mais_recente": "2026-11-11T18:29:03Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
     "complemento_erro": null
    }
   },
@@ -744,10 +755,10 @@
    "rede": "facebook",
    "perfil": "SantiagoAbascalConde",
    "url": "https://www.facebook.com/SantiagoAbascalConde",
-   "confirmado": false,
-   "fonte": "",
-   "nota": "candidato sem fonte conferida",
-   "situacao": "candidato a conferir",
+   "confirmado": true,
+   "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'confirmado https://www.facebook.com/SantiagoAbascalConde'.",
+   "nota": "",
+   "situacao": "confirmado",
    "posts_no_acervo": null,
    "primeiro": null,
    "ultimo": null,
@@ -1010,6 +1021,12 @@
   {
    "mes": "2026-02",
    "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 8
+  },
+  {
+   "mes": "2026-02",
+   "ator_id": "disenso",
    "rede": "instagram",
    "posts": 6
   },
@@ -1094,6 +1111,12 @@
   {
    "mes": "2026-03",
    "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 28
+  },
+  {
+   "mes": "2026-03",
+   "ator_id": "disenso",
    "rede": "instagram",
    "posts": 21
   },
@@ -1174,6 +1197,12 @@
    "ator_id": "cader",
    "rede": "x",
    "posts": 3
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 29
   },
   {
    "mes": "2026-04",
@@ -1268,6 +1297,12 @@
   {
    "mes": "2026-05",
    "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 15
+  },
+  {
+   "mes": "2026-05",
+   "ator_id": "disenso",
    "rede": "instagram",
    "posts": 9
   },
@@ -1342,6 +1377,12 @@
    "ator_id": "cader",
    "rede": "x",
    "posts": 1
+  },
+  {
+   "mes": "2026-06",
+   "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 21
   },
   {
    "mes": "2026-06",
@@ -1430,6 +1471,12 @@
   {
    "mes": "2026-07",
    "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 30
+  },
+  {
+   "mes": "2026-07",
+   "ator_id": "disenso",
    "rede": "instagram",
    "posts": 21
   },
@@ -1504,6 +1551,12 @@
    "ator_id": "cader",
    "rede": "x",
    "posts": 1
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 18
   },
   {
    "mes": "2026-08",
@@ -1588,6 +1641,12 @@
    "ator_id": "cader",
    "rede": "x",
    "posts": 3
+  },
+  {
+   "mes": "2026-09",
+   "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 14
   },
   {
    "mes": "2026-09",
@@ -1682,6 +1741,12 @@
   {
    "mes": "2026-10",
    "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 14
+  },
+  {
+   "mes": "2026-10",
+   "ator_id": "disenso",
    "rede": "instagram",
    "posts": 12
   },
@@ -1762,6 +1827,12 @@
    "ator_id": "cader",
    "rede": "x",
    "posts": 1
+  },
+  {
+   "mes": "2026-11",
+   "ator_id": "disenso",
+   "rede": "facebook",
+   "posts": 2
   },
   {
    "mes": "2026-11",
@@ -1871,6 +1942,26 @@
    "compartilhamentos": {
     "soma": 160,
     "posts_com_o_numero": 17
+   }
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "facebook",
+   "visualizacoes": {
+    "soma": 500212,
+    "posts_com_o_numero": 46
+   },
+   "curtidas": {
+    "soma": 42976,
+    "posts_com_o_numero": 179
+   },
+   "comentarios": {
+    "soma": 6404,
+    "posts_com_o_numero": 106
+   },
+   "compartilhamentos": {
+    "soma": 6770,
+    "posts_com_o_numero": 179
    }
   },
   {
@@ -2213,7 +2304,7 @@
   {
    "ator_id": "disenso",
    "tag": "patriotasiberoamericanos",
-   "posts": 34
+   "posts": 36
   },
   {
    "ator_id": "disenso",
@@ -2222,23 +2313,23 @@
   },
   {
    "ator_id": "disenso",
+   "tag": "pedrosánchez",
+   "posts": 8
+  },
+  {
+   "ator_id": "disenso",
    "tag": "chavismo",
    "posts": 8
   },
   {
    "ator_id": "disenso",
-   "tag": "pedrosánchez",
+   "tag": "españa",
    "posts": 7
   },
   {
    "ator_id": "disenso",
    "tag": "delcyrodríguez",
    "posts": 7
-  },
-  {
-   "ator_id": "disenso",
-   "tag": "españa",
-   "posts": 6
   },
   {
    "ator_id": "disenso",
@@ -2252,12 +2343,17 @@
   },
   {
    "ator_id": "disenso",
+   "tag": "12deoctubre",
+   "posts": 3
+  },
+  {
+   "ator_id": "disenso",
    "tag": "milei",
    "posts": 2
   },
   {
    "ator_id": "disenso",
-   "tag": "12deoctubre",
+   "tag": "inmigración",
    "posts": 2
   },
   {
@@ -2278,11 +2374,6 @@
   {
    "ator_id": "disenso",
    "tag": "foromadrid",
-   "posts": 1
-  },
-  {
-   "ator_id": "disenso",
-   "tag": "francia",
    "posts": 1
   },
   {
@@ -2422,13 +2513,13 @@
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "antena3com",
+   "conta": "espejopublico",
    "posts": 3
   },
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "espejopublico",
+   "conta": "antena3com",
    "posts": 3
   },
   {
@@ -2452,13 +2543,13 @@
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "elmundo_es",
+   "conta": "carlosgarciapozo",
    "posts": 2
   },
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "carlosgarciapozo",
+   "conta": "elmundo_es",
    "posts": 2
   },
   {
@@ -2488,13 +2579,13 @@
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "presidente_kast",
+   "conta": "joseantoniokast",
    "posts": 1
   },
   {
    "ator_id": "abascal",
    "rede": "instagram",
-   "conta": "joseantoniokast",
+   "conta": "presidente_kast",
    "posts": 1
   },
   {
@@ -2620,6 +2711,12 @@
   {
    "ator_id": "cader",
    "rede": "x",
+   "conta": "foro_mad",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
    "conta": "juan_espinalr",
    "posts": 1
   },
@@ -2627,12 +2724,6 @@
    "ator_id": "cader",
    "rede": "x",
    "conta": "cne_colombia",
-   "posts": 1
-  },
-  {
-   "ator_id": "cader",
-   "rede": "x",
-   "conta": "foro_mad",
    "posts": 1
   },
   {
@@ -2698,6 +2789,12 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
+   "conta": "figaredojosem",
+   "posts": 2
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "instagram",
    "conta": "fustervox",
    "posts": 2
   },
@@ -2705,12 +2802,6 @@
    "ator_id": "disenso",
    "rede": "instagram",
    "conta": "rociodemeer",
-   "posts": 2
-  },
-  {
-   "ator_id": "disenso",
-   "rede": "instagram",
-   "conta": "figaredojosem",
    "posts": 2
   },
   {
@@ -2734,7 +2825,7 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "fpoe_at",
+   "conta": "manuel.litzke",
    "posts": 1
   },
   {
@@ -2746,7 +2837,7 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "manuel.litzke",
+   "conta": "fpoe_at",
    "posts": 1
   },
   {
@@ -2884,6 +2975,12 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
+   "conta": "enriquegomezsn",
+   "posts": 2
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "instagram",
    "conta": "normayarrow_",
    "posts": 2
   },
@@ -2896,7 +2993,7 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "enriquegomezsn",
+   "conta": "tomaszambranomolina",
    "posts": 2
   },
   {
@@ -2908,19 +3005,13 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "tomaszambranomolina",
+   "conta": "ipalma.a",
    "posts": 2
   },
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
    "conta": "cristianarayal",
-   "posts": 2
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "instagram",
-   "conta": "ipalma.a",
    "posts": 2
   },
   {
@@ -3046,7 +3137,7 @@
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "fpoe_tv",
+   "conta": "patriotseu",
    "posts": 1
   },
   {
@@ -3058,7 +3149,7 @@
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "patriotseu",
+   "conta": "fpoe_tv",
    "posts": 1
   },
   {
@@ -3100,7 +3191,7 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "perkinsrocha",
+   "conta": "oavendano",
    "posts": 2
   },
   {
@@ -3112,7 +3203,7 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "oavendano",
+   "conta": "perkinsrocha",
    "posts": 2
   },
   {
@@ -3166,13 +3257,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "armarioblanca",
+   "conta": "noeliacampr",
    "posts": 1
   },
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "santi_abascal",
+   "conta": "armarioblanca",
    "posts": 1
   },
   {
