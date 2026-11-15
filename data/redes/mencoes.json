@@ -1,14 +1,139 @@
 {
- "gerado_em_utc": "2026-11-15T16:54:14Z",
- "nos": 87,
- "arestas": 89,
- "posts_com_marcacao": 59,
+ "gerado_em_utc": "2026-11-15T17:25:34Z",
+ "nos": 254,
+ "arestas": 307,
+ "posts_com_marcacao": 1443,
  "leitura": "Rede de saída: perfil monitorado → conta marcada; peso = nº de posts. Instagram e X; Facebook fora.",
  "maiores": [
   {
    "de": "x:vox_es",
    "para": "x:santi_abascal",
+   "posts": 869
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:igarrigavaz",
+   "posts": 118
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:gaviravox",
+   "posts": 56
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:jorgebuxade",
+   "posts": 53
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:joseafuster",
+   "posts": 46
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:carloshquero",
+   "posts": 38
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:carlospollan",
+   "posts": 20
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:figaredojosem",
+   "posts": 18
+  },
+  {
+   "de": "x:jm_frias",
+   "para": "x:hermanntertsch",
+   "posts": 15
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:redondo_pacheco",
    "posts": 14
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:j_bardella",
+   "posts": 13
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:abc_es",
+   "posts": 12
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:pepa_millan",
+   "posts": 12
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:vox_es",
+   "posts": 11
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:fdisenso",
+   "posts": 10
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:cristian_arayal",
+   "posts": 9
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:enrique_gomezm",
+   "posts": 8
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:dianajacome",
+   "posts": 8
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:jisamit",
+   "posts": 8
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:prchile",
+   "posts": 8
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:aphall_cne",
+   "posts": 8
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:cossetteoficial",
+   "posts": 8
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:toro_ct7",
+   "posts": 7
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:isabelperezmoi1",
+   "posts": 7
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:oscarfdezcalle",
+   "posts": 7
+  },
+  {
+   "de": "x:foro_mad",
+   "para": "x:benjaminmorenob",
+   "posts": 7
   },
   {
    "de": "instagram:vox_es",
@@ -16,194 +141,69 @@
    "posts": 6
   },
   {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:pfefondation",
-   "posts": 4
+   "de": "x:vox_es",
+   "para": "x:espejopublico",
+   "posts": 6
   },
   {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:hermanntertsch",
-   "posts": 3
+   "de": "x:vox_es",
+   "para": "x:aliciaterrassa",
+   "posts": 6
   },
   {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:jmartinfrias",
-   "posts": 3
+   "de": "x:vox_es",
+   "para": "x:sanchezcastejon",
+   "posts": 6
   },
   {
-   "de": "x:jm_frias",
-   "para": "x:hermanntertsch",
-   "posts": 3
+   "de": "x:vox_es",
+   "para": "x:vox_alava",
+   "posts": 6
   },
   {
-   "de": "instagram:vox_es",
-   "para": "instagram:garriga_ignacio",
-   "posts": 2
+   "de": "x:vox_es",
+   "para": "x:vox_barcelona",
+   "posts": 6
   },
   {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:mariacorinamachado",
-   "posts": 2
+   "de": "x:vox_es",
+   "para": "x:vox_tarragona",
+   "posts": 6
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:voxbaleares",
+   "posts": 6
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:voxsevilla_",
+   "posts": 6
+  },
+  {
+   "de": "x:vox_es",
+   "para": "x:guidoprincesa",
+   "posts": 6
   },
   {
    "de": "x:jm_frias",
    "para": "x:fdisenso",
-   "posts": 2
-  },
-  {
-   "de": "x:jm_frias",
-   "para": "x:oavendano",
-   "posts": 2
+   "posts": 6
   },
   {
    "de": "x:foro_mad",
-   "para": "x:flaviobolsonaro",
-   "posts": 2
+   "para": "x:figaredojosem",
+   "posts": 6
   },
   {
    "de": "x:foro_mad",
-   "para": "x:undersecpd",
-   "posts": 2
+   "para": "x:tommyzambranom",
+   "posts": 6
   },
   {
    "de": "x:foro_mad",
-   "para": "x:heritage",
-   "posts": 2
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:kevinrobertstx",
-   "posts": 2
-  },
-  {
-   "de": "instagram:jmartinfrias",
-   "para": "instagram:fundaciondisenso",
-   "posts": 1
-  },
-  {
-   "de": "instagram:foromadrid",
-   "para": "instagram:22flaviobolsonaro",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:fpoe_at",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:hafenecker",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:manuel.litzke",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:alonso_dm",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:ekoulas",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:foromadrid",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:issep.madrid",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:juancarlosgirauta",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:partidochega",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:partijvoordevrijheidnl",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:patriotsep",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:pfefoundation",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:sebastiankruis",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:victormsan",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:vox_eu",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:noticierovenevision",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:santi_abascal",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:enriquegarciamaiquez",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:figaredojosem",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:fustervox",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:ignaciohocesiniguez",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:penaesclusa",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:rociodemeer",
-   "posts": 1
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:a1policy",
-   "posts": 1
+   "para": "x:raneumannb",
+   "posts": 6
   }
  ]
 }

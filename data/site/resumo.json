@@ -1,12 +1,12 @@
 {
- "gerado_em_utc": "2026-11-15T16:54:14Z",
+ "gerado_em_utc": "2026-11-15T17:25:34Z",
  "projeto": {
   "nome": "ODI Espanha",
   "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X, no Facebook e no YouTube, e as notícias e artigos dos sites oficiais.",
   "periodo": {
    "desde": "2026-02-16",
-   "ate": null,
-   "ate_nota": "O pedido traz '30/20/2027' (mês 20 não existe). Enquanto o responsável não confirmar a data final, 'ate' fica nulo: a carga lê de 16/02/2026 até o dia da execução e o diário segue rodando. Ao confirmar, gravar a data aqui (AAAA-MM-DD): posts depois dela deixam de entrar e o diário para sozinho."
+   "ate": "2027-01-30",
+   "ate_nota": "Data final informada pelo responsável em 15/11/2026 ('final 30/01/2027'). O pedido original trazia '30/20/2027'."
   },
   "creditos": "Observatório de Desinformação e Intolerância Digital (ODI) · PPGCOM/UNIP",
   "fuso_das_datas": "UTC (como as plataformas entregam); os limites do período comparam a data UTC da publicação.",
@@ -21,7 +21,7 @@
   }
  },
  "totais": {
-  "posts": 1333,
+  "posts": 4625,
   "atores": 6,
   "perfis_previstos": 24,
   "perfis_confirmados": 13,
@@ -40,9 +40,9 @@
   },
   "x": {
    "coletada": true,
-   "ultima_execucao": "2026-11-15T16:53:27Z",
+   "ultima_execucao": "2026-11-15T17:19:57Z",
    "status_ultima": "ok",
-   "modo_ultima": "teste"
+   "modo_ultima": "carga"
   },
   "facebook": {
    "coletada": true,
@@ -270,28 +270,39 @@
    "fonte": "Site oficial foromadrid.org (links de redes da página inicial), lido em 14/11/2026 (link 'Twitter' para twitter.com/Foro_MAD)",
    "nota": "",
    "situacao": "confirmado",
-   "posts_no_acervo": 20,
-   "primeiro": "2026-09-04T13:42:32Z",
+   "posts_no_acervo": 177,
+   "primeiro": "2026-02-16T19:06:32Z",
    "ultimo": "2026-10-22T16:46:43Z",
    "universo": {
     "posts_total_plataforma": 2963,
-    "seguidores": 33303,
+    "seguidores": 33300,
     "nome_exibido": "Foro Madrid",
     "lido_em": "2026-11-15",
     "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
    },
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": {
-    "modo": "teste",
-    "quando": "2026-11-15T16:53:27Z",
-    "pedido": 20,
-    "itens": 20,
-    "lidos_no_periodo": 20,
-    "mais_antigo": "2026-09-04T13:42:32Z",
+   "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T17:19:57Z",
+    "pedido": 12698,
+    "itens": 177,
+    "lidos_no_periodo": 177,
+    "mais_antigo": "2026-02-16T19:06:32Z",
     "mais_recente": "2026-10-22T16:46:43Z",
-    "cobertura": "teste (não mede cobertura)",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T17:19:57Z",
+    "pedido": 12698,
+    "itens": 177,
+    "lidos_no_periodo": 177,
+    "mais_antigo": "2026-02-16T19:06:32Z",
+    "mais_recente": "2026-10-22T16:46:43Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
     "erro": null,
     "complemento_erro": null
    }
@@ -306,8 +317,8 @@
    "fonte": "Metadados do site oficial voxespana.es (twitter:site @vox_es; sameAs twitter.com/vox_es), cópia de 18/08/2022 em https://explorer.ooni.org/m/20220818220148.955696_BO_webconnectivity_8c8aa030eb1dc3ae",
    "nota": "",
    "situacao": "confirmado",
-   "posts_no_acervo": 20,
-   "primeiro": "2026-10-06T13:27:59Z",
+   "posts_no_acervo": 2220,
+   "primeiro": "2026-02-16T15:23:43Z",
    "ultimo": "2026-11-15T15:48:29Z",
    "universo": {
     "posts_total_plataforma": 108587,
@@ -317,17 +328,28 @@
     "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
    },
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": {
-    "modo": "teste",
-    "quando": "2026-11-15T16:53:27Z",
-    "pedido": 20,
-    "itens": 20,
-    "lidos_no_periodo": 20,
-    "mais_antigo": "2026-10-06T13:27:59Z",
+   "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T17:19:57Z",
+    "pedido": 12529,
+    "itens": 2220,
+    "lidos_no_periodo": 2220,
+    "mais_antigo": "2026-02-16T15:23:43Z",
     "mais_recente": "2026-11-15T15:48:29Z",
-    "cobertura": "teste (não mede cobertura)",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T17:19:57Z",
+    "pedido": 12529,
+    "itens": 2220,
+    "lidos_no_periodo": 2220,
+    "mais_antigo": "2026-02-16T15:23:43Z",
+    "mais_recente": "2026-11-15T15:48:29Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
     "erro": null,
     "complemento_erro": null
    }
@@ -342,28 +364,39 @@
    "fonte": "Post do próprio perfil reproduzido em https://www.elindependiente.com/politica/2020/05/10/abascal-denuncia-que-twitter-permita-la-tendencia-matar-a-abascal/",
    "nota": "",
    "situacao": "confirmado",
-   "posts_no_acervo": 20,
-   "primeiro": "2026-11-14T08:48:33Z",
+   "posts_no_acervo": 836,
+   "primeiro": "2026-02-16T12:37:30Z",
    "ultimo": "2026-11-15T13:49:29Z",
    "universo": {
     "posts_total_plataforma": 50476,
-    "seguidores": 1018750,
+    "seguidores": 1018767,
     "nome_exibido": "Santiago Abascal 🇪🇸",
     "lido_em": "2026-11-15",
     "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
    },
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": {
-    "modo": "teste",
-    "quando": "2026-11-15T16:53:27Z",
-    "pedido": 20,
-    "itens": 20,
-    "lidos_no_periodo": 20,
-    "mais_antigo": "2026-11-14T08:48:33Z",
+   "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T17:19:57Z",
+    "pedido": 10415,
+    "itens": 836,
+    "lidos_no_periodo": 836,
+    "mais_antigo": "2026-02-16T12:37:30Z",
     "mais_recente": "2026-11-15T13:49:29Z",
-    "cobertura": "teste (não mede cobertura)",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T17:19:57Z",
+    "pedido": 10415,
+    "itens": 836,
+    "lidos_no_periodo": 836,
+    "mais_antigo": "2026-02-16T12:37:30Z",
+    "mais_recente": "2026-11-15T13:49:29Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
     "erro": null,
     "complemento_erro": null
    }
@@ -378,8 +411,8 @@
    "fonte": "Documento 'Órganos de dirección' da própria Fundación Disenso (https://fundaciondisenso.org/wp-content/uploads/2023/09/20230904_OrganosDeDireccion.pdf) e página de autor em https://www.dailysignal.com/author/jorge-martin-frias/",
    "nota": "",
    "situacao": "confirmado",
-   "posts_no_acervo": 20,
-   "primeiro": "2026-09-15T18:57:17Z",
+   "posts_no_acervo": 139,
+   "primeiro": "2026-02-19T21:27:41Z",
    "ultimo": "2026-11-15T13:28:20Z",
    "universo": {
     "posts_total_plataforma": 19881,
@@ -389,17 +422,28 @@
     "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
    },
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": {
-    "modo": "teste",
-    "quando": "2026-11-15T16:53:27Z",
-    "pedido": 20,
-    "itens": 20,
-    "lidos_no_periodo": 20,
-    "mais_antigo": "2026-09-15T18:57:17Z",
+   "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T17:19:57Z",
+    "pedido": 9619,
+    "itens": 139,
+    "lidos_no_periodo": 139,
+    "mais_antigo": "2026-02-19T21:27:41Z",
     "mais_recente": "2026-11-15T13:28:20Z",
-    "cobertura": "teste (não mede cobertura)",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T17:19:57Z",
+    "pedido": 9619,
+    "itens": 139,
+    "lidos_no_periodo": 139,
+    "mais_antigo": "2026-02-19T21:27:41Z",
+    "mais_recente": "2026-11-15T13:28:20Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
     "erro": null,
     "complemento_erro": null
    }
@@ -780,9 +824,21 @@
  "por_mes": [
   {
    "mes": "2026-02",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 54
+  },
+  {
+   "mes": "2026-02",
    "ator_id": "disenso",
    "rede": "youtube",
    "posts": 5
+  },
+  {
+   "mes": "2026-02",
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "posts": 1
   },
   {
    "mes": "2026-02",
@@ -792,9 +848,27 @@
   },
   {
    "mes": "2026-02",
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "posts": 7
+  },
+  {
+   "mes": "2026-02",
+   "ator_id": "vox",
+   "rede": "x",
+   "posts": 38
+  },
+  {
+   "mes": "2026-02",
    "ator_id": "vox",
    "rede": "youtube",
    "posts": 57
+  },
+  {
+   "mes": "2026-03",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 95
   },
   {
    "mes": "2026-03",
@@ -804,9 +878,33 @@
   },
   {
    "mes": "2026-03",
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "posts": 3
+  },
+  {
+   "mes": "2026-03",
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "posts": 34
+  },
+  {
+   "mes": "2026-03",
+   "ator_id": "vox",
+   "rede": "x",
+   "posts": 86
+  },
+  {
+   "mes": "2026-03",
    "ator_id": "vox",
    "rede": "youtube",
    "posts": 115
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 99
   },
   {
    "mes": "2026-04",
@@ -817,8 +915,26 @@
   {
    "mes": "2026-04",
    "ator_id": "foro-madrid",
+   "rede": "x",
+   "posts": 5
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "foro-madrid",
    "rede": "youtube",
    "posts": 1
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "posts": 24
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "vox",
+   "rede": "x",
+   "posts": 120
   },
   {
    "mes": "2026-04",
@@ -828,9 +944,33 @@
   },
   {
    "mes": "2026-05",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 121
+  },
+  {
+   "mes": "2026-05",
    "ator_id": "disenso",
    "rede": "youtube",
    "posts": 6
+  },
+  {
+   "mes": "2026-05",
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "posts": 5
+  },
+  {
+   "mes": "2026-05",
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "posts": 22
+  },
+  {
+   "mes": "2026-05",
+   "ator_id": "vox",
+   "rede": "x",
+   "posts": 284
   },
   {
    "mes": "2026-05",
@@ -840,9 +980,33 @@
   },
   {
    "mes": "2026-06",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 56
+  },
+  {
+   "mes": "2026-06",
    "ator_id": "disenso",
    "rede": "youtube",
    "posts": 5
+  },
+  {
+   "mes": "2026-06",
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "posts": 39
+  },
+  {
+   "mes": "2026-06",
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "posts": 9
+  },
+  {
+   "mes": "2026-06",
+   "ator_id": "vox",
+   "rede": "x",
+   "posts": 145
   },
   {
    "mes": "2026-06",
@@ -852,15 +1016,45 @@
   },
   {
    "mes": "2026-07",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 55
+  },
+  {
+   "mes": "2026-07",
    "ator_id": "disenso",
    "rede": "youtube",
    "posts": 17
   },
   {
    "mes": "2026-07",
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "posts": 11
+  },
+  {
+   "mes": "2026-07",
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "posts": 9
+  },
+  {
+   "mes": "2026-07",
+   "ator_id": "vox",
+   "rede": "x",
+   "posts": 220
+  },
+  {
+   "mes": "2026-07",
    "ator_id": "vox",
    "rede": "youtube",
    "posts": 59
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 45
   },
   {
    "mes": "2026-08",
@@ -871,14 +1065,38 @@
   {
    "mes": "2026-08",
    "ator_id": "foro-madrid",
+   "rede": "x",
+   "posts": 49
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "foro-madrid",
    "rede": "youtube",
    "posts": 1
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "posts": 6
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "vox",
+   "rede": "x",
+   "posts": 173
   },
   {
    "mes": "2026-08",
    "ator_id": "vox",
    "rede": "youtube",
    "posts": 31
+  },
+  {
+   "mes": "2026-09",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 69
   },
   {
    "mes": "2026-09",
@@ -902,7 +1120,7 @@
    "mes": "2026-09",
    "ator_id": "foro-madrid",
    "rede": "x",
-   "posts": 17
+   "posts": 61
   },
   {
    "mes": "2026-09",
@@ -914,13 +1132,25 @@
    "mes": "2026-09",
    "ator_id": "martin-frias",
    "rede": "x",
-   "posts": 3
+   "posts": 11
+  },
+  {
+   "mes": "2026-09",
+   "ator_id": "vox",
+   "rede": "x",
+   "posts": 344
   },
   {
    "mes": "2026-09",
    "ator_id": "vox",
    "rede": "youtube",
    "posts": 120
+  },
+  {
+   "mes": "2026-10",
+   "ator_id": "abascal",
+   "rede": "x",
+   "posts": 138
   },
   {
    "mes": "2026-10",
@@ -968,7 +1198,7 @@
    "mes": "2026-10",
    "ator_id": "vox",
    "rede": "x",
-   "posts": 1
+   "posts": 518
   },
   {
    "mes": "2026-10",
@@ -980,7 +1210,7 @@
    "mes": "2026-11",
    "ator_id": "abascal",
    "rede": "x",
-   "posts": 20
+   "posts": 104
   },
   {
    "mes": "2026-11",
@@ -1016,7 +1246,7 @@
    "mes": "2026-11",
    "ator_id": "vox",
    "rede": "x",
-   "posts": 19
+   "posts": 292
   },
   {
    "mes": "2026-11",
@@ -1030,20 +1260,20 @@
    "ator_id": "abascal",
    "rede": "x",
    "visualizacoes": {
-    "soma": 1418409,
-    "posts_com_o_numero": 20
+    "soma": 157480326,
+    "posts_com_o_numero": 836
    },
    "curtidas": {
-    "soma": 77792,
-    "posts_com_o_numero": 20
+    "soma": 5351052,
+    "posts_com_o_numero": 836
    },
    "comentarios": {
-    "soma": 2845,
-    "posts_com_o_numero": 20
+    "soma": 316781,
+    "posts_com_o_numero": 836
    },
    "compartilhamentos": {
-    "soma": 17655,
-    "posts_com_o_numero": 20
+    "soma": 1730038,
+    "posts_com_o_numero": 836
    }
   },
   {
@@ -1130,20 +1360,20 @@
    "ator_id": "foro-madrid",
    "rede": "x",
    "visualizacoes": {
-    "soma": 108013,
-    "posts_com_o_numero": 20
+    "soma": 2361050,
+    "posts_com_o_numero": 177
    },
    "curtidas": {
-    "soma": 1510,
-    "posts_com_o_numero": 20
+    "soma": 26206,
+    "posts_com_o_numero": 177
    },
    "comentarios": {
-    "soma": 49,
-    "posts_com_o_numero": 20
+    "soma": 2592,
+    "posts_com_o_numero": 177
    },
    "compartilhamentos": {
-    "soma": 726,
-    "posts_com_o_numero": 20
+    "soma": 12517,
+    "posts_com_o_numero": 177
    }
   },
   {
@@ -1190,20 +1420,20 @@
    "ator_id": "martin-frias",
    "rede": "x",
    "visualizacoes": {
-    "soma": 142505,
-    "posts_com_o_numero": 20
+    "soma": 870321,
+    "posts_com_o_numero": 139
    },
    "curtidas": {
-    "soma": 4414,
-    "posts_com_o_numero": 20
+    "soma": 17312,
+    "posts_com_o_numero": 139
    },
    "comentarios": {
-    "soma": 114,
-    "posts_com_o_numero": 20
+    "soma": 664,
+    "posts_com_o_numero": 139
    },
    "compartilhamentos": {
-    "soma": 1999,
-    "posts_com_o_numero": 20
+    "soma": 8508,
+    "posts_com_o_numero": 139
    }
   },
   {
@@ -1250,20 +1480,20 @@
    "ator_id": "vox",
    "rede": "x",
    "visualizacoes": {
-    "soma": 752480,
-    "posts_com_o_numero": 20
+    "soma": 134341242,
+    "posts_com_o_numero": 2220
    },
    "curtidas": {
-    "soma": 12844,
-    "posts_com_o_numero": 20
+    "soma": 3337346,
+    "posts_com_o_numero": 2220
    },
    "comentarios": {
-    "soma": 958,
-    "posts_com_o_numero": 20
+    "soma": 158104,
+    "posts_com_o_numero": 2220
    },
    "compartilhamentos": {
-    "soma": 4492,
-    "posts_com_o_numero": 20
+    "soma": 1269241,
+    "posts_com_o_numero": 2220
    }
   },
   {
@@ -1290,43 +1520,78 @@
  "hashtags": [
   {
    "ator_id": "abascal",
-   "tag": "almería",
-   "posts": 3
-  },
-  {
-   "ator_id": "abascal",
-   "tag": "murcia",
-   "posts": 3
-  },
-  {
-   "ator_id": "abascal",
-   "tag": "cornellá",
-   "posts": 1
-  },
-  {
-   "ator_id": "abascal",
-   "tag": "zaragoza",
-   "posts": 1
-  },
-  {
-   "ator_id": "abascal",
-   "tag": "alicante",
-   "posts": 1
-  },
-  {
-   "ator_id": "abascal",
-   "tag": "plazadecolón",
-   "posts": 1
-  },
-  {
-   "ator_id": "abascal",
-   "tag": "toledo",
-   "posts": 1
-  },
-  {
-   "ator_id": "abascal",
    "tag": "sentidocomún",
-   "posts": 1
+   "posts": 80
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "prioridadnacional",
+   "posts": 24
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "vox",
+   "posts": 17
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "burgos",
+   "posts": 12
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "granada",
+   "posts": 7
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "valladolid",
+   "posts": 7
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "almería",
+   "posts": 6
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "ciudadreal",
+   "posts": 5
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "ávila",
+   "posts": 5
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "zamora",
+   "posts": 5
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "segovia",
+   "posts": 5
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "ceutaesespaña",
+   "posts": 5
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "ceuta",
+   "posts": 5
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "jaén",
+   "posts": 5
+  },
+  {
+   "ator_id": "abascal",
+   "tag": "palencia",
+   "posts": 5
   },
   {
    "ator_id": "disenso",
@@ -1350,18 +1615,53 @@
   },
   {
    "ator_id": "foro-madrid",
+   "tag": "colombia",
+   "posts": 5
+  },
+  {
+   "ator_id": "foro-madrid",
    "tag": "brasil",
+   "posts": 4
+  },
+  {
+   "ator_id": "foro-madrid",
+   "tag": "perú",
    "posts": 3
   },
   {
    "ator_id": "foro-madrid",
    "tag": "cuba",
+   "posts": 3
+  },
+  {
+   "ator_id": "foro-madrid",
+   "tag": "bolivia",
+   "posts": 2
+  },
+  {
+   "ator_id": "foro-madrid",
+   "tag": "españa",
+   "posts": 1
+  },
+  {
+   "ator_id": "foro-madrid",
+   "tag": "chile",
    "posts": 1
   },
   {
    "ator_id": "martin-frias",
    "tag": "diadelosdifuntos",
    "posts": 1
+  },
+  {
+   "ator_id": "vox",
+   "tag": "sáncheztraidor",
+   "posts": 23
+  },
+  {
+   "ator_id": "vox",
+   "tag": "sentidocomún",
+   "posts": 19
   },
   {
    "ator_id": "vox",
@@ -1385,17 +1685,32 @@
   },
   {
    "ator_id": "vox",
+   "tag": "votavox",
+   "posts": 8
+  },
+  {
+   "ator_id": "vox",
+   "tag": "abascalenlarevuelta",
+   "posts": 8
+  },
+  {
+   "ator_id": "vox",
    "tag": "congreso",
    "posts": 8
   },
   {
    "ator_id": "vox",
-   "tag": "pedrosánchez",
-   "posts": 6
+   "tag": "prioridadnacional",
+   "posts": 7
   },
   {
    "ator_id": "vox",
    "tag": "voxespaña",
+   "posts": 6
+  },
+  {
+   "ator_id": "vox",
+   "tag": "pedrosánchez",
    "posts": 6
   },
   {
@@ -1410,47 +1725,100 @@
   },
   {
    "ator_id": "vox",
-   "tag": "abascalenlarevuelta",
-   "posts": 4
-  },
-  {
-   "ator_id": "vox",
-   "tag": "últimahora",
-   "posts": 3
-  },
-  {
-   "ator_id": "vox",
-   "tag": "soloquedavox",
-   "posts": 3
-  },
-  {
-   "ator_id": "vox",
-   "tag": "invasión",
-   "posts": 3
-  },
-  {
-   "ator_id": "vox",
-   "tag": "stopinvasión",
-   "posts": 2
-  },
-  {
-   "ator_id": "vox",
-   "tag": "marruecos",
-   "posts": 2
+   "tag": "valladolid",
+   "posts": 5
   }
  ],
  "mencoes": [
   {
    "ator_id": "abascal",
    "rede": "x",
-   "conta": "ertzaintzaejgv",
-   "posts": 1
+   "conta": "pm_viktororban",
+   "posts": 4
   },
   {
    "ator_id": "abascal",
    "rede": "x",
-   "conta": "jon_echeverria_",
-   "posts": 1
+   "conta": "j_bardella",
+   "posts": 4
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "mariacorinaya",
+   "posts": 3
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "mlp_officiel",
+   "posts": 3
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "vox_es",
+   "posts": 3
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "jmilei",
+   "posts": 3
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "gaviravox",
+   "posts": 3
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "larevuelta_tve",
+   "posts": 2
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "joseantoniokast",
+   "posts": 2
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "jorgebuxade",
+   "posts": 2
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "carloshquero",
+   "posts": 2
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "alice_weidel",
+   "posts": 2
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "geertwilderspvv",
+   "posts": 2
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "abdelaespriella",
+   "posts": 2
+  },
+  {
+   "ator_id": "abascal",
+   "rede": "x",
+   "conta": "bolsonarosp",
+   "posts": 2
   },
   {
    "ator_id": "disenso",
@@ -1461,13 +1829,13 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "hermanntertsch",
+   "conta": "jmartinfrias",
    "posts": 3
   },
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "jmartinfrias",
+   "conta": "hermanntertsch",
    "posts": 3
   },
   {
@@ -1475,12 +1843,6 @@
    "rede": "instagram",
    "conta": "mariacorinamachado",
    "posts": 2
-  },
-  {
-   "ator_id": "disenso",
-   "rede": "instagram",
-   "conta": "manuel.litzke",
-   "posts": 1
   },
   {
    "ator_id": "disenso",
@@ -1497,7 +1859,7 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "issep.madrid",
+   "conta": "manuel.litzke",
    "posts": 1
   },
   {
@@ -1509,13 +1871,7 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "ekoulas",
-   "posts": 1
-  },
-  {
-   "ator_id": "disenso",
-   "rede": "instagram",
-   "conta": "partidochega",
+   "conta": "victormsan",
    "posts": 1
   },
   {
@@ -1527,13 +1883,25 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "victormsan",
+   "conta": "partijvoordevrijheidnl",
    "posts": 1
   },
   {
    "ator_id": "disenso",
    "rede": "instagram",
    "conta": "juancarlosgirauta",
+   "posts": 1
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "instagram",
+   "conta": "alonso_dm",
+   "posts": 1
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "instagram",
+   "conta": "vox_eu",
    "posts": 1
   },
   {
@@ -1551,92 +1919,92 @@
   {
    "ator_id": "foro-madrid",
    "rede": "x",
-   "conta": "flaviobolsonaro",
-   "posts": 2
+   "conta": "vox_es",
+   "posts": 11
   },
   {
    "ator_id": "foro-madrid",
    "rede": "x",
-   "conta": "undersecpd",
-   "posts": 2
+   "conta": "fdisenso",
+   "posts": 10
   },
   {
    "ator_id": "foro-madrid",
    "rede": "x",
-   "conta": "heritage",
-   "posts": 2
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "x",
-   "conta": "kevinrobertstx",
-   "posts": 2
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "x",
-   "conta": "chafuen",
-   "posts": 1
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "x",
-   "conta": "figaredojosem",
-   "posts": 1
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "x",
-   "conta": "tucukere",
-   "posts": 1
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "x",
-   "conta": "ferrerpicado",
-   "posts": 1
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "x",
-   "conta": "john_walters_",
-   "posts": 1
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "x",
-   "conta": "garibaycamarena",
-   "posts": 1
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "x",
-   "conta": "normayarrowl",
-   "posts": 1
+   "conta": "cristian_arayal",
+   "posts": 9
   },
   {
    "ator_id": "foro-madrid",
    "rede": "x",
    "conta": "enrique_gomezm",
-   "posts": 1
+   "posts": 8
   },
   {
    "ator_id": "foro-madrid",
    "rede": "x",
    "conta": "dianajacome",
-   "posts": 1
+   "posts": 8
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "conta": "jisamit",
+   "posts": 8
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "conta": "prchile",
+   "posts": 8
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "conta": "cossetteoficial",
+   "posts": 8
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "conta": "aphall_cne",
+   "posts": 8
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "conta": "benjaminmorenob",
+   "posts": 7
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "conta": "figaredojosem",
+   "posts": 6
   },
   {
    "ator_id": "foro-madrid",
    "rede": "x",
    "conta": "tommyzambranom",
-   "posts": 1
+   "posts": 6
   },
   {
    "ator_id": "foro-madrid",
    "rede": "x",
-   "conta": "ignaciodulger",
-   "posts": 1
+   "conta": "raneumannb",
+   "posts": 6
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "conta": "heritage",
+   "posts": 6
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "x",
+   "conta": "movsalvacionnal",
+   "posts": 6
   },
   {
    "ator_id": "martin-frias",
@@ -1648,7 +2016,13 @@
    "ator_id": "martin-frias",
    "rede": "x",
    "conta": "hermanntertsch",
-   "posts": 3
+   "posts": 15
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "conta": "fdisenso",
+   "posts": 6
   },
   {
    "ator_id": "martin-frias",
@@ -1659,25 +2033,49 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "fdisenso",
+   "conta": "mariacorinaya",
+   "posts": 2
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "conta": "perkinsrocha",
+   "posts": 2
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "conta": "vox_es",
+   "posts": 2
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "conta": "joseafuster",
+   "posts": 2
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "conta": "paolaholguin",
+   "posts": 2
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "conta": "jdanielferrer",
+   "posts": 2
+  },
+  {
+   "ator_id": "martin-frias",
+   "rede": "x",
+   "conta": "belen_becerril",
    "posts": 2
   },
   {
    "ator_id": "martin-frias",
    "rede": "x",
    "conta": "jaarreaza",
-   "posts": 1
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "x",
-   "conta": "perkinsrocha",
-   "posts": 1
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "x",
-   "conta": "mariacorinaya",
    "posts": 1
   },
   {
@@ -1695,43 +2093,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "armarioblanca",
-   "posts": 1
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "x",
    "conta": "santi_abascal",
    "posts": 1
   },
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "vox_es",
-   "posts": 1
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "x",
    "conta": "noeliacampr",
-   "posts": 1
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "x",
-   "conta": "carretoalfonso_",
-   "posts": 1
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "x",
-   "conta": "arrepentidoslla",
-   "posts": 1
-  },
-  {
-   "ator_id": "martin-frias",
-   "rede": "x",
-   "conta": "jmilei",
    "posts": 1
   },
   {
@@ -1750,19 +2118,91 @@
    "ator_id": "vox",
    "rede": "x",
    "conta": "santi_abascal",
-   "posts": 14
-  },
-  {
-   "ator_id": "vox",
-   "rede": "x",
-   "conta": "ignaciogarriga",
-   "posts": 1
+   "posts": 869
   },
   {
    "ator_id": "vox",
    "rede": "x",
    "conta": "igarrigavaz",
-   "posts": 1
+   "posts": 118
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "gaviravox",
+   "posts": 56
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "jorgebuxade",
+   "posts": 53
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "joseafuster",
+   "posts": 46
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "carloshquero",
+   "posts": 38
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "carlospollan",
+   "posts": 20
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "figaredojosem",
+   "posts": 18
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "redondo_pacheco",
+   "posts": 14
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "j_bardella",
+   "posts": 13
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "abc_es",
+   "posts": 12
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "pepa_millan",
+   "posts": 12
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "toro_ct7",
+   "posts": 7
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "isabelperezmoi1",
+   "posts": 7
+  },
+  {
+   "ator_id": "vox",
+   "rede": "x",
+   "conta": "oscarfdezcalle",
+   "posts": 7
   },
   {
    "ator_id": "vox",
