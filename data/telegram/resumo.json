@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "gerado_em_utc": "2026-11-15T20:52:24Z",
+ "gerado_em_utc": "2026-11-15T22:04:47Z",
  "fonte": "Telegram · prévia pública na web (t.me/s)",
  "nota": "Só canais públicos, lidos pela prévia que o próprio Telegram publica na web (t.me/s), sem login. Grupos e conversas privadas não são lidos. O Telegram informa o número de inscritos, mas não o total de mensagens de um canal; as visualizações são as exibidas na prévia no momento da leitura.",
  "desde": "2026-02-16",
@@ -30,6 +30,267 @@
    "sem_texto": 0,
    "citam_o_brasil": 0,
    "ultimas": []
+  },
+  {
+   "ator_id": "foro-madrid",
+   "ator_nome": "Foro Madrid",
+   "canal": "foromadrid",
+   "url": "https://t.me/foromadrid",
+   "nome_exibido": "Foro Madrid",
+   "inscritos": 152,
+   "inscritos_exibido": "152",
+   "universo_mensagens": null,
+   "universo_nota": "⛔ o Telegram não informa o total de mensagens do canal",
+   "maior_numero_de_mensagem": 177,
+   "mensagem_mais_recente_do_canal": "2026-09-23T20:29:32Z",
+   "mensagem_mais_antiga_vista": "2024-08-29T10:35:47Z",
+   "lidas_nesta_execucao": 2,
+   "no_acervo": 2,
+   "paginas_lidas": 1,
+   "cobertura": "completa: a leitura chegou à data inicial do período",
+   "erro": null,
+   "mais_antiga": "2026-09-02T00:30:14Z",
+   "mais_recente": "2026-09-23T20:29:32Z",
+   "por_mes": {
+    "2026-09": 2
+   },
+   "por_tipo": {
+    "texto": 2
+   },
+   "sem_texto": 0,
+   "citam_o_brasil": 0,
+   "ultimas": [
+    {
+     "url": "https://t.me/foromadrid/177",
+     "publicado_em": "2026-09-23T20:29:32Z",
+     "texto": "The owner of this channel has been inactive for the last 11 months. If they remain inactive for the next 9 days, they may lose their account and admin rights in this channel. The contents of the channel will remain accessible for all users.",
+     "visualizacoes": "",
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/foromadrid/176",
+     "publicado_em": "2026-09-02T00:30:14Z",
+     "texto": "The owner of this channel has been inactive for the last 11 months. If they remain inactive for the next 30 days, they may lose their account and admin rights in this channel. The contents of the channel will remain accessible for all users.",
+     "visualizacoes": "",
+     "tipo": "texto"
+    }
+   ]
+  },
+  {
+   "ator_id": "disenso",
+   "ator_nome": "Fundación Disenso",
+   "canal": "fdisenso",
+   "url": "https://t.me/fdisenso",
+   "nome_exibido": "Fundación Disenso",
+   "inscritos": 1920,
+   "inscritos_exibido": "1.92K",
+   "universo_mensagens": null,
+   "universo_nota": "⛔ o Telegram não informa o total de mensagens do canal",
+   "maior_numero_de_mensagem": 1217,
+   "mensagem_mais_recente_do_canal": "2026-10-30T14:32:39Z",
+   "mensagem_mais_antiga_vista": "2026-02-10T17:46:15Z",
+   "lidas_nesta_execucao": 136,
+   "no_acervo": 136,
+   "paginas_lidas": 7,
+   "cobertura": "completa: a leitura chegou à data inicial do período",
+   "erro": null,
+   "mais_antiga": "2026-02-16T16:57:40Z",
+   "mais_recente": "2026-10-30T14:32:39Z",
+   "por_mes": {
+    "2026-02": 6,
+    "2026-03": 24,
+    "2026-04": 17,
+    "2026-05": 9,
+    "2026-06": 19,
+    "2026-07": 18,
+    "2026-08": 13,
+    "2026-09": 18,
+    "2026-10": 12
+   },
+   "por_tipo": {
+    "texto": 122,
+    "foto": 11,
+    "vídeo": 3
+   },
+   "sem_texto": 0,
+   "citam_o_brasil": 2,
+   "ultimas": [
+    {
+     "url": "https://t.me/fdisenso/1217",
+     "publicado_em": "2026-10-30T14:32:39Z",
+     "texto": "🔥 \"Según los datos facilitados por el director general de la Policía, de los 133 detenidos en los disturbios en Barcelona, 85 son menores y un 32 % extranjeros. Y es un secreto a voces la importante presencia de jóvenes de origen magrebí.\"\n\n🖊️ Manuel Medeiros analiza en un nuevo artículo los disturb",
+     "visualizacoes": 374,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1216",
+     "publicado_em": "2026-10-29T16:11:16Z",
+     "texto": "📢 \"Quienes viajamos en tren sabemos muy bien cuáles son las causas: el abandono y la desidia de un Gobierno y un ministro que han desatendido sus responsabilidades, los transportes, todo porque su prioridad es Twitter y la bronca «matonista».\"\n\n🖊️Nuevo artículo de Aquilino Cayuela:\n\nhttps://fundacio",
+     "visualizacoes": 388,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1215",
+     "publicado_em": "2026-10-27T17:28:12Z",
+     "texto": "🇪🇸📉 \"En España, el 25,7 % de la población, unos 12,6 millones de personas, vive en riesgo de pobreza o exclusión social. Es la quinta tasa más alta de la UE, cuya media es del 20,9 %. Y el 36,4 % no puede afrontar un gasto imprevisto.\"\n\n🖊️ Eduardo Arriero aborda el mito esgrimido por el PSOE y Sánch",
+     "visualizacoes": 404,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1214",
+     "publicado_em": "2026-10-22T13:20:36Z",
+     "texto": "🔥 \"Una de las evidencias de los disturbios en Francia, de las no-go zones en Europa, de la invasión de Ceuta, o de la implantación de mafias basadas en clanes (de sirios, afganos, pakistaníes o africanos) es la relación entre las sociedades multiculturales y la violencia\".\n\n🖊️ Pedro Fernández Barbad",
+     "visualizacoes": 530,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1213",
+     "publicado_em": "2026-10-20T15:03:16Z",
+     "texto": "📌 Hoy se cumplen 15 años del anuncio del «cese definitivo de la actividad armada» de ETA.\n\n854 asesinados, 84 secuestrados, cerca de 3.000 heridos y 180.000 personas obligadas a abandonar el País Vasco.\n\n¿Qué queda de su legado político? La Fundación Disenso presenta una nueva Nota de José Luis Orel",
+     "visualizacoes": 468,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1212",
+     "publicado_em": "2026-10-19T17:41:13Z",
+     "texto": "🗳️ \"La victoria electoral del demócrata Zohran Mamdani en Nueva York o la reciente victoria en las primarias demócratas al Senado en Michigan del musulmán Abdul El-Sayed se enmarcan en este «Woke Two» que combina socialismo e islam y que no se limita a los Estados Unidos.\"\n\n🖊️ Jorge Soley Climent an",
+     "visualizacoes": 399,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1211",
+     "publicado_em": "2026-10-16T12:04:16Z",
+     "texto": "🗳️ \"Hasta las próximas elecciones del 29 de noviembre, debemos mantener la lucidez para desenmascarar las trampas y corruptelas de Sánchez. Estamos advertidos de que es muy capaz de hacer lo que sea, incluso lo inmoral e impolítico, para mantenerse en La Moncloa.\"\n\n🖊️ Aquilino Cayuela recoge en un n",
+     "visualizacoes": 452,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1210",
+     "publicado_em": "2026-10-15T14:40:36Z",
+     "texto": "🏘️ \"España no sólo se está convirtiendo en el fetiche inmobiliario de los ricos del mundo, también se parece cada día más a los barrios degradados de París o Bruselas. El dibujo completo es el siguiente: los grandes capitales extranjeros compran en zonas exclusivas, desplazando a los españoles más p",
+     "visualizacoes": 457,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1209",
+     "publicado_em": "2026-10-13T14:48:18Z",
+     "texto": "🇪🇸🇫🇷 «La literatura española ha encontrado en Francia un espacio de reconocimiento y difusión, mientras que numerosos autores franceses han sido ampliamente leídos en el mundo hispánico. Figuras como Miguel de Cervantes, Federico García Lorca o Guillermo Cabrera Infante han gozado de gran prestigio ",
+     "visualizacoes": 411,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1208",
+     "publicado_em": "2026-10-08T14:13:33Z",
+     "texto": "🏠 \"Actualmente, el 52 % de la demanda en el mercado de alquiler procede de población extranjera. Este dato implica que los españoles deben competir en condiciones de desigualdad con personas de todo el mundo.\"\n\n🖊️ Ignacio Caballero analiza en un nuevo artículo cómo la inmigración masiva ha causado h",
+     "visualizacoes": 614,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1207",
+     "publicado_em": "2026-10-05T15:40:22Z",
+     "texto": "📖 \"Aquel «no se nace mujer, se llega a serlo», de 'El segundo sexo', preparó bien el terreno para que la sencilla pregunta «¿Qué es una mujer?», que un analfabeto del siglo XVIII hubiera contestado sin dudar, provoque hoy auténticos cortocircuitos en ámbitos universitarios, intelectuales y políticos",
+     "visualizacoes": 591,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1206",
+     "publicado_em": "2026-10-01T11:48:35Z",
+     "texto": "\"Alguien tiene que decir que los Javis están desnudos. Que 'La bola negra' no es más que un largo telefilme, resultón en ciertos momentos, obsceno en otros, pero hueco y pretencioso todo el rato. Porque después de los fuegos artificiales, no hay más que humo.\"\n\n🖋️  Luis Landeira analiza en este nuev",
+     "visualizacoes": 642,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1205",
+     "publicado_em": "2026-09-29T11:15:35Z",
+     "texto": "🇩🇪 \"La asociación simbiótica entre musulmanes y extrema izquierda explica que en la fiesta de Die Linke se viera a Issa Remmo, padrino de la familia criminal más notoria de Berlín, el clan árabe Remmo.\"\n\n🖊️ En un nuevo artículo, Pedro Fernández Barbadillo analiza los resultados de las últimas elecci",
+     "visualizacoes": 639,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1204",
+     "publicado_em": "2026-09-28T11:00:39Z",
+     "texto": "📉 \"El informe PISA ha evidenciado lo que ya se sabía: nuestros niños no saben ciencias ni matemáticas, ni tienen la llave maestra que les da acceso al saber y favorece el desarrollo cognitivo: la comprensión lectora.\"\n\n🖊️ Irene Valverde analiza en un nuevo artículo los catastróficos resultados obten",
+     "visualizacoes": 602,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1203",
+     "publicado_em": "2026-09-24T14:04:06Z",
+     "texto": "💶  \"La invasión costará este año entre 455 y 483 millones de euros, más que todo el presupuesto anual de la ciudad de Ceuta. Con las rebajas permanentes incluidas en el decreto, la cuenta se acerca a los 1000 millones hasta 2031.\"\n\n🖊️  Eduardo Arriero, analista económico, desgrana en un nuevo artícu",
+     "visualizacoes": 662,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1202",
+     "publicado_em": "2026-09-21T11:22:21Z",
+     "texto": "500 años después de que Francisco de Vitoria obtuviera la cátedra de Teología de la Universidad de Salamanca, la Escuela de Salamanca sigue siendo clave para comprender la historia del pensamiento político, jurídico y económico.\n\n🖊️ Con motivo de este aniversario, la Fundación Disenso publica una nu",
+     "visualizacoes": 649,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1201",
+     "publicado_em": "2026-09-17T15:48:22Z",
+     "texto": "🇪🇸\"Además de una cuestión de patria, estamos en gran medida ante una cuestión de clase social, con los millonarios globalistas aislados de los problemas reales de los españoles tras los muros de sus chalés y de sus mansiones\".\n\n🖊️Víctor  Lenore analiza en nuestro Blog el apoyo de los famosos español",
+     "visualizacoes": 711,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1200",
+     "publicado_em": "2026-09-14T11:10:00Z",
+     "texto": "🇲🇦 \"De los cuatro Estados contra los que Marruecos ha dirigido su expansionismo, solo uno de ellos, que es España, ha cedido una y otra vez a los actos de violencia de Marruecos. Los otros, Argelia (con relaciones diplomáticas y económicas rotas desde 2021), Mauritania y la República Árabe Saharaui ",
+     "visualizacoes": 809,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1195",
+     "publicado_em": "2026-09-11T12:01:00Z",
+     "texto": "📍Lleno absoluto en la jornada sobre desregulación y crecimiento económico celebrada este viernes en el Congreso de los Diputados, con el profesor Arthur Laffer como protagonista.\n\nGracias a todos los asistentes.",
+     "visualizacoes": 803,
+     "tipo": "foto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1194",
+     "publicado_em": "2026-09-10T10:03:30Z",
+     "texto": "🇲🇦 \"El Marruecos de 1975, como el de 2021 y como el de 2026, es lo mismo en términos de funcionamiento institucional: un Estado autoritario, liderado entonces con firmeza por Hassan II y hoy, tanto en 2021 como en 2026, por Mohamed VI.\"\n\n🖊️ Carlos Echeverría analiza en nuestro Blog la táctica utiliz",
+     "visualizacoes": 653,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1193",
+     "publicado_em": "2026-09-08T11:34:26Z",
+     "texto": "🗓️ Hoy se cumplen 101 años del desembarco de Alhucemas, una de las grandes gestas militares de la historia de España.\n\nEl 8 de septiembre de 1925, fuerzas terrestres, navales y aéreas actuaron de forma coordinada en una operación decisiva para la pacificación del Protectorado español de Marruecos.\n\n",
+     "visualizacoes": 531,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1192",
+     "publicado_em": "2026-09-08T10:45:23Z",
+     "texto": "🏫 \"El curso escolar que comienza en Ceuta lo hace en medio de una invasión de la ciudad por parte del Reino de Marruecos, y las familias ceutíes están aterradas ante la perspectiva de dejar a sus hijos solos en los centros educativos\".\n\n🖊️Irene Valverde analiza en nuestro Blog la pasividad mostrada ",
+     "visualizacoes": 437,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1191",
+     "publicado_em": "2026-09-07T15:41:28Z",
+     "texto": "Jorge Martín Frías: «El mayor riesgo actual es pensar que Sánchez está amortizado; hay que hacerle frente todos los días»\n\n🗞️ Entrevista en ABC\n\nhttps://www.abc.es/espana/jorge-martin-frias-mayor-riesgo-actual-pensar-20260903011127-nt.html",
+     "visualizacoes": 456,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1190",
+     "publicado_em": "2026-09-04T17:57:11Z",
+     "texto": "📈JORNADAS DE DESREGULACIÓN Y CRECIMIENTO ECONÓMICO\n\nLa Fundación Disenso y VOX organizan la Jornada sobre Desregulación y Crecimiento Económico en el Congreso de los Diputados. En el evento se abordarán, junto al Prof. Arthur Laffer, economista de referencia internacional y padre de la conocida “Cur",
+     "visualizacoes": 630,
+     "tipo": "texto"
+    },
+    {
+     "url": "https://t.me/fdisenso/1187",
+     "publicado_em": "2026-09-04T10:26:36Z",
+     "texto": "🇪🇸 🇨🇱 José Antonio Kast clausura el V Encuentro Regional de Foro Madrid en Chile. \n\n\"Algún día será Managua, algún día será La Habana ”.\n\n⬇️\n\nhttps://fundaciondisenso.org/jose-antonio-kast-clausura-el-v-encuentro-regional-de-foro-madrid-en-chile/",
+     "visualizacoes": 434,
+     "tipo": "texto"
+    }
+   ]
   }
  ],
  "canais_fora": []
