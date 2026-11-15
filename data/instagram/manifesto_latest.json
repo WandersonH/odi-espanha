@@ -1,5 +1,5 @@
 {
- "run_started_utc": "2026-11-15T18:12:49Z",
+ "run_started_utc": "2026-11-15T19:58:42Z",
  "rede": "instagram",
  "ferramenta": "Apify · esdrasdw/instagram-content-scraper",
  "modo": "carga",
@@ -9,41 +9,36 @@
   "ate": "2027-01-30"
  },
  "desde_leitura": "2026-02-16",
- "teto_autorizado_usd": 0.2,
- "gasto_antes_usd": 0.031,
- "teto_execucao_usd": 0.169,
+ "teto_autorizado_usd": 0.35,
+ "gasto_antes_usd": 0.19995,
+ "teto_execucao_usd": 0.15005,
  "perfis": [
   {
-   "ator_id": "vox",
-   "ator_nome": "Vox",
-   "perfil": "vox_es",
-   "pedido": 3219,
-   "complemento_itens": 473,
-   "itens": 2906,
-   "posts_do_perfil": 1928,
-   "itens_de_outra_conta_ou_descartados": 978,
-   "lidos_no_periodo": 1928,
-   "novos": 1918,
+   "ator_id": "abascal",
+   "ator_nome": "Santiago Abascal",
+   "perfil": "santi_abascal",
+   "pedido": 2858,
+   "complemento_itens": 1211,
+   "itens": 1703,
+   "posts_do_perfil": 372,
+   "itens_de_outra_conta_ou_descartados": 1331,
+   "lidos_no_periodo": 372,
+   "novos": 372,
    "sem_data": 0,
-   "mais_antigo": "2026-02-16T13:51:43Z",
-   "mais_recente": "2026-11-15T15:51:21Z",
+   "mais_antigo": "2026-02-19T19:09:30Z",
+   "mais_recente": "2026-11-15T19:08:04Z",
    "bateu_no_limite_pedido": false,
    "bateu_no_limite_do_ator": false,
    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
    "erro": null,
-   "run": "tZDQZhGhFh0oOHbhR",
-   "custo_usd": 0.16895,
+   "run": "JlXuYGClMTfqhauIT",
+   "custo_usd": 0.14575,
    "eventos_cobrados": {
-    "apify-default-dataset-item": 2892
+    "apify-default-dataset-item": 1703
    }
   }
  ],
  "perfis_fora_da_coleta": [
-  {
-   "ator_id": "abascal",
-   "perfil": "santi_abascal",
-   "motivo": "candidato a conferir"
-  },
   {
    "ator_id": "cader",
    "perfil": "",
@@ -51,35 +46,11 @@
   }
  ],
  "so_perfis": [
-  "vox_es"
+  "santi_abascal"
  ],
- "recuperacao": [
-  {
-   "pedido": {
-    "directUrls": [
-     "vox_es"
-    ],
-    "resultsType": "posts",
-    "resultsLimit": 3219,
-    "onlyPostsNewerThan": "2026-02-16"
-   },
-   "reaproveitou_execucao": null
-  },
-  {
-   "pedido": {
-    "directUrls": [
-     "vox_es"
-    ],
-    "resultsType": "reels",
-    "resultsLimit": 3219,
-    "onlyPostsNewerThan": "2026-02-16"
-   },
-   "reaproveitou_execucao": null
-  }
- ],
- "bruto_no_privado": false,
- "custo_usd": 0.16895,
- "posts_novos": 1918,
- "posts_no_acervo": 2143,
+ "bruto_no_privado": true,
+ "custo_usd": 0.14575,
+ "posts_novos": 372,
+ "posts_no_acervo": 2515,
  "status": "ok"
 }
