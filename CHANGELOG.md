@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## E1.6 — 15/11/2026 · Anúncios do Google e da Meta, como no ODI Atlas
+
+**O que mudou e por quê.** O responsável pediu: "quero que puxe os anúncios do meta e google também como fizemos no odi atlas".
+
+- `scripts/collect_google_transparencia.py`: cópia do coletor do ODI Atlas (Central de Transparência de Anúncios, navegador sem login, sem custo), com a região vinda da configuração (Espanha) e nome curto de anunciante casando só por inteiro.
+- `scripts/collect_meta_anuncios_apify.py` e `scripts/meta_agregar.py`: cópia do coletor e da agregação do ODI Atlas (Biblioteca de Anúncios da Meta via ator jmlp/meta-ad-library-scraper), com país, tipo de anúncio e segredo vindos da configuração.
+- `data/config/google_transparencia.json` e `data/config/meta_anuncios.json`: buscas pelos nomes dos atores e pelos três sites oficiais; teto da Meta US$ 0,40 para uma leitura do período, com a frase de autorização.
+- `.github/workflows/anuncios.yml`: execução manual.
+
+**Contexto que muda a leitura.** O Google deixou de veicular anúncios políticos na União Europeia em 22/09/2025 e a Meta em 06/10/2025, por causa do regulamento europeu de publicidade política (TTPA). No período do estudo (desde 16/02/2026) não existe, nas duas plataformas, anúncio político declarado na Espanha. Por isso a busca na Meta é em todos os anúncios (`ad_type=all`), e ausência de resultado é o esperado, não falha de coleta.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 39 testes, OK. As execuções reais deste passo estão na entrada seguinte, depois de rodarem.
+
 ## E1.5 — 15/11/2026 · "O que dizem": método do ODI Atlas portado (dados; a tela ainda não)
 
 **O que mudou e por quê.** O responsável pediu as páginas do ODI Atlas original (O que as campanhas dizem → "O que dizem", Comentários, Quem acompanha, Trends), com a mesma metodologia, e perguntou se o modelo de `ODI_Atlas_v15_MVP.html` já tinha sido importado. **Não tinha:** até aqui só a identidade visual. Este passo porta a primeira parte, a dos dados de "O que dizem".

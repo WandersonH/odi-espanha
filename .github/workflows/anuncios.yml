@@ -1,0 +1,75 @@
+name: Anúncios — Google (Central de Transparência) e Meta (Biblioteca de Anúncios)
+
+# Google: navegador sem login (Playwright), sem custo. Meta: ator da Apify, com teto de data/config/meta_anuncios.json.
+# Contexto: Google (22/09/2025) e Meta (06/10/2025) deixaram de veicular anúncios políticos na União Europeia.
+on:
+  workflow_dispatch:
+    inputs:
+      o_que:
+        description: "o que coletar"
+        type: choice
+        options: [tudo, google, meta]
+        default: tudo
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  anuncios:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: scripts/testes_ci.sh
+      - name: Repositório privado (texto dos anúncios)
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-esp.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            if [ -z "$TOKEN" ]; then m="segredo ODI_INTERNO_TOKEN não cadastrado"; else m="ODI_INTERNO_TOKEN cadastrado, mas sem acesso de escrita ao odi-secret-esp"; fi
+            echo "::warning title=Repositório privado::$m — o texto dos anúncios desta execução NÃO será guardado"
+          fi
+      - name: Google · Central de Transparência (navegador sem login)
+        id: google
+        if: github.event.inputs.o_que != 'meta'
+        continue-on-error: true
+        run: |
+          pip install -q playwright && python -m playwright install --with-deps chromium > /dev/null
+          rc=0; python scripts/collect_google_transparencia.py > g.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Google::$(echo "$l" | cut -c1-900)"; done < g.txt
+          rm -f g.txt; exit $rc
+      - name: Meta · Biblioteca de Anúncios (Apify, com teto)
+        id: meta
+        if: github.event.inputs.o_que != 'google'
+        continue-on-error: true
+        env:
+          APIFY_TOKEN_ESP: ${{ secrets.APIFY_TOKEN_ESP }}
+          ATLAS_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          rc=0; python scripts/collect_meta_anuncios_apify.py --teste > m.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Meta::$(echo "$l" | cut -c1-900)"; done < m.txt
+          rm -f m.txt; exit $rc
+      - name: Gravar no repositório privado
+        if: always() && steps.interno.outputs.dir != ''
+        run: |
+          cd "${{ steps.interno.outputs.dir }}"
+          git config user.name "odi-espanha-coletor"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Anúncios (run ${{ github.run_id }})"
+          for t in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Commitar
+        if: always()
+        run: scripts/commit_push.sh "Anúncios (run ${{ github.run_id }})"

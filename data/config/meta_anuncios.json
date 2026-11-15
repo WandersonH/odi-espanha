@@ -1,0 +1,37 @@
+{
+ "ator": "jmlp~meta-ad-library-scraper",
+ "segredo": "APIFY_TOKEN_ESP",
+ "preco_referencia": "US$ 0,15 por 1.000 anúncios (preço por item do ator, lido na loja da Apify em 17/10/2026, registro do ODI Atlas)",
+ "teto_teste_usd": 0.4,
+ "teto_diario_usd": 0.0,
+ "teto_mensal_usd": 0.4,
+ "autorizacao": "Responsável, 15/11/2026: 'a gente ainda tem 4.50 dolares pra vir trazendo essa carga historica quero que puxe os anuncios do meta e google tbm como fizemos no odiatlas'. Liberada UMA leitura do período (modo teste do coletor, que lê os anúncios desde a data inicial), teto US$ 0,40 no total. Diário em zero.",
+ "pais": "ES",
+ "ad_type": "all",
+ "desde": "2026-02-16",
+ "max_anuncios_por_consulta_teste": 600,
+ "max_anuncios_por_consulta_diario": 200,
+ "consultas": [
+  {
+   "id": "abascal",
+   "ator": "Santiago Abascal",
+   "termo": "Santiago Abascal"
+  },
+  {
+   "id": "vox",
+   "ator": "Vox",
+   "termo": "VOX España"
+  },
+  {
+   "id": "disenso",
+   "ator": "Fundación Disenso",
+   "termo": "Fundación Disenso"
+  },
+  {
+   "id": "foro-madrid",
+   "ator": "Foro Madrid",
+   "termo": "Foro Madrid"
+  }
+ ],
+ "nota": "Biblioteca de Anúncios da Meta via ator da Apify (jmlp/meta-ad-library-scraper): anúncios veiculados na Espanha desde 16/02/2026 que mencionam o nome do ator (busca por palavra-chave da própria Biblioteca: inclui anúncios do próprio ator, de apoiadores, de adversários e de terceiros). Contexto: a Meta deixou de aceitar anúncios sobre política, eleições e temas sociais na União Europeia em 06/10/2025; por isso a busca é em TODOS os anúncios (ad_type=all), e o que aparece é anúncio comercial ou não declarado como político. Ausência de anúncios é o esperado; anúncio encontrado é registrado para análise, não é acusação de irregularidade. Gasto e alcance são faixas informadas pela Meta, quando informadas. Texto dos anúncios só no repositório privado."
+}

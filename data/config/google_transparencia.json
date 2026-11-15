@@ -1,0 +1,29 @@
+{
+ "regiao": "ES",
+ "inicio_periodo_eleitoral": "2026-02-16",
+ "inicio_campanha": "2026-11-13",
+ "exibir_desde": "2026-02-16",
+ "buscas": [
+  "VOX",
+  "VOX España",
+  "Fundación Disenso",
+  "Foro Madrid",
+  "Santiago Abascal"
+ ],
+ "anunciantes_aceitos": [
+  "vox",
+  "vox espana",
+  "partido politico vox",
+  "partido vox",
+  "fundacion disenso",
+  "foro madrid",
+  "santiago abascal",
+  "santiago abascal conde"
+ ],
+ "dominios": [
+  "voxespana.es",
+  "fundaciondisenso.org",
+  "foromadrid.org"
+ ],
+ "nota": "Central de Transparência de Anúncios do Google (adstransparency.google.com), região Espanha, consultada por navegador sem login, como faria um leitor. Anunciantes encontrados pela busca da própria Central e mantidos só quando o nome verificado corresponde a um ator monitorado; também os anúncios que apontam para os sites oficiais. Contexto: o Google deixou de veicular anúncios políticos na União Europeia em 22/09/2025, antes do regulamento TTPA. Por isso, anúncio encontrado no período do estudo é registrado para análise, não é acusação de irregularidade; e ausência de anúncios é o esperado. 'inicio_campanha' foi calculado pela regra geral da lei eleitoral e está a conferir. Datas de primeira e última exibição são as informadas pela Central; códigos de formato: 1 texto, 2 imagem, 3 vídeo."
+}
