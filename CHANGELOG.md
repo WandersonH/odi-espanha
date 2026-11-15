@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## E1.31 — 15/11/2026 · Caso "Brasil" e redes gerados no GitHub
+
+Run 43768871082 (`gratuitas.yml`): testes, instalação do networkx e análises com sucesso. `data/casos/brasil.json` regerado às 22:22 UTC com o repositório privado, com os mesmos números da E1.29 (Instagram 4/2.515, X 15/3.887, Facebook 4/823, YouTube 0/1.265, Telegram 2/138, sites 14/150, comentários 208/203.638). Redes de coocorrência regeradas nas quatro redes. O site da Vox continua recusando a leitura (HTTP 403).
+
 ## E1.30 — 15/11/2026 · Correção: testes no GitHub sem a biblioteca de redes
 
 Run 43768506037 falhou: o passo de testes roda antes da instalação do networkx, e o teste da rede de coocorrência (E1.28) quebrou; com a falha, a instalação não rodou e as análises também quebraram. `scripts/testes_ci.sh` passa a instalar networkx 3.6.1 antes dos testes, e o passo de instalação nos workflows roda mesmo depois de falha. Local: 65 testes, OK. A execução no GitHub está na entrada seguinte.
