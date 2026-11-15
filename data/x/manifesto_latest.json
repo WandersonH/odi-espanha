@@ -1,0 +1,154 @@
+{
+ "run_started_utc": "2026-11-15T16:53:27Z",
+ "rede": "x",
+ "ferramenta": "Apify · xquik/x-tweet-scraper",
+ "modo": "teste",
+ "conta": "APIFY_TOKEN_ESP",
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": null
+ },
+ "desde_leitura": "2026-02-16",
+ "teto_autorizado_usd": 0.1,
+ "gasto_antes_usd": 0,
+ "teto_execucao_usd": 0.1,
+ "perfis": [
+  {
+   "ator_id": "foro-madrid",
+   "ator_nome": "Foro Madrid",
+   "perfil": "Foro_MAD",
+   "pedido": 20,
+   "itens": 20,
+   "posts_do_perfil": 20,
+   "lidos_no_periodo": 20,
+   "novos": 20,
+   "sem_data": 0,
+   "mais_antigo": "2026-09-04T13:42:32Z",
+   "mais_recente": "2026-10-22T16:46:43Z",
+   "bateu_no_limite_pedido": true,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "teste (não mede cobertura)",
+   "erro": null,
+   "run": "sJ0kCBYYN0WHigxNb",
+   "custo_usd": 0.003,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 0
+   },
+   "universo": {
+    "seguidores": 33303,
+    "posts_total_plataforma": 2963,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "Foro Madrid"
+   }
+  },
+  {
+   "ator_id": "vox",
+   "ator_nome": "Vox",
+   "perfil": "vox_es",
+   "pedido": 20,
+   "itens": 20,
+   "posts_do_perfil": 20,
+   "lidos_no_periodo": 20,
+   "novos": 20,
+   "sem_data": 0,
+   "mais_antigo": "2026-10-06T13:27:59Z",
+   "mais_recente": "2026-11-15T15:48:29Z",
+   "bateu_no_limite_pedido": true,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "teste (não mede cobertura)",
+   "erro": null,
+   "run": "dWQUX2DZE9K0YuplP",
+   "custo_usd": 0.003,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 0
+   },
+   "universo": {
+    "seguidores": 678700,
+    "posts_total_plataforma": 108587,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "VOX 🇪🇸"
+   }
+  },
+  {
+   "ator_id": "abascal",
+   "ator_nome": "Santiago Abascal",
+   "perfil": "Santi_ABASCAL",
+   "pedido": 20,
+   "itens": 20,
+   "posts_do_perfil": 20,
+   "lidos_no_periodo": 20,
+   "novos": 20,
+   "sem_data": 0,
+   "mais_antigo": "2026-11-14T08:48:33Z",
+   "mais_recente": "2026-11-15T13:49:29Z",
+   "bateu_no_limite_pedido": true,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "teste (não mede cobertura)",
+   "erro": null,
+   "run": "YSuihcoaH767fsU10",
+   "custo_usd": 0.003,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 0
+   },
+   "universo": {
+    "seguidores": 1018750,
+    "posts_total_plataforma": 50476,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "Santiago Abascal 🇪🇸"
+   }
+  },
+  {
+   "ator_id": "martin-frias",
+   "ator_nome": "Jorge Martín Frías",
+   "perfil": "jm_frias",
+   "pedido": 20,
+   "itens": 20,
+   "posts_do_perfil": 20,
+   "lidos_no_periodo": 20,
+   "novos": 20,
+   "sem_data": 0,
+   "mais_antigo": "2026-09-15T18:57:17Z",
+   "mais_recente": "2026-11-15T13:28:20Z",
+   "bateu_no_limite_pedido": true,
+   "bateu_no_limite_do_ator": false,
+   "cobertura": "teste (não mede cobertura)",
+   "erro": null,
+   "run": "67rOJlRa1YeIzx74a",
+   "custo_usd": 0.003,
+   "eventos_cobrados": {
+    "apify-default-dataset-item": 0
+   },
+   "universo": {
+    "seguidores": 8118,
+    "posts_total_plataforma": 19881,
+    "posts_total_nota": "statusesCount do X: posts, respostas e reposts de toda a vida da conta",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o X não informa o total por período",
+    "nome_exibido": "Jorge Martín Frías"
+   }
+  }
+ ],
+ "perfis_fora_da_coleta": [
+  {
+   "ator_id": "disenso",
+   "perfil": "FDisenso",
+   "motivo": "candidato a conferir"
+  },
+  {
+   "ator_id": "cader",
+   "perfil": "ecader",
+   "motivo": "candidato a conferir"
+  }
+ ],
+ "bruto_no_privado": false,
+ "custo_usd": 0.012,
+ "posts_novos": 80,
+ "posts_no_acervo": 80,
+ "status": "ok"
+}
