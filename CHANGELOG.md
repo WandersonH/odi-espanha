@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## E1.21 — 15/11/2026 · Telegram do Vox: uma mensagem só, de 07/11/2025
+
+**O que foi realmente executado.** Run 43760463042 (`gratuitas.yml`, opção `telegram`): `VOXtelegram` tem 840 inscritos e a prévia pública mostra uma única mensagem, a de número 1, de 07/11/2025. Não há mensagens no período do estudo (desde 16/02/2026). Evidência: `data/telegram/resumo.json` e `data/telegram/manifesto_latest.json`.
+
+**Pendente.** Confirmar com o responsável se existe outro canal do Vox em uso; este é o que o site voxespana.es divulga, mas está parado.
+
 ## E1.20 — 15/11/2026 · Primeira leitura do Telegram: canal sem mensagens no período
 
 **O que foi realmente executado.** Run 43760163532 (`gratuitas.yml`, opção `telegram`): canal `VOXtelegram` lido; o Telegram informa 840 inscritos; a primeira página da prévia já só tem mensagens anteriores a 16/02/2026, então há 0 mensagens no período. As capturas de Semrush e Similarweb (7 arquivos, 15 MB) foram gravadas no repositório privado em `evidencias/sites_audiencia/2026-11-15/`.
