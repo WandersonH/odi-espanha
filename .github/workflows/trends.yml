@@ -1,0 +1,46 @@
+name: Google Trends — atores na Espanha
+
+# Cópia do coletor do ODI Atlas (scripts/collect_trends.py), região Espanha. Sem custo e sem chave.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 9 * * *"   # todo dia, 06h20 em Brasília
+
+concurrency:
+  group: trends
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  trends:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: scripts/testes_ci.sh
+      - name: Coletar Trends
+        id: coleta
+        continue-on-error: true
+        run: |
+          rc=0; python scripts/collect_trends.py > t.txt 2>&1 || rc=$?
+          tail -n 14 t.txt | while IFS= read -r l; do echo "::notice title=Trends::$(echo "$l" | cut -c1-500)"; done
+          rm -f t.txt; exit $rc
+      - name: Caderno de buscas (consolida a coleta mais recente)
+        if: always()
+        continue-on-error: true
+        run: |
+          python scripts/build_trends_caderno.py > b.txt 2>&1 || true
+          tail -n 4 b.txt | while IFS= read -r l; do echo "::notice title=Caderno de buscas::$(echo "$l" | cut -c1-400)"; done
+          rm -f b.txt
+      - name: Commitar
+        if: always()
+        run: scripts/commit_push.sh "Google Trends (run ${{ github.run_id }})"
+      - name: Resultado
+        if: steps.coleta.outcome == 'failure'
+        run: exit 1

@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## E1.17 — 15/11/2026 · Google Trends da Espanha (coletor do ODI Atlas) e canal de Abascal no YouTube
+
+**O que mudou e por quê.** O responsável perguntou por que as buscas da Espanha não tinham sido feitas e mandou o canal `https://www.youtube.com/@Santi_ABASCAL`.
+
+- `scripts/collect_trends.py` e `scripts/build_trends_caderno.py`: cópias do ODI Atlas; mudam só região (ES), idioma da interface (espanhol), fuso (Madri) e o prefixo das regiões.
+- `data/config/trends.json`: três grupos (tópicos de Vox e Abascal; os atores como termos de busca; as pessoas como termos de busca), períodos de 7 dias, 3 meses e o período do estudo dia a dia. Termos a confirmar pelos pesquisadores.
+- `.github/workflows/trends.yml`: manual e diário.
+- `index.html`, caderno "Buscas · Google Trends": série por consulta, tabela por comunidade autónoma e consultas relacionadas, lendo `data/trends/caderno.json`. Sem arquivo, continua ⛔.
+- `data/config/atores.json`: YouTube de Santiago Abascal (`@Santi_ABASCAL`), endereço informado pelo responsável.
+
+**Não trazido:** "Em alta agora", Google Notícias e o gráfico normal × pico.
+
+**O que foi realmente executado.** `python -m unittest discover -s tests` → 56 testes, OK; `node --check` no script da página. A coleta real está na entrada seguinte.
+
 ## E1.16 — 15/11/2026 · Facebook da Disenso recuperado sem novo gasto; números da etiqueta "cita o Brasil"
 
 **O que foi realmente executado.**

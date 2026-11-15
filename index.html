@@ -431,10 +431,22 @@ async function comentarios() {
   c.innerHTML = h; c.dataset.ok = "1";
 }
 
-function trends() {
-  $("trCorpo").innerHTML = `<div class="esp-vazio">⛔ <b>Não coletado.</b> O coletor de buscas do ODI Atlas ainda não foi trazido para este Atlas; nenhum número de Google Trends foi lido.</div>
-    <div class="card"><div class="eyebrow">O que este caderno terá</div><h2 class="tk-h2">Mesmos blocos do caderno de buscas do ODI Atlas</h2><ul class="esp-prev"><li>Série temporal do interesse relativo por termo, na Espanha</li><li>Método do período: normal × pico</li><li>Consultas e assuntos relacionados</li><li>Interesse por comunidade autónoma, com tabela</li><li>Em alta agora, na Espanha</li><li>Google Notícias: primeiros resultados por dia</li></ul>
-      <p class="esp-nota">Termos propostos, a confirmar pelos pesquisadores: ${R.atores.map(a => esc(a.nome)).join(", ")}.</p></div>`;
+const PERIODO = {"now 1-d": "Últimas 24 horas", "now 7-d": "Últimos 7 dias", "today 3-m": "Últimos 3 meses", eleitoral: "Período do estudo, dia a dia"};
+const GRUPO = {atores_topicos: "Vox e Abascal · tópicos do Google", atores_palavras: "Os atores · termos de busca", pessoas_palavras: "As pessoas · termos de busca"};
+async function trends() {
+  const c = $("trCorpo"), T = await json("data/trends/caderno.json"), qs = (T && T.consultas) || [];
+  const falta = '<div class="card"><div class="eyebrow">Ainda não trazido do ODI Atlas</div><ul class="esp-prev"><li>Em alta agora, na Espanha</li><li>Google Notícias: primeiros resultados por dia</li><li>Método do período (normal × pico) em gráfico</li></ul></div>';
+  if (!qs.length) { c.innerHTML = `<div class="esp-vazio">⛔ <b>Não coletado.</b> ${T && T.aviso ? esc(T.aviso) : "Nenhum número de Google Trends foi lido ainda (data/trends/caderno.json não existe)."}</div>` + falta; return; }
+  $("trData").textContent = "coleta de " + diaHora(T.coleta_utc) + " UTC";
+  const linha = q => { const W = 860, H = 210, E = 34, k_ = q.serie.length; if (k_ < 2) return '<div class="esp-vazio">⛔ série sem pontos nesta consulta</div>';
+    const x = i => E + i * (W - E - 8) / (k_ - 1), y = v => 10 + (100 - v) * (H - 34) / 100;
+    return `<div class="tk-tlwrap"><svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Interesse de busca ao longo do tempo">${[0, 50, 100].map(v => `<line x1="${E}" y1="${y(v)}" x2="${W - 8}" y2="${y(v)}" stroke="#e3e6e8"/><text x="0" y="${y(v) + 3}" font-size="9" fill="#6b7a8c" style="font-family:monospace">${v}</text>`).join("")}${q.termos.map((t, k) => `<polyline fill="none" stroke="${COR[k % COR.length]}" stroke-width="1.6" points="${q.serie.map((p, i) => p.v[k] == null ? "" : x(i).toFixed(1) + "," + y(p.v[k]).toFixed(1)).join(" ")}"/>`).join("")}<text x="${E}" y="${H - 4}" font-size="9" fill="#6b7a8c" style="font-family:monospace">${diaHora(q.serie[0].t)}</text><text x="${W - 8}" y="${H - 4}" font-size="9" fill="#6b7a8c" text-anchor="end" style="font-family:monospace">${diaHora(q.serie[k_ - 1].t)}</text></svg></div>
+      <div class="esp-chips">${q.termos.map((t, k) => `<span><b style="color:${COR[k % COR.length]}">━</b> ${esc(t)} <small>${(q.itens[k] || {}).modo === "topico" ? "(tópico: " + esc(q.itens[k].tipo || "") + ")" : "(termo de busca)"}</small></span>`).join("")}</div>`; };
+  const regioes = q => !(q.uf || []).length ? '<p class="esp-nota">⛔ O Google não informou o recorte por comunidade autónoma nesta consulta.</p>' : `<div class="tablewrap" style="margin-top:14px"><table class="datatable"><thead><tr><th>Comunidade autónoma</th>${q.termos.map((t, k) => `<th style="color:${COR[k % COR.length]}">${esc(t)}</th>`).join("")}</tr></thead><tbody>${[...q.uf].sort((a, b) => (b.v[0] || 0) - (a.v[0] || 0)).map(r => `<tr><td>${esc(r.nome)}</td>${r.v.map(v => `<td>${v == null ? "—" : n(v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div><p class="esp-nota">Em cada comunidade, os valores repartem 100 entre os termos da consulta: mostram qual termo pesa mais ali, não onde se busca mais.</p>`;
+  const rel = q => { const X = (q.relacionados || []).filter(r => r.tipo === "consultas"); if (!X.length) return "";
+    return `<div class="esp-listas" style="margin-top:14px">${q.termos.flatMap(t => [...new Set(X.filter(r => r.termo === t).map(r => r.lista))].map(l => `<div class="card"><div class="eyebrow">${esc(t)} · consultas relacionadas · ${esc(String(l).replace(/_/g, " "))}</div><ul class="esp-lista">${X.filter(r => r.termo === t && r.lista === l).slice(0, 8).map(r => `<li><span>${esc(r.texto)}</span><span>${esc(r.rotulo || r.valor || "")}</span></li>`).join("")}</ul></div>`)).join("")}</div>`; };
+  const grupos = [...new Set(qs.map(q => q.grupo))];
+  c.innerHTML = `<div class="card"><div class="eyebrow">Como ler</div><p class="esp-nota" style="margin-top:0;font-size:12.5px">${esc(T.aviso || "")} ${esc(T.nota || "")}</p></div>` + grupos.map(g => `<div class="sectionlabel"><h2>${esc(GRUPO[g] || g)}</h2><p>Espanha · 0 a 100, relativo dentro de cada consulta</p></div>` + qs.filter(q => q.grupo === g).map(q => `<div class="card"><div class="eyebrow">${esc(PERIODO[q.periodo] || q.periodo)}</div>${linha(q)}${regioes(q)}${rel(q)}</div>`).join("")).join("") + falta;
 }
 
 async function anuncios() {

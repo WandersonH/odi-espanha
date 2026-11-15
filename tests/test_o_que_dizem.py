@@ -63,3 +63,16 @@ class TestCitaBrasil(unittest.TestCase):
         for texto in ("La célula del partido", "Abrasivo y sin lulaby", "Buenos días España"):
             self.assertFalse(tx.classificar(texto, temas, adv, voto, br)["cita_brasil"], texto)
         self.assertFalse(tx.classificar("Lula y Bolsonaro", temas, adv, voto)["cita_brasil"])     # sem os termos, a etiqueta não é aplicada
+
+
+class TestTrendsConfig(unittest.TestCase):
+    def test_config_da_espanha(self):
+        import json
+        from base import RAIZ
+        import collect_trends as ct
+        c = json.loads((RAIZ / "data/config/trends.json").read_text(encoding="utf-8"))
+        self.assertEqual((c["geo"], ct.GEO, ct.HL), ("ES", "ES", "es"))
+        for g in c["grupos"]:
+            self.assertLessEqual(len(g["termos"]), 5, g["nome"])                      # o Trends compara no máximo 5 termos
+        self.assertTrue(set(c["relacionados"]["grupos"]) <= {g["nome"] for g in c["grupos"]})
+        self.assertNotIn("BR", (RAIZ / "scripts/build_trends_caderno.py").read_text(encoding="utf-8").replace("BRT", ""))
