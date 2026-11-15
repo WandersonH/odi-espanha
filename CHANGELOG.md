@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## E1.9 — 15/11/2026 · Comentários do YouTube lidos por inteiro; agregados dos anúncios regravados
+
+**O que foi realmente executado.**
+
+- Run 43751204452 (`anuncios.yml`, recuperação, sem custo): agregados da Meta regravados com as colunas novas. Classificados como políticos pela Meta e retirados: "VOX España" 52, "Santiago Abascal" 36, "Foro Madrid" 4, "Fundación Disenso" 2 (94 no total). Evidência: `data/meta/anuncios.json`, `data/meta/anuncios_apify.csv`.
+- Run 43751313353 (`gratuitas.yml`, opção `comentarios`): primeira leitura completa dos comentários do YouTube, 3.245 chamadas à API oficial (teto 7.000), sem custo. Universo informado pela plataforma (soma do contador dos vídeos do acervo): 199.735. Lidos: 200.166 comentários e respostas, com a paginação dos 1.216 vídeos levada até o fim.
+  - Vox: universo 199.133 em 1.115 vídeos; lidos 199.564, dos quais 32.128 respostas; 41.023 autores distintos.
+  - Fundación Disenso: universo 544 em 74 vídeos com contador; lidos 544; 11 dos 85 vídeos têm comentários desativados.
+  - Foro Madrid: universo 58 em 16 vídeos; lidos 58.
+  - O lido passa do universo no Vox porque o contador é o da coleta dos vídeos e os comentários continuaram chegando.
+  - Texto e autor estão só no `odi-secret-esp` (`youtube/comentarios/comentarios.csv.gz` e `estado.json`); no público, `data/youtube/comentarios/cobertura.json`, só contagens.
+
+**Pendente.** Análise dos comentários (termos, temas, CHD, rede de respostas) e tela "Comentários"; tela "Anúncios"; busca de anúncios pela página; comentários de Instagram, Facebook e X, que dependem de teto de gasto ainda não autorizado.
+
 ## E1.8 — 15/11/2026 · Repositório privado gravando; bruto recuperado; o que os anúncios da Meta são de fato
 
 **O que foi realmente executado.**
