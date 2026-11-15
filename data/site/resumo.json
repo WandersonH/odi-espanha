@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-15T12:20:08Z",
+ "gerado_em_utc": "2026-11-15T16:51:43Z",
  "projeto": {
   "nome": "ODI Espanha",
   "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X, no Facebook e no YouTube, e as notícias e artigos dos sites oficiais.",
@@ -21,15 +21,15 @@
   }
  },
  "totais": {
-  "posts": null,
+  "posts": 1216,
   "atores": 6,
   "perfis_previstos": 24,
   "perfis_confirmados": 13,
   "perfis_candidatos": 5,
   "perfis_nao_localizados": 6,
-  "perfis_com_posts": 0,
-  "primeiro_post": null,
-  "ultimo_post": null
+  "perfis_com_posts": 3,
+  "primeiro_post": "2026-02-16T11:41:24Z",
+  "ultimo_post": "2026-11-15T16:50:28Z"
  },
  "redes": {
   "instagram": {
@@ -51,10 +51,10 @@
    "modo_ultima": null
   },
   "youtube": {
-   "coletada": false,
-   "ultima_execucao": null,
-   "status_ultima": null,
-   "modo_ultima": null
+   "coletada": true,
+   "ultima_execucao": "2026-11-15T16:51:27Z",
+   "status_ultima": "ok",
+   "modo_ultima": "carga"
   }
  },
  "atores": [
@@ -454,14 +454,42 @@
    "fonte": "Site oficial foromadrid.org (links de redes da página inicial), lido em 14/11/2026",
    "nota": "",
    "situacao": "confirmado",
-   "posts_no_acervo": null,
-   "primeiro": null,
-   "ultimo": null,
-   "universo": null,
+   "posts_no_acervo": 16,
+   "primeiro": "2026-02-16T19:22:37Z",
+   "ultimo": "2026-09-16T11:41:56Z",
+   "universo": {
+    "posts_total_plataforma": 87,
+    "seguidores": 1260,
+    "nome_exibido": "Foro Madrid",
+    "lido_em": "2026-11-15",
+    "fonte": "YouTube Data API (channels.list, statistics)"
+   },
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": null
+   "cobertura_do_periodo": "completa: a lista de envios do canal foi lida até a data inicial",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T16:51:27Z",
+    "pedido": "lista de envios até a data inicial",
+    "itens": 87,
+    "lidos_no_periodo": 16,
+    "mais_antigo": "2026-02-16T19:22:37Z",
+    "mais_recente": "2026-09-16T11:41:56Z",
+    "cobertura": "completa: a lista de envios do canal foi lida até a data inicial",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T16:51:27Z",
+    "pedido": "lista de envios até a data inicial",
+    "itens": 87,
+    "lidos_no_periodo": 16,
+    "mais_antigo": "2026-02-16T19:22:37Z",
+    "mais_recente": "2026-09-16T11:41:56Z",
+    "cobertura": "completa: a lista de envios do canal foi lida até a data inicial",
+    "erro": null,
+    "complemento_erro": null
+   }
   },
   {
    "ator_id": "vox",
@@ -473,14 +501,42 @@
    "fonte": "Metadados do site oficial voxespana.es (sameAs youtube.com/user/voxespana), cópia de 18/08/2022 em https://explorer.ooni.org/m/20220818220148.955696_BO_webconnectivity_8c8aa030eb1dc3ae",
    "nota": "",
    "situacao": "confirmado",
-   "posts_no_acervo": null,
-   "primeiro": null,
-   "ultimo": null,
-   "universo": null,
+   "posts_no_acervo": 1115,
+   "primeiro": "2026-02-16T12:16:56Z",
+   "ultimo": "2026-11-15T16:50:28Z",
+   "universo": {
+    "posts_total_plataforma": 6172,
+    "seguidores": 674000,
+    "nome_exibido": "VOX España",
+    "lido_em": "2026-11-15",
+    "fonte": "YouTube Data API (channels.list, statistics)"
+   },
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": null
+   "cobertura_do_periodo": "completa: a lista de envios do canal foi lida até a data inicial",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T16:51:27Z",
+    "pedido": "lista de envios até a data inicial",
+    "itens": 1200,
+    "lidos_no_periodo": 1115,
+    "mais_antigo": "2026-02-16T12:16:56Z",
+    "mais_recente": "2026-11-15T16:50:28Z",
+    "cobertura": "completa: a lista de envios do canal foi lida até a data inicial",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T16:51:27Z",
+    "pedido": "lista de envios até a data inicial",
+    "itens": 1200,
+    "lidos_no_periodo": 1115,
+    "mais_antigo": "2026-02-16T12:16:56Z",
+    "mais_recente": "2026-11-15T16:50:28Z",
+    "cobertura": "completa: a lista de envios do canal foi lida até a data inicial",
+    "erro": null,
+    "complemento_erro": null
+   }
   },
   {
    "ator_id": "disenso",
@@ -492,14 +548,42 @@
    "fonte": "Endereço informado pelo responsável em 14/11/2026",
    "nota": "",
    "situacao": "confirmado",
-   "posts_no_acervo": null,
-   "primeiro": null,
-   "ultimo": null,
-   "universo": null,
+   "posts_no_acervo": 85,
+   "primeiro": "2026-02-16T11:41:24Z",
+   "ultimo": "2026-10-22T21:11:55Z",
+   "universo": {
+    "posts_total_plataforma": 339,
+    "seguidores": 22400,
+    "nome_exibido": "Fundación Disenso",
+    "lido_em": "2026-11-15",
+    "fonte": "YouTube Data API (channels.list, statistics)"
+   },
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": null
+   "cobertura_do_periodo": "completa: a lista de envios do canal foi lida até a data inicial",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T16:51:27Z",
+    "pedido": "lista de envios até a data inicial",
+    "itens": 150,
+    "lidos_no_periodo": 85,
+    "mais_antigo": "2026-02-16T11:41:24Z",
+    "mais_recente": "2026-10-22T21:11:55Z",
+    "cobertura": "completa: a lista de envios do canal foi lida até a data inicial",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T16:51:27Z",
+    "pedido": "lista de envios até a data inicial",
+    "itens": 150,
+    "lidos_no_periodo": 85,
+    "mais_antigo": "2026-02-16T11:41:24Z",
+    "mais_recente": "2026-10-22T21:11:55Z",
+    "cobertura": "completa: a lista de envios do canal foi lida até a data inicial",
+    "erro": null,
+    "complemento_erro": null
+   }
   },
   {
    "ator_id": "abascal",
@@ -559,8 +643,307 @@
    "ultima_leitura": null
   }
  ],
- "por_mes": [],
- "numeros": [],
- "hashtags": [],
- "mencoes": []
+ "por_mes": [
+  {
+   "mes": "2026-02",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 5
+  },
+  {
+   "mes": "2026-02",
+   "ator_id": "foro-madrid",
+   "rede": "youtube",
+   "posts": 1
+  },
+  {
+   "mes": "2026-02",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 57
+  },
+  {
+   "mes": "2026-03",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 10
+  },
+  {
+   "mes": "2026-03",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 115
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 14
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "foro-madrid",
+   "rede": "youtube",
+   "posts": 1
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 110
+  },
+  {
+   "mes": "2026-05",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 6
+  },
+  {
+   "mes": "2026-05",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 149
+  },
+  {
+   "mes": "2026-06",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 5
+  },
+  {
+   "mes": "2026-06",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 63
+  },
+  {
+   "mes": "2026-07",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 17
+  },
+  {
+   "mes": "2026-07",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 59
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 1
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "foro-madrid",
+   "rede": "youtube",
+   "posts": 1
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 31
+  },
+  {
+   "mes": "2026-09",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 24
+  },
+  {
+   "mes": "2026-09",
+   "ator_id": "foro-madrid",
+   "rede": "youtube",
+   "posts": 13
+  },
+  {
+   "mes": "2026-09",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 120
+  },
+  {
+   "mes": "2026-10",
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "posts": 3
+  },
+  {
+   "mes": "2026-10",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 237
+  },
+  {
+   "mes": "2026-11",
+   "ator_id": "vox",
+   "rede": "youtube",
+   "posts": 174
+  }
+ ],
+ "numeros": [
+  {
+   "ator_id": "disenso",
+   "rede": "youtube",
+   "visualizacoes": {
+    "soma": 370239,
+    "posts_com_o_numero": 85
+   },
+   "curtidas": {
+    "soma": 11103,
+    "posts_com_o_numero": 85
+   },
+   "comentarios": {
+    "soma": 544,
+    "posts_com_o_numero": 74
+   },
+   "compartilhamentos": {
+    "soma": 0,
+    "posts_com_o_numero": 0
+   }
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "youtube",
+   "visualizacoes": {
+    "soma": 7590,
+    "posts_com_o_numero": 16
+   },
+   "curtidas": {
+    "soma": 157,
+    "posts_com_o_numero": 16
+   },
+   "comentarios": {
+    "soma": 58,
+    "posts_com_o_numero": 16
+   },
+   "compartilhamentos": {
+    "soma": 0,
+    "posts_com_o_numero": 0
+   }
+  },
+  {
+   "ator_id": "vox",
+   "rede": "youtube",
+   "visualizacoes": {
+    "soma": 43468507,
+    "posts_com_o_numero": 1115
+   },
+   "curtidas": {
+    "soma": 3210088,
+    "posts_com_o_numero": 1115
+   },
+   "comentarios": {
+    "soma": 199133,
+    "posts_com_o_numero": 1115
+   },
+   "compartilhamentos": {
+    "soma": 0,
+    "posts_com_o_numero": 0
+   }
+  }
+ ],
+ "hashtags": [
+  {
+   "ator_id": "disenso",
+   "tag": "shorts",
+   "posts": 1
+  },
+  {
+   "ator_id": "foro-madrid",
+   "tag": "cuba",
+   "posts": 1
+  },
+  {
+   "ator_id": "vox",
+   "tag": "29n",
+   "posts": 15
+  },
+  {
+   "ator_id": "vox",
+   "tag": "vox",
+   "posts": 12
+  },
+  {
+   "ator_id": "vox",
+   "tag": "españa",
+   "posts": 11
+  },
+  {
+   "ator_id": "vox",
+   "tag": "santiagoabascal",
+   "posts": 9
+  },
+  {
+   "ator_id": "vox",
+   "tag": "congreso",
+   "posts": 8
+  },
+  {
+   "ator_id": "vox",
+   "tag": "pedrosánchez",
+   "posts": 6
+  },
+  {
+   "ator_id": "vox",
+   "tag": "voxespaña",
+   "posts": 6
+  },
+  {
+   "ator_id": "vox",
+   "tag": "ceuta",
+   "posts": 5
+  },
+  {
+   "ator_id": "vox",
+   "tag": "gobiernodimisión",
+   "posts": 5
+  },
+  {
+   "ator_id": "vox",
+   "tag": "abascalenlarevuelta",
+   "posts": 4
+  },
+  {
+   "ator_id": "vox",
+   "tag": "últimahora",
+   "posts": 3
+  },
+  {
+   "ator_id": "vox",
+   "tag": "soloquedavox",
+   "posts": 3
+  },
+  {
+   "ator_id": "vox",
+   "tag": "invasión",
+   "posts": 3
+  },
+  {
+   "ator_id": "vox",
+   "tag": "stopinvasión",
+   "posts": 2
+  },
+  {
+   "ator_id": "vox",
+   "tag": "marruecos",
+   "posts": 2
+  }
+ ],
+ "mencoes": [
+  {
+   "ator_id": "vox",
+   "rede": "youtube",
+   "conta": "santi_abascal",
+   "posts": 4
+  },
+  {
+   "ator_id": "vox",
+   "rede": "youtube",
+   "conta": "igarrigavaz",
+   "posts": 1
+  }
+ ]
 }

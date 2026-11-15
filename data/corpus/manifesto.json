@@ -1,0 +1,34 @@
+{
+ "gerado_em_utc": "2026-11-15T16:51:43Z",
+ "formato": "IRaMuTeQ (**** *variáveis)",
+ "idioma_dos_textos": "espanhol (como publicado)",
+ "variaveis": [
+  "ator",
+  "rede",
+  "mes",
+  "tipo"
+ ],
+ "redes": {
+  "instagram": {
+   "posts_no_acervo": 0,
+   "textos_no_corpus": 0,
+   "sem_texto": 0
+  },
+  "x": {
+   "posts_no_acervo": 0,
+   "textos_no_corpus": 0,
+   "sem_texto": 0
+  },
+  "facebook": {
+   "posts_no_acervo": 0,
+   "textos_no_corpus": 0,
+   "sem_texto": 0
+  },
+  "youtube": {
+   "posts_no_acervo": 1216,
+   "textos_no_corpus": 1216,
+   "sem_texto": 0
+  }
+ },
+ "textos_no_corpus": 1216
+}
