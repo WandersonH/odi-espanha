@@ -204,16 +204,17 @@
     "instagram": {
      "perfil": "ecader",
      "url": "https://www.instagram.com/ecader/",
-     "confirmado": true,
-     "conferido_em": "2026-11-15",
-     "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://www.instagram.com/ecader/)."
+     "confirmado": false,
+     "fonte": "",
+     "nota": "Endereço enviado pelo responsável em 15/11/2026, mas o perfil é privado (resposta do coletor no run 43762406629): fora da coleta, que só lê conteúdo público."
     },
     "facebook": {
      "perfil": "ecader",
      "url": "https://www.facebook.com/ecader",
      "confirmado": true,
      "conferido_em": "2026-11-15",
-     "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://www.facebook.com/ecader)."
+     "fonte": "Endereço enviado pelo responsável em 15/11/2026 (https://www.facebook.com/ecader).",
+     "nota": "Confirmado, ainda não coletado: aguarda decisão do responsável sobre o teto do Facebook."
     },
     "youtube": {
      "perfil": "",

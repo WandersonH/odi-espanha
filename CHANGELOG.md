@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## E1.23 — 15/11/2026 · Instagram de Cader é privado; Similarweb da Disenso completado
+
+**O que foi realmente executado.** Run 43762406629 (`coleta.yml`, carga, Instagram, `ecader`): o coletor devolveu um único item com o aviso `private`. O perfil é privado; nenhuma publicação foi lida. O manifesto registra o custo dessa tentativa.
+
+**O que mudou e por quê.**
+
+- `data/config/atores.json`: Instagram `ecader` sai da coleta, com a nota de que é privado (o projeto só lê conteúdo público). Facebook `ecader` fica confirmado e não coletado, à espera do teto.
+- `data/config/coleta.json`: teto da carga do Facebook de volta a US$ 5,80; o aumento para US$ 6,15 não foi usado.
+- `scripts/comum.py`: quando o ator devolve só um aviso de erro e nada é lido, a cobertura passa a ser "⛔ não lido". Antes saía "completa", o que estava errado.
+- `data/config/sites_audiencia.json`: Similarweb de fundaciondisenso.org completado com a segunda captura enviada pelo responsável (duração média 00:00:50, rejeição 55,74%, variação +20,63%, países, canais, origem).
+
+**Testes.** `python -m unittest discover -s tests` → 59 testes, OK.
+
+**Pendente.** Teto do Facebook para `SantiagoAbascalConde` e `ecader`.
+
 ## E1.22 — 15/11/2026 · Instagram e Facebook de Eduardo Cader confirmados
 
 **O que mudou e por quê.** O responsável enviou `https://www.instagram.com/ecader/` e `https://www.facebook.com/ecader`. `data/config/atores.json`: os dois perfis passam de "não localizado" a confirmados, com o envio do responsável como fonte. `data/config/coleta.json`: teto da carga do Instagram de US$ 0,35 para US$ 0,40 e do Facebook de US$ 5,80 para US$ 6,15, só para este perfil, com a frase de autorização.

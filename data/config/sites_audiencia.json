@@ -1,5 +1,5 @@
 {
- "nota": "Estimativas de ferramentas comerciais, não medição feita pelos próprios sites. Números transcritos, como exibidos, de capturas de tela feitas pelo responsável em 15/11/2026 (arquivos guardados fora do repositório público). Semrush: base 'todos os países', computador, 15/11/2026; o tráfego orgânico é estimativa mensal de visitas vindas da busca. Similarweb: mundo, outubro de 2026, todos os dispositivos. As duas ferramentas usam métodos diferentes e não se comparam entre si.",
+ "nota": "Estimativas de ferramentas comerciais, não medição feita pelos próprios sites. Números transcritos, como exibidos, de capturas de tela feitas pelo responsável em 15/11/2026 (arquivos guardados fora do repositório público). Semrush: base 'todos os países', computador, 15/11/2026; o tráfego orgânico é estimativa mensal de visitas vindas da busca. Similarweb: mundo, outubro de 2026, todos os dispositivos. As duas ferramentas usam métodos diferentes e não se comparam entre si. Para fundaciondisenso.org, os campos adicionais do Similarweb vêm de uma segunda captura, em imagem legível, enviada às 18h14.",
  "lido_em": "2026-11-15",
  "sites": [
   {
@@ -47,7 +47,14 @@
     "Posição mundial": "#1.303.660",
     "Posição no país": "#52.201 (Espanha)",
     "Páginas por visita": "1,79",
-    "Duração média da visita": "⛔ não lida na captura"
+    "Duração média da visita": "00:00:50",
+    "Variação sobre o mês anterior": "+20,63%",
+    "Taxa de rejeição": "55,74%",
+    "Posição na categoria": "#33.225 (notícias e mídia)",
+    "Principais países": "Espanha 56,13% · Chile 15,65% · México 10,56% · EUA 8,30% · Argentina 6,63%",
+    "Canais de entrada": "busca orgânica 52,73% · direto 19,63% · referências 16,99% · social orgânico 7,33% · e-mail 2,39% · busca paga 0,74%",
+    "Principal site de origem": "gaceta.es (62,64% das referências)",
+    "Rede social de origem": "YouTube (100% do tráfego social)"
    }
   },
   {

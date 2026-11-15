@@ -351,6 +351,8 @@ def rodar(rede: str, ad, argv=None, executar=None, root=None, hoje: dt.date | No
         no_limite = len(itens) >= n
         no_limite_ator = bool(lim_ator and len(itens) >= lim_ator)
         cobertura = classificar(modo, erro, len(itens), n, lim_ator, min(todas, default=None), desde)
+        if not lidos and any(isinstance(x, dict) and x.get("error") for x in itens):
+            cobertura = "⛔ não lido"  # o ator devolveu só um aviso de erro (ex.: perfil privado): não é leitura completa
         reg.update(itens=len(itens), posts_do_perfil=len(posts), itens_de_outra_conta_ou_descartados=len(itens) - len(posts), lidos_no_periodo=lidos, novos=novos, sem_data=sem_data,
                    mais_antigo=min(todas, default=None), mais_recente=max(todas, default=None),
                    bateu_no_limite_pedido=no_limite, bateu_no_limite_do_ator=no_limite_ator, cobertura=cobertura,
