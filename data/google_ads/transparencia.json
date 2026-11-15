@@ -1,9 +1,9 @@
 {
  "schema_version": 1,
- "coletado_em_utc": "2026-11-15T18:40:53Z",
+ "coletado_em_utc": "2026-11-15T19:05:31Z",
  "fonte": "Google · Central de Transparência de Anúncios (navegador sem login)",
  "nota": "Central de Transparência de Anúncios do Google (adstransparency.google.com), região Espanha, consultada por navegador sem login, como faria um leitor. Anunciantes encontrados pela busca da própria Central e mantidos só quando o nome verificado corresponde a um ator monitorado; também os anúncios que apontam para os sites oficiais. Contexto: o Google deixou de veicular anúncios políticos na União Europeia em 22/09/2025, antes do regulamento TTPA. Por isso, anúncio encontrado no período do estudo é registrado para análise, não é acusação de irregularidade; e ausência de anúncios é o esperado. 'inicio_campanha' foi calculado pela regra geral da lei eleitoral e está a conferir. Datas de primeira e última exibição são as informadas pela Central; códigos de formato: 1 texto, 2 imagem, 3 vídeo.",
- "status": "⛔ nenhum anunciante encontrado",
+ "status": "ok: a Central respondeu e não há anunciante nem anúncio dos atores (ausência lida, não falha de coleta)",
  "anunciantes": [],
  "total_anuncios": 0,
  "anuncios_exibidos_na_campanha": [],
@@ -19,6 +19,37 @@
   ]
  },
  "total_lido": 0,
+ "diagnostico": {
+  "respostas_da_busca": 5,
+  "respostas_de_anuncios": 6,
+  "buscas": {
+   "VOX": {
+    "sugestoes": 10,
+    "da_regiao": 0,
+    "aceitas": 0
+   },
+   "VOX España": {
+    "sugestoes": 0,
+    "da_regiao": 0,
+    "aceitas": 0
+   },
+   "Fundación Disenso": {
+    "sugestoes": 0,
+    "da_regiao": 0,
+    "aceitas": 0
+   },
+   "Foro Madrid": {
+    "sugestoes": 0,
+    "da_regiao": 0,
+    "aceitas": 0
+   },
+   "Santiago Abascal": {
+    "sugestoes": 0,
+    "da_regiao": 0,
+    "aceitas": 0
+   }
+  }
+ },
  "anuncios_previas": [],
  "dominios_consultados": [
   {

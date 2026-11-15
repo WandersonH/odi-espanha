@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "coletado_em_utc": "2026-11-15T18:42:12Z",
+ "coletado_em_utc": "2026-11-15T19:06:51Z",
  "fonte": "Meta · Biblioteca de Anúncios via Apify (jmlp/meta-ad-library-scraper)",
  "nota": "Biblioteca de Anúncios da Meta via ator da Apify (jmlp/meta-ad-library-scraper): anúncios veiculados na Espanha desde 16/02/2026 que mencionam o nome do ator (busca por palavra-chave da própria Biblioteca: inclui anúncios do próprio ator, de apoiadores, de adversários e de terceiros). Contexto: a Meta deixou de aceitar anúncios sobre política, eleições e temas sociais na União Europeia em 06/10/2025; por isso a busca é em TODOS os anúncios (ad_type=all), e o que aparece é anúncio comercial ou não declarado como político. Ausência de anúncios é o esperado; anúncio encontrado é registrado para análise, não é acusação de irregularidade. Gasto e alcance são faixas informadas pela Meta, quando informadas. Texto dos anúncios só no repositório privado.",
  "desde": "2026-02-16",
@@ -9,6 +9,8 @@
    "ator": "Santiago Abascal",
    "termo": "Santiago Abascal",
    "paginas_api": null,
+   "com_frase_exata": 0,
+   "paginas_com_frase_exata": [],
    "lidos_nesta_execucao": 0,
    "limite_da_coleta": 600,
    "no_limite": false,
@@ -92,7 +94,9 @@
    "ator": "Vox",
    "termo": "VOX España",
    "paginas_api": null,
-   "lidos_nesta_execucao": 342,
+   "com_frase_exata": null,
+   "paginas_com_frase_exata": [],
+   "lidos_nesta_execucao": 0,
    "limite_da_coleta": 600,
    "no_limite": false,
    "anuncios": 342,
@@ -340,22 +344,6 @@
      "pagadores": []
     },
     {
-     "page_id": "51357986117",
-     "pagina": "Mónica Naranjo",
-     "anuncios": 9,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 5
-     },
-     "impressoes": {
-      "min": 1100,
-      "max": null,
-      "faixas_abertas": 5
-     },
-     "pagadores": []
-    },
-    {
      "page_id": "1901191173450927",
      "pagina": "PSOE Vega Baja",
      "anuncios": 9,
@@ -368,6 +356,22 @@
       "min": 800,
       "max": 8092,
       "faixas_abertas": 0
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "51357986117",
+     "pagina": "Mónica Naranjo",
+     "anuncios": 9,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "impressoes": {
+      "min": 1100,
+      "max": null,
+      "faixas_abertas": 5
      },
      "pagadores": []
     },
@@ -404,22 +408,6 @@
      "pagadores": []
     },
     {
-     "page_id": "1120748914460851",
-     "pagina": "Top Game",
-     "anuncios": 5,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 5
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 5
-     },
-     "pagadores": []
-    },
-    {
      "page_id": "906330352556665",
      "pagina": "Balance Boosters",
      "anuncios": 5,
@@ -432,6 +420,22 @@
       "min": 1000,
       "max": null,
       "faixas_abertas": 2
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1120748914460851",
+     "pagina": "Top Game",
+     "anuncios": 5,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
      },
      "pagadores": []
     },
@@ -484,40 +488,8 @@
      "pagadores": []
     },
     {
-     "page_id": "106647502704110",
-     "pagina": "La Opinión de Murcia",
-     "anuncios": 3,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 3
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 3
-     },
-     "pagadores": []
-    },
-    {
-     "page_id": "226077818252148",
-     "pagina": "La Flamenca de Borgoña",
-     "anuncios": 3,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 3
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 3
-     },
-     "pagadores": []
-    },
-    {
-     "page_id": "107149327589585",
-     "pagina": "vivo",
+     "page_id": "100765239144438",
+     "pagina": "Extra Jaén",
      "anuncios": 3,
      "gasto": {
       "min": 0,
@@ -548,6 +520,38 @@
      "pagadores": []
     },
     {
+     "page_id": "107149327589585",
+     "pagina": "vivo",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "324342790761527",
+     "pagina": "Quickstop.juego",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 2
+     },
+     "impressoes": {
+      "min": 100,
+      "max": null,
+      "faixas_abertas": 1
+     },
+     "pagadores": []
+    },
+    {
      "page_id": "227599363919602",
      "pagina": "Galeguizar Galicia",
      "anuncios": 3,
@@ -564,8 +568,8 @@
      "pagadores": []
     },
     {
-     "page_id": "993942367144424",
-     "pagina": "LEX VOX",
+     "page_id": "226077818252148",
+     "pagina": "La Flamenca de Borgoña",
      "anuncios": 3,
      "gasto": {
       "min": 0,
@@ -585,7 +589,9 @@
    "ator": "Fundación Disenso",
    "termo": "Fundación Disenso",
    "paginas_api": null,
-   "lidos_nesta_execucao": 2,
+   "com_frase_exata": null,
+   "paginas_com_frase_exata": [],
+   "lidos_nesta_execucao": 0,
    "limite_da_coleta": 600,
    "no_limite": false,
    "anuncios": 2,
@@ -706,7 +712,9 @@
    "ator": "Foro Madrid",
    "termo": "Foro Madrid",
    "paginas_api": null,
-   "lidos_nesta_execucao": 502,
+   "com_frase_exata": null,
+   "paginas_com_frase_exata": [],
+   "lidos_nesta_execucao": 0,
    "limite_da_coleta": 600,
    "no_limite": false,
    "anuncios": 502,
@@ -922,8 +930,8 @@
      "pagadores": []
     },
     {
-     "page_id": "162311690586759",
-     "pagina": "Imagen Cardíaca - SEIC",
+     "page_id": "154141929421",
+     "pagina": "Madrid Network",
      "anuncios": 8,
      "gasto": {
       "min": 0,
@@ -954,8 +962,8 @@
      "pagadores": []
     },
     {
-     "page_id": "154141929421",
-     "pagina": "Madrid Network",
+     "page_id": "162311690586759",
+     "pagina": "Imagen Cardíaca - SEIC",
      "anuncios": 8,
      "gasto": {
       "min": 0,
@@ -1050,88 +1058,8 @@
      "pagadores": []
     },
     {
-     "page_id": "105257858038917",
-     "pagina": "Las Rozas Innova",
-     "anuncios": 4,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "pagadores": []
-    },
-    {
-     "page_id": "495785540294705",
-     "pagina": "Mentora",
-     "anuncios": 4,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "pagadores": []
-    },
-    {
      "page_id": "104525425338259",
      "pagina": "Academia Mediplus",
-     "anuncios": 4,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "pagadores": []
-    },
-    {
-     "page_id": "697956986735771",
-     "pagina": "El Digital - Onda Cero Sur de Extremadura Melodía FM",
-     "anuncios": 4,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "pagadores": []
-    },
-    {
-     "page_id": "216091998486708",
-     "pagina": "Tecnicongress Audiovisual S.L.",
-     "anuncios": 4,
-     "gasto": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "impressoes": {
-      "min": 0,
-      "max": null,
-      "faixas_abertas": 4
-     },
-     "pagadores": []
-    },
-    {
-     "page_id": "337308809687124",
-     "pagina": "AMIR Enfermería",
      "anuncios": 4,
      "gasto": {
       "min": 0,
@@ -1192,40 +1120,101 @@
       "faixas_abertas": 4
      },
      "pagadores": []
+    },
+    {
+     "page_id": "105257858038917",
+     "pagina": "Las Rozas Innova",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "216091998486708",
+     "pagina": "Tecnicongress Audiovisual S.L.",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "391501794055750",
+     "pagina": "Escuela de Negocios Cámara de Madrid",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "337308809687124",
+     "pagina": "AMIR Enfermería",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "697956986735771",
+     "pagina": "El Digital - Onda Cero Sur de Extremadura Melodía FM",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
     }
    ]
   }
  },
  "erros": {
-  "abascal": "IncompleteRead"
+  "abascal": "LookupError",
+  "vox": "LookupError",
+  "disenso": "LookupError",
+  "foro-madrid": "LookupError"
  },
- "modo": "teste",
+ "modo": "recuperação",
  "teto_usd": 0.4,
- "gasto_mes_antes_usd": 0.0,
- "runs_apify": [
-  {
-   "consulta": "vox",
-   "id": "9cASzd3lsM3TTPTM9",
-   "status": "SUCCEEDED",
-   "custo_usd": 0.045,
-   "itens": 342
-  },
-  {
-   "consulta": "disenso",
-   "id": "I0PGBXQjOsgVGZnil",
-   "status": "SUCCEEDED",
-   "custo_usd": 0.0002,
-   "itens": 2
-  },
-  {
-   "consulta": "foro-madrid",
-   "id": "nXt1GaD5FXzTZCmne",
-   "status": "SUCCEEDED",
-   "custo_usd": 0.069,
-   "itens": 502
-  }
- ],
+ "gasto_mes_antes_usd": 0.1142,
+ "runs_apify": [],
  "janela_desta_execucao": "2026-02-16",
  "status": "⚠️ parcial",
- "custo_usd": 0.1142
+ "custo_usd": 0.0
 }
