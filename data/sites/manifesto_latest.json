@@ -1,14 +1,14 @@
 {
- "run_started_utc": "2026-11-15T16:50:56Z",
+ "run_started_utc": "2026-11-15T20:36:44Z",
  "ferramenta": "API pública do WordPress (wp-json) · RSS",
  "modo": "carga",
  "user_agent": "odi-espanha-coletor/1.0 (+https://github.com/WandersonH/odi-espanha)",
  "periodo": {
   "desde": "2026-02-16",
-  "ate": null
+  "ate": "2027-01-30"
  },
  "custo_usd": 0.0,
- "texto_integral": "não pedido (sem repositório privado)",
+ "texto_integral": "no repositório privado",
  "sites": [
   {
    "site_id": "disenso",
