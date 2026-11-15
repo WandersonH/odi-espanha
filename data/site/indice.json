@@ -2,17 +2,17 @@
  "meses": [
   {
    "mes": "2026-11",
-   "posts": 601,
+   "posts": 893,
    "arquivo": "posts-2026-11.json"
   },
   {
    "mes": "2026-10",
-   "posts": 925,
+   "posts": 1229,
    "arquivo": "posts-2026-10.json"
   },
   {
    "mes": "2026-09",
-   "posts": 685,
+   "posts": 704,
    "arquivo": "posts-2026-09.json"
   },
   {
@@ -22,12 +22,12 @@
   },
   {
    "mes": "2026-07",
-   "posts": 397,
+   "posts": 400,
    "arquivo": "posts-2026-07.json"
   },
   {
    "mes": "2026-06",
-   "posts": 337,
+   "posts": 343,
    "arquivo": "posts-2026-06.json"
   },
   {
@@ -37,17 +37,17 @@
   },
   {
    "mes": "2026-04",
-   "posts": 398,
+   "posts": 401,
    "arquivo": "posts-2026-04.json"
   },
   {
    "mes": "2026-03",
-   "posts": 367,
+   "posts": 368,
    "arquivo": "posts-2026-03.json"
   },
   {
    "mes": "2026-02",
-   "posts": 170,
+   "posts": 172,
    "arquivo": "posts-2026-02.json"
   }
  ]
