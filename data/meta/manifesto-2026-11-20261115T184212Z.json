@@ -1,0 +1,30 @@
+{
+ "coletado_em_utc": "2026-11-15T18:42:12Z",
+ "modo": "teste",
+ "teto_usd": 0.4,
+ "custo_usd": 0.1142,
+ "itens": 846,
+ "runs": [
+  {
+   "consulta": "vox",
+   "id": "9cASzd3lsM3TTPTM9",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.045,
+   "itens": 342
+  },
+  {
+   "consulta": "disenso",
+   "id": "I0PGBXQjOsgVGZnil",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0002,
+   "itens": 2
+  },
+  {
+   "consulta": "foro-madrid",
+   "id": "nXt1GaD5FXzTZCmne",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.069,
+   "itens": 502
+  }
+ ]
+}

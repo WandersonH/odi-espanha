@@ -1,0 +1,1231 @@
+{
+ "schema_version": 1,
+ "coletado_em_utc": "2026-11-15T18:42:12Z",
+ "fonte": "Meta · Biblioteca de Anúncios via Apify (jmlp/meta-ad-library-scraper)",
+ "nota": "Biblioteca de Anúncios da Meta via ator da Apify (jmlp/meta-ad-library-scraper): anúncios veiculados na Espanha desde 16/02/2026 que mencionam o nome do ator (busca por palavra-chave da própria Biblioteca: inclui anúncios do próprio ator, de apoiadores, de adversários e de terceiros). Contexto: a Meta deixou de aceitar anúncios sobre política, eleições e temas sociais na União Europeia em 06/10/2025; por isso a busca é em TODOS os anúncios (ad_type=all), e o que aparece é anúncio comercial ou não declarado como político. Ausência de anúncios é o esperado; anúncio encontrado é registrado para análise, não é acusação de irregularidade. Gasto e alcance são faixas informadas pela Meta, quando informadas. Texto dos anúncios só no repositório privado.",
+ "desde": "2026-02-16",
+ "consultas": {
+  "abascal": {
+   "ator": "Santiago Abascal",
+   "termo": "Santiago Abascal",
+   "paginas_api": null,
+   "lidos_nesta_execucao": 0,
+   "limite_da_coleta": 600,
+   "no_limite": false,
+   "anuncios": 0,
+   "paginas": 0,
+   "gasto": {
+    "min": 0,
+    "max": 0,
+    "faixas_abertas": 0
+   },
+   "impressoes": {
+    "min": 0,
+    "max": 0,
+    "faixas_abertas": 0
+   },
+   "moedas": [],
+   "plataformas": {},
+   "fases": [
+    {
+     "id": "pre",
+     "rotulo": "Pré-campanha",
+     "de": "2026-02-16",
+     "ate": "2026-11-12",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "campanha",
+     "rotulo": "Campanha oficial",
+     "de": "2026-11-13",
+     "ate": "2026-11-27",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "urnas",
+     "rotulo": "Reflexão e votação",
+     "de": "2026-11-28",
+     "ate": "2026-11-29",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "pos",
+     "rotulo": "Pós-eleição",
+     "de": "2026-11-30",
+     "ate": "2027-01-30",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    }
+   ],
+   "fora_das_fases": {
+    "anuncios": 0,
+    "sem_data": 0,
+    "gasto": {
+     "min": 0,
+     "max": 0,
+     "faixas_abertas": 0
+    }
+   },
+   "regioes_gasto_min_estimado": [],
+   "top_paginas": []
+  },
+  "vox": {
+   "ator": "Vox",
+   "termo": "VOX España",
+   "paginas_api": null,
+   "lidos_nesta_execucao": 342,
+   "limite_da_coleta": 600,
+   "no_limite": false,
+   "anuncios": 342,
+   "paginas": 106,
+   "gasto": {
+    "min": 300,
+    "max": null,
+    "faixas_abertas": 290
+   },
+   "impressoes": {
+    "min": 94300,
+    "max": null,
+    "faixas_abertas": 269
+   },
+   "moedas": [
+    "EUR"
+   ],
+   "plataformas": {
+    "instagram": 298,
+    "facebook": 248,
+    "messenger": 102,
+    "audience_network": 96,
+    "threads": 80,
+    "whatsapp": 8
+   },
+   "fases": [
+    {
+     "id": "pre",
+     "rotulo": "Pré-campanha",
+     "de": "2026-02-16",
+     "ate": "2026-11-12",
+     "anuncios": 333,
+     "gasto": {
+      "min": 300,
+      "max": null,
+      "faixas_abertas": 284
+     }
+    },
+    {
+     "id": "campanha",
+     "rotulo": "Campanha oficial",
+     "de": "2026-11-13",
+     "ate": "2026-11-27",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 2
+     }
+    },
+    {
+     "id": "urnas",
+     "rotulo": "Reflexão e votação",
+     "de": "2026-11-28",
+     "ate": "2026-11-29",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "pos",
+     "rotulo": "Pós-eleição",
+     "de": "2026-11-30",
+     "ate": "2027-01-30",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    }
+   ],
+   "fora_das_fases": {
+    "anuncios": 6,
+    "sem_data": 0,
+    "gasto": {
+     "min": 0,
+     "max": null,
+     "faixas_abertas": 4
+    }
+   },
+   "regioes_gasto_min_estimado": [],
+   "top_paginas": [
+    {
+     "page_id": "998330093367720",
+     "pagina": "Pachasco CLM",
+     "anuncios": 1,
+     "gasto": {
+      "min": 200,
+      "max": 299,
+      "faixas_abertas": 0
+     },
+     "impressoes": {
+      "min": 40000,
+      "max": 45000,
+      "faixas_abertas": 0
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "108586728666019",
+     "pagina": "El Cronista España",
+     "anuncios": 1,
+     "gasto": {
+      "min": 100,
+      "max": 199,
+      "faixas_abertas": 0
+     },
+     "impressoes": {
+      "min": 20000,
+      "max": 25000,
+      "faixas_abertas": 0
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "696705170188690",
+     "pagina": "VOX Interiores - España",
+     "anuncios": 58,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 58
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 58
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "660837980601051",
+     "pagina": "Èggo Cocinas e Interior España",
+     "anuncios": 29,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 29
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 27
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1156729587516907",
+     "pagina": "ML GROUP Capital",
+     "anuncios": 16,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 16
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 11
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "294054920465004",
+     "pagina": "Boxhero Deutschland",
+     "anuncios": 15,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 15
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 14
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "471198233393177",
+     "pagina": "VOX Gandía",
+     "anuncios": 14,
+     "gasto": {
+      "min": 0,
+      "max": 1400,
+      "faixas_abertas": 0
+     },
+     "impressoes": {
+      "min": 5700,
+      "max": 16293,
+      "faixas_abertas": 0
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1303953906145217",
+     "pagina": "Boxhero España",
+     "anuncios": 12,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 12
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "130516137005361",
+     "pagina": "The Liverpool Way",
+     "anuncios": 11,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 11
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 11
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "241360432390958",
+     "pagina": "Lo Nostre",
+     "anuncios": 10,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "51357986117",
+     "pagina": "Mónica Naranjo",
+     "anuncios": 9,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "impressoes": {
+      "min": 1100,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1901191173450927",
+     "pagina": "PSOE Vega Baja",
+     "anuncios": 9,
+     "gasto": {
+      "min": 0,
+      "max": 900,
+      "faixas_abertas": 0
+     },
+     "impressoes": {
+      "min": 800,
+      "max": 8092,
+      "faixas_abertas": 0
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "995041160363594",
+     "pagina": "Mentoravoxlearn",
+     "anuncios": 7,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "395809810493144",
+     "pagina": "Bosch España",
+     "anuncios": 5,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1120748914460851",
+     "pagina": "Top Game",
+     "anuncios": 5,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "906330352556665",
+     "pagina": "Balance Boosters",
+     "anuncios": 5,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 1000,
+      "max": null,
+      "faixas_abertas": 2
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "139154226157860",
+     "pagina": "El Periódico Extremadura",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1335347129897253",
+     "pagina": "Iris Murdoch",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "206789427328",
+     "pagina": "Yoigo",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "106647502704110",
+     "pagina": "La Opinión de Murcia",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "226077818252148",
+     "pagina": "La Flamenca de Borgoña",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "107149327589585",
+     "pagina": "vivo",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "265549163461375",
+     "pagina": "B vocal",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "227599363919602",
+     "pagina": "Galeguizar Galicia",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "993942367144424",
+     "pagina": "LEX VOX",
+     "anuncios": 3,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 3
+     },
+     "pagadores": []
+    }
+   ]
+  },
+  "disenso": {
+   "ator": "Fundación Disenso",
+   "termo": "Fundación Disenso",
+   "paginas_api": null,
+   "lidos_nesta_execucao": 2,
+   "limite_da_coleta": 600,
+   "no_limite": false,
+   "anuncios": 2,
+   "paginas": 2,
+   "gasto": {
+    "min": 0,
+    "max": 200,
+    "faixas_abertas": 0
+   },
+   "impressoes": {
+    "min": 2000,
+    "max": 3100,
+    "faixas_abertas": 0
+   },
+   "moedas": [
+    "EUR"
+   ],
+   "plataformas": {
+    "facebook": 2,
+    "instagram": 2
+   },
+   "fases": [
+    {
+     "id": "pre",
+     "rotulo": "Pré-campanha",
+     "de": "2026-02-16",
+     "ate": "2026-11-12",
+     "anuncios": 2,
+     "gasto": {
+      "min": 0,
+      "max": 200,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "campanha",
+     "rotulo": "Campanha oficial",
+     "de": "2026-11-13",
+     "ate": "2026-11-27",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "urnas",
+     "rotulo": "Reflexão e votação",
+     "de": "2026-11-28",
+     "ate": "2026-11-29",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "pos",
+     "rotulo": "Pós-eleição",
+     "de": "2026-11-30",
+     "ate": "2027-01-30",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    }
+   ],
+   "fora_das_fases": {
+    "anuncios": 0,
+    "sem_data": 0,
+    "gasto": {
+     "min": 0,
+     "max": 0,
+     "faixas_abertas": 0
+    }
+   },
+   "regioes_gasto_min_estimado": [],
+   "top_paginas": [
+    {
+     "page_id": "658688330928495",
+     "pagina": "Alex Ring",
+     "anuncios": 1,
+     "gasto": {
+      "min": 0,
+      "max": 100,
+      "faixas_abertas": 0
+     },
+     "impressoes": {
+      "min": 2000,
+      "max": 3000,
+      "faixas_abertas": 0
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1279088251962531",
+     "pagina": "El pendulazo",
+     "anuncios": 1,
+     "gasto": {
+      "min": 0,
+      "max": 100,
+      "faixas_abertas": 0
+     },
+     "impressoes": {
+      "min": 0,
+      "max": 100,
+      "faixas_abertas": 0
+     },
+     "pagadores": []
+    }
+   ]
+  },
+  "foro-madrid": {
+   "ator": "Foro Madrid",
+   "termo": "Foro Madrid",
+   "paginas_api": null,
+   "lidos_nesta_execucao": 502,
+   "limite_da_coleta": 600,
+   "no_limite": false,
+   "anuncios": 502,
+   "paginas": 154,
+   "gasto": {
+    "min": 100,
+    "max": null,
+    "faixas_abertas": 498
+   },
+   "impressoes": {
+    "min": 120000,
+    "max": null,
+    "faixas_abertas": 498
+   },
+   "moedas": [
+    "EUR"
+   ],
+   "plataformas": {
+    "instagram": 477,
+    "facebook": 443,
+    "audience_network": 318,
+    "threads": 294,
+    "messenger": 269,
+    "whatsapp": 27
+   },
+   "fases": [
+    {
+     "id": "pre",
+     "rotulo": "Pré-campanha",
+     "de": "2026-02-16",
+     "ate": "2026-11-12",
+     "anuncios": 487,
+     "gasto": {
+      "min": 100,
+      "max": null,
+      "faixas_abertas": 483
+     }
+    },
+    {
+     "id": "campanha",
+     "rotulo": "Campanha oficial",
+     "de": "2026-11-13",
+     "ate": "2026-11-27",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "urnas",
+     "rotulo": "Reflexão e votação",
+     "de": "2026-11-28",
+     "ate": "2026-11-29",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    },
+    {
+     "id": "pos",
+     "rotulo": "Pós-eleição",
+     "de": "2026-11-30",
+     "ate": "2027-01-30",
+     "anuncios": 0,
+     "gasto": {
+      "min": 0,
+      "max": 0,
+      "faixas_abertas": 0
+     }
+    }
+   ],
+   "fora_das_fases": {
+    "anuncios": 15,
+    "sem_data": 0,
+    "gasto": {
+     "min": 0,
+     "max": null,
+     "faixas_abertas": 15
+    }
+   },
+   "regioes_gasto_min_estimado": [],
+   "top_paginas": [
+    {
+     "page_id": "134808980371",
+     "pagina": "Sanitas",
+     "anuncios": 1,
+     "gasto": {
+      "min": 100,
+      "max": 199,
+      "faixas_abertas": 0
+     },
+     "impressoes": {
+      "min": 40000,
+      "max": 45000,
+      "faixas_abertas": 0
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "605422099331136",
+     "pagina": "Foro Internacional para la Formación en Psicoterapia",
+     "anuncios": 133,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 133
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 133
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1570291753221414",
+     "pagina": "Foro de Formación",
+     "anuncios": 43,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 43
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 43
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "118759991475831",
+     "pagina": "ICEX",
+     "anuncios": 11,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 11
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 11
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "114565005272100",
+     "pagina": "Tirant lo Blanch",
+     "anuncios": 10,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "373780144329",
+     "pagina": "Universidad Francisco de Vitoria - Madrid",
+     "anuncios": 10,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "108684198724112",
+     "pagina": "latabernadelforo",
+     "anuncios": 10,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 10
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "848481401891671",
+     "pagina": "Alma Cuerpo y Mente",
+     "anuncios": 9,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 9
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 9
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "162311690586759",
+     "pagina": "Imagen Cardíaca - SEIC",
+     "anuncios": 8,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "849474808259835",
+     "pagina": "Sarah's Blog",
+     "anuncios": 8,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "154141929421",
+     "pagina": "Madrid Network",
+     "anuncios": 8,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 8
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1017830728085484",
+     "pagina": "Matthew Szymanski Andrew",
+     "anuncios": 7,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 7
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "319030401472270",
+     "pagina": "Iara Kremer",
+     "anuncios": 6,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "100870655967599",
+     "pagina": "EBIS Business Techschool",
+     "anuncios": 6,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "660224170503943",
+     "pagina": "Foro Hipotecario",
+     "anuncios": 6,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 6
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1048198381699725",
+     "pagina": "Fiona Dam",
+     "anuncios": 5,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 5
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "105257858038917",
+     "pagina": "Las Rozas Innova",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "495785540294705",
+     "pagina": "Mentora",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "104525425338259",
+     "pagina": "Academia Mediplus",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "697956986735771",
+     "pagina": "El Digital - Onda Cero Sur de Extremadura Melodía FM",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "216091998486708",
+     "pagina": "Tecnicongress Audiovisual S.L.",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "337308809687124",
+     "pagina": "AMIR Enfermería",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1224431807425640",
+     "pagina": "Jocelyn Martinez",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "1007970169069279",
+     "pagina": "Shiekh Mitch Son",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    },
+    {
+     "page_id": "100662598374374",
+     "pagina": "Turismo Alcalá de Henares",
+     "anuncios": 4,
+     "gasto": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "impressoes": {
+      "min": 0,
+      "max": null,
+      "faixas_abertas": 4
+     },
+     "pagadores": []
+    }
+   ]
+  }
+ },
+ "erros": {
+  "abascal": "IncompleteRead"
+ },
+ "modo": "teste",
+ "teto_usd": 0.4,
+ "gasto_mes_antes_usd": 0.0,
+ "runs_apify": [
+  {
+   "consulta": "vox",
+   "id": "9cASzd3lsM3TTPTM9",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.045,
+   "itens": 342
+  },
+  {
+   "consulta": "disenso",
+   "id": "I0PGBXQjOsgVGZnil",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.0002,
+   "itens": 2
+  },
+  {
+   "consulta": "foro-madrid",
+   "id": "nXt1GaD5FXzTZCmne",
+   "status": "SUCCEEDED",
+   "custo_usd": 0.069,
+   "itens": 502
+  }
+ ],
+ "janela_desta_execucao": "2026-02-16",
+ "status": "⚠️ parcial",
+ "custo_usd": 0.1142
+}
