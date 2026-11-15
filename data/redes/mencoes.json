@@ -1,8 +1,8 @@
 {
- "gerado_em_utc": "2026-11-15T19:17:58Z",
- "nos": 370,
- "arestas": 453,
- "posts_com_marcacao": 2754,
+ "gerado_em_utc": "2026-11-15T19:56:48Z",
+ "nos": 457,
+ "arestas": 587,
+ "posts_com_marcacao": 3055,
  "leitura": "Rede de saída: perfil monitorado → conta marcada; peso = nº de posts. Instagram e X; Facebook fora.",
  "maiores": [
   {
@@ -51,9 +51,19 @@
    "posts": 38
   },
   {
+   "de": "x:fdisenso",
+   "para": "x:jm_frias",
+   "posts": 36
+  },
+  {
    "de": "instagram:vox_es",
    "para": "instagram:fustervox",
    "posts": 35
+  },
+  {
+   "de": "x:fdisenso",
+   "para": "x:pfefoundation",
+   "posts": 32
   },
   {
    "de": "instagram:vox_es",
@@ -71,6 +81,11 @@
    "posts": 29
   },
   {
+   "de": "x:fdisenso",
+   "para": "x:lenore1789",
+   "posts": 26
+  },
+  {
    "de": "instagram:vox_es",
    "para": "instagram:jorge_buxade",
    "posts": 24
@@ -81,13 +96,38 @@
    "posts": 20
   },
   {
+   "de": "x:fdisenso",
+   "para": "x:ivanvelez72",
+   "posts": 19
+  },
+  {
    "de": "x:vox_es",
    "para": "x:figaredojosem",
    "posts": 18
   },
   {
+   "de": "x:fdisenso",
+   "para": "x:pfbarbadillo",
+   "posts": 18
+  },
+  {
+   "de": "x:fdisenso",
+   "para": "x:irenevalmar",
+   "posts": 17
+  },
+  {
+   "de": "x:fdisenso",
+   "para": "x:luislandeira",
+   "posts": 17
+  },
+  {
    "de": "x:jm_frias",
    "para": "x:hermanntertsch",
+   "posts": 15
+  },
+  {
+   "de": "x:fdisenso",
+   "para": "x:cayuelaaquilino",
    "posts": 15
   },
   {
@@ -98,6 +138,11 @@
   {
    "de": "x:vox_es",
    "para": "x:j_bardella",
+   "posts": 13
+  },
+  {
+   "de": "x:fdisenso",
+   "para": "x:hermanntertsch",
    "posts": 13
   },
   {
@@ -126,6 +171,11 @@
    "posts": 10
   },
   {
+   "de": "x:fdisenso",
+   "para": "x:heritage",
+   "posts": 10
+  },
+  {
    "de": "instagram:vox_es",
    "para": "instagram:torocarballo",
    "posts": 9
@@ -136,74 +186,24 @@
    "posts": 9
   },
   {
+   "de": "x:fdisenso",
+   "para": "x:issepmadrid",
+   "posts": 9
+  },
+  {
+   "de": "x:fdisenso",
+   "para": "x:mariacorinaya",
+   "posts": 9
+  },
+  {
+   "de": "x:fdisenso",
+   "para": "x:gundisalvus",
+   "posts": 9
+  },
+  {
    "de": "x:foro_mad",
    "para": "x:enrique_gomezm",
    "posts": 8
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:dianajacome",
-   "posts": 8
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:jisamit",
-   "posts": 8
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:prchile",
-   "posts": 8
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:aphall_cne",
-   "posts": 8
-  },
-  {
-   "de": "x:foro_mad",
-   "para": "x:cossetteoficial",
-   "posts": 8
-  },
-  {
-   "de": "instagram:vox_es",
-   "para": "instagram:fundaciondisenso",
-   "posts": 7
-  },
-  {
-   "de": "instagram:vox_es",
-   "para": "instagram:mariacorinamachado",
-   "posts": 7
-  },
-  {
-   "de": "instagram:vox_es",
-   "para": "instagram:orbanviktor",
-   "posts": 7
-  },
-  {
-   "de": "instagram:foromadrid",
-   "para": "instagram:vox_es",
-   "posts": 7
-  },
-  {
-   "de": "instagram:fundaciondisenso",
-   "para": "instagram:jmartinfrias",
-   "posts": 7
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:toro_ct7",
-   "posts": 7
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:isabelperezmoi1",
-   "posts": 7
-  },
-  {
-   "de": "x:vox_es",
-   "para": "x:oscarfdezcalle",
-   "posts": 7
   }
  ]
 }

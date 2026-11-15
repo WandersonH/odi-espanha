@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-15T19:17:58Z",
+ "gerado_em_utc": "2026-11-15T19:56:48Z",
  "formato": "IRaMuTeQ (**** *variáveis)",
  "idioma_dos_textos": "espanhol (como publicado)",
  "variaveis": [
@@ -15,9 +15,9 @@
    "sem_texto": 5
   },
   "x": {
-   "posts_no_acervo": 3372,
-   "textos_no_corpus": 3155,
-   "sem_texto": 217
+   "posts_no_acervo": 3887,
+   "textos_no_corpus": 3669,
+   "sem_texto": 218
   },
   "facebook": {
    "posts_no_acervo": 644,
@@ -30,5 +30,5 @@
    "sem_texto": 0
   }
  },
- "textos_no_corpus": 7140
+ "textos_no_corpus": 7654
 }

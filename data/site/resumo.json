@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-15T19:17:53Z",
+ "gerado_em_utc": "2026-11-15T19:56:43Z",
  "projeto": {
   "nome": "ODI Espanha",
   "descricao": "Publicações públicas de Foro Madrid, Vox, Fundación Disenso, Santiago Abascal, Jorge Martín Frías e Eduardo Cader no Instagram, no X, no Facebook e no YouTube, e as notícias e artigos dos sites oficiais.",
@@ -21,15 +21,15 @@
   }
  },
  "totais": {
-  "posts": 7375,
+  "posts": 7890,
   "atores": 6,
   "perfis_previstos": 24,
-  "perfis_confirmados": 13,
-  "perfis_candidatos": 5,
+  "perfis_confirmados": 17,
+  "perfis_candidatos": 1,
   "perfis_nao_localizados": 6,
-  "perfis_com_posts": 13,
+  "perfis_com_posts": 15,
   "primeiro_post": "2026-02-16T11:41:24Z",
-  "ultimo_post": "2026-11-15T16:50:28Z"
+  "ultimo_post": "2026-11-15T19:20:43Z"
  },
  "redes": {
   "instagram": {
@@ -40,7 +40,7 @@
   },
   "x": {
    "coletada": true,
-   "ultima_execucao": "2026-11-15T17:19:57Z",
+   "ultima_execucao": "2026-11-15T19:56:04Z",
    "status_ultima": "ok",
    "modo_ultima": "carga"
   },
@@ -244,6 +244,25 @@
    }
   },
   {
+   "ator_id": "abascal",
+   "ator_nome": "Santiago Abascal",
+   "rede": "instagram",
+   "perfil": "santi_abascal",
+   "url": "https://www.instagram.com/santi_abascal/",
+   "confirmado": true,
+   "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://www.instagram.com/santi_abascal/ ta correto'.",
+   "nota": "",
+   "situacao": "confirmado",
+   "posts_no_acervo": null,
+   "primeiro": null,
+   "ultimo": null,
+   "universo": null,
+   "universo_no_periodo": null,
+   "cobertura_do_periodo": null,
+   "carga": null,
+   "ultima_leitura": null
+  },
+  {
    "ator_id": "martin-frias",
    "ator_nome": "Jorge Martín Frías",
    "rede": "instagram",
@@ -291,25 +310,6 @@
    }
   },
   {
-   "ator_id": "abascal",
-   "ator_nome": "Santiago Abascal",
-   "rede": "instagram",
-   "perfil": "santi_abascal",
-   "url": "https://www.instagram.com/santi_abascal/",
-   "confirmado": false,
-   "fonte": "",
-   "nota": "candidato sem fonte conferida",
-   "situacao": "candidato a conferir",
-   "posts_no_acervo": null,
-   "primeiro": null,
-   "ultimo": null,
-   "universo": null,
-   "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": null
-  },
-  {
    "ator_id": "cader",
    "ator_nome": "Eduardo Cader",
    "rede": "instagram",
@@ -346,7 +346,7 @@
     "seguidores": 33300,
     "nome_exibido": "Foro Madrid",
     "lido_em": "2026-11-15",
-    "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
+    "fonte": "sonda de perfis (Apify, atores oficiais)"
    },
    "universo_no_periodo": null,
    "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
@@ -388,13 +388,7 @@
    "posts_no_acervo": 2220,
    "primeiro": "2026-02-16T15:23:43Z",
    "ultimo": "2026-11-15T15:48:29Z",
-   "universo": {
-    "posts_total_plataforma": 108587,
-    "seguidores": 678700,
-    "nome_exibido": "VOX 🇪🇸",
-    "lido_em": "2026-11-15",
-    "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
-   },
+   "universo": null,
    "universo_no_periodo": null,
    "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
    "carga": {
@@ -423,6 +417,53 @@
    }
   },
   {
+   "ator_id": "disenso",
+   "ator_nome": "Fundación Disenso",
+   "rede": "x",
+   "perfil": "FDisenso",
+   "url": "https://x.com/FDisenso",
+   "confirmado": true,
+   "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://x.com/FDisenso ta certo'.",
+   "nota": "",
+   "situacao": "confirmado",
+   "posts_no_acervo": 498,
+   "primeiro": "2026-02-16T16:34:00Z",
+   "ultimo": "2026-11-15T19:20:43Z",
+   "universo": {
+    "posts_total_plataforma": 6846,
+    "seguidores": 30515,
+    "nome_exibido": "Fundación Disenso",
+    "lido_em": "2026-11-15",
+    "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
+   },
+   "universo_no_periodo": null,
+   "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T19:56:04Z",
+    "pedido": 9486,
+    "itens": 498,
+    "lidos_no_periodo": 498,
+    "mais_antigo": "2026-02-16T16:34:00Z",
+    "mais_recente": "2026-11-15T19:20:43Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T19:56:04Z",
+    "pedido": 9486,
+    "itens": 498,
+    "lidos_no_periodo": 498,
+    "mais_antigo": "2026-02-16T16:34:00Z",
+    "mais_recente": "2026-11-15T19:20:43Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   }
+  },
+  {
    "ator_id": "abascal",
    "ator_nome": "Santiago Abascal",
    "rede": "x",
@@ -435,13 +476,7 @@
    "posts_no_acervo": 836,
    "primeiro": "2026-02-16T12:37:30Z",
    "ultimo": "2026-11-15T13:49:29Z",
-   "universo": {
-    "posts_total_plataforma": 50476,
-    "seguidores": 1018767,
-    "nome_exibido": "Santiago Abascal 🇪🇸",
-    "lido_em": "2026-11-15",
-    "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
-   },
+   "universo": null,
    "universo_no_periodo": null,
    "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
    "carga": {
@@ -482,13 +517,7 @@
    "posts_no_acervo": 139,
    "primeiro": "2026-02-19T21:27:41Z",
    "ultimo": "2026-11-15T13:28:20Z",
-   "universo": {
-    "posts_total_plataforma": 19881,
-    "seguidores": 8118,
-    "nome_exibido": "Jorge Martín Frías",
-    "lido_em": "2026-11-15",
-    "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
-   },
+   "universo": null,
    "universo_no_periodo": null,
    "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
    "carga": {
@@ -517,42 +546,51 @@
    }
   },
   {
-   "ator_id": "disenso",
-   "ator_nome": "Fundación Disenso",
-   "rede": "x",
-   "perfil": "FDisenso",
-   "url": "https://x.com/FDisenso",
-   "confirmado": false,
-   "fonte": "",
-   "nota": "candidato sem fonte conferida",
-   "situacao": "candidato a conferir",
-   "posts_no_acervo": null,
-   "primeiro": null,
-   "ultimo": null,
-   "universo": null,
-   "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": null
-  },
-  {
    "ator_id": "cader",
    "ator_nome": "Eduardo Cader",
    "rede": "x",
    "perfil": "ecader",
    "url": "https://x.com/ecader",
-   "confirmado": false,
-   "fonte": "Documento 'Órganos de dirección' da Fundación Disenso (09/2023): o endereço aparece junto ao nome, mas a leitura do PDF casou nomes e endereços pela ordem da página; conferir abrindo o perfil",
-   "nota": "candidato com fonte de 2023, a conferir",
-   "situacao": "candidato a conferir",
-   "posts_no_acervo": null,
-   "primeiro": null,
-   "ultimo": null,
-   "universo": null,
+   "confirmado": true,
+   "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://x.com/ecader correto'. Indício anterior: Documento 'Órganos de dirección' da Fundación Disenso (09/2023): o endereço aparece junto ao nome, mas a leitura do PDF casou nomes e endereços pela ordem da página; conferir abrindo o perfil",
+   "nota": "",
+   "situacao": "confirmado",
+   "posts_no_acervo": 17,
+   "primeiro": "2026-03-11T13:12:46Z",
+   "ultimo": "2026-11-10T00:26:12Z",
+   "universo": {
+    "posts_total_plataforma": 17841,
+    "seguidores": 11041,
+    "nome_exibido": "Eduardo Cader",
+    "lido_em": "2026-11-15",
+    "fonte": "campo author do post (Apify · xquik/x-tweet-scraper)"
+   },
    "universo_no_periodo": null,
-   "cobertura_do_periodo": null,
-   "carga": null,
-   "ultima_leitura": null
+   "cobertura_do_periodo": "completa: a leitura parou pela data inicial, não pelo limite",
+   "carga": {
+    "modo": "carga",
+    "quando": "2026-11-15T19:56:04Z",
+    "pedido": 9012,
+    "itens": 17,
+    "lidos_no_periodo": 17,
+    "mais_antigo": "2026-03-11T13:12:46Z",
+    "mais_recente": "2026-11-10T00:26:12Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   },
+   "ultima_leitura": {
+    "modo": "carga",
+    "quando": "2026-11-15T19:56:04Z",
+    "pedido": 9012,
+    "itens": 17,
+    "lidos_no_periodo": 17,
+    "mais_antigo": "2026-03-11T13:12:46Z",
+    "mais_recente": "2026-11-10T00:26:12Z",
+    "cobertura": "completa: a leitura parou pela data inicial, não pelo limite",
+    "erro": null,
+    "complemento_erro": null
+   }
   },
   {
    "ator_id": "foro-madrid",
@@ -654,10 +692,10 @@
    "rede": "facebook",
    "perfil": "fundaciondisenso",
    "url": "https://www.facebook.com/fundaciondisenso",
-   "confirmado": false,
-   "fonte": "",
-   "nota": "candidato sem fonte conferida",
-   "situacao": "candidato a conferir",
+   "confirmado": true,
+   "fonte": "Confirmado pelo responsável em 15/11/2026, que abriu o endereço e escreveu: 'https://www.facebook.com/fundaciondisenso correto'.",
+   "nota": "",
+   "situacao": "confirmado",
    "posts_no_acervo": null,
    "primeiro": null,
    "ultimo": null,
@@ -939,6 +977,12 @@
   {
    "mes": "2026-02",
    "ator_id": "disenso",
+   "rede": "x",
+   "posts": 29
+  },
+  {
+   "mes": "2026-02",
+   "ator_id": "disenso",
    "rede": "youtube",
    "posts": 5
   },
@@ -998,9 +1042,21 @@
   },
   {
    "mes": "2026-03",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 2
+  },
+  {
+   "mes": "2026-03",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 21
+  },
+  {
+   "mes": "2026-03",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 59
   },
   {
    "mes": "2026-03",
@@ -1064,9 +1120,21 @@
   },
   {
    "mes": "2026-04",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 3
+  },
+  {
+   "mes": "2026-04",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 18
+  },
+  {
+   "mes": "2026-04",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 45
   },
   {
    "mes": "2026-04",
@@ -1136,9 +1204,21 @@
   },
   {
    "mes": "2026-05",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 1
+  },
+  {
+   "mes": "2026-05",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 9
+  },
+  {
+   "mes": "2026-05",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 30
   },
   {
    "mes": "2026-05",
@@ -1196,9 +1276,21 @@
   },
   {
    "mes": "2026-06",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 1
+  },
+  {
+   "mes": "2026-06",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 10
+  },
+  {
+   "mes": "2026-06",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 45
   },
   {
    "mes": "2026-06",
@@ -1262,9 +1354,21 @@
   },
   {
    "mes": "2026-07",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 2
+  },
+  {
+   "mes": "2026-07",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 21
+  },
+  {
+   "mes": "2026-07",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 70
   },
   {
    "mes": "2026-07",
@@ -1322,9 +1426,21 @@
   },
   {
    "mes": "2026-08",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 1
+  },
+  {
+   "mes": "2026-08",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 4
+  },
+  {
+   "mes": "2026-08",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 50
   },
   {
    "mes": "2026-08",
@@ -1388,9 +1504,21 @@
   },
   {
    "mes": "2026-09",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 3
+  },
+  {
+   "mes": "2026-09",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 5
+  },
+  {
+   "mes": "2026-09",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 65
   },
   {
    "mes": "2026-09",
@@ -1460,9 +1588,21 @@
   },
   {
    "mes": "2026-10",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 3
+  },
+  {
+   "mes": "2026-10",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 12
+  },
+  {
+   "mes": "2026-10",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 62
   },
   {
    "mes": "2026-10",
@@ -1526,9 +1666,21 @@
   },
   {
    "mes": "2026-11",
+   "ator_id": "cader",
+   "rede": "x",
+   "posts": 1
+  },
+  {
+   "mes": "2026-11",
    "ator_id": "disenso",
    "rede": "instagram",
    "posts": 7
+  },
+  {
+   "mes": "2026-11",
+   "ator_id": "disenso",
+   "rede": "x",
+   "posts": 43
   },
   {
    "mes": "2026-11",
@@ -1589,6 +1741,26 @@
    }
   },
   {
+   "ator_id": "cader",
+   "rede": "x",
+   "visualizacoes": {
+    "soma": 24736,
+    "posts_com_o_numero": 17
+   },
+   "curtidas": {
+    "soma": 478,
+    "posts_com_o_numero": 17
+   },
+   "comentarios": {
+    "soma": 13,
+    "posts_com_o_numero": 17
+   },
+   "compartilhamentos": {
+    "soma": 160,
+    "posts_com_o_numero": 17
+   }
+  },
+  {
    "ator_id": "disenso",
    "rede": "instagram",
    "visualizacoes": {
@@ -1606,6 +1778,26 @@
    "compartilhamentos": {
     "soma": 0,
     "posts_com_o_numero": 0
+   }
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "visualizacoes": {
+    "soma": 2052629,
+    "posts_com_o_numero": 498
+   },
+   "curtidas": {
+    "soma": 38177,
+    "posts_com_o_numero": 498
+   },
+   "comentarios": {
+    "soma": 1295,
+    "posts_com_o_numero": 498
+   },
+   "compartilhamentos": {
+    "soma": 21316,
+    "posts_com_o_numero": 498
    }
   },
   {
@@ -1907,57 +2099,77 @@
   },
   {
    "ator_id": "disenso",
-   "tag": "venezuela",
-   "posts": 6
+   "tag": "patriotasiberoamericanos",
+   "posts": 34
   },
   {
    "ator_id": "disenso",
-   "tag": "patriotasiberoamericanos",
-   "posts": 5
+   "tag": "venezuela",
+   "posts": 15
   },
   {
    "ator_id": "disenso",
    "tag": "chavismo",
-   "posts": 4
+   "posts": 8
   },
   {
    "ator_id": "disenso",
    "tag": "pedrosánchez",
-   "posts": 3
+   "posts": 7
   },
   {
    "ator_id": "disenso",
    "tag": "delcyrodríguez",
-   "posts": 2
-  },
-  {
-   "ator_id": "disenso",
-   "tag": "delcyrodriguez",
-   "posts": 2
-  },
-  {
-   "ator_id": "disenso",
-   "tag": "hemerotecadisenso",
-   "posts": 1
+   "posts": 7
   },
   {
    "ator_id": "disenso",
    "tag": "españa",
-   "posts": 1
+   "posts": 6
+  },
+  {
+   "ator_id": "disenso",
+   "tag": "delcyrodriguez",
+   "posts": 6
+  },
+  {
+   "ator_id": "disenso",
+   "tag": "hemerotecadisenso",
+   "posts": 3
+  },
+  {
+   "ator_id": "disenso",
+   "tag": "milei",
+   "posts": 2
   },
   {
    "ator_id": "disenso",
    "tag": "12deoctubre",
-   "posts": 1
+   "posts": 2
   },
   {
    "ator_id": "disenso",
    "tag": "onu",
+   "posts": 2
+  },
+  {
+   "ator_id": "disenso",
+   "tag": "bolsonaro",
    "posts": 1
   },
   {
    "ator_id": "disenso",
-   "tag": "shorts",
+   "tag": "foromadrid",
+   "posts": 1
+  },
+  {
+   "ator_id": "disenso",
+   "tag": "brasil",
+   "posts": 1
+  },
+  {
+   "ator_id": "disenso",
+   "tag": "francia",
    "posts": 1
   },
   {
@@ -2173,6 +2385,78 @@
    "posts": 2
   },
   {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "fdisenso",
+   "posts": 2
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "aitorriveiro",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "danieldimartino",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "espball",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "hermanntertsch",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "juan_espinalr",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "cne_colombia",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "foro_mad",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "edmalymt",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "mariacorinaya",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "paolaholguin",
+   "posts": 1
+  },
+  {
+   "ator_id": "cader",
+   "rede": "x",
+   "conta": "joseantoniokast",
+   "posts": 1
+  },
+  {
    "ator_id": "disenso",
    "rede": "instagram",
    "conta": "jmartinfrias",
@@ -2211,13 +2495,13 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "figaredojosem",
+   "conta": "fustervox",
    "posts": 2
   },
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "fustervox",
+   "conta": "figaredojosem",
    "posts": 2
   },
   {
@@ -2247,13 +2531,13 @@
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "hafenecker",
+   "conta": "manuel.litzke",
    "posts": 1
   },
   {
    "ator_id": "disenso",
    "rede": "instagram",
-   "conta": "manuel.litzke",
+   "conta": "hafenecker",
    "posts": 1
   },
   {
@@ -2261,6 +2545,96 @@
    "rede": "instagram",
    "conta": "fpoe_at",
    "posts": 1
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "jm_frias",
+   "posts": 36
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "pfefoundation",
+   "posts": 32
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "lenore1789",
+   "posts": 26
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "ivanvelez72",
+   "posts": 19
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "pfbarbadillo",
+   "posts": 18
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "irenevalmar",
+   "posts": 17
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "luislandeira",
+   "posts": 17
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "cayuelaaquilino",
+   "posts": 15
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "hermanntertsch",
+   "posts": 13
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "heritage",
+   "posts": 10
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "issepmadrid",
+   "posts": 9
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "mariacorinaya",
+   "posts": 9
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "gundisalvus",
+   "posts": 9
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "foro_mad",
+   "posts": 8
+  },
+  {
+   "ator_id": "disenso",
+   "rede": "x",
+   "conta": "santi_abascal",
+   "posts": 8
   },
   {
    "ator_id": "foro-madrid",
@@ -2313,13 +2687,19 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
+   "conta": "normayarrow_",
+   "posts": 2
+  },
+  {
+   "ator_id": "foro-madrid",
+   "rede": "instagram",
    "conta": "enriquegomezsn",
    "posts": 2
   },
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "normayarrow_",
+   "conta": "tomaszambranomolina",
    "posts": 2
   },
   {
@@ -2331,7 +2711,7 @@
   {
    "ator_id": "foro-madrid",
    "rede": "instagram",
-   "conta": "tomaszambranomolina",
+   "conta": "cristianarayal",
    "posts": 2
   },
   {
@@ -2344,12 +2724,6 @@
    "ator_id": "foro-madrid",
    "rede": "instagram",
    "conta": "raneumannb",
-   "posts": 2
-  },
-  {
-   "ator_id": "foro-madrid",
-   "rede": "instagram",
-   "conta": "cristianarayal",
    "posts": 2
   },
   {
@@ -2469,13 +2843,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "fpoe_tv",
+   "conta": "herbertkickl",
    "posts": 1
   },
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "herbertkickl",
+   "conta": "fpoe_tv",
    "posts": 1
   },
   {
@@ -2499,13 +2873,13 @@
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "pedrourruchurtu",
+   "conta": "heritagefoundation",
    "posts": 1
   },
   {
    "ator_id": "martin-frias",
    "rede": "instagram",
-   "conta": "heritagefoundation",
+   "conta": "pedrourruchurtu",
    "posts": 1
   },
   {
@@ -2589,7 +2963,7 @@
   {
    "ator_id": "martin-frias",
    "rede": "x",
-   "conta": "santi_abascal",
+   "conta": "carretoalfonso_",
    "posts": 1
   },
   {

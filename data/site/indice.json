@@ -2,52 +2,52 @@
  "meses": [
   {
    "mes": "2026-11",
-   "posts": 1120,
+   "posts": 1164,
    "arquivo": "posts-2026-11.json"
   },
   {
    "mes": "2026-10",
-   "posts": 1635,
+   "posts": 1700,
    "arquivo": "posts-2026-10.json"
   },
   {
    "mes": "2026-09",
-   "posts": 864,
+   "posts": 932,
    "arquivo": "posts-2026-09.json"
   },
   {
    "mes": "2026-08",
-   "posts": 435,
+   "posts": 486,
    "arquivo": "posts-2026-08.json"
   },
   {
    "mes": "2026-07",
-   "posts": 534,
+   "posts": 606,
    "arquivo": "posts-2026-07.json"
   },
   {
    "mes": "2026-06",
-   "posts": 444,
+   "posts": 490,
    "arquivo": "posts-2026-06.json"
   },
   {
    "mes": "2026-05",
-   "posts": 837,
+   "posts": 868,
    "arquivo": "posts-2026-05.json"
   },
   {
    "mes": "2026-04",
-   "posts": 611,
+   "posts": 659,
    "arquivo": "posts-2026-04.json"
   },
   {
    "mes": "2026-03",
-   "posts": 596,
+   "posts": 657,
    "arquivo": "posts-2026-03.json"
   },
   {
    "mes": "2026-02",
-   "posts": 299,
+   "posts": 328,
    "arquivo": "posts-2026-02.json"
   }
  ]
