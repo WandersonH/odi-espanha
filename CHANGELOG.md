@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## E1.8 — 15/11/2026 · Repositório privado gravando; bruto recuperado; o que os anúncios da Meta são de fato
+
+**O que foi realmente executado.**
+
+- Run 43749706245 (`recuperar-bruto.yml`): o `ODI_INTERNO_TOKEN` clonou e gravou no `odi-secret-esp`. Bruto de 36 execuções já pagas copiado sem nova execução: 12.451 itens (X 9 execuções, 3.460; Instagram 17, 6.985; Facebook 4, 658; anúncios da Meta 4, 1.342; fichas de perfil 2 execuções, 6). Evidência: anotações do run e `data/bruto_privado.json`.
+- Run 43750391336 (`anuncios.yml`, recuperação): Google respondeu às buscas (5 respostas de busca, 6 de anúncios): "VOX" trouxe 10 sugestões, nenhuma da Espanha; os outros 4 termos, nenhuma; os 3 sites oficiais não têm anúncio. Ausência lida, não falha. Limite: a busca por nome só vê as 10 sugestões da Central. Na Meta, a recuperação por comparação do pedido não achou as execuções (4 × `LookupError`).
+- Commit f9b6eb7 (sem entrada própria neste arquivo, registrado aqui): a recuperação da Meta passou a ler as execuções guardadas no privado, identificando a busca pelo campo `input` dos itens.
+- Run 43750795404 (`anuncios.yml`, recuperação): 1.342 anúncios relidos sem custo, incluindo os 496 de "Santiago Abascal" que não tinham sido baixados. O custo daquela execução entrou no manifesto.
+- `python -m unittest discover -s tests` → 47 testes, OK.
+
+**O que os dados mostram** (`data/meta/anuncios_apify.csv` e leitura do bruto privado em 15/11/2026; cópia temporária apagada depois).
+
+- Nome como frase exata: "Santiago Abascal" 302 de 496 lidos (33 páginas anunciantes; início entre 26/04 e 12/11/2026; 193 em julho); "Fundación Disenso" 1 de 2; "VOX España" 0 de 342; "Foro Madrid" 0 de 502. Nenhuma busca bateu no limite de 600.
+- Dos 302 de Abascal: 267 são anúncios de catálogo (texto em modelo), 11 repetem a chamada "pierde el control tras la revelación financiera"; destinos exibidos: amazon.com 95, elmundo.es 101, e domínios que imitam o El Mundo (elmundo-es.com 21, elmund0.es 15, elmnd0.es 6), capitalfirst.world 16, webflux.cc 10. 300 dos 302 já estavam inativos. Nenhum é de página dos atores monitorados. Leitura: padrão compatível com anúncio de golpe financeiro que usa o nome do político e imita veículo de imprensa; falta conferência humana da amostra no privado.
+- 94 anúncios foram classificados pela Meta como políticos (`categories=POLITICAL`) e todos constam como retirados (`gated_type=TAKEN_DOWN`); 92 começaram dentro do período do estudo, isto é, depois de 06/10/2025. Páginas com mais casos: VOX Gandía 18, Killit NV 10, PSOE Vega Baja 9. Moedas: EUR 57, USD 26, NOK 5, CHF 3, GBP 3.
+- Correção de rótulo: o campo `reach_estimate` é o tamanho estimado do público-alvo (ex.: ">1M"), não alcance. A coluna pública passou de `alcance_*` para `publico_estimado_*`. Só os anúncios classificados como políticos trazem gasto e público estimado.
+
+**O que mudou no código.** `collect_meta_anuncios_apify.py`: colunas `politico`, `retirado`, `moeda`, `destino`; agregados por consulta (classificados como políticos, retirados, gasto por moeda sem somar moedas diferentes, destinos e meses dos anúncios com frase exata).
+
+**Pendente.** Rodar a recuperação de novo para regravar os agregados com as colunas novas; primeira leitura dos comentários do YouTube; busca de anúncios pela página (identificadores das páginas oficiais); telas "Anúncios" e "Comentários".
+
 ## E1.7 — 15/11/2026 · Resultado dos anúncios, recuperação do bruto sem custo e comentários do YouTube
 
 **Resultado real dos anúncios (run 43748071016, workflow `anuncios.yml`).**

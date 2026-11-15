@@ -63,6 +63,13 @@ def iso(t) -> str:
         return str(t or "")
 
 
+def dominio(s: str) -> str:
+    """Domínio de destino exibido no anúncio (sem caminho e sem www)."""
+    s = str(s or "").strip().lower()
+    s = urllib.parse.urlparse(s).netloc if "://" in s else s.split("/")[0]
+    return s.removeprefix("www.")
+
+
 def normalizar(x: dict) -> dict:
     snap = x.get("snapshot") or {}
     plat = x.get("publisher_platform") or x.get("publisher_platforms") or []
@@ -76,7 +83,10 @@ def normalizar(x: dict) -> dict:
             "spend": faixa_de(x.get("spend")),
             "impressions": faixa_de((x.get("impressions_with_index") or {}).get("impressions_text") if isinstance(x.get("impressions_with_index"), dict) else x.get("impressions")),
             "reach": faixa_de(x.get("reach_estimate") or x.get("reach")), "currency": x.get("currency") or "",
-            "publisher_platforms": [str(p).lower() for p in plat], "delivery_by_region": x.get("delivery_by_region") or []}
+            "publisher_platforms": [str(p).lower() for p in plat], "delivery_by_region": x.get("delivery_by_region") or [],
+            # a Meta classifica e, na UE (onde não aceita anúncio político desde 06/10/2025), retira: categories=POLITICAL, gated_type=TAKEN_DOWN
+            "politico": "POLITICAL" in [str(c) for c in (x.get("categories") or [])], "retirado": x.get("gated_type") == "TAKEN_DOWN",
+            "destino": dominio(snap.get("caption") or snap.get("link_url") or "")}
 
 
 def textos_de(o) -> list[str]:
@@ -127,7 +137,8 @@ def do_privado(interno: str, ator: str, token: str = "") -> dict:
 
 
 COLS = ["id", "consulta", "page_id", "page_name", "bylines", "ad_delivery_start_time", "ad_delivery_stop_time", "gasto_min", "gasto_max",
-        "impressoes_min", "impressoes_max", "alcance_min", "alcance_max", "plataformas", "frase_exata", "visto_em"]
+        "impressoes_min", "impressoes_max", "publico_estimado_min", "publico_estimado_max", "plataformas", "frase_exata", "politico", "retirado", "moeda", "destino", "visto_em"]
+# publico_estimado = "estimated audience size" da Biblioteca (tamanho do público-alvo, ex.: ">1M"); NÃO é alcance nem impressões.
 
 
 def linha(a: dict, consulta: str, agora: str) -> dict:
@@ -135,8 +146,9 @@ def linha(a: dict, consulta: str, agora: str) -> dict:
     return {"id": a["id"], "consulta": consulta, "page_id": a["page_id"], "page_name": a["page_name"], "bylines": a["bylines"],
             "ad_delivery_start_time": a["ad_delivery_start_time"], "ad_delivery_stop_time": a["ad_delivery_stop_time"],
             "gasto_min": g.get("lower_bound", ""), "gasto_max": g.get("upper_bound", ""), "impressoes_min": i.get("lower_bound", ""),
-            "impressoes_max": i.get("upper_bound", ""), "alcance_min": r.get("lower_bound", ""), "alcance_max": r.get("upper_bound", ""),
-            "plataformas": ",".join(a["publisher_platforms"]), "frase_exata": {True: "1", False: "0"}.get(a.get("frase_exata"), ""), "visto_em": agora}
+            "impressoes_max": i.get("upper_bound", ""), "publico_estimado_min": r.get("lower_bound", ""), "publico_estimado_max": r.get("upper_bound", ""),
+            "plataformas": ",".join(a["publisher_platforms"]), "frase_exata": {True: "1", False: "0"}.get(a.get("frase_exata"), ""), "politico": "1" if a.get("politico") else "0",
+            "retirado": "1" if a.get("retirado") else "0", "moeda": a.get("currency") or "", "destino": a.get("destino") or "", "visto_em": agora}
 
 
 def de_linha(r: dict) -> dict:
@@ -144,7 +156,7 @@ def de_linha(r: dict) -> dict:
     return {"id": r["id"], "page_id": r["page_id"], "page_name": r["page_name"], "bylines": r["bylines"],
             "ad_delivery_start_time": r["ad_delivery_start_time"], "ad_delivery_stop_time": r["ad_delivery_stop_time"],
             "spend": f("gasto_min", "gasto_max"), "impressions": f("impressoes_min", "impressoes_max"),
-            "currency": "EUR", "publisher_platforms": [p for p in r["plataformas"].split(",") if p], "delivery_by_region": []}
+            "currency": r.get("moeda") or "EUR", "publisher_platforms": [p for p in r["plataformas"].split(",") if p], "delivery_by_region": []}
 
 
 TIPO = "all"  # na UE a Meta não aceita anúncios políticos desde 06/10/2025: a busca é em todos os anúncios (ad_type=all)
@@ -257,7 +269,9 @@ def main(argv=None, executar=None) -> int:
     acum = {}
     if hist.exists():
         import csv as _csv
-        acum = {(r["consulta"], r["id"]): r for r in _csv.DictReader(open(hist, encoding="utf-8"), delimiter=";")}
+        acum = {(r["consulta"], r["id"]): {**{k: r.get(k, "") for k in COLS}, "publico_estimado_min": r.get("publico_estimado_min") or r.get("alcance_min", ""),
+                                              "publico_estimado_max": r.get("publico_estimado_max") or r.get("alcance_max", "")}
+                for r in _csv.DictReader(open(hist, encoding="utf-8"), delimiter=";")}
     acum.update(novos)
     import csv as _csv
     with open(hist, "w", encoding="utf-8", newline="") as f:
@@ -270,14 +284,26 @@ def main(argv=None, executar=None) -> int:
         marcas = [r for (q, _), r in acum.items() if q == c["id"]]
         exatas = [r for r in marcas if r.get("frase_exata") == "1"]
         marcado = all(r.get("frase_exata") in ("0", "1") for r in marcas)
+        pol, por_moeda = [r for r in marcas if r.get("politico") == "1"], {}
+        for r in pol:  # gasto é faixa informada pela Meta, na moeda do anunciante: nunca somar moedas diferentes
+            m = por_moeda.setdefault(r.get("moeda") or "?", {"anuncios": 0, "gasto_min": 0, "gasto_max": 0})
+            m["anuncios"], m["gasto_min"], m["gasto_max"] = m["anuncios"] + 1, m["gasto_min"] + int(r["gasto_min"] or 0), m["gasto_max"] + int(r["gasto_max"] or 0)
         out["consultas"][c["id"]] = {"ator": c["ator"], "termo": c["termo"], "paginas_api": None, "com_frase_exata": len(exatas) if marcado else None,
-                                     "paginas_com_frase_exata": Counter(r["page_name"] for r in exatas).most_common(15), "lidos_nesta_execucao": hoje,
+                                     "paginas_com_frase_exata": Counter(r["page_name"] for r in exatas).most_common(15),
+                                     "frase_exata_paginas_distintas": len({r["page_id"] for r in exatas}), "frase_exata_por_mes_de_inicio": dict(sorted(Counter(r["ad_delivery_start_time"][:7] for r in exatas if r["ad_delivery_start_time"]).items())),
+                                     "destinos_frase_exata": Counter(r.get("destino") or "(sem destino)" for r in exatas).most_common(15),
+                                     "classificados_politicos": len(pol), "politicos_retirados_pela_meta": sum(1 for r in pol if r.get("retirado") == "1"),
+                                     "politicos_iniciados_no_periodo": sum(1 for r in pol if r["ad_delivery_start_time"][:10] >= cfg["desde"]),
+                                     "paginas_dos_politicos": Counter(r["page_name"] for r in pol).most_common(15), "gasto_por_moeda": por_moeda, "lidos_nesta_execucao": hoje,
                                      "limite_da_coleta": max_ads, "no_limite": hoje >= max_ads, **agregar(ads, fases)}
-        print(f"{c['ator']} ({c['termo']}): com o nome como frase exata {len(exatas) if marcado else '⛔ não marcado'} · {hoje} lidos nesta execução{' (limite atingido)' if hoje >= max_ads else ''}; {len(ads)} no acumulado")
+        print(f"{c['ator']} ({c['termo']}): classificados como políticos pela Meta {len(pol)} (retirados {sum(1 for r in pol if r.get('retirado') == '1')}) · com o nome como frase exata {len(exatas) if marcado else '⛔ não marcado'} · {hoje} lidos nesta execução{' (limite atingido)' if hoje >= max_ads else ''}; {len(ads)} no acumulado")
     ok = any(v["anuncios"] for v in out["consultas"].values())
     out["janela_desta_execucao"] = janela
     out["status"] = "ok" if ok and not out["erros"] else ("⚠️ parcial" if ok else "⛔ " + ("; ".join(f"{k}: {v}" for k, v in out["erros"].items()) or "nenhum anúncio"))
     out["custo_usd"] = custo
+    out["nota_campos"] = ("'gasto' de cada consulta soma faixas de moedas diferentes quando há mais de uma: use gasto_por_moeda. "
+                          "publico_estimado é o tamanho do público-alvo informado pela Biblioteca, não alcance. "
+                          "Só anúncios que a Meta classificou como políticos trazem gasto e público estimado.")
     (pasta / "anuncios.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     (pasta / f"manifesto-{agora[:7]}-{agora.replace(':', '').replace('-', '')}.json").write_text(
         json.dumps({"coletado_em_utc": agora, "modo": out["modo"], "teto_usd": teto, "custo_usd": custo, "itens": len(brutos),

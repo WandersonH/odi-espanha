@@ -132,7 +132,8 @@ class TestAnunciosRecuperacao(unittest.TestCase):
 
         def fake(payload, cap):
             ab = "Abascal" in payload["adLibraryUrls"][0]
-            return {"id": "run-a" if ab else "run-b", "status": "SUCCEEDED", "usageTotalUsd": 0.01}, [{"ad_archive_id": "9", "page_name": "Página", "snapshot": {"body": {"text": "Con Santiago  ABASCAL en Madrid"}, "cards": [{"title": "Foro abierto"}]}}]
+            return {"id": "run-a" if ab else "run-b", "status": "SUCCEEDED", "usageTotalUsd": 0.01}, [{"ad_archive_id": "9", "page_name": "Página", "categories": ["POLITICAL"], "gated_type": "TAKEN_DOWN", "currency": "NOK" if ab else "EUR", "spend": "NOK4K - NOK4.5K" if ab else "<€100", "reach_estimate": ">1M",
+                                                                                      "snapshot": {"caption": "https://www.elmund0.es/videos.html", "body": {"text": "Con Santiago  ABASCAL en Madrid"}, "cards": [{"title": "Foro abierto"}]}}]
         os.chdir(t)
         try:
             self.assertEqual(cm.main(["--recuperar"], executar=fake), 0)
@@ -142,6 +143,12 @@ class TestAnunciosRecuperacao(unittest.TestCase):
         self.assertEqual((d["modo"], d["custo_usd"]), ("recuperação", 0.01))                      # só run-a é nova; run-b já estava em manifesto
         self.assertEqual((d["consultas"]["abascal"]["com_frase_exata"], d["consultas"]["foro-madrid"]["com_frase_exata"]), (1, 0))  # 'foro' e 'madrid' soltos não contam
         self.assertNotIn("ABASCAL en Madrid", (t / "data/meta/anuncios_apify.csv").read_text(encoding="utf-8"))
+        q = d["consultas"]["abascal"]
+        self.assertEqual((q["classificados_politicos"], q["politicos_retirados_pela_meta"], q["destinos_frase_exata"], q["gasto_por_moeda"]), (1, 1, [["elmund0.es", 1]], {"NOK": {"anuncios": 1, "gasto_min": 4000, "gasto_max": 4500}}))
+        self.assertEqual(d["consultas"]["vox"]["gasto_por_moeda"], {"EUR": {"anuncios": 1, "gasto_min": 0, "gasto_max": 100}})
+        cab = (t / "data/meta/anuncios_apify.csv").read_text(encoding="utf-8").splitlines()[0]
+        self.assertIn("publico_estimado_min", cab)
+        self.assertNotIn("alcance", cab)                                                             # ">1M" é tamanho do público-alvo, não alcance
 
     def test_meta_recuperar_le_do_privado_pelo_termo_do_endereco(self):
         priv = Path(tempfile.mkdtemp())
