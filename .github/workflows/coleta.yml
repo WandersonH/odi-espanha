@@ -80,7 +80,7 @@ jobs:
         continue-on-error: true
         run: |
           rc=0
-          { python scripts/build_acervo.py && python scripts/exportar_corpus.py && python scripts/build_rede_mencoes.py && python scripts/build_saude_coleta.py; } > b.txt 2>&1 || rc=$?
+          { python scripts/build_acervo.py && python scripts/build_o_que_dizem.py && python scripts/exportar_corpus.py && python scripts/build_rede_mencoes.py && python scripts/build_saude_coleta.py; } > b.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=Análises::$(echo "$l" | cut -c1-400)"; done < b.txt
           rm -f b.txt
           exit $rc

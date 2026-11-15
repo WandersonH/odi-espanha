@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## E1.5 — 15/11/2026 · "O que dizem": método do ODI Atlas portado (dados; a tela ainda não)
+
+**O que mudou e por quê.** O responsável pediu as páginas do ODI Atlas original (O que as campanhas dizem → "O que dizem", Comentários, Quem acompanha, Trends), com a mesma metodologia, e perguntou se o modelo de `ODI_Atlas_v15_MVP.html` já tinha sido importado. **Não tinha:** até aqui só a identidade visual. Este passo porta a primeira parte, a dos dados de "O que dizem".
+
+- `scripts/texto.py`: regras de texto de `build_conteudo.py` do Atlas (normalização, dicionário aberto por regras com prefixo `*`, descarte de trechos repetidos em 10+ publicações do mesmo perfil, nuvem por nº de publicações, hashtags), com palavras vazias do espanhol.
+- `data/config/temas.json`: dicionário de temas em espanhol, **versão v0, rascunho a validar** (13 temas, lista de adversários, expressões de pedido de voto, fases). As datas da campanha oficial foram calculadas pela regra geral e estão marcadas "a conferir" no calendário da Junta Electoral Central.
+- `scripts/build_o_que_dizem.py`: gera `data/<rede>/conteudo.json` no desenho do Atlas, com um bloco por ator (temas, visualizações por tema, taxa de interação mediana, cita adversário, pede voto, nuvem, hashtags, por mês e por fase, lista de publicações). Entrou nos dois workflows.
+
+**O que foi realmente executado.**
+- `python -m unittest discover -s tests` → 37 testes, OK.
+- `python scripts/build_o_que_dizem.py` no acervo real (local, 15/11/2026). Publicações com pelo menos um tema do dicionário v0: Instagram 73,8% de 2.143; X 68,2% de 3.372; Facebook 73,4% de 644; YouTube 55,4% de 1.216. Os arquivos gerados localmente não foram commitados; o workflow os gera.
+
+**O que NÃO foi feito (⛔).** A tela "O que dizem" (linha do tempo em bolhas, nuvens, listas); o livro de códigos de populismo em espanhol; a CHD de Reinert; as redes de coocorrência e de menções no modelo dos casos; e as páginas Comentários, Quem acompanha e Trends. O dicionário v0 não passou por codificação humana nem teste de concordância: os percentuais por tema ainda não servem para análise.
+
 ## E1.4 — 15/11/2026 · Cargas de X, Instagram e Facebook; correção da regra de cobertura
 
 **Errata (importante).** O manifesto da carga do Facebook (`data/facebook/manifesto-20261115T…`, run 43744078867) grava a página `vox.espana` como "completa". **Está errado.** O ator devolveu 603 posts, todos de 18/10 a 15/11/2026, e parou sozinho, longe da data inicial (16/02/2026). A regra antiga só olhava se o número de itens tinha batido no limite pedido (804) ou no limite conhecido do ator (700). Correção:
