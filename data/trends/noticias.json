@@ -1,157 +1,86 @@
 {
- "coletado_em_utc": "2026-11-15T22:00:31Z",
+ "coletado_em_utc": "2026-11-16T19:41:16Z",
  "geo": "ES",
  "fonte": "Google Notícias · busca por termo (RSS público)",
  "nota": "Os 5 primeiros resultados de cada termo na ordem do Google Notícias na hora da leitura. O Google não informa quantas notícias existem ao todo sobre o termo.",
  "termos": {
-  "Vox": [
-   {
-    "pos": 1,
-    "titulo": "PP y Vox se aferran al 51% de los votos y hasta 199 escaños con un PSOE estancado",
-    "fonte": "El Mundo",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSkNhT3NYTTdBQmJ4UTR2amppV05PZEdxXzd6ZUxranFHNFFSQlhHVC1XNTl2VTZjLTl6M3F5UFdhNUk3Q2Z3SHlWZF9LeWZscG9SUElxUGIyNkZOaGxKa25pUExpV1BhTzJlTWIzT3AzR0JxaXpmTEJ1TWNsM2tJQlJuZjNkTzBZSVNaazRyV2dBbW92eFdjS1BBONIBmwFBVV95cUxPdFZQdHhqWDhqZDMyc2x5a1RSU3ZnZnJzODB0UWFYbVdBbXNaQmJaU1NXdmd1QnJsaGZ4bTc5Z1pRQmdicEVXYjd4ZE11Y0RjT0N2S3ZrNWFtM05TT21nNkNGem5BRHdPcEdoU19DT01Pd0pZaDNjS3lld00zd204RWUwSnBIM1pXOFVEdkpDdlhHRXhSZkhfYWUxcw?oc=5",
-    "publicado_em": "2026-11-15T00:10:45Z"
-   },
-   {
-    "pos": 2,
-    "titulo": "Vox quiere revisar la nacionalización de 300.000 españoles de origen marroquí",
-    "fonte": "EL PAÍS",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMEFVN1lsenhOLXBnSlJkTWJmUHVGVnVVNC1Lbl92MEhvdS1VVUNBTElHYmVfZV9CZ0hia21TUjh3ZjR0TmYxWHdaVVZyMWxrV0ZRaWRlVjZObnZtdEotNWJ1YkFiR2Z2UFR6WHhEa3VqNEh5WlVrN2ZDb2ZXcjBjRzZvUXdZWHZycmFiZ2JCWVhOeUk3dUI0aGEtX1h5X25xZU1qS2lad0ZhYTRONkRVaEJqMmREZktJcm5HM19MMWRpX2hwamlUUlplVUpVdXo4QWQ4ZVRKdmQxcUlMb2lRLS1EdnJwZ2xhSFEzOVQxWkvSAYQCQVVfeXFMTzRlQzkyWE1WOEtQbGZQT2hyOFZrdTdmYjZJMU1mVERVdVJ3eVB1U0tDQWExaUxoX2J2NjRmTWtsTG41TEJfNlAtd0tweFpqcDFuQWF6TXJ2UkNvdkFwenhwQ3RwbTFUY1lDMkhzcXlxUVVLcHd0eDVvTHZQcTc4UG5GTkJ3LXZlZGVpYmZjam9yNkZHQ1Q4NjVuajhBeEhSSkRNNmpjbXdIcG5zUFE1Q2ZBbnplLVVmM2JCQnhQUld0R2tDM1dMbkZjM3EwUEllcjN1eW5KLXNRVkxTZ0N0blF3Yy1JcEp6d29GTWRkRlZ3WXVUN0ZpejIxNEpfT2hoNzk3bEo?oc=5",
-    "publicado_em": "2026-11-14T04:30:01Z"
-   },
-   {
-    "pos": 3,
-    "titulo": "Encuesta elecciones generales: Sánchez mantiene 133 escaños y Feijóo no alcanza la mayoría con Vox, según SW Demoscopia",
-    "fonte": "Demócrata",
-    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNE5EbzhxNkxiQUVGT01aRE51ejJzWnBZWG9FclVucEFpMmoxR0xLeEJPNGgwSzNFdEppYi1oak1tbjZHVXRXcUdrMjU2UkF1dXIyRFltNlBqLWstcHdGZGItNkkyY1BWaHhFX2puUzg0aEpfd05hQkFpTzR1Zkx6MF96V20xOFNOMWtaTUFNMnU3NDFoTmlNS0NYV2xNOGV2UFU2dllmdE9mT0czNGduQXNQUmpTaWxYWEI1anVLSHpEaE5ZdndScjlzdExKRlE0TzZET0lRTHRvQUhDOHpoNWdBSWZmTklHVENtLU4wODNWXzZacEFIX283WWFmUdIBgwJBVV95cUxPc1BZZDVBQ3lIVFlyLV94ZVJpOXlSQVI2emIwOENXOEN3X2tsNkF3Vk5vWXNIRTFGZG9VTUl3eVF4VjBVVks5ajRCaHJVWEVsOERwTWJ2N21CTEdkdG5wSWhVeGU0SkJRZFpTSnRlNllqTFRfb3IxVFFzSVlOSlRhUTF5M3R3dkFOYUhzUXBrWWpXVGthRE12MlhhdHpELTVRVFBDVlI4U19kOUVjejlvOS1XNlBIR2NFVmhzWFlmUVlCVFRLY2VhTUtrWnh5TVkxUlNvUldnVndpaGRDdFIxRGxpVS15WEh1bFc0c09iM3kwMnVUdWE4ZXFhM2RMN1hYQnZz?oc=5",
-    "publicado_em": "2026-11-15T20:37:27Z"
-   },
-   {
-    "pos": 4,
-    "titulo": "Vox roza un hito con dos escaños en Galicia y dispara a la derecha en Cataluña",
-    "fonte": "El Mundo",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkl6dVRnN1N4UlBmSVFmNVd4ZEgxMWlPTUVFQlpJQzI2UXBheHZqeWVSa194Tk5iVnFfeDFFcUpxXzJNTVYwNDNtc1Y0NUVfcnR6S1NNYmdNc2k0MUdCWFdGNGxmc2FDN2otMEdoYVJNVW1LMjBoU1BYNXVQWUpXc0h6VnlRY3VlSGRpeXltODlNS3pJOGFEWER3a9IBmwFBVV95cUxQaGVBcDJYM3FNdUcyNzA2SWtTbTFhR0t0R3NWMlFpdlUyRVctdUpORmZiX2hDTjcwdFZuTjU2NVFkNFZfVVJuMGwyWTFSWG1ub0M3UUNsbkd3YzdHTWpRQTdoMmluRjJmSWJjdmxla0N3RU1MMWw4cTVIbkc3Q0NGUDB4RmJPSW9TZ1BWQ3c0bW5UOHRyYzk4eWxsZw?oc=5",
-    "publicado_em": "2026-11-15T21:42:42Z"
-   },
-   {
-    "pos": 5,
-    "titulo": "Abascal llama desde Cornellá a \"los que votaron separatismo\" y ven que \"el problema\" es \"con el califato islámico\"",
-    "fonte": "RTVE.es",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY3pzV3JiMXVXRjBUSFM5Q1FWYXVsTWo2cGJZQ0VGbGhxdmlCX0g2V212dU91bVZaOFJLOEVxZVJYUkI2TlZCYzF1cnN0NGhzdG0yUS1yQXd6ZklRUmNBRzZ1UDJUNlBiMC03dy13S2pieVo2N25iUjFBczVWclFMNHgwWUdmM1hsS2RoWXdhOFVsWkZGSjJxY3VCTDU0dlRuQlR6QllNRXVtVVhGWVpKRE40azdULUVJX2QtUnZHaw?oc=5",
-    "publicado_em": "2026-11-15T13:48:50Z"
-   }
-  ],
-  "Santiago Abascal": [
-   {
-    "pos": 1,
-    "titulo": "Abascal defiende la prioridad nacional: “Nos presentamos a las elecciones para hacer legal lo que hoy nos dicen que es ilegal”",
-    "fonte": "EL PAÍS",
-    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPQ1RIZHlYd2x0WUVsX2dmOWZvYUxTMXNacWpnMmZQZVB0eDBuZm45a2tRcXFqX0ZLbVo0bE1LNVc5MjFncXdfaWxFSUFhR0NjaExTbXUyMjhhY1ZsQ3k2cHlsZ3JlMDdKMTBHcWhlcGRnZ0R2VElJNUw1QnFkMllRbmVpWDJjZHJLOWJTTm5ZcWRMOEZUNGlUZU8wWUs0X2p4UWI1dWFqU0J6TnI4TkZVc2FmaHZsVVY0enBkRExBa3MyYVgyQlItSHhpTXl3OW9QNHpJVU5pVjg1NTZqa2pZTnFFbEJQWkkzUXE3Uk5pdE0zSlhwcjdLbUM2MTNaQ1dnQWxFa0tRRU5wdndFVlJVX2ZuN3PSAagCQVVfeXFMUE1jVExCdDVFSjNoX1luTUNOT09TUkpMeXotUWZDRUJTc3RJSi1mMlNFcHZwLVZlNEdJcllKdFBPaFFhakV0b0JIZ2tJSGhZb1lBbWlEY0lrNWhZWWstVkxvSW1NaDZOQkZaMXBZTlVJYmRhTmRTTUlTZjh1WFBfeXJickdoZGFKVDRHdUc2b2pSQkMtd0IzUk92VWJkMVFnNjZ6aHVFWG5IaTBuMFhjM2MzR1B4WnRNSkFIZFM0cng0Wlh4V3QxQ3VabjFSaE9rdXhwZTA5NU5BT3Z6ZUNKZWZnWjFuaXE2Q3lYNUlRRFZQYlRhNHBZb2tvUldVWlNaVXp1Y2hhR2pYWUhZMldpY1ZzU1hDWDcxRW90SXFKLWhBQ3dxYlFMSFE?oc=5",
-    "publicado_em": "2026-11-14T15:38:54Z"
-   },
-   {
-    "pos": 2,
-    "titulo": "Abascal pide el voto para el PP a quienes discrepen de sus propuestas: \"Hay que echar a Sánchez\"",
-    "fonte": "Libertad Digital",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOVhnNWszQmdrZlR3bklXc19JbDV0YnJ0Q29zZzBkcmdUSWZ3NzN5WnRkT1FVVWFlelhCLU1NY21CTEJLTWhZWnpNMzRtcDl1MUpiRzJfb2NwRFNqYkZLWFJzX0VHd0tNbUx3Y19kUmJJeG1SdWd2WGJJelRyZ3RhWmpuYW1pdUlhcDl1S1pUR2I4dnRnMHRweHU5WVI0Tk0teERPaXAtZWhoWHZTNWpGWGtLVEtSbC1EYU9Uc3ZJZ285dS1Ia3dRXzNvYUc4N3VWQ1AxaTN6QzBGeHUwbmZSUXFkRVd2bmNHX0haVHlsb1FSNWvSAf4BQVVfeXFMUEdVTXItVDY0Q3A5cFFrQ0ZmLTY1c1MzZ0otNUVaWlJoTE5rS0tzT1JSWENxbm1SRnlUak9NYUxfNzZDdjFLUzNhaktoNXNva0JXT1pYS094UTBQWE8xUi02azU5R3BXOGhJblJDaFdBSmJZRkxoRVRDbFlCY3FseGE0a3ZlWkhBeTB3YUdYQjgtaE5Ed3o0Z3V4ZUI0bFpXN0c2RmdYWGNtUk1NUkdNZVA4d1FnalF0ZnJNZnA0bVRCcEgzY2xNZ05aZlVOSWhPWVo3NHJBdXlzLWhkaEZuZ2RYOHVQVkszQmFiOFk5RS1lSmd3d0NobjhZNXZnUGc?oc=5",
-    "publicado_em": "2026-11-14T14:49:04Z"
-   },
-   {
-    "pos": 3,
-    "titulo": "Vivienda, cuidados y pensiones centran las promesas de los partidos en el tercer día de campaña",
-    "fonte": "Antena 3 Noticias",
-    "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNQjRsMlpTSzI3ZjBvQkJLb25fdEFQMFJfWllWUDZfMXBLTjYzXzBESVhZSFMtckNjRWpuWlU1Wk5EOEhGeUVCRUo3Q3ZYSjB5WDMwOWhqTlpiSXRrNl81QzdjRUZGd05DS0NBUUhuNXVzN1draGpRSmhZQWVkWGZCT0U4TVhoUU5TcWhrblZxY3F0VTJVWGJrLWRRbTZYVlpsejhxWXJFZ2ZvZ0dFb2UzNWtROW9YUWdVT2JtNHZxbTAwc1NhR3MzdEVpNjZDNk8xM0JiNXlDRXdIbkVFLTZDeklCMGRjUm9kVlJaV3QtalRSLUJVWFNDaEpZMTBic1hNcWhnZHlTbGNleEdUWE9GNzh6b3FxeFJ6bVA5SWwtbV9HeTZ4MWNRMGZoTFBzVjR6UVFCNNIBtAJBVV95cUxNMUZXckg1cWRFOHBBUUxmRmVrOWk0a0ZQQ3ZxTFFSc0hLUnVZblAxVkotWGUyeFZDdi1WVWtlcW9mSk4tcGRtSENhLV84TEstYnV4R0dyMEE4STFzVXZtamE3VU5HY2FSSXJuZlRDVWhzb1hqbmRkVUNaUVltNnFoSFcyRmN6amd3TU1sRktwTmV4VjIwMEhRLWloUm80RDhMSnVqSF9jbG9SUHVtdm4yR2s4bEhLWF8tNExZWFZNbGNJVW5raDg1Nl9rSEpIX0x1ejBTZmdveXNpZTJPUTItTjlpVEozWjlVUE5wcnByT2gwUEVSb0JwSUN2ZTh4dzRhdU5CUlR5dUliYXFtSWFUNldrQjlFbDI5X2EwMjVwaTB2STdVdk9nY1hRUWwtbkJna3dseQ?oc=5",
-    "publicado_em": "2026-11-15T21:00:17Z"
-   },
-   {
-    "pos": 4,
-    "titulo": "Abascal llama desde Cornellá a \"los que votaron separatismo\" y ven que \"el problema\" es \"con el califato islámico\"",
-    "fonte": "RTVE.es",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY3pzV3JiMXVXRjBUSFM5Q1FWYXVsTWo2cGJZQ0VGbGhxdmlCX0g2V212dU91bVZaOFJLOEVxZVJYUkI2TlZCYzF1cnN0NGhzdG0yUS1yQXd6ZklRUmNBRzZ1UDJUNlBiMC03dy13S2pieVo2N25iUjFBczVWclFMNHgwWUdmM1hsS2RoWXdhOFVsWkZGSjJxY3VCTDU0dlRuQlR6QllNRXVtVVhGWVpKRE40azdULUVJX2QtUnZHaw?oc=5",
-    "publicado_em": "2026-11-15T13:48:50Z"
-   },
-   {
-    "pos": 5,
-    "titulo": "La 'generación Wild' de Vox examina la espantada de Abascal: a casi todos les decepcionó, pero la mayoría le seguirá votando",
-    "fonte": "El Mundo",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SRDdmLXFRZGlFMTFvaWprSkZCd2hud1lDOGs2N3FOZFdIVzRhazVHYzdsNjJGSkdLN0huRGJOOFdXVzFGN19abEhORnI4MzhWSXo1Z1pQQ3pSS1ptX19LWll1SWFZS1YzaDFNR1BCMDNtSzI2MC12WGtkZ9IBe0FVX3lxTE5GNE1IeV9xa18zM3BGYVp3dFhZOHNFTVZjcnM3UjZTOWt6QTRSbjdCZGlXd2U4RGJyUkprcUJrSmdkWGlyM1E4UXo4TEJaNkdmWVlkV0tXdnhGTlI0YlF3V1hpazZHZXVHbklCMnk3aC1tZ3piQWo2Y085bw?oc=5",
-    "publicado_em": "2026-11-15T16:33:47Z"
-   }
-  ],
   "Fundación Disenso": [
    {
     "pos": 1,
-    "titulo": "Javier Milei se reúne con Jorge Martín Frías e Ignacio Garriga en la Fundación Disenso",
+    "titulo": "A los 20 años de la muerte de Milton Friedman",
     "fonte": "Fundación Disenso",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QNFBBOTBCR3lodjVoZ2lDVUE1b2ItdFRhaXdBUkw5MDRIa3pFWkNnNVZCeXI5YzBXQVJEVEJXUkFRcWZWU2RKZ2djNnlobkV6cHlpRHJEcGFTRERyNkZKSGt5UDNta2Q3UV8yUw?oc=5",
-    "publicado_em": "2026-10-22T07:00:00Z"
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMzFPQy1EbHlMTTQ5aloxS096MDBQaUM5TVpQVHh1SktOT2tvdVZSaHg3aDd1anZqQ29EMmt1WTNuZHAwLTlGSG9tazJCVXRwZXRxcGwtaWItYS1XbmtzWlRlQW1KYnRSVnNQOFN0ZzEyckFScVFzeC1LM2J0VE5JXw?oc=5",
+    "publicado_em": "2026-11-16T16:58:11Z"
    },
    {
     "pos": 2,
-    "titulo": "Santiago Abascal: su trayectoria laboral, su patrimonio, el dinero público de VOX y sus alianzas internacionales",
-    "fonte": "NR | Periodismo alternativo",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRk1KUW8wWjBadmxlcjItSXE1Q2xzbUZNWmdNRHdvQ0VyeTFzemg2M3VPT3BoMTZZVDlmWU53RjJOdUtocjF5NlViQ1o4a3NOWEpvMXE0QmFlNkVvSTBsc011ODFYOWY5NE9Bc2dDdTdvd2dWeU40SGhJWGlLaVdfRWZGTkkzWFlxc05sc1FYck55VVp0eHdYZU55TzNwWUF2ZEZfSmtQLU15UzFFNVN4UUNkNGVacTAzcnVtRXBia2pSeTQ3S1ZmQVB1Yl83czZEWHlF?oc=5",
-    "publicado_em": "2026-11-12T06:00:50Z"
-   },
-   {
-    "pos": 3,
     "titulo": "Vox ha desviado casi 13 millones de euros a la fundación que preside Abascal en los últimos 6 años",
     "fonte": "Cadena SER",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcVhYNEVlRXMzUk9BdWdLNmlpbm1ZOFR6NDJpZVg1b20yTGYwVG1uZm5NYUNkd1VWdm94MUFhR2VLaDhKaWhTWE5iWGRCQjF0MG5DTEMwRC1jeTUyN2E3azVqNDBhZnNEbnp3YVY3MDJNeTBsMkZmM2Rid2FiU2ltR1A0RFRuRThNZVlnanQ3eTNZMVVNOHBtSnJVZXhSTWpRWlE0QjI1SUFoVnZfUkRSMERNRDE5Zld0UU1sU3drN29RQVZ6MUpWa05uZ0J0SzRUSGt6NUt0STItZkZGRVZiS0I1MVVqX03SAfsBQVVfeXFMTXdMWl9rcXBRYnZGUTFWLTd6RGx1Zm5XSV9EZ09UMHZwSUMzOHdaX3A2UWw2dHpvclJocThfRVNYcm1VRDcyMnZuc2h6T0Rha3RGcWV1M3B0Tnc1emRGeWVnWlZqRFRqVmFKUm5PUFNNcmtKZC1ZeUlyc3lMa0k4SGFwdF9aaVZxMU1vN3YyeS12dE0wZEViRUdXUHpDLW5SLW4xVndJdzJoY0ViSnptbjk1NjhTT0pZaXVJVE5jcmZXOEx4cTZGVzFYaTlGZVdWM3p5cERjWlQ3YVM0azJfMFY3akQ3d0lad2xOczJIV0h6QkRFUHFuRHRlaGs?oc=5",
     "publicado_em": "2026-06-24T07:00:00Z"
    },
    {
-    "pos": 4,
-    "titulo": "Dos eurodiputados de Vox viajan a Venezuela y ponen a prueba la apertura de Delcy",
-    "fonte": "ABC",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY2hvTm9QTTQwZHNMUlJKcjdLQjM3ZFhBYW55eFdXV3dmeGREZkk3RE1uZ21BNG5fZ2xxSWZ6dDA2ell1Tk9KQTJCQy1CQWxoZWdRcERmRXV6SWdNSlA2NWZSR3dnYjNsbGFnbVN5NVpkQVFRMExGVVpCZkVhdkg0RjA5WFVDU00xSGE3ZVVIQi1ZZ2VaZWdVaE9vOG51c1JKWUtZaExCempmb0HSAbABQVVfeXFMTm9XaFVLbS1HbHdDTkR1aWppc0I1dFJLYk9RQ01xRzlwaFp5WUthUUN3SGpBTG03OHFfMkRVN0ZoU0tJdEhad2FMaGZXN0hKQ1MzS1JuT0xZakpNR1hWVFFfUGxWek9MR3JWU2JYQ1pPM0RPdzRHaXVrM2Iwd2luOGVYNXBoSE5OZjVnMjNaSlpOOG02ZzYxak40RnFBLURUNzlKTVdNZTdmVm56ZlprNnA?oc=5",
-    "publicado_em": "2026-11-11T19:02:10Z"
+    "pos": 3,
+    "titulo": "Santiago Abascal: su trayectoria laboral, su patrimonio, el dinero público de VOX y sus alianzas internacionales",
+    "fonte": "NR | Periodismo alternativo",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRk1KUW8wWjBadmxlcjItSXE1Q2xzbUZNWmdNRHdvQ0VyeTFzemg2M3VPT3BoMTZZVDlmWU53RjJOdUtocjF5NlViQ1o4a3NOWEpvMXE0QmFlNkVvSTBsc011ODFYOWY5NE9Bc2dDdTdvd2dWeU40SGhJWGlLaVdfRWZGTkkzWFlxc05sc1FYck55VVp0eHdYZU55TzNwWUF2ZEZfSmtQLU15UzFFNVN4UUNkNGVacTAzcnVtRXBia2pSeTQ3S1ZmQVB1Yl83czZEWHlF?oc=5",
+    "publicado_em": "2026-11-12T06:00:50Z"
    },
    {
-    "pos": 5,
+    "pos": 4,
     "titulo": "Qué es la Fundación Disenso, el laboratorio de ideas de Vox al que acudirá Milei durante su visita a Madrid: para qué sirve y quién la dirige",
     "fonte": "El Confidencial",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXNiWUw1ZDgxQUxvMmVteFd6YlFxY3pkbl90TndPTGduYWZ0Zl91VkhNT3J4eF8wTFBPS1VPeW1CUGtlMXlNUW1FV01PdzBkVzVxVGZraktqaHgtSUd6cENMOG55NHQ1bXhoRDZRNzdEUU41c1BKN2R1ZXpoRV94WDBTajBPUWVuMExBNlZNV3RvY1U2UF9fZHRzUkZkeW5wRHVLejBaazZ1Q3lpekt5cUdBa0xneWdqNUE1c1ExZw?oc=5",
     "publicado_em": "2026-10-21T07:00:00Z"
+   },
+   {
+    "pos": 5,
+    "titulo": "La Fundación Disenso, la maquinaria de Vox detrás del Foro Madrid que inauguran Kast y Milei en Chile",
+    "fonte": "EL PAÍS",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUGlSZlE1SjhGU0JWbkxqZ0JRcU5FeDBhR2NsMjBWVl9PMlFSOVgzQ1FacS1SMTZoSG1tRjRKbDFLY1JkMHFla08zbTBDSV9tQlBLcFhNN1R1MzdGWU1sS2ZXbWZycjg5b3dWX2hvMmJFMzk0T3BZak4tNWNTYm9taTBEZTZmTGhFVC1GTklkSFRFOTAteVpwdVVlbUV5aHJrcElHdDlLdHA0bVFodVlMV3NmZ1JaWEhTZ254Q0xteXc2VldBNC1ZU1RPaWkyQVd3RGdkOHdPQ0zSAewBQVVfeXFMTUNicG5FWDFBT0d2SWIwQUlMc1IyVnEwMGpLSU11MGRfZ29JVWl1QkpkbWNFV0h5RXdCcTdsS3VNUTNqMUhfbFFORXp4dFdUZ2NWNFpfZmVxQmg4QVJHcVpyTjk1YjZXMlhDTXFSZTN2TEN0ekZHcTJwRWpxVlJxM1NKbzdKWkhqazIzOG1aTzNRRmgyaENMbE5SSlFSa2EwU1FLU0p0M0tuTzJHNW9EdkhpOWRtUUtFalJSUGU4SnVZT2gtb00wbHNrTWZqaVhOVVVlWEdjekNKVmVmdllYZVVjN3RTZWxXMktmVlM?oc=5",
+    "publicado_em": "2026-09-02T07:00:00Z"
    }
   ],
   "Foro Madrid": [
    {
     "pos": 1,
-    "titulo": "El gasto en bajas laborales se ha disparado un 260% desde 2013, superando los 18 mil millones de euros",
-    "fonte": "Umivale Activa",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcm51eDd6NVRWZGtUTktlZmN2dE4yT2VhRVZrNjBBeUdkRERhZko0Mm16NndZNHd0Qm43ZWNMM1BzdVVlczM5bHBOTmktcnlhS05WS01MRDlLZjl2VUZUZlJzdFkweGE3bXVFd2tEV1o5TGI0bWlJbXhmN0d4X2ZUNVVabXAtR1pZRFhUdnZlS0ZHX2xfSEhtNDJsWGlUMUlOZHN2SjJnU00xYnVfRm9xWnBNSU5fVkNicjgxVlJDcWxGeWVDWGs5OWtMYXVyY0V2R0g2RjJqbV82eVF3T0FxX0NJd3N4QQ?oc=5",
-    "publicado_em": "2026-11-13T11:51:46Z"
+    "titulo": "El Foro Gestha reunirá en Madrid a expertos e instituciones para debatir sobre el control del gasto público y la calidad democrática",
+    "fonte": "El Periódico",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYlVvclpiQlg5YzBsdW5iYU5YUkl4dDRNQVJTOXFpdmlNMXVoaVFHRE5XMk9aOUp4b2tPd3N0eVBDZmVBYWpsWS1adzBoME1XV1dscVBYd2N3N2s3NXFWSUt5LVFxd2NjRktWT0ZPaVNJN3NabU9YODhhdllRcC1BR0lYUnBGcDBGM09CT1NNZjJwMHFvUlFVRTdYWWZYbExUNUQ0bXdSaVJfUklOUDg5aU1UX3dwbzhnRGZWSDNRMmNDTExQZzZYMTZjZ3dUdmxIUktEbNIB1AFBVV95cUxOZC1nbnhXb25EUy0zaUp3eUdVY0Q2MnlnSkVOdkJFMDdGejJpSFVyUDFSMkE3TUtGRlEwOENxY09WUHltNnRGejdvS1c4d1MxT2xaRUVFUjcxdVMxLUcxVFVNLWJXOFdIanlJRkhtaW9pbzRZcW1Fc2hCS0VlR1JfRy1teGZ1dklneXphRGpPb2I0dU56aENLYTRwZmxaTzJpUjBycWc4LTBybXZwaVhtX1AyakFrR0FJVTV5X0VtMzdKRkdtZkRELWJmMkhienZRMU16aA?oc=5",
+    "publicado_em": "2026-11-16T12:21:33Z"
    },
    {
     "pos": 2,
-    "titulo": "Orsi en Madrid: reunión con Florentino Pérez y participación en un foro auspiciado por Solaria",
-    "fonte": "Diario La R",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZnVQYjU5Z1ZTQkRfVGJfNS11dlpPUWoyRWhWaDhKREl1OXdIclJpb1dvU1RVSHMyX2RjTkthYWp3RGZPM0htWElIdTVkRG0tRi1BYVhVaEdWUDVrX0QyT0ZwV3lMTVlhejRaNWRVOWJmQ2Fmb0xSd0Q0a0c3cHdQNHdZckRkcFl5ajYyTFlVY0FnTG8yZWtQMHBXRF9OQkw1UGJ5bnBpT2RzZjd2WGhhMWhka2xGbzZNUFFhVldBZk00eDcwY01hblozMXg?oc=5",
-    "publicado_em": "2026-11-15T05:25:53Z"
+    "titulo": "Dell Technologies Forum Madrid 2026 se centrará en la IA, la infraestructura y la ciberresiliencia empresarial",
+    "fonte": "IT User",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdGtKZDhDYXUyNGhzQUZEMUxhUVRXeGZicXhNNkxmZDBuWFg2MHJmY1lRZW00eHdVVks1T04xbzhyUDBDejV6NktIY2tUUWhIeHlOZmpuY1Z3eUc2WGlBd0RlanRJZlZ1WHp2dHNVb3FGUzg5RjBSYmlBREYtc24yYmo4a1J2ZUVvcXk2X21WZl81RXAxQy0tSDNHQWFPUGdCMGc1ZHhycFZiZWlSNFB1LVc5dWdaMm5aWGt6UU5ESFd2ZTg3UGxWd3ZzaW5raTYteXNHcmF0QnduUDdaLUFoMg?oc=5",
+    "publicado_em": "2026-11-16T09:15:00Z"
    },
    {
     "pos": 3,
-    "titulo": "Paraguay y Ueno Bank desempeñaron un papel clave en la “internacional” de extrema derecha",
-    "fonte": "La Vanguardia",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPX2V4Z1dCZDFFVmlaaXp3UTlhSTJrWHpORTNFSVd2d2sxZmljRHlDUW80VVVObFBGdXB6R0tmWWRXcDFfNklFMVBkaWZsM3p1MGw5c2lGN1BtM0owMzZhdkpDdE55TVctcTM3SkFUUjExTDBoSFBQUVAzMFBwN0YyblhFZ2NmUHlGaHhGUGxraDQwMXVScExMVGdsSE8talpoMXNDSS1KQTJMRU9aMXkwUUJhNnV0VzVISW81aEhxdXJhNjdiZmxJanRzb2l2dWNSLWJMSGJDc9IB3AFBVV95cUxNZFpzMkVxNldMRGpUWEhpTTFxMEN3TnNyS1NZVmhtaTZFR3VOMTA3MjRvTGVkR3piVndJd0s1ZTUtcU1aeHQwVjdzRHRjZ2RFd0p1VUZ0R1l0d1dwaWV3b1R6T3lScHBrUkRRTGRKSVI1WDg3SXZDSDM2NTkwZ2dwLVc3X25zWXJyclplYVpxYlQtV2RwSFFwdUdGX3AwcFZIMUlqcE5RcFJJQldKSW1zUnRiOE5qMmdKV0ZLa0RPRWtuQTBTWTdzcDhCRjVDYWxPclFmZkdqczg2M2df?oc=5",
-    "publicado_em": "2026-11-10T11:11:22Z"
+    "titulo": "Foro de Madrid y Movimiento Feminista marcharán el 25N contra prostitución, pornografía y \"alquiler de vientres\"",
+    "fonte": "Europa Press",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQjJLSS1mZ3REamU1YVRsY2l4OFJJcmpxaG03U0hSR0Z1YzJ4cFM5YktQbTdwYlI3ZTJTa1o3ZDlYdjFKZjF3cThrZ0E5Njg4aUlfOVFDclVMWVBMaFcySWlFNnRZeTUzTUdmTlNXVjJtTTJydDBPS05LMEdVNWU2QndWcjBkbjFRUlROVldXbl9DSm1lakZlYUtEc2dEV2FwdHhkOWZYRmdaSnpBcTNrMzR0RlhqbXNkUUlEaTVKZXpMQ0o1RXFRd1ladk9fbzN6YTlPWldVc1lNUFg0UlFmM2VBazlYRUs0cmRwUzlEZTAwM19wS016eGY1T3NmQQ?oc=5",
+    "publicado_em": "2026-11-16T12:04:22Z"
    },
    {
     "pos": 4,
-    "titulo": "La Fundación Disenso, la maquinaria de Vox detrás del Foro Madrid que inauguran Kast y Milei en Chile",
-    "fonte": "EL PAÍS",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUGlSZlE1SjhGU0JWbkxqZ0JRcU5FeDBhR2NsMjBWVl9PMlFSOVgzQ1FacS1SMTZoSG1tRjRKbDFLY1JkMHFla08zbTBDSV9tQlBLcFhNN1R1MzdGWU1sS2ZXbWZycjg5b3dWX2hvMmJFMzk0T3BZak4tNWNTYm9taTBEZTZmTGhFVC1GTklkSFRFOTAteVpwdVVlbUV5aHJrcElHdDlLdHA0bVFodVlMV3NmZ1JaWEhTZ254Q0xteXc2VldBNC1ZU1RPaWkyQVd3RGdkOHdPQ0zSAewBQVVfeXFMTUNicG5FWDFBT0d2SWIwQUlMc1IyVnEwMGpLSU11MGRfZ29JVWl1QkpkbWNFV0h5RXdCcTdsS3VNUTNqMUhfbFFORXp4dFdUZ2NWNFpfZmVxQmg4QVJHcVpyTjk1YjZXMlhDTXFSZTN2TEN0ekZHcTJwRWpxVlJxM1NKbzdKWkhqazIzOG1aTzNRRmgyaENMbE5SSlFSa2EwU1FLU0p0M0tuTzJHNW9EdkhpOWRtUUtFalJSUGU4SnVZT2gtb00wbHNrTWZqaVhOVVVlWEdjekNKVmVmdllYZVVjN3RTZWxXMktmVlM?oc=5",
-    "publicado_em": "2026-09-02T07:00:00Z"
+    "titulo": "Foro de Madrid y Movimiento Feminista marcharán el 25N",
+    "fonte": "El Boletín",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdHpIamN3a0xhQ2JuYWVySk1DN0NYWnp4aXktQ3h5S2NvcHBGSnh2NHI4SW9QYmdZUHdxendqbEZ5S2RzUmlqX1p4NUJJUEhVUGc1MzNSRW5jYkFLZjRqNzlqcjJWWUFsUzRHSVFqUGpyU0dIaUdWZjZJWmZjdFhsejZGLXBoZVQz0gGOAUFVX3lxTFB0b0hMTS1YWmNuQkItLU1iSXI4V0RkdGFVd1NIN1pHcEozNmZrSjNkT2FzVTR2SU1VZHFGS0R2MUhRQjZQaWE3RDZwZmZFQ3Z6ZFF1eFZjeHNNZzFQTFZnNzktZTdOSTR6VUVhYXo3Zlc4X2loMkxONjBJVUFPay1mc1NUWl9Cd0xRUGt4Z0E?oc=5",
+    "publicado_em": "2026-11-16T12:30:35Z"
    },
    {
     "pos": 5,
-    "titulo": "Foro Madrid reúne a la extrema derecha en Santiago y apunta a \"nueva era\" regional",
-    "fonte": "Yahoo",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVHpZdW0yc2lkQmF6ZDV0VThWbW1sSHRoWms2VTZEY0tMS3AwQUJ5Y3hBVXlFQko1QkhHaGJaUi1ZWXdGd0tVRmFnNHpyaWJoTmRvVjdJOGVuaGM4cnhRS2x1MWhiVENXOTZMSVhRQ3JibDQ2VmpZX3I0bFNnTm5RdzVtcUFoeDFpdS1MLWRtOA?oc=5",
-    "publicado_em": "2026-09-03T07:00:00Z"
+    "titulo": "Orsi en España: visitó el estadio del Real Madrid, participa en foro auspiciado por Solaria y se reúne con",
+    "fonte": "Teledoce.com",
+    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPZXg4b2FlcWh2c1BkeFhDNTV0WjJCeU5HVklRdkF5NlREVklBZ2dZZ3hOeXJ5SGN3S2kzR0VJX2dzcWtORGg1Z3p2WlRzeTMtdWlwYXgzTVdWLXc3TzlyZ0N4UGhOekdwaGNKcmU2Mi1EYjI5SC0xcnVHQkNSUThzSF8tQWZuaTJNNE1tVXJzaTlOT3czUDAxMjZVRnlKcG1wQnJmUE9kZHdiZWhhUHpjNmlMbUZTMjRLMmFuaGhid25SdlJKaHBOU3hGZ2xEdUM4YV9pVkRKcTd2cGFzUkRmcFNUMXNYaUo2WU1XTkRFWDNERlZ2elRGMWZwYlJFbHA1M0htc1RycmpNMHfSAZACQVVfeXFMUDVTSjZ2MTJBS3hTS21BVkJlOW5GNXRRVjJFOE1OUGNyOUYxcHFvMXBXZksyUDl5RTRaVGh5M3YzQV9jTWNTR1dwNnZLM0VCeTNoczR2dy1uTGc5Vy04blZZaENxUktPbFNPVDZwTGIzbVFrZzVsRzFmNU1YZ3VoSEtndnBVYWM4VWJOOERyTjZvYl8yVjVRZEg1eG5PRXZaU3lYOVJhaUlERFFwaDdwZUxfUU9GUTRtakp6amRPU29PMFVnOTNYNzlON2RrYWVzTHV1eHlOcWs0UlRsWEllaVpPMlFfd29rY2pqb1lSTVRVcVVBWG42dXNMY2I5STNtX2pjai16a05yajl1eUlMLUI?oc=5",
+    "publicado_em": "2026-11-16T09:46:44Z"
    }
   ]
  },
- "erros": []
+ "erros": [
+  "Vox: HTTPError",
+  "Santiago Abascal: HTTPError"
+ ]
 }
