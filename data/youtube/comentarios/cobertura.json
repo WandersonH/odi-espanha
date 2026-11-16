@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "gerado_em_utc": "2026-11-15T20:37:31Z",
+ "gerado_em_utc": "2026-11-16T13:12:28Z",
  "fonte": "YouTube Data API v3 (commentThreads.list e comments.list)",
  "nota": "Comentários e respostas dos vídeos do acervo, lidos por inteiro pela API oficial do YouTube (todas as páginas de cada vídeo), sem custo. O universo é a soma do contador de comentários que o YouTube informa em cada vídeo; o lido pode ser menor porque o contador inclui comentários retidos ou apagados que a API não entrega. Leitura 'completa' quer dizer que a paginação de todos os vídeos chegou ao fim, não que os números coincidem. Texto e autor ficam só no repositório privado; aqui há apenas contagens.",
  "universo_fonte": "soma do contador de comentários de cada vídeo (YouTube Data API, videos.list → statistics.commentCount; inclui respostas)",
@@ -78,12 +78,12 @@
    "nome": "Vox",
    "videos": 1117,
    "videos_com_contador": 1117,
-   "universo_comentarios": 199757,
+   "universo_comentarios": 200816,
    "videos_lidos_por_inteiro": 1117,
    "videos_com_comentarios_desativados": 0,
-   "comentarios_lidos": 199760,
-   "dos_quais_respostas": 32151,
-   "autores_distintos": 41043,
+   "comentarios_lidos": 200680,
+   "dos_quais_respostas": 32266,
+   "autores_distintos": 41211,
    "por_mes": {
     "2026-02": 10508,
     "2026-03": 18284,
@@ -94,14 +94,14 @@
     "2026-08": 10681,
     "2026-09": 21800,
     "2026-10": 43356,
-    "2026-11": 30984
+    "2026-11": 31904
    },
    "erros": {},
    "cobertura": "completa: todas as páginas de todos os vídeos foram lidas até o fim"
   }
  },
- "chamadas_nesta_execucao": 281,
- "comentarios_novos_nesta_execucao": 3472,
- "comentarios_guardados": 203638,
+ "chamadas_nesta_execucao": 250,
+ "comentarios_novos_nesta_execucao": 920,
+ "comentarios_guardados": 204558,
  "status": "ok"
 }

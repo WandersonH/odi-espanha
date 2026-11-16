@@ -1,5 +1,5 @@
 {
- "run_started_utc": "2026-11-15T20:37:17Z",
+ "run_started_utc": "2026-11-16T13:12:03Z",
  "rede": "youtube",
  "ferramenta": "YouTube Data API v3 (channels, playlistItems, videos)",
  "modo": "carga",
@@ -18,7 +18,7 @@
    "universo": {
     "posts_total_plataforma": 87,
     "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
-    "seguidores": 1260,
+    "seguidores": 1250,
     "nome_exibido": "Foro Madrid",
     "canal_id": "UCANexQ2_g7B5QgoSIdsHtCQ",
     "posts_no_periodo_plataforma": null,
@@ -42,7 +42,7 @@
    "universo": {
     "posts_total_plataforma": 6173,
     "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
-    "seguidores": 674000,
+    "seguidores": 675000,
     "nome_exibido": "VOX España",
     "canal_id": "UCRvpumrJs0qY1xLzeU0Ss1Q",
     "posts_no_periodo_plataforma": null,
@@ -51,7 +51,7 @@
    "itens": 1200,
    "posts_do_perfil": 1117,
    "lidos_no_periodo": 1117,
-   "novos": 2,
+   "novos": 0,
    "indisponiveis": 0,
    "mais_antigo": "2026-02-16T12:16:56Z",
    "mais_recente": "2026-11-15T20:32:41Z",
@@ -99,7 +99,7 @@
    "itens": 100,
    "posts_do_perfil": 47,
    "lidos_no_periodo": 47,
-   "novos": 47,
+   "novos": 0,
    "indisponiveis": 0,
    "mais_antigo": "2026-02-27T13:13:46Z",
    "mais_recente": "2026-10-27T12:37:03Z",
@@ -119,7 +119,7 @@
    "motivo": "não localizado"
   }
  ],
- "posts_novos": 49,
+ "posts_novos": 0,
  "posts_no_acervo": 1265,
  "status": "ok"
 }

@@ -1,0 +1,125 @@
+{
+ "run_started_utc": "2026-11-16T13:12:03Z",
+ "rede": "youtube",
+ "ferramenta": "YouTube Data API v3 (channels, playlistItems, videos)",
+ "modo": "carga",
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": "2027-01-30"
+ },
+ "desde_leitura": "2026-02-16",
+ "custo_usd": 0.0,
+ "perfis": [
+  {
+   "ator_id": "foro-madrid",
+   "ator_nome": "Foro Madrid",
+   "perfil": "UCANexQ2_g7B5QgoSIdsHtCQ",
+   "pedido": "lista de envios até a data inicial",
+   "universo": {
+    "posts_total_plataforma": 87,
+    "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
+    "seguidores": 1250,
+    "nome_exibido": "Foro Madrid",
+    "canal_id": "UCANexQ2_g7B5QgoSIdsHtCQ",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o YouTube não informa o total por período; a lista de envios lida até a data inicial cobre o período"
+   },
+   "itens": 87,
+   "posts_do_perfil": 16,
+   "lidos_no_periodo": 16,
+   "novos": 0,
+   "indisponiveis": 0,
+   "mais_antigo": "2026-02-16T19:22:37Z",
+   "mais_recente": "2026-09-16T11:41:56Z",
+   "erro": null,
+   "cobertura": "completa: a lista de envios do canal foi lida até a data inicial"
+  },
+  {
+   "ator_id": "vox",
+   "ator_nome": "Vox",
+   "perfil": "voxespana",
+   "pedido": "lista de envios até a data inicial",
+   "universo": {
+    "posts_total_plataforma": 6173,
+    "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
+    "seguidores": 675000,
+    "nome_exibido": "VOX España",
+    "canal_id": "UCRvpumrJs0qY1xLzeU0Ss1Q",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o YouTube não informa o total por período; a lista de envios lida até a data inicial cobre o período"
+   },
+   "itens": 1200,
+   "posts_do_perfil": 1117,
+   "lidos_no_periodo": 1117,
+   "novos": 0,
+   "indisponiveis": 0,
+   "mais_antigo": "2026-02-16T12:16:56Z",
+   "mais_recente": "2026-11-15T20:32:41Z",
+   "erro": null,
+   "cobertura": "completa: a lista de envios do canal foi lida até a data inicial"
+  },
+  {
+   "ator_id": "disenso",
+   "ator_nome": "Fundación Disenso",
+   "perfil": "@fundaciondisenso",
+   "pedido": "lista de envios até a data inicial",
+   "universo": {
+    "posts_total_plataforma": 339,
+    "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
+    "seguidores": 22400,
+    "nome_exibido": "Fundación Disenso",
+    "canal_id": "UCiGUavbroB-DNEQhwK0Wmaw",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o YouTube não informa o total por período; a lista de envios lida até a data inicial cobre o período"
+   },
+   "itens": 150,
+   "posts_do_perfil": 85,
+   "lidos_no_periodo": 85,
+   "novos": 0,
+   "indisponiveis": 0,
+   "mais_antigo": "2026-02-16T11:41:24Z",
+   "mais_recente": "2026-10-22T21:11:55Z",
+   "erro": null,
+   "cobertura": "completa: a lista de envios do canal foi lida até a data inicial"
+  },
+  {
+   "ator_id": "abascal",
+   "ator_nome": "Santiago Abascal",
+   "perfil": "@Santi_ABASCAL",
+   "pedido": "lista de envios até a data inicial",
+   "universo": {
+    "posts_total_plataforma": 208,
+    "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
+    "seguidores": 26900,
+    "nome_exibido": "Santiago Abascal ",
+    "canal_id": "UCHBQ9tAE9eexY8UM2NhYkXQ",
+    "posts_no_periodo_plataforma": null,
+    "posts_no_periodo_nota": "⛔ o YouTube não informa o total por período; a lista de envios lida até a data inicial cobre o período"
+   },
+   "itens": 100,
+   "posts_do_perfil": 47,
+   "lidos_no_periodo": 47,
+   "novos": 0,
+   "indisponiveis": 0,
+   "mais_antigo": "2026-02-27T13:13:46Z",
+   "mais_recente": "2026-10-27T12:37:03Z",
+   "erro": null,
+   "cobertura": "completa: a lista de envios do canal foi lida até a data inicial"
+  }
+ ],
+ "perfis_fora_da_coleta": [
+  {
+   "ator_id": "martin-frias",
+   "perfil": "",
+   "motivo": "não localizado"
+  },
+  {
+   "ator_id": "cader",
+   "perfil": "",
+   "motivo": "não localizado"
+  }
+ ],
+ "posts_novos": 0,
+ "posts_no_acervo": 1265,
+ "status": "ok"
+}
