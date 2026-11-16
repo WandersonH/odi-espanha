@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gexf xmlns="http://gexf.net/1.3" version="1.3">
-<meta lastmodifieddate="2026-11-15"><creator>ODI Espanha · build_rede_mencoes.py</creator><description>Perfil monitorado → conta marcada; peso = posts com a marcação</description></meta>
+<meta lastmodifieddate="2026-11-16"><creator>ODI Espanha · build_rede_mencoes.py</creator><description>Perfil monitorado → conta marcada; peso = posts com a marcação</description></meta>
 <graph mode="static" defaultedgetype="directed">
 <attributes class="node"><attribute id="0" title="rede" type="string"/><attribute id="1" title="papel" type="string"/><attribute id="2" title="ator" type="string"/><attribute id="3" title="posts_que_o_marcam" type="integer"/></attributes>
 <nodes>
