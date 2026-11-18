@@ -1,5 +1,5 @@
 {
- "run_started_utc": "2026-11-17T13:55:54Z",
+ "run_started_utc": "2026-11-18T13:30:34Z",
  "rede": "youtube",
  "ferramenta": "YouTube Data API v3 (channels, playlistItems, videos)",
  "modo": "carga",
@@ -40,21 +40,21 @@
    "perfil": "voxespana",
    "pedido": "lista de envios até a data inicial",
    "universo": {
-    "posts_total_plataforma": 6191,
+    "posts_total_plataforma": 6204,
     "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
-    "seguidores": 675000,
+    "seguidores": 676000,
     "nome_exibido": "VOX España",
     "canal_id": "UCRvpumrJs0qY1xLzeU0Ss1Q",
     "posts_no_periodo_plataforma": null,
     "posts_no_periodo_nota": "⛔ o YouTube não informa o total por período; a lista de envios lida até a data inicial cobre o período"
    },
    "itens": 1200,
-   "posts_do_perfil": 1132,
-   "lidos_no_periodo": 1132,
-   "novos": 15,
+   "posts_do_perfil": 1144,
+   "lidos_no_periodo": 1144,
+   "novos": 12,
    "indisponiveis": 0,
    "mais_antigo": "2026-02-16T12:16:56Z",
-   "mais_recente": "2026-11-17T13:54:55Z",
+   "mais_recente": "2026-11-18T12:38:53Z",
    "erro": null,
    "cobertura": "completa: a lista de envios do canal foi lida até a data inicial"
   },
@@ -119,7 +119,7 @@
    "motivo": "não localizado"
   }
  ],
- "posts_novos": 15,
- "posts_no_acervo": 1280,
+ "posts_novos": 12,
+ "posts_no_acervo": 1292,
  "status": "ok"
 }
