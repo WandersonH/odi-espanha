@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "stage": "coleta-trends",
+  "run_started_utc": "2026-11-18T18:06:42Z",
+  "config": {
+    "nota": "Google Trends, Espanha. Os valores vão de 0 a 100 e são relativos DENTRO de cada consulta: não são número de buscas e não se comparam entre consultas. Cada consulta é uma amostra do Google; repetir a mesma consulta pode dar valores um pouco diferentes. 'Vox' como termo de busca é ambíguo (a palavra existe fora da política): por isso há também o grupo de tópicos, em que o Google reúne as buscas sobre a entidade.",
+    "geo": "ES",
+    "periodos": [
+      "now 7-d",
+      "today 3-m",
+      "eleitoral"
+    ],
+    "pausa_segundos": 5,
+    "grupos": [
+      {
+        "nome": "atores_topicos",
+        "termos": [
+          {
+            "rotulo": "Vox",
+            "busca": "Vox",
+            "tipo_contem": [
+              "Partido político",
+              "partido político",
+              "Partido"
+            ]
+          },
+          {
+            "rotulo": "Santiago Abascal",
+            "busca": "Santiago Abascal",
+            "tipo_contem": [
+              "Político",
+              "político",
+              "Diputado",
+              "diputado"
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "atores_palavras",
+        "termos": [
+          "Vox",
+          "Santiago Abascal",
+          "Fundación Disenso",
+          "Foro Madrid",
+          "Jorge Martín Frías"
+        ]
+      },
+      {
+        "nome": "pessoas_palavras",
+        "termos": [
+          "Santiago Abascal",
+          "Jorge Martín Frías",
+          "Eduardo Cader"
+        ]
+      }
+    ],
+    "periodo_eleitoral": {
+      "inicio": "2026-02-16",
+      "fim": "2027-01-30",
+      "nota": "Período do estudo (16/02/2026 a 30/01/2027). Enquanto o período não termina, a data final é a do dia da coleta. A granularidade é a que o Google devolve para o tamanho da janela: na coleta de 15/11/2026 veio semanal (40 pontos)."
+    },
+    "relacionados": {
+      "grupos": [
+        "atores_topicos"
+      ],
+      "periodos": [
+        "eleitoral",
+        "now 7-d"
+      ],
+      "nota": "Consultas e assuntos relacionados (listas 'principais' e 'em alta') de cada tópico."
+    },
+    "metodo_vegetativo": {
+      "k_desvio": 2,
+      "k_sensibilidade": [
+        1,
+        2
+      ],
+      "periodos_media_dias": [
+        7,
+        15
+      ],
+      "nota": "Método das aulas (Maurício): a série tem um nível 'vegetativo' (normal) e picos de agenda. Calcula-se média e desvio-padrão do período; dias acima de média + k·desvio são picos (outliers). Para ver a curva de fundo, cada pico é substituído pela MEDIANA da série (não puxa a curva para cima nem para baixo). Para comparar, usa-se a média por período (7 e 15 dias), não o dia. k = 2 por padrão (configurável); a contagem de picos com k = 1 fica registrada para conferência."
+    },
+    "fases": [
+      {
+        "id": "pre",
+        "rotulo": "Pré-campanha",
+        "de": "2026-02-16",
+        "ate": "2026-11-12"
+      },
+      {
+        "id": "campanha",
+        "rotulo": "Campanha oficial",
+        "de": "2026-11-13",
+        "ate": "2026-11-27"
+      },
+      {
+        "id": "urnas",
+        "rotulo": "Reflexão e votação",
+        "de": "2026-11-28",
+        "ate": "2026-11-29"
+      },
+      {
+        "id": "pos",
+        "rotulo": "Pós-eleição",
+        "de": "2026-11-30",
+        "ate": "2027-01-30"
+      }
+    ],
+    "termos_nota": "Termos propostos em 15/11/2026 a partir dos seis atores monitorados; a confirmar pelos pesquisadores. O Trends compara no máximo 5 termos por consulta.",
+    "noticias_termos": [
+      "Vox",
+      "Santiago Abascal",
+      "Fundación Disenso",
+      "Foro Madrid"
+    ]
+  },
+  "aviso_metodologico": "Valores 0-100 relativos dentro de cada consulta (grupo x período). Não são volumes; não compare entre consultas diferentes.",
+  "consultas": [
+    {
+      "grupo": "atores_topicos",
+      "termos": [
+        "Vox",
+        "Santiago Abascal"
+      ],
+      "itens": [
+        {
+          "rotulo": "Vox",
+          "consulta": "/m/0_ql9rx",
+          "modo": "topico",
+          "topico_titulo": "VOX",
+          "topico_tipo": "Partido político"
+        },
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "/g/121hdw5z",
+          "modo": "topico",
+          "topico_titulo": "Santiago Abascal",
+          "topico_tipo": "Diputado en el Congreso de los Diputados de España"
+        }
+      ],
+      "periodo": "now 7-d",
+      "janela_trends": "now 7-d",
+      "geo": "ES",
+      "serie_pontos": 169,
+      "uf_linhas": 19,
+      "relacionados_linhas": 48,
+      "status": "ok"
+    },
+    {
+      "grupo": "atores_topicos",
+      "termos": [
+        "Vox",
+        "Santiago Abascal"
+      ],
+      "itens": [
+        {
+          "rotulo": "Vox",
+          "consulta": "/m/0_ql9rx",
+          "modo": "topico",
+          "topico_titulo": "VOX",
+          "topico_tipo": "Partido político"
+        },
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "/g/121hdw5z",
+          "modo": "topico",
+          "topico_titulo": "Santiago Abascal",
+          "topico_tipo": "Diputado en el Congreso de los Diputados de España"
+        }
+      ],
+      "periodo": "today 3-m",
+      "janela_trends": "today 3-m",
+      "geo": "ES",
+      "serie_pontos": 93,
+      "uf_linhas": 19,
+      "status": "ok"
+    },
+    {
+      "grupo": "atores_topicos",
+      "termos": [
+        "Vox",
+        "Santiago Abascal"
+      ],
+      "itens": [
+        {
+          "rotulo": "Vox",
+          "consulta": "/m/0_ql9rx",
+          "modo": "topico",
+          "topico_titulo": "VOX",
+          "topico_tipo": "Partido político"
+        },
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "/g/121hdw5z",
+          "modo": "topico",
+          "topico_titulo": "Santiago Abascal",
+          "topico_tipo": "Diputado en el Congreso de los Diputados de España"
+        }
+      ],
+      "periodo": "eleitoral",
+      "janela_trends": "2026-02-16 2026-11-18",
+      "geo": "ES",
+      "serie_pontos": 40,
+      "uf_linhas": 19,
+      "relacionados_linhas": 51,
+      "status": "ok"
+    },
+    {
+      "grupo": "atores_palavras",
+      "termos": [
+        "Vox",
+        "Santiago Abascal",
+        "Fundación Disenso",
+        "Foro Madrid",
+        "Jorge Martín Frías"
+      ],
+      "itens": [
+        {
+          "rotulo": "Vox",
+          "consulta": "Vox",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "Santiago Abascal",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Fundación Disenso",
+          "consulta": "Fundación Disenso",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Foro Madrid",
+          "consulta": "Foro Madrid",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Jorge Martín Frías",
+          "consulta": "Jorge Martín Frías",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "now 7-d",
+      "janela_trends": "now 7-d",
+      "geo": "ES",
+      "serie_pontos": 169,
+      "uf_linhas": 19,
+      "status": "ok"
+    },
+    {
+      "grupo": "atores_palavras",
+      "termos": [
+        "Vox",
+        "Santiago Abascal",
+        "Fundación Disenso",
+        "Foro Madrid",
+        "Jorge Martín Frías"
+      ],
+      "itens": [
+        {
+          "rotulo": "Vox",
+          "consulta": "Vox",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "Santiago Abascal",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Fundación Disenso",
+          "consulta": "Fundación Disenso",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Foro Madrid",
+          "consulta": "Foro Madrid",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Jorge Martín Frías",
+          "consulta": "Jorge Martín Frías",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "today 3-m",
+      "janela_trends": "today 3-m",
+      "geo": "ES",
+      "serie_pontos": 93,
+      "uf_linhas": 19,
+      "status": "ok"
+    },
+    {
+      "grupo": "atores_palavras",
+      "termos": [
+        "Vox",
+        "Santiago Abascal",
+        "Fundación Disenso",
+        "Foro Madrid",
+        "Jorge Martín Frías"
+      ],
+      "itens": [
+        {
+          "rotulo": "Vox",
+          "consulta": "Vox",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "Santiago Abascal",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Fundación Disenso",
+          "consulta": "Fundación Disenso",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Foro Madrid",
+          "consulta": "Foro Madrid",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Jorge Martín Frías",
+          "consulta": "Jorge Martín Frías",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "eleitoral",
+      "janela_trends": "2026-02-16 2026-11-18",
+      "geo": "ES",
+      "serie_pontos": 40,
+      "uf_linhas": 19,
+      "status": "ok"
+    },
+    {
+      "grupo": "pessoas_palavras",
+      "termos": [
+        "Santiago Abascal",
+        "Jorge Martín Frías",
+        "Eduardo Cader"
+      ],
+      "itens": [
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "Santiago Abascal",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Jorge Martín Frías",
+          "consulta": "Jorge Martín Frías",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Eduardo Cader",
+          "consulta": "Eduardo Cader",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "now 7-d",
+      "janela_trends": "now 7-d",
+      "geo": "ES",
+      "serie_pontos": 169,
+      "uf_linhas": 19,
+      "status": "ok"
+    },
+    {
+      "grupo": "pessoas_palavras",
+      "termos": [
+        "Santiago Abascal",
+        "Jorge Martín Frías",
+        "Eduardo Cader"
+      ],
+      "itens": [
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "Santiago Abascal",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Jorge Martín Frías",
+          "consulta": "Jorge Martín Frías",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Eduardo Cader",
+          "consulta": "Eduardo Cader",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "today 3-m",
+      "janela_trends": "today 3-m",
+      "geo": "ES",
+      "serie_pontos": 93,
+      "uf_linhas": 19,
+      "status": "ok"
+    },
+    {
+      "grupo": "pessoas_palavras",
+      "termos": [
+        "Santiago Abascal",
+        "Jorge Martín Frías",
+        "Eduardo Cader"
+      ],
+      "itens": [
+        {
+          "rotulo": "Santiago Abascal",
+          "consulta": "Santiago Abascal",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Jorge Martín Frías",
+          "consulta": "Jorge Martín Frías",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Eduardo Cader",
+          "consulta": "Eduardo Cader",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "eleitoral",
+      "janela_trends": "2026-02-16 2026-11-18",
+      "geo": "ES",
+      "serie_pontos": 40,
+      "uf_linhas": 19,
+      "status": "ok"
+    }
+  ],
+  "blocked": [],
+  "run_finished_utc": "2026-11-18T18:10:38Z",
+  "status": "ok"
+}
