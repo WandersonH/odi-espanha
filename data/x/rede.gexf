@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-11-17">
+  <meta lastmodifieddate="2026-11-18">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -16,7 +16,7 @@
       <node id="abascal" label="abascal">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="92.2" />
-        <viz:position x="397.8" y="-363.7" z="0.0" />
+        <viz:position x="334.7" y="-342.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="904" />
           <attvalue for="1" value="Vox" />
@@ -29,7 +29,7 @@
       <node id="santi" label="santi">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="90.08" />
-        <viz:position x="402.6" y="-334.2" z="0.0" />
+        <viz:position x="416.8" y="-325.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="862" />
           <attvalue for="1" value="Vox" />
@@ -42,7 +42,7 @@
       <node id="sanchez" label="sanchez">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="81.54" />
-        <viz:position x="412.6" y="-491.2" z="0.0" />
+        <viz:position x="418.5" y="-484.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="703" />
           <attvalue for="1" value="Vox" />
@@ -55,7 +55,7 @@
       <node id="espana" label="espana">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="79.6" />
-        <viz:position x="491.8" y="-470.5" z="0.0" />
+        <viz:position x="485.6" y="-471.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="669" />
           <attvalue for="1" value="Vox" />
@@ -68,7 +68,7 @@
       <node id="espanoles" label="espanoles">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="70.74" />
-        <viz:position x="501.2" y="-391.2" z="0.0" />
+        <viz:position x="485.6" y="-388.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="525" />
           <attvalue for="1" value="Vox" />
@@ -81,7 +81,7 @@
       <node id="gobierno" label="gobierno">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="60.63" />
-        <viz:position x="368.1" y="-541.3" z="0.0" />
+        <viz:position x="353.1" y="-526.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="382" />
           <attvalue for="1" value="Vox" />
@@ -94,7 +94,7 @@
       <node id="nacional" label="nacional">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="51.75" />
-        <viz:position x="506.2" y="-196.8" z="0.0" />
+        <viz:position x="490.0" y="-198.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="275" />
           <attvalue for="1" value="Vox" />
@@ -107,7 +107,7 @@
       <node id="ceuta" label="ceuta">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="50.19" />
-        <viz:position x="373.4" y="-599.0" z="0.0" />
+        <viz:position x="390.7" y="-605.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="258" />
           <attvalue for="1" value="Vox" />
@@ -120,7 +120,7 @@
       <node id="gracias" label="gracias">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="48.86" />
-        <viz:position x="379.6" y="-130.5" z="0.0" />
+        <viz:position x="389.3" y="-132.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="244" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -133,7 +133,7 @@
       <node id="pedro" label="pedro">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="46.09" />
-        <viz:position x="386.5" y="-463.5" z="0.0" />
+        <viz:position x="512.0" y="-447.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="216" />
           <attvalue for="1" value="Vox" />
@@ -146,7 +146,7 @@
       <node id="prioridad" label="prioridad">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="43.68" />
-        <viz:position x="483.4" y="-187.0" z="0.0" />
+        <viz:position x="504.8" y="-194.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="193" />
           <attvalue for="1" value="Vox" />
@@ -159,7 +159,7 @@
       <node id="acto" label="acto">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="42.58" />
-        <viz:position x="369.6" y="-289.5" z="0.0" />
+        <viz:position x="337.7" y="-307.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="183" />
           <attvalue for="1" value="Vox" />
@@ -172,7 +172,7 @@
       <node id="invasion" label="invasion">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="41.0" />
-        <viz:position x="416.8" y="-586.3" z="0.0" />
+        <viz:position x="421.8" y="-602.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="169" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -185,7 +185,7 @@
       <node id="sentido" label="sentido">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="40.42" />
-        <viz:position x="435.3" y="-176.4" z="0.0" />
+        <viz:position x="425.9" y="-202.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="164" />
           <attvalue for="1" value="Vox" />
@@ -198,7 +198,7 @@
       <node id="publico" label="publico">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="39.95" />
-        <viz:position x="367.2" y="-305.3" z="0.0" />
+        <viz:position x="390.5" y="-293.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="160" />
           <attvalue for="1" value="Vox" />
@@ -211,7 +211,7 @@
       <node id="medios" label="medios">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="39.59" />
-        <viz:position x="341.1" y="-312.2" z="0.0" />
+        <viz:position x="384.0" y="-324.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="157" />
           <attvalue for="1" value="Vox" />
@@ -224,7 +224,7 @@
       <node id="comun" label="comun">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="39.47" />
-        <viz:position x="439.1" y="-174.8" z="0.0" />
+        <viz:position x="459.1" y="-154.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="156" />
           <attvalue for="1" value="Vox" />
@@ -237,7 +237,7 @@
       <node id="libertad" label="libertad">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="38.74" />
-        <viz:position x="812.2" y="-686.1" z="0.0" />
+        <viz:position x="811.3" y="-673.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="150" />
           <attvalue for="1" value="Vox" />
@@ -250,7 +250,7 @@
       <node id="gran" label="gran">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="38.62" />
-        <viz:position x="366.6" y="-285.5" z="0.0" />
+        <viz:position x="377.0" y="-283.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="149" />
           <attvalue for="1" value="Vox" />
@@ -263,7 +263,7 @@
       <node id="vivienda" label="vivienda">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="38.25" />
-        <viz:position x="562.9" y="-257.0" z="0.0" />
+        <viz:position x="568.1" y="-265.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="146" />
           <attvalue for="1" value="Vox" />
@@ -276,7 +276,7 @@
       <node id="plaza" label="plaza">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="36.47" />
-        <viz:position x="352.8" y="-294.7" z="0.0" />
+        <viz:position x="359.0" y="-270.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="132" />
           <attvalue for="1" value="Vox" />
@@ -289,7 +289,7 @@
       <node id="igarrigavaz" label="igarrigavaz">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="36.21" />
-        <viz:position x="305.3" y="-440.4" z="0.0" />
+        <viz:position x="310.0" y="-451.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="130" />
           <attvalue for="1" value="Vox" />
@@ -302,7 +302,7 @@
       <node id="estado" label="estado">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="35.81" />
-        <viz:position x="609.0" y="-606.7" z="0.0" />
+        <viz:position x="600.6" y="-588.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="127" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -315,7 +315,7 @@
       <node id="marruecos" label="marruecos">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="35.81" />
-        <viz:position x="406.9" y="-561.9" z="0.0" />
+        <viz:position x="413.7" y="-562.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="127" />
           <attvalue for="1" value="Vox" />
@@ -328,7 +328,7 @@
       <node id="psoe" label="psoe">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="35.81" />
-        <viz:position x="318.9" y="-459.1" z="0.0" />
+        <viz:position x="313.6" y="-467.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="127" />
           <attvalue for="1" value="Vox" />
@@ -341,7 +341,7 @@
       <node id="vox" label="vox">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="35.81" />
-        <viz:position x="665.7" y="-287.8" z="0.0" />
+        <viz:position x="671.3" y="-283.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="127" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -354,7 +354,7 @@
       <node id="nuevo" label="nuevo">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="35.41" />
-        <viz:position x="443.8" y="-805.0" z="0.0" />
+        <viz:position x="459.4" y="-817.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="124" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -367,7 +367,7 @@
       <node id="declaracion" label="declaracion">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="35.27" />
-        <viz:position x="339.1" y="-310.6" z="0.0" />
+        <viz:position x="370.9" y="-346.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="123" />
           <attvalue for="1" value="Vox" />
@@ -380,7 +380,7 @@
       <node id="elecciones" label="elecciones">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="34.59" />
-        <viz:position x="355.7" y="-432.7" z="0.0" />
+        <viz:position x="366.4" y="-432.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="118" />
           <attvalue for="1" value="Vox" />
@@ -393,7 +393,7 @@
       <node id="encuentro" label="encuentro">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="33.75" />
-        <viz:position x="942.3" y="-698.6" z="0.0" />
+        <viz:position x="958.6" y="-690.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="112" />
           <attvalue for="1" value="Foro Madrid" />
@@ -406,7 +406,7 @@
       <node id="seguridad" label="seguridad">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="33.75" />
-        <viz:position x="635.2" y="-621.6" z="0.0" />
+        <viz:position x="640.0" y="-638.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="112" />
           <attvalue for="1" value="Vox" />
@@ -419,7 +419,7 @@
       <node id="poder" label="poder">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="33.61" />
-        <viz:position x="400.1" y="-444.0" z="0.0" />
+        <viz:position x="368.9" y="-454.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="111" />
           <attvalue for="1" value="Vox" />
@@ -432,7 +432,7 @@
       <node id="inmigracion" label="inmigracion">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="33.46" />
-        <viz:position x="608.1" y="-581.0" z="0.0" />
+        <viz:position x="604.4" y="-582.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="110" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -445,7 +445,7 @@
       <node id="presidente" label="presidente">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="33.46" />
-        <viz:position x="636.3" y="-554.5" z="0.0" />
+        <viz:position x="644.9" y="-559.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="110" />
           <attvalue for="1" value="Vox" />
@@ -458,7 +458,7 @@
       <node id="mafia" label="mafia">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="33.18" />
-        <viz:position x="430.5" y="-460.1" z="0.0" />
+        <viz:position x="431.4" y="-463.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="108" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -471,7 +471,7 @@
       <node id="personas" label="personas">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="33.03" />
-        <viz:position x="483.7" y="-321.4" z="0.0" />
+        <viz:position x="474.2" y="-322.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="107" />
           <attvalue for="1" value="Vox" />
@@ -484,7 +484,7 @@
       <node id="#sentidocomun" label="#sentidocomun">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="31.85" />
-        <viz:position x="403.3" y="-67.5" z="0.0" />
+        <viz:position x="407.6" y="-55.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="99" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -497,7 +497,7 @@
       <node id="pueblo" label="pueblo">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="31.24" />
-        <viz:position x="570.4" y="-445.6" z="0.0" />
+        <viz:position x="580.1" y="-463.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="95" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -510,7 +510,7 @@
       <node id="violencia" label="violencia">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="31.24" />
-        <viz:position x="333.7" y="-494.3" z="0.0" />
+        <viz:position x="338.9" y="-452.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="95" />
           <attvalue for="1" value="Vox" />
@@ -523,7 +523,7 @@
       <node id="andalucia" label="andalucia">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="31.09" />
-        <viz:position x="416.1" y="-148.4" z="0.0" />
+        <viz:position x="422.2" y="-140.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="94" />
           <attvalue for="1" value="Vox" />
@@ -536,7 +536,7 @@
       <node id="gente" label="gente">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="31.09" />
-        <viz:position x="424.0" y="-207.0" z="0.0" />
+        <viz:position x="405.3" y="-195.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="94" />
           <attvalue for="1" value="Vox" />
@@ -549,7 +549,7 @@
       <node id="partido" label="partido">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="31.09" />
-        <viz:position x="307.6" y="-408.0" z="0.0" />
+        <viz:position x="308.0" y="-405.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="94" />
           <attvalue for="1" value="Vox" />
@@ -562,7 +562,7 @@
       <node id="espanol" label="espanol">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="30.77" />
-        <viz:position x="583.3" y="-453.3" z="0.0" />
+        <viz:position x="587.5" y="-438.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="92" />
           <attvalue for="1" value="Vox" />
@@ -575,7 +575,7 @@
       <node id="masiva" label="masiva">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="30.77" />
-        <viz:position x="554.5" y="-540.1" z="0.0" />
+        <viz:position x="537.4" y="-542.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="92" />
           <attvalue for="1" value="Vox" />
@@ -588,7 +588,7 @@
       <node id="europa" label="europa">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="30.62" />
-        <viz:position x="859.0" y="-609.7" z="0.0" />
+        <viz:position x="859.7" y="-598.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="91" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -601,7 +601,7 @@
       <node id="pais" label="pais">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="30.62" />
-        <viz:position x="462.8" y="-426.3" z="0.0" />
+        <viz:position x="408.4" y="-442.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="91" />
           <attvalue for="1" value="Vox" />
@@ -614,7 +614,7 @@
       <node id="politicas" label="politicas">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="30.46" />
-        <viz:position x="312.0" y="-369.5" z="0.0" />
+        <viz:position x="302.9" y="-366.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="90" />
           <attvalue for="1" value="Vox" />
@@ -627,7 +627,7 @@
       <node id="tenemos" label="tenemos">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="30.3" />
-        <viz:position x="438.3" y="-410.5" z="0.0" />
+        <viz:position x="456.4" y="-408.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="89" />
           <attvalue for="1" value="Vox" />
@@ -640,7 +640,7 @@
       <node id="politica" label="politica">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="30.14" />
-        <viz:position x="722.6" y="-589.2" z="0.0" />
+        <viz:position x="724.4" y="-587.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="88" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -653,7 +653,7 @@
       <node id="millones" label="millones">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="29.66" />
-        <viz:position x="533.4" y="-316.1" z="0.0" />
+        <viz:position x="534.1" y="-333.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="85" />
           <attvalue for="1" value="Vox" />
@@ -666,7 +666,7 @@
       <node id="cambio" label="cambio">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="29.5" />
-        <viz:position x="377.4" y="-159.6" z="0.0" />
+        <viz:position x="369.7" y="-157.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="84" />
           <attvalue for="1" value="Vox" />
@@ -679,7 +679,7 @@
       <node id="corrupcion" label="corrupcion">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="29.33" />
-        <viz:position x="350.5" y="-477.9" z="0.0" />
+        <viz:position x="325.2" y="-499.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="83" />
           <attvalue for="1" value="Vox" />
@@ -692,7 +692,7 @@
       <node id="regional" label="regional">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="29.33" />
-        <viz:position x="944.1" y="-710.5" z="0.0" />
+        <viz:position x="936.1" y="-679.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="83" />
           <attvalue for="1" value="Foro Madrid" />
@@ -705,7 +705,7 @@
       <node id="frente" label="frente">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="29.0" />
-        <viz:position x="553.2" y="-593.5" z="0.0" />
+        <viz:position x="550.5" y="-610.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="81" />
           <attvalue for="1" value="Vox" />
@@ -718,7 +718,7 @@
       <node id="criminal" label="criminal">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="28.66" />
-        <viz:position x="474.5" y="-554.1" z="0.0" />
+        <viz:position x="475.8" y="-558.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="79" />
           <attvalue for="1" value="Vox" />
@@ -731,7 +731,7 @@
       <node id="electoral" label="electoral">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="28.15" />
-        <viz:position x="232.8" y="-416.7" z="0.0" />
+        <viz:position x="225.1" y="-422.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="76" />
           <attvalue for="1" value="Vox" />
@@ -744,7 +744,7 @@
       <node id="entrevista" label="entrevista">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="28.15" />
-        <viz:position x="668.0" y="-431.2" z="0.0" />
+        <viz:position x="670.3" y="-425.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="76" />
           <attvalue for="1" value="Vox" />
@@ -757,7 +757,7 @@
       <node id="ayudas" label="ayudas">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="27.81" />
-        <viz:position x="518.1" y="-228.5" z="0.0" />
+        <viz:position x="543.4" y="-232.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="74" />
           <attvalue for="1" value="Vox" />
@@ -770,7 +770,7 @@
       <node id="dinero" label="dinero">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="27.81" />
-        <viz:position x="555.8" y="-375.2" z="0.0" />
+        <viz:position x="547.7" y="-383.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="74" />
           <attvalue for="1" value="Vox" />
@@ -783,7 +783,7 @@
       <node id="parte" label="parte">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="27.81" />
-        <viz:position x="316.9" y="-581.9" z="0.0" />
+        <viz:position x="308.3" y="-557.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="74" />
           <attvalue for="1" value="Vox" />
@@ -796,7 +796,7 @@
       <node id="traicion" label="traicion">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="27.81" />
-        <viz:position x="385.6" y="-582.5" z="0.0" />
+        <viz:position x="322.5" y="-605.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="74" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -809,7 +809,7 @@
       <node id="ley" label="ley">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="27.63" />
-        <viz:position x="256.3" y="-498.0" z="0.0" />
+        <viz:position x="255.2" y="-498.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="73" />
           <attvalue for="1" value="Vox" />
@@ -822,7 +822,7 @@
       <node id="blog" label="blog">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="27.46" />
-        <viz:position x="432.3" y="-834.7" z="0.0" />
+        <viz:position x="440.0" y="-843.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="72" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -835,7 +835,7 @@
       <node id="calles" label="calles">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="27.46" />
-        <viz:position x="559.9" y="-510.6" z="0.0" />
+        <viz:position x="566.8" y="-537.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="72" />
           <attvalue for="1" value="Vox" />
@@ -848,7 +848,7 @@
       <node id="quiere" label="quiere">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="27.46" />
-        <viz:position x="454.9" y="-333.9" z="0.0" />
+        <viz:position x="452.3" y="-319.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="72" />
           <attvalue for="1" value="Vox" />
@@ -861,7 +861,7 @@
       <node id="analiza" label="analiza">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="27.28" />
-        <viz:position x="451.7" y="-821.8" z="0.0" />
+        <viz:position x="404.4" y="-806.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="71" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -874,7 +874,7 @@
       <node id="campana" label="campana">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="27.28" />
-        <viz:position x="283.0" y="-217.1" z="0.0" />
+        <viz:position x="281.5" y="-217.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="71" />
           <attvalue for="1" value="Vox" />
@@ -887,7 +887,7 @@
       <node id="fuera" label="fuera">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="27.1" />
-        <viz:position x="505.0" y="-332.2" z="0.0" />
+        <viz:position x="500.5" y="-338.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="70" />
           <attvalue for="1" value="Vox" />
@@ -900,7 +900,7 @@
       <node id="articulo" label="articulo">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.74" />
-        <viz:position x="406.5" y="-764.4" z="0.0" />
+        <viz:position x="399.3" y="-748.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="68" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -913,7 +913,7 @@
       <node id="izquierda" label="izquierda">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.56" />
-        <viz:position x="800.1" y="-517.9" z="0.0" />
+        <viz:position x="797.4" y="-513.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="67" />
           <attvalue for="1" value="Vox" />
@@ -926,7 +926,7 @@
       <node id="mujeres" label="mujeres">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.56" />
-        <viz:position x="507.8" y="-585.9" z="0.0" />
+        <viz:position x="511.0" y="-592.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="67" />
           <attvalue for="1" value="Vox" />
@@ -939,7 +939,7 @@
       <node id="menos" label="menos">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="26.37" />
-        <viz:position x="663.4" y="-388.4" z="0.0" />
+        <viz:position x="660.8" y="-391.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="66" />
           <attvalue for="1" value="Vox" />
@@ -952,7 +952,7 @@
       <node id="santiago" label="santiago">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="26.37" />
-        <viz:position x="920.0" y="-692.7" z="0.0" />
+        <viz:position x="927.5" y="-674.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="66" />
           <attvalue for="1" value="Vox" />
@@ -965,7 +965,7 @@
       <node id="nueva" label="nueva">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.19" />
-        <viz:position x="599.8" y="-862.4" z="0.0" />
+        <viz:position x="601.2" y="-860.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="65" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -978,7 +978,7 @@
       <node id="nunca" label="nunca">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="26.19" />
-        <viz:position x="245.6" y="-455.5" z="0.0" />
+        <viz:position x="242.3" y="-454.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="65" />
           <attvalue for="1" value="Vox" />
@@ -991,7 +991,7 @@
       <node id="ahora" label="ahora">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.0" />
-        <viz:position x="226.3" y="-508.6" z="0.0" />
+        <viz:position x="221.1" y="-509.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="64" />
           <attvalue for="1" value="Vox" />
@@ -1004,7 +1004,7 @@
       <node id="apoyo" label="apoyo">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="26.0" />
-        <viz:position x="318.1" y="-113.9" z="0.0" />
+        <viz:position x="316.6" y="-101.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="64" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -1017,7 +1017,7 @@
       <node id="hecho" label="hecho">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.0" />
-        <viz:position x="507.8" y="-552.8" z="0.0" />
+        <viz:position x="505.9" y="-567.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="64" />
           <attvalue for="1" value="Vox" />
@@ -1030,7 +1030,7 @@
       <node id="madrid" label="madrid">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.0" />
-        <viz:position x="756.6" y="-732.6" z="0.0" />
+        <viz:position x="763.6" y="-721.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="64" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -1043,7 +1043,7 @@
       <node id="patriotas" label="patriotas">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.0" />
-        <viz:position x="873.9" y="-637.7" z="0.0" />
+        <viz:position x="869.3" y="-627.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="64" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -1056,7 +1056,7 @@
       <node id="politico" label="politico">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="26.0" />
-        <viz:position x="591.5" y="-695.4" z="0.0" />
+        <viz:position x="592.6" y="-705.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="64" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -1069,7 +1069,7 @@
       <node id="politicos" label="politicos">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="26.0" />
-        <viz:position x="591.7" y="-353.2" z="0.0" />
+        <viz:position x="581.0" y="-346.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="64" />
           <attvalue for="1" value="Vox" />
@@ -1082,7 +1082,7 @@
       <node id="historia" label="historia">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="25.62" />
-        <viz:position x="536.8" y="-757.8" z="0.0" />
+        <viz:position x="531.6" y="-757.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="62" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -1095,7 +1095,7 @@
       <node id="moreno" label="moreno">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="25.62" />
-        <viz:position x="384.9" y="-215.0" z="0.0" />
+        <viz:position x="378.6" y="-228.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="62" />
           <attvalue for="1" value="Vox" />
@@ -1108,7 +1108,7 @@
       <node id="mundo" label="mundo">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="25.62" />
-        <viz:position x="443.5" y="-679.2" z="0.0" />
+        <viz:position x="441.7" y="-690.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="62" />
           <attvalue for="1" value="Vox" />
@@ -1121,7 +1121,7 @@
       <node id="sociales" label="sociales">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="25.62" />
-        <viz:position x="515.0" y="-240.8" z="0.0" />
+        <viz:position x="516.2" y="-223.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="62" />
           <attvalue for="1" value="Vox" />
@@ -1134,7 +1134,7 @@
       <node id="impuestos" label="impuestos">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="25.43" />
-        <viz:position x="624.4" y="-183.7" z="0.0" />
+        <viz:position x="628.3" y="-187.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="61" />
           <attvalue for="1" value="Vox" />
@@ -1147,7 +1147,7 @@
       <node id="jorgebuxade" label="jorgebuxade">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="25.43" />
-        <viz:position x="189.9" y="-669.3" z="0.0" />
+        <viz:position x="188.8" y="-668.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="61" />
           <attvalue for="1" value="Vox" />
@@ -1160,7 +1160,7 @@
       <node id="soberania" label="soberania">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="25.43" />
-        <viz:position x="741.2" y="-688.4" z="0.0" />
+        <viz:position x="746.8" y="-682.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="61" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -1173,7 +1173,7 @@
       <node id="gaviravox" label="gaviravox">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="25.24" />
-        <viz:position x="368.2" y="-256.5" z="0.0" />
+        <viz:position x="380.0" y="-260.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="60" />
           <attvalue for="1" value="Vox" />
@@ -1186,7 +1186,7 @@
       <node id="despues" label="despues">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="25.04" />
-        <viz:position x="228.7" y="-590.2" z="0.0" />
+        <viz:position x="226.6" y="-582.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="59" />
           <attvalue for="1" value="Vox" />
@@ -1199,7 +1199,7 @@
       <node id="fronteras" label="fronteras">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="25.04" />
-        <viz:position x="549.0" y="-705.6" z="0.0" />
+        <viz:position x="550.8" y="-701.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="59" />
           <attvalue for="1" value="Vox" />
@@ -1212,7 +1212,7 @@
       <node id="remigracion" label="remigracion">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="25.04" />
-        <viz:position x="511.6" y="-214.3" z="0.0" />
+        <viz:position x="491.3" y="-211.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="59" />
           <attvalue for="1" value="Vox" />
@@ -1225,7 +1225,7 @@
       <node id="realidad" label="realidad">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="24.65" />
-        <viz:position x="132.9" y="-431.3" z="0.0" />
+        <viz:position x="133.0" y="-421.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="57" />
           <attvalue for="1" value="Vox" />
@@ -1238,7 +1238,7 @@
       <node id="vida" label="vida">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="24.65" />
-        <viz:position x="653.8" y="-489.2" z="0.0" />
+        <viz:position x="651.9" y="-492.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="57" />
           <attvalue for="1" value="Vox" />
@@ -1251,7 +1251,7 @@
       <node id="claro" label="claro">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="24.45" />
-        <viz:position x="268.3" y="-369.2" z="0.0" />
+        <viz:position x="272.1" y="-360.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="56" />
           <attvalue for="1" value="Vox" />
@@ -1264,7 +1264,7 @@
       <node id="junto" label="junto">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="24.25" />
-        <viz:position x="719.9" y="-441.9" z="0.0" />
+        <viz:position x="718.4" y="-440.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="55" />
           <attvalue for="1" value="Vox" />
@@ -1277,7 +1277,7 @@
       <node id="tiempo" label="tiempo">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="24.25" />
-        <viz:position x="460.2" y="-598.8" z="0.0" />
+        <viz:position x="464.2" y="-608.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="55" />
           <attvalue for="1" value="Vox" />
@@ -1290,7 +1290,7 @@
       <node id="congreso" label="congreso">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="24.05" />
-        <viz:position x="161.5" y="-502.9" z="0.0" />
+        <viz:position x="159.6" y="-497.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="54" />
           <attvalue for="1" value="Vox" />
@@ -1303,7 +1303,7 @@
       <node id="denuncia" label="denuncia">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="24.05" />
-        <viz:position x="337.3" y="-406.7" z="0.0" />
+        <viz:position x="339.0" y="-401.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="54" />
           <attvalue for="1" value="Vox" />
@@ -1316,7 +1316,7 @@
       <node id="sanidad" label="sanidad">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="24.05" />
-        <viz:position x="574.5" y="-309.3" z="0.0" />
+        <viz:position x="565.3" y="-308.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="54" />
           <attvalue for="1" value="Vox" />
@@ -1329,7 +1329,7 @@
       <node id="decir" label="decir">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="23.84" />
-        <viz:position x="423.1" y="-263.7" z="0.0" />
+        <viz:position x="367.4" y="-258.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="53" />
           <attvalue for="1" value="Vox" />
@@ -1342,7 +1342,7 @@
       <node id="migratoria" label="migratoria">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="23.84" />
-        <viz:position x="440.0" y="-554.1" z="0.0" />
+        <viz:position x="443.3" y="-572.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="53" />
           <attvalue for="1" value="Vox" />
@@ -1355,7 +1355,7 @@
       <node id="primero" label="primero">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="23.84" />
-        <viz:position x="486.7" y="-139.7" z="0.0" />
+        <viz:position x="516.2" y="-169.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="53" />
           <attvalue for="1" value="Vox" />
@@ -1368,7 +1368,7 @@
       <node id="consecuencias" label="consecuencias">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="23.63" />
-        <viz:position x="532.4" y="-648.7" z="0.0" />
+        <viz:position x="524.6" y="-650.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="52" />
           <attvalue for="1" value="Vox" />
@@ -1381,7 +1381,7 @@
       <node id="debe" label="debe">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="23.63" />
-        <viz:position x="365.1" y="-669.1" z="0.0" />
+        <viz:position x="342.7" y="-657.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="52" />
           <attvalue for="1" value="Vox" />
@@ -1394,7 +1394,7 @@
       <node id="futuro" label="futuro">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="23.63" />
-        <viz:position x="761.3" y="-552.4" z="0.0" />
+        <viz:position x="760.7" y="-551.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="52" />
           <attvalue for="1" value="Vox" />
@@ -1407,7 +1407,7 @@
       <node id="primera" label="primera">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="23.63" />
-        <viz:position x="577.6" y="-757.7" z="0.0" />
+        <viz:position x="577.0" y="-762.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="52" />
           <attvalue for="1" value="Vox" />
@@ -1420,7 +1420,7 @@
       <node id="queremos" label="queremos">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="23.63" />
-        <viz:position x="763.2" y="-363.1" z="0.0" />
+        <viz:position x="761.6" y="-369.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="52" />
           <attvalue for="1" value="Vox" />
@@ -1433,7 +1433,7 @@
       <node id="joseafuster" label="joseafuster">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="23.42" />
-        <viz:position x="749.7" y="-79.9" z="0.0" />
+        <viz:position x="735.2" y="-69.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="51" />
           <attvalue for="1" value="Vox" />
@@ -1446,7 +1446,7 @@
       <node id="defensa" label="defensa">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="23.21" />
-        <viz:position x="683.6" y="-729.9" z="0.0" />
+        <viz:position x="691.5" y="-721.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="50" />
           <attvalue for="1" value="Vox" />
@@ -1459,7 +1459,7 @@
       <node id="jovenes" label="jovenes">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="23.21" />
-        <viz:position x="713.9" y="-225.4" z="0.0" />
+        <viz:position x="716.6" y="-229.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="50" />
           <attvalue for="1" value="Vox" />
@@ -1472,7 +1472,7 @@
       <node id="mayor" label="mayor">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="23.21" />
-        <viz:position x="306.1" y="-269.5" z="0.0" />
+        <viz:position x="300.3" y="-273.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="50" />
           <attvalue for="1" value="Vox" />
@@ -1485,7 +1485,7 @@
       <node id="posible" label="posible">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="23.21" />
-        <viz:position x="694.0" y="-516.7" z="0.0" />
+        <viz:position x="692.2" y="-517.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="50" />
           <attvalue for="1" value="Vox" />
@@ -1498,7 +1498,7 @@
       <node id="prosperidad" label="prosperidad">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="23.21" />
-        <viz:position x="769.9" y="-646.9" z="0.0" />
+        <viz:position x="774.1" y="-638.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="50" />
           <attvalue for="1" value="Vox" />
@@ -1511,7 +1511,7 @@
       <node id="provincia" label="provincia">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="23.21" />
-        <viz:position x="419.7" y="-0.0" z="0.0" />
+        <viz:position x="429.1" y="-0.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="50" />
           <attvalue for="1" value="Santiago Abascal" />
@@ -1524,7 +1524,7 @@
       <node id="servicios" label="servicios">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="23.21" />
-        <viz:position x="641.7" y="-156.2" z="0.0" />
+        <viz:position x="633.7" y="-154.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="50" />
           <attvalue for="1" value="Vox" />
@@ -1537,7 +1537,7 @@
       <node id="verdad" label="verdad">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="23.21" />
-        <viz:position x="723.0" y="-333.9" z="0.0" />
+        <viz:position x="721.3" y="-335.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="50" />
           <attvalue for="1" value="Vox" />
@@ -1550,7 +1550,7 @@
       <node id="fin" label="fin">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="23.0" />
-        <viz:position x="591.4" y="-18.0" z="0.0" />
+        <viz:position x="587.6" y="-17.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="49" />
           <attvalue for="1" value="Vox" />
@@ -1563,7 +1563,7 @@
       <node id="habla" label="habla">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="23.0" />
-        <viz:position x="281.1" y="-282.2" z="0.0" />
+        <viz:position x="283.1" y="-269.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="49" />
           <attvalue for="1" value="Vox" />
@@ -1576,7 +1576,7 @@
       <node id="instituciones" label="instituciones">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="23.0" />
-        <viz:position x="653.0" y="-669.5" z="0.0" />
+        <viz:position x="660.4" y="-666.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="49" />
           <attvalue for="1" value="Vox" />
@@ -1589,7 +1589,7 @@
       <node id="internacional" label="internacional">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="23.0" />
-        <viz:position x="819.4" y="-758.4" z="0.0" />
+        <viz:position x="822.0" y="-747.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="49" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -1602,7 +1602,7 @@
       <node id="problema" label="problema">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="23.0" />
-        <viz:position x="596.3" y="-279.7" z="0.0" />
+        <viz:position x="603.5" y="-300.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="49" />
           <attvalue for="1" value="Vox" />
@@ -1615,7 +1615,7 @@
       <node id="casa" label="casa">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="22.78" />
-        <viz:position x="667.8" y="-243.8" z="0.0" />
+        <viz:position x="665.4" y="-248.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="48" />
           <attvalue for="1" value="Vox" />
@@ -1628,7 +1628,7 @@
       <node id="completa" label="completa">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="22.78" />
-        <viz:position x="930.9" y="-620.5" z="0.0" />
+        <viz:position x="935.0" y="-593.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="48" />
           <attvalue for="1" value="Vox" />
@@ -1641,7 +1641,7 @@
       <node id="cosas" label="cosas">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="22.78" />
-        <viz:position x="235.8" y="-275.4" z="0.0" />
+        <viz:position x="234.2" y="-285.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="48" />
           <attvalue for="1" value="Vox" />
@@ -1654,7 +1654,7 @@
       <node id="cualquier" label="cualquier">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.78" />
-        <viz:position x="277.1" y="-422.6" z="0.0" />
+        <viz:position x="263.0" y="-417.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="48" />
           <attvalue for="1" value="Vox" />
@@ -1667,7 +1667,7 @@
       <node id="traidor" label="traidor">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.78" />
-        <viz:position x="297.3" y="-604.6" z="0.0" />
+        <viz:position x="287.7" y="-596.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="48" />
           <attvalue for="1" value="Vox" />
@@ -1680,7 +1680,7 @@
       <node id="completo" label="completo">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.57" />
-        <viz:position x="908.5" y="-809.8" z="0.0" />
+        <viz:position x="914.8" y="-791.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="47" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -1693,7 +1693,7 @@
       <node id="defender" label="defender">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.57" />
-        <viz:position x="454.7" y="-644.4" z="0.0" />
+        <viz:position x="455.9" y="-644.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="47" />
           <attvalue for="1" value="Vox" />
@@ -1706,7 +1706,7 @@
       <node id="leon" label="leon">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="22.57" />
-        <viz:position x="244.2" y="-37.9" z="0.0" />
+        <viz:position x="248.8" y="-33.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="47" />
           <attvalue for="1" value="Vox" />
@@ -1719,7 +1719,7 @@
       <node id="declaraciones" label="declaraciones">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="22.35" />
-        <viz:position x="313.6" y="-325.3" z="0.0" />
+        <viz:position x="323.4" y="-331.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="46" />
           <attvalue for="1" value="Vox" />
@@ -1732,7 +1732,7 @@
       <node id="espanola" label="espanola">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.35" />
-        <viz:position x="326.1" y="-674.7" z="0.0" />
+        <viz:position x="344.2" y="-689.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="46" />
           <attvalue for="1" value="Vox" />
@@ -1745,7 +1745,7 @@
       <node id="frias" label="frias">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="22.35" />
-        <viz:position x="1000.0" y="-650.8" z="0.0" />
+        <viz:position x="1000.0" y="-634.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="46" />
           <attvalue for="1" value="Fundación Disenso" />
@@ -1758,7 +1758,7 @@
       <node id="publica" label="publica">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="22.35" />
-        <viz:position x="575.3" y="-112.9" z="0.0" />
+        <viz:position x="572.3" y="-110.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="46" />
           <attvalue for="1" value="Vox" />
@@ -1771,7 +1771,7 @@
       <node id="unico" label="unico">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.35" />
-        <viz:position x="172.7" y="-385.3" z="0.0" />
+        <viz:position x="170.3" y="-379.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="46" />
           <attvalue for="1" value="Vox" />
@@ -1784,7 +1784,7 @@
       <node id="bonilla" label="bonilla">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="22.12" />
-        <viz:position x="376.0" y="-204.9" z="0.0" />
+        <viz:position x="367.8" y="-186.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="45" />
           <attvalue for="1" value="Vox" />
@@ -1797,7 +1797,7 @@
       <node id="ceuties" label="ceuties">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.12" />
-        <viz:position x="283.2" y="-652.6" z="0.0" />
+        <viz:position x="269.0" y="-643.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="45" />
           <attvalue for="1" value="Vox" />
@@ -1810,7 +1810,7 @@
       <node id="chile" label="chile">
         <viz:color r="122" g="79" b="176" a="1.0" />
         <viz:size value="22.12" />
-        <viz:position x="956.2" y="-718.3" z="0.0" />
+        <viz:position x="967.7" y="-678.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="45" />
           <attvalue for="1" value="Foro Madrid" />
@@ -1823,7 +1823,7 @@
       <node id="ciudad" label="ciudad">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.12" />
-        <viz:position x="266.2" y="-722.9" z="0.0" />
+        <viz:position x="257.7" y="-717.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="45" />
           <attvalue for="1" value="Vox" />
@@ -1836,7 +1836,7 @@
       <node id="desregulacion" label="desregulacion">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="22.12" />
-        <viz:position x="514.1" y="-152.5" z="0.0" />
+        <viz:position x="500.3" y="-147.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="45" />
           <attvalue for="1" value="Vox" />
@@ -1849,7 +1849,7 @@
       <node id="familias" label="familias">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="22.12" />
-        <viz:position x="689.0" y="-140.8" z="0.0" />
+        <viz:position x="689.2" y="-151.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="45" />
           <attvalue for="1" value="Vox" />
@@ -1862,7 +1862,7 @@
       <node id="invasores" label="invasores">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="22.12" />
-        <viz:position x="277.2" y="-681.0" z="0.0" />
+        <viz:position x="284.3" y="-686.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="45" />
           <attvalue for="1" value="Vox" />
@@ -1875,7 +1875,7 @@
       <node id="muchos" label="muchos">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="22.12" />
-        <viz:position x="150.2" y="-243.8" z="0.0" />
+        <viz:position x="151.2" y="-239.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="45" />
           <attvalue for="1" value="Vox" />
@@ -1888,7 +1888,7 @@
       <node id="publicos" label="publicos">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="21.9" />
-        <viz:position x="641.1" y="-140.4" z="0.0" />
+        <viz:position x="647.0" y="-141.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="44" />
           <attvalue for="1" value="Vox" />
@@ -1901,7 +1901,7 @@
       <node id="quieren" label="quieren">
         <viz:color r="180" g="71" b="43" a="1.0" />
         <viz:size value="21.9" />
-        <viz:position x="200.2" y="-209.5" z="0.0" />
+        <viz:position x="198.1" y="-215.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="44" />
           <attvalue for="1" value="Vox" />
@@ -1914,7 +1914,7 @@
       <node id="bruselas" label="bruselas">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="21.67" />
-        <viz:position x="184.6" y="-569.6" z="0.0" />
+        <viz:position x="182.7" y="-567.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="43" />
           <attvalue for="1" value="Vox" />
@@ -1927,7 +1927,7 @@
       <node id="delitos" label="delitos">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="21.67" />
-        <viz:position x="226.6" y="-348.3" z="0.0" />
+        <viz:position x="224.5" y="-357.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="43" />
           <attvalue for="1" value="Vox" />
@@ -1940,7 +1940,7 @@
       <node id="final" label="final">
         <viz:color r="47" g="125" b="91" a="1.0" />
         <viz:size value="21.67" />
-        <viz:position x="0.0" y="-143.0" z="0.0" />
+        <viz:position x="0.0" y="-142.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="43" />
           <attvalue for="1" value="Vox" />
@@ -1953,7 +1953,7 @@
       <node id="frontera" label="frontera">
         <viz:color r="22" g="94" b="189" a="1.0" />
         <viz:size value="21.67" />
-        <viz:position x="284.6" y="-567.5" z="0.0" />
+        <viz:position x="319.0" y="-613.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="43" />
           <attvalue for="1" value="Vox" />
