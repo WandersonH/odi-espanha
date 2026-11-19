@@ -1,245 +1,245 @@
 {
- "coletado_em_utc": "2026-11-18T18:10:38Z",
+ "coletado_em_utc": "2026-11-19T18:22:21Z",
  "geo": "ES",
  "fonte": "Google Trends · Em alta agora (RSS público)",
  "nota": "Lista que o Google publica no momento da leitura, na ordem dele. O volume é a faixa aproximada que o Google informa, não uma contagem. Uma leitura por execução; a lista muda ao longo do dia.",
  "itens": [
   {
    "pos": 1,
-   "termo": "cd lugo",
+   "termo": "villarejo de salvanés",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-18T18:00:00Z",
+   "publicado_em": "2026-11-19T18:10:00Z",
    "noticias": [
     {
-     "titulo": "Yelko Pino, sobre la racha del Pontevedra: «Es una barbaridad tener 21 puntos, que a nadie se le olvide»",
+     "titulo": "Detenido un hombre tras apuñalar de gravedad a su pareja en Villarejo de Salvanés y saltar después desde un primer piso",
+     "fonte": "El Mundo",
+     "url": "https://www.elmundo.es/madrid/2026/11/19/6aff183ffc6c835a328b45e4.html"
+    },
+    {
+     "titulo": "Una mujer recibe una puñalada en Madrid y su presunto agresor se tira de un primer piso",
      "fonte": "La Voz de Galicia",
-     "url": "https://www.lavozdegalicia.es/noticia/pontevedra/2026/11/19/yelko-pino-sobre-racha-granate-barbaridad-tener-21-puntos/0003_202611P19C6991.htm"
+     "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/18/teresa-jimenez-becerril-releva-funciones-angel-gabilondo-defensora-pueblo/00031795030531585645556.htm"
     },
     {
-     "titulo": "Yelko invoca a la afición para poder vencer al Lugo: \"No lo vamos a poder sacar sin la gente\"",
-     "fonte": "pontevedraviva",
-     "url": "https://www.pontevedraviva.com/es/deportes/yelko-invoca-aficion-vencer-lugo-no-sacar-sin-gente_522886_102.html"
-    },
-    {
-     "titulo": "Yelko Pino reclama al Pasarón «de las grandes noches» para el derbi ante el Lugo",
-     "fonte": "Faro de Vigo",
-     "url": "https://www.farodevigo.es/deportes-pontevedra/2026/11/18/yelko-pino-reclama-pasaron-grandes-136576466.html"
+     "titulo": "Detenido un hombre tras acuchillar a su pareja y tirarse desde un primer piso en Villarejo de Salvanés",
+     "fonte": "EL PAÍS",
+     "url": "https://elpais.com/espana/madrid/2026-11-19/detenido-un-hombre-tras-acuchillar-a-su-pareja-y-tirarse-desde-un-primer-piso-en-villarejo-de-salvanes.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 2,
-   "termo": "ibex 35",
-   "trafego_aproximado": "2000+",
-   "publicado_em": "2026-11-18T17:50:00Z",
+   "termo": "žalgiris - panathinaikos",
+   "trafego_aproximado": "500+",
+   "publicado_em": "2026-11-19T17:50:00Z",
    "noticias": [
     {
-     "titulo": "El Ibex mantiene sus dudas tras Nvidia",
-     "fonte": "Expansión",
-     "url": "https://www.expansion.com/mercados/cronica-bolsa/2026/11/18/ibex-mantiene-dudas-nvidia.html"
+     "titulo": "JV ir Masiulį išskyręs Željko įspėjo PAO žvaigždyną: „Žalgiris“ – labai gera komanda“",
+     "fonte": "15min.lt",
+     "url": "https://www.15min.lt/24sek/naujiena/eurolyga/jv-ir-masiuli-isskyres-zeljko-ispejo-pao-zvaigzdyna-zalgiris-labai-gera-komanda-1362-2809610"
     },
     {
-     "titulo": "La Bolsa baja el 1,28 % por Wall Street y pese a los buenos resultados de Nvidia",
-     "fonte": "ABC",
-     "url": "https://www.abc.es/economia/bolsa-baja-128-wall-street-pese-buenos-20261118182333-nt.html"
+     "titulo": "Šiltus jausmus pagarsinęs Francisco įvertino šių metų „Žalgirį“",
+     "fonte": "BasketNews.lt",
+     "url": "https://www.basketnews.lt/news-259765-siltus-jausmus-pagarsines-francisco-ivertino-siu-metu-zalgiri.html"
     },
     {
-     "titulo": "Bolsa e Ibex 35 hoy, en directo | El Ibex se deja un 1,28% y Nvidia no convence con sus primeras cuentas tras el escándalo de su CEO",
-     "fonte": "El Confidencial",
-     "url": "https://www.elconfidencial.com/mercados/2026-11-18/bolsa-e-ibex-35-hoy-en-directo_4467224/"
+     "titulo": "„Žalgirio“ Eurolygos pirmo rato finišas – tarp sudėtingiausių",
+     "fonte": "Krepsinis.net",
+     "url": "https://www.krepsinis.net/naujiena/zalgirio-eurolygos-pirmo-rato-finisas-tarp-sudetingiausiu/354389"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 3,
-   "termo": "felipe gonzález",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-18T17:50:00Z",
+   "termo": "huelga estudiantil",
+   "trafego_aproximado": "2000+",
+   "publicado_em": "2026-11-19T17:50:00Z",
    "noticias": [
     {
-     "titulo": "Natalie Vasallo, la supuesta hija no reconocida de Felipe González, rompe su silencio en Y ahora Sonsoles",
-     "fonte": "Antena 3",
-     "url": "https://www.antena3.com/programas/y-ahora-sonsoles/natalie-vasallo-supuesta-hija-reconocida-felipe-gonzalez-tengo-dudas-que-soy-hija_202611186afde31921e74551e81e7f7d.html"
+     "titulo": "Huelga de estudiantes este 20 de noviembre: quién la convoca, horario y lugar de la movilización en Madrid",
+     "fonte": "El Mundo",
+     "url": "https://www.elmundo.es/como/2026/11/18/6afd7acbe85ece764d8b458e.html"
     },
     {
-     "titulo": "La Fiscalía pide una prueba de ADN anticipada a Felipe González por la demanda de paternidad presentada por una madrileña de 42 años",
-     "fonte": "El Economista",
-     "url": "https://www.eleconomista.es/informalia/famosos/noticias/14028605/11/26/la-fiscalia-pide-una-prueba-de-adn-anticipada-a-felipe-gonzalez-por-la-demanda-de-paternidad-presentada-por-una-madrilena-de-42-anos.html"
+     "titulo": "Miles de alumnos harán huelga este viernes en Valencia y podrán faltar a clase sin permiso paterno",
+     "fonte": "Las Provincias",
+     "url": "https://www.lasprovincias.es/comunitat/miles-alumnos-huelga-valencia-20261118145342-nt.html"
     },
     {
-     "titulo": "La Fiscalía solicita el ADN de Felipe González tras una demanda de paternidad",
-     "fonte": "La Razón",
-     "url": "https://www.larazon.es/gente/famosos/fiscalia-solicita-adn-felipe-gonzalez-demanda-paternidad_202611176afcb37cf6b335433bb3b9b8.html"
+     "titulo": "Los estudiantes catalanes se suman a la manifestación educativa de este sábado y a la huelga docente del jueves 26 de noviembre",
+     "fonte": "El Periódico",
+     "url": "https://www.elperiodico.com/es/sociedad/20261118/estudiantes-catalanes-suman-huelga-docente-26-noviembre-manifestacion-sabado-educacion-publica-136570882"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 4,
-   "termo": "rosalía",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-18T17:50:00Z",
+   "termo": "pablo hernández de cos",
+   "trafego_aproximado": "1000+",
+   "publicado_em": "2026-11-19T17:50:00Z",
    "noticias": [
     {
-     "titulo": "2027 Grammy Snubs and Surprises: Madonna, Noah Kahan, Audrey Hobert and More",
-     "fonte": "The New York Times",
-     "url": "https://www.nytimes.com/2026/11/16/arts/music/grammy-nominations-snubs-surprises-madonna-noah-kahan.html"
+     "titulo": "De Cos será presidente del BCE pese al retraso administrativo en el Eurogrupo",
+     "fonte": "Expansión",
+     "url": "https://www.expansion.com/mercados/2026/11/18/cos-sera-presidente-bce-pese-retraso-administrativo-eurogrupo.html"
     },
     {
-     "titulo": "Raye leads 2027 Grammy nominations, followed by Rosalía, Ella Langley, Olivia Rodrigo and more",
-     "fonte": "AP News",
-     "url": "https://apnews.com/article/grammy-nominations-2027-927a42594517e9a9bf17936f1891a96f"
+     "titulo": "El Eurogrupo amplía el plazo para presentar candidatos a la dirección del BCE con Hernández de Cos como favorito a la presidencia",
+     "fonte": "EL PAÍS",
+     "url": "https://elpais.com/economia/2026-11-18/el-eurogrupo-amplia-el-plazo-para-presentar-candidatos-a-la-direccion-del-bce-con-hernandez-de-cos-como-favorito-a-la-presidencia.html"
     },
     {
-     "titulo": "Grammy Awards for Song of the Year: Meet the 2027 Nominees",
-     "fonte": "Grammy",
-     "url": "https://www.grammy.com/news/grammy-awards-for-song-of-the-year-meet-the-2027-nominees/"
+     "titulo": "Gestores",
+     "fonte": "La Vanguardia",
+     "url": "https://www.lavanguardia.com/economia/20261118/11686939/gestores-pablo-hernandez-de-cos.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 5,
-   "termo": "empresario",
-   "trafego_aproximado": "2000+",
-   "publicado_em": "2026-11-18T17:40:00Z",
+   "termo": "borja mayoral",
+   "trafego_aproximado": "100+",
+   "publicado_em": "2026-11-19T17:50:00Z",
    "noticias": [
     {
-     "titulo": "Fallece Tito Barbosa, el empresario ourensano que convirtió su marca de cepillos en un referente nacional",
-     "fonte": "La Voz de Galicia",
-     "url": "https://www.lavozdegalicia.es/noticia/obituarios/2026/11/18/fallece-tito-barbosa-empresario-ourensano-convirtio-marca-cepillos-referente-nacional/00031794997621831807374.htm"
+     "titulo": "El Espanyol se mueve por Marc Aguado y Borja Mayoral apunta a salir del Getafe",
+     "fonte": "MARCA",
+     "url": "https://www.marca.com/radio/2026/11/19/espanyol-mueve-marc-aguado-borja-mayoral-apunta-salir-getafe.html"
     },
     {
-     "titulo": "Fallece Justino ‘Tito’ Barbosa, uno de los referentes del sector",
-     "fonte": "CdeComunicacion.es",
-     "url": "https://ferreteria-y-bricolaje.cdecomunicacion.es/noticias/226424/fallece-justino-tito-barbosa"
+     "titulo": "El Espanyol estudia un fichaje a coste 0",
+     "fonte": "Fichajes.com",
+     "url": "https://www.fichajes.com/a7340905074396231010-el-espanyol-estudia-un-fichaje-a-coste-0"
     },
     {
-     "titulo": "Mucho más que el padre de mi amiga",
-     "fonte": "La Región",
-     "url": "https://www.laregion.es/opinion/padre-amiga_1_20261118-4497644.html"
+     "titulo": "Eder Sarabia no pierde de vista a Marc Aguado",
+     "fonte": "El 1900",
+     "url": "https://el1900.com/eder-sarabia-no-pierde-de-vista-marc-aguado-espanyol/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 6,
-   "termo": "xi jinping",
-   "trafego_aproximado": "500+",
-   "publicado_em": "2026-11-18T17:40:00Z",
+   "termo": "tabarnia",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-19T17:40:00Z",
    "noticias": [
     {
-     "titulo": "Apec summit live: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
-     "fonte": "The Guardian",
-     "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+     "titulo": "Boadella, a Ayuso en los premios de Tabarnia: \"Has venido como presidenta y vas a volver como canguro de La Moreneta\"",
+     "fonte": "Libertad Digital",
+     "url": "https://www.libertaddigital.com/madrid/2026-11-19/boadella-a-ayuso-en-los-premios-de-tabarnia-has-venido-como-presidenta-y-vas-a-volver-como-canguro-de-la-moreneta-7494750/"
     },
     {
-     "titulo": "Putin attacks Western action as Trump lands in China",
-     "fonte": "RTE.ie",
-     "url": "https://www.rte.ie/news/world/2026/1118/1599626-asia-trilateral-summit/"
+     "titulo": "Díaz Ayuso participa en Barcelona en la gala de los Premios Valientes Hodios organizada por Tabarnia",
+     "fonte": "Comunidad de Madrid |",
+     "url": "https://www.comunidad.madrid/retransmision/2026/11/19/R_19112026"
     },
     {
-     "titulo": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
-     "fonte": "BBC",
-     "url": "https://www.bbc.com/news/articles/c9n70gd320mpo"
+     "titulo": "Ayuso carga contra Sánchez y el independentismo en la gala de los 'Valientes Hodios' de Tabarnia: \"Cada vez hay más catalanes que van a Madrid a ser catalanes\"",
+     "fonte": "OkDiario",
+     "url": "https://okdiario.com/espana/ayuso-carga-contra-sanchez-independentismo-gala-valientes-hodios-tabarnia-cada-vez-hay-mas-catalanes-que-van-madrid-ser-catalanes-21188491"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 7,
-   "termo": "gran hermano vip",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-18T17:40:00Z",
+   "termo": "koldo garcía izaguirre",
+   "trafego_aproximado": "1000+",
+   "publicado_em": "2026-11-19T17:30:00Z",
    "noticias": [
     {
-     "titulo": "¿Qué puede ofrecer de nuevo GH VIP cuando parece que ya lo hemos visto todo?",
-     "fonte": "El Mundo",
-     "url": "https://www.elmundo.es/television/2026/11/17/6afb363dfc6c833f3a8b4579.html"
+     "titulo": "La campaña exacerba las acusaciones de guerra sucia entre el PP y el PSOE",
+     "fonte": "El Periódico",
+     "url": "https://www.elperiodico.com/es/politica/20261119/campana-exacerba-acusaciones-guerra-sucia-136610295"
     },
     {
-     "titulo": "De Belén Esteban y Karmele a Raquel Bollo o Pipi Estrada: los concursantes confirmados de 'GH VIP 9'",
-     "fonte": "La Vanguardia",
-     "url": "https://www.lavanguardia.com/television/20261118/11687288/belen-esteban-karmele-raquel-bollo-pipi-estrada-concursantes-confirmados-gh-vip-9.html"
+     "titulo": "El PSOE acusa al PP de negociar con Koldo pero cerró un pacto para pagar su defensa: decayó al ser imputado Santos Cerdán",
+     "fonte": "El Español",
+     "url": "https://www.elespanol.com/espana/20261119/psoe-acusa-pp-negociar-koldo-cerro-pacto-pagar-defensa-decayo-imputado-santos-cerdan/1003744463736_0.html"
     },
     {
-     "titulo": "Todo sobre el estreno de ‘GH VIP 9’: los concursantes, el regreso de Jorge Javier Vázquez y un inesperado habitante",
-     "fonte": "EL PAÍS",
-     "url": "https://elpais.com/television/2026-11-18/todo-sobre-el-estreno-de-gh-vip-9-los-concursantes-el-regreso-de-jorge-javier-vazquez-y-un-inesperado-habitante.html"
+     "titulo": "La Fiscalía General tramita la denuncia del PSOE contra el PP por el supuesto intento de soborno a Koldo",
+     "fonte": "El Correo",
+     "url": "https://www.elcorreo.com/politica/fiscalia-general-tramita-denuncia-psoe-pp-supuesto-20261116173739-ntrc.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 8,
-   "termo": "sony",
+   "termo": "angel martin",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-18T17:30:00Z",
+   "publicado_em": "2026-11-19T17:30:00Z",
    "noticias": [
     {
-     "titulo": "PlayStation Issues GTA 6 Software Warning Before Launch",
-     "fonte": "Newsweek",
-     "url": "https://www.newsweek.com/playstation-issues-gta-6-software-warning-launch-12732305"
+     "titulo": "Ángel Martín, el presentador al que un brote psicótico le cambió la vida: \"No tuve la sensación de que estuviese pasando nada raro\"",
+     "fonte": "Antena 3",
+     "url": "https://www.antena3.com/programas/y-ahora-sonsoles/angel-martin-presentador-que-brote-psicotico-cambio-vida-tuve-sensacion-que-estuviese-pasando-nada-raro_202611196aff350aa6f8072789eef67d.html"
     },
     {
-     "titulo": "Sony issues message to PS5 players ahead of highly anticipated GTA 6 launch",
-     "fonte": "NBC 5 Chicago",
-     "url": "https://www.nbcchicago.com/news/local/sony-issues-warning-to-players-ahead-of-gta-6/4018370/"
+     "titulo": "Ángel Martín revela como nunca lo que sintió durante su brote psicótico: \"Abandonarse demasiado es una pista clara\"",
+     "fonte": "HOLA",
+     "url": "https://www.hola.com/actualidad/20261119936118/angel-martin-revela-sintio-durante-brote-psicotico/"
     },
     {
-     "titulo": "Gta 6 Won’t Launch Without This PS5 Anti-Piracy Update Sony Just Released",
-     "fonte": "Polygon.com",
-     "url": "https://www.polygon.com/gta-6-grand-theft-auto-playstation-mandatory-ps5-update/"
+     "titulo": "Ángel Martín, cómico y presentador, sobre su ingreso en un hospital psiquiátrico: \"En mi cabeza, mi pareja de ese momento había creado 'Wonder Woman'\"",
+     "fonte": "El Confidencial",
+     "url": "https://www.elconfidencial.com/alma-corazon-vida/2026-11-19/angel-martin-presentador-ingreso-psiquiatrico-pareja-wonder-woman-1qrt_4466109/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 9,
-   "termo": "real madrid - inter de milán",
-   "trafego_aproximado": "10000+",
-   "publicado_em": "2026-11-18T17:00:00Z",
+   "termo": "lr-113",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-19T17:30:00Z",
    "noticias": [
     {
-     "titulo": "Real Madrid-Inter: a sumar el segundo triunfo seguido en la Women's Champions League",
-     "fonte": "Real Madrid CF | Web Oficial",
-     "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/previas/previa-real-madrid-inter-j5-wcl-17-11-2026"
+     "titulo": "El desprendimiento de rocas en la LR-113 deja sólo un carril abierto al tráfico",
+     "fonte": "NueveCuatroUno",
+     "url": "https://nuevecuatrouno.com/2026/11/19/el-desprendimiento-de-rocas-en-la-lr-113-deja-solo-un-carril-abierto-al-trafico/"
     },
     {
-     "titulo": "R. Madrid - Inter en directo | Última hora de Champions League Femenina en vivo hoy",
-     "fonte": "MARCA",
-     "url": "https://www.marca.com/futbol/champions-league-femenina/r-madrid-inter/2026/11/18/01_0183_20261118_16928_16021-directo.html"
+     "titulo": "Paso alternativo y cortes puntuales durante este jueves y viernes en la LR-113 tras un desprendimiento de rocas en Brieva de Cameros",
+     "fonte": "La Rioja",
+     "url": "https://www.larioja.com/la-rioja/sucesos/paso-alternativo-cortes-lr113-desprendimiento-rocas-brieva-20261119171727-nt.html"
     },
     {
-     "titulo": "Ivana: “Me hace mucha ilusión, tengo al Madrid en el corazoncito”",
-     "fonte": "Diario AS",
-     "url": "https://as.com/futbol/femenino/ivana-me-hace-mucha-ilusion-tengo-al-madrid-en-el-corazoncito-f202611-n/"
+     "titulo": "Un desprendimiento de piedras obliga a cortar la LR-113 en el cruce de Brieva de Cameros",
+     "fonte": "elDiario.es",
+     "url": "https://www.eldiario.es/la-rioja/desprendimiento-piedras-obliga-cortar-lr-113-cruce-brieva-cameros_1_13677623.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 10,
-   "termo": "pareja de hecho",
-   "trafego_aproximado": "500+",
-   "publicado_em": "2026-11-18T17:00:00Z",
+   "termo": "detención",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-19T17:20:00Z",
    "noticias": [
     {
-     "titulo": "Cambios en los requisitos de la pensión de viudedad: así queda tras la convalidación del decreto",
-     "fonte": "ABC",
-     "url": "https://www.abc.es/economia/cuentas-corrientes/cambios-requisitos-pension-viudedad-queda-tras-convalidacion-20261118163110-nt.html"
+     "titulo": "Niña Pastori, ante la justicia por las amenazas de muerte de una mujer que la acosa: “Es un horror”",
+     "fonte": "La Vanguardia",
+     "url": "https://www.lavanguardia.com/gente/20261119/11688465/nina-pastori-justicia-amenazas-muerte-mujer-acosa-horror.html"
     },
     {
-     "titulo": "La 'baja por menopausia' aprueba su examen en el Congreso: \"Beneficia a millones de trabajadoras\"",
-     "fonte": "Redacción Médica",
-     "url": "https://www.redaccionmedica.com/politica/20261118/la-baja-por-menopausia-aprueba-su-examen-en-el-congreso-beneficia-millones-de-trabajadoras/365777_0.html"
+     "titulo": "La presunta acosadora de la cantante Niña Pastori ingresa en prisión en Cádiz",
+     "fonte": "El Confidencial",
+     "url": "https://www.elconfidencial.com/espana/andalucia/2026-11-19/nina-pastori-acoso-amenazas-prision-1tna-1tps_4468640/"
     },
     {
-     "titulo": "El Congreso amplía la pensión de viudedad a parejas de hecho y aprueba la baja por menopausia y otras prestaciones",
-     "fonte": "elDiario.es",
-     "url": "https://www.eldiario.es/economia/congreso-amplia-viudedad-parejas-hecho-aprueba-baja-menopausia-prestaciones_1_13673123.html"
+     "titulo": "Niña Pastori, en los juzgados por culpa de una acosadora: amenazas de muerte, 5 detenciones y una orden de alejamiento",
+     "fonte": "HOLA",
+     "url": "https://www.hola.com/actualidad/20261119936049/nina-pastori-en-los-juzgados-por-culpa-de-una-acosadora-amenazas-de-muerte-5-detenciones-y-una-orden-de-alejamiento/"
     }
    ],
    "cita_ator": false
