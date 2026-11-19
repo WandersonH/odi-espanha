@@ -20,7 +20,7 @@ abascal,completa,9,Undirected
 abascal,comun,12,Undirected
 abascal,comunicacion,41,Undirected
 abascal,congreso,10,Undirected
-abascal,contesta,13,Undirected
+abascal,contesta,14,Undirected
 abascal,corrupcion,7,Undirected
 abascal,criminal,5,Undirected
 abascal,decir,5,Undirected
@@ -34,7 +34,7 @@ abascal,diputados,9,Undirected
 abascal,discurso,9,Undirected
 abascal,elecciones,19,Undirected
 abascal,electoral,5,Undirected
-abascal,entrevista,13,Undirected
+abascal,entrevista,14,Undirected
 abascal,espana,86,Undirected
 abascal,espanol,3,Undirected
 abascal,espanola,3,Undirected
@@ -363,7 +363,7 @@ espanoles,nacional,22,Undirected
 espanoles,nadie,4,Undirected
 espanoles,pedro,9,Undirected
 espanoles,popular,4,Undirected
-espanoles,primero,12,Undirected
+espanoles,primero,13,Undirected
 espanoles,prioridad,18,Undirected
 espanoles,programa,4,Undirected
 espanoles,queremos,4,Undirected
@@ -412,8 +412,8 @@ gobierno,poder,3,Undirected
 gobierno,presidente,12,Undirected
 gobierno,quiere,3,Undirected
 gobierno,traicion,5,Undirected
-gracias,comun,4,Undirected
-gracias,sentido,4,Undirected
+gracias,comun,5,Undirected
+gracias,sentido,5,Undirected
 gran,acto,67,Undirected
 gran,andalucia,18,Undirected
 gran,cambio,40,Undirected
@@ -666,7 +666,7 @@ sanchez,deja,4,Undirected
 sanchez,denuncia,6,Undirected
 sanchez,elecciones,15,Undirected
 sanchez,electoral,11,Undirected
-sanchez,espana,27,Undirected
+sanchez,espana,28,Undirected
 sanchez,espanoles,27,Undirected
 sanchez,feijoo,7,Undirected
 sanchez,frente,3,Undirected
@@ -820,7 +820,7 @@ santiago,votar,6,Undirected
 santiago,voto,5,Undirected
 santiago,vox,8,Undirected
 seguridad,voto,3,Undirected
-sentido,comun,34,Undirected
+sentido,comun,35,Undirected
 sentido,personas,4,Undirected
 sentido,seguridad,4,Undirected
 situacion,analizar,41,Undirected
