@@ -1,245 +1,240 @@
 {
- "coletado_em_utc": "2026-11-19T18:22:21Z",
+ "coletado_em_utc": "2026-11-20T17:53:21Z",
  "geo": "ES",
  "fonte": "Google Trends · Em alta agora (RSS público)",
  "nota": "Lista que o Google publica no momento da leitura, na ordem dele. O volume é a faixa aproximada que o Google informa, não uma contagem. Uma leitura por execução; a lista muda ao longo do dia.",
  "itens": [
   {
    "pos": 1,
-   "termo": "villarejo de salvanés",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-19T18:10:00Z",
+   "termo": "lola herrera",
+   "trafego_aproximado": "500+",
+   "publicado_em": "2026-11-20T17:40:00Z",
    "noticias": [
     {
-     "titulo": "Detenido un hombre tras apuñalar de gravedad a su pareja en Villarejo de Salvanés y saltar después desde un primer piso",
-     "fonte": "El Mundo",
-     "url": "https://www.elmundo.es/madrid/2026/11/19/6aff183ffc6c835a328b45e4.html"
+     "titulo": "Ana Redondo y Lola Herrera suben el telón del miedo para hacer campaña",
+     "fonte": "ABC",
+     "url": "https://www.abc.es/espana/castilla-leon/ana-redondo-lola-herrera-suben-telon-miedo-20261120180152-nt.html"
     },
     {
-     "titulo": "Una mujer recibe una puñalada en Madrid y su presunto agresor se tira de un primer piso",
-     "fonte": "La Voz de Galicia",
-     "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/18/teresa-jimenez-becerril-releva-funciones-angel-gabilondo-defensora-pueblo/00031795030531585645556.htm"
+     "titulo": "Lola Herrera asegura que España se \"juega mucho\" el 29N y pide votar para no perder derechos",
+     "fonte": "Canarias7",
+     "url": "https://www.canarias7.es/nacional/lola-herrera-asegura-espaa-juega-pide-votar-20261120134517-vi.html"
     },
     {
-     "titulo": "Detenido un hombre tras acuchillar a su pareja y tirarse desde un primer piso en Villarejo de Salvanés",
-     "fonte": "EL PAÍS",
-     "url": "https://elpais.com/espana/madrid/2026-11-19/detenido-un-hombre-tras-acuchillar-a-su-pareja-y-tirarse-desde-un-primer-piso-en-villarejo-de-salvanes.html"
+     "titulo": "Lola Herrera, a los 91 años: “Soy mujer y no puedo entender que otra mujer pueda votar a Santiago Abascal, no tiene sentido”",
+     "fonte": "Heraldo de Aragón",
+     "url": "https://www.heraldo.es/noticias/ocio-y-cultura/2026/11/19/lola-herrera-91-anos-soy-mujer-no-puedo-entender-otra-mujer-pueda-votar-santiago-abascal-no-tiene-sentido-2069273.html"
     }
    ],
-   "cita_ator": false
+   "cita_ator": true
   },
   {
    "pos": 2,
-   "termo": "žalgiris - panathinaikos",
-   "trafego_aproximado": "500+",
-   "publicado_em": "2026-11-19T17:50:00Z",
+   "termo": "bilbao",
+   "trafego_aproximado": "100+",
+   "publicado_em": "2026-11-20T17:40:00Z",
    "noticias": [
     {
-     "titulo": "JV ir Masiulį išskyręs Željko įspėjo PAO žvaigždyną: „Žalgiris“ – labai gera komanda“",
-     "fonte": "15min.lt",
-     "url": "https://www.15min.lt/24sek/naujiena/eurolyga/jv-ir-masiuli-isskyres-zeljko-ispejo-pao-zvaigzdyna-zalgiris-labai-gera-komanda-1362-2809610"
+     "titulo": "Athletic Club vs Espanyol: Spanish La Liga stats & head-to-head",
+     "fonte": "BBC",
+     "url": "https://www.bbc.com/sport/football/live/ckg5r28gd2l1t"
     },
     {
-     "titulo": "Šiltus jausmus pagarsinęs Francisco įvertino šių metų „Žalgirį“",
-     "fonte": "BasketNews.lt",
-     "url": "https://www.basketnews.lt/news-259765-siltus-jausmus-pagarsines-francisco-ivertino-siu-metu-zalgiri.html"
+     "titulo": "Expert Football Betting Tips - Today's Best Football Tips For Athletic Club vs Espanyol",
+     "fonte": "Bookies.com",
+     "url": "https://bookies.com/uk/news/expert-football-betting-tips-todays-best-football-tips-athletic-club-vs-espanyol"
     },
     {
-     "titulo": "„Žalgirio“ Eurolygos pirmo rato finišas – tarp sudėtingiausių",
-     "fonte": "Krepsinis.net",
-     "url": "https://www.krepsinis.net/naujiena/zalgirio-eurolygos-pirmo-rato-finisas-tarp-sudetingiausiu/354389"
+     "titulo": "Athletic-Espanyol: Athletic arrives with four confirmed absences",
+     "fonte": "Tu Futbolero",
+     "url": "https://www.tufutbolero.com/en/news/athletic-espanyol-athletic-arrives-with-four-confirmed-fcf0d2"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 3,
-   "termo": "huelga estudiantil",
+   "termo": "ibex 35",
    "trafego_aproximado": "2000+",
-   "publicado_em": "2026-11-19T17:50:00Z",
+   "publicado_em": "2026-11-20T17:30:00Z",
    "noticias": [
     {
-     "titulo": "Huelga de estudiantes este 20 de noviembre: quién la convoca, horario y lugar de la movilización en Madrid",
-     "fonte": "El Mundo",
-     "url": "https://www.elmundo.es/como/2026/11/18/6afd7acbe85ece764d8b458e.html"
+     "titulo": "El Ibex pierde los 19.000 puntos tras caer un 5,7% en su peor semana desde marzo",
+     "fonte": "Expansión",
+     "url": "https://www.expansion.com/mercados/cronica-bolsa/2026/11/20/ibex-35-anticipa-apertura-baja.html"
     },
     {
-     "titulo": "Miles de alumnos harán huelga este viernes en Valencia y podrán faltar a clase sin permiso paterno",
-     "fonte": "Las Provincias",
-     "url": "https://www.lasprovincias.es/comunitat/miles-alumnos-huelga-valencia-20261118145342-nt.html"
+     "titulo": "El Ibex 35 firma su peor semana desde marzo: las bolsas caen a los niveles del miedo y tienen otro 10% de caída hasta los del pánico",
+     "fonte": "El Economista",
+     "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14029623/11/26/el-ibex-35-firma-su-peor-semana-desde-marzo-las-bolsas-caen-a-los-niveles-del-miedo-y-tienen-otro-10-de-caida-hasta-los-del-panico.html"
     },
     {
-     "titulo": "Los estudiantes catalanes se suman a la manifestación educativa de este sábado y a la huelga docente del jueves 26 de noviembre",
-     "fonte": "El Periódico",
-     "url": "https://www.elperiodico.com/es/sociedad/20261118/estudiantes-catalanes-suman-huelga-docente-26-noviembre-manifestacion-sabado-educacion-publica-136570882"
+     "titulo": "Wall Street abre en negativo y apuntala la pérdida de los 19.000 puntos en el Ibex",
+     "fonte": "Cinco Días",
+     "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-bolsa-y-el-ibex-35.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 4,
-   "termo": "pablo hernández de cos",
-   "trafego_aproximado": "1000+",
-   "publicado_em": "2026-11-19T17:50:00Z",
+   "termo": "alcalde de madrid",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-20T17:30:00Z",
    "noticias": [
     {
-     "titulo": "De Cos será presidente del BCE pese al retraso administrativo en el Eurogrupo",
-     "fonte": "Expansión",
-     "url": "https://www.expansion.com/mercados/2026/11/18/cos-sera-presidente-bce-pese-retraso-administrativo-eurogrupo.html"
+     "titulo": "José Luis Martínez Almeida, alcalde de Madrid: “Después de ocho años, Barcelona está donde está y Madrid está donde está",
+     "fonte": "Atresmedia",
+     "url": "https://www.atresmedia.com/prensa/notas/corporativas/jose-luis-martinez-almeida-alcalde-madrid-despues-ocho-anos-barcelona-esta-donde-esta-madrid-esta-donde-esta_202611206b0030ecff6fec292196ba87.html"
     },
     {
-     "titulo": "El Eurogrupo amplía el plazo para presentar candidatos a la dirección del BCE con Hernández de Cos como favorito a la presidencia",
-     "fonte": "EL PAÍS",
-     "url": "https://elpais.com/economia/2026-11-18/el-eurogrupo-amplia-el-plazo-para-presentar-candidatos-a-la-direccion-del-bce-con-hernandez-de-cos-como-favorito-a-la-presidencia.html"
+     "titulo": "Almeida reivindica su gestión y la compara con el modelo de Colau: \"Después de ocho años, Barcelona está donde está y Madrid está donde está\"",
+     "fonte": "LaSexta",
+     "url": "https://amp.lasexta.com/metafuturo/almeida-reivindica-gestion-compara-modelo-colau-despues-ocho-anos-barcelona-esta-donde-esta-madrid-esta-donde-esta_202611206b00124ff6da642efef671c3.html"
     },
     {
-     "titulo": "Gestores",
-     "fonte": "La Vanguardia",
-     "url": "https://www.lavanguardia.com/economia/20261118/11686939/gestores-pablo-hernandez-de-cos.html"
+     "titulo": "Almeida participa en las jornadas Metafuturo 2026",
+     "fonte": "Ayuntamiento de Madrid",
+     "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Agenda-de-hoy/Almeida-participa-en-las-jornadas-Metafuturo-2026/?vgnextfmt=default&vgnextoid=0dff2388cd4f1a10VgnVCM100000891ecb1aRCRD&vgnextchannel=8071317d3d2a7010VgnVCM100000dc0ca8c0RCRD"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 5,
-   "termo": "borja mayoral",
-   "trafego_aproximado": "100+",
-   "publicado_em": "2026-11-19T17:50:00Z",
+   "termo": "independiente del valle - macará",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-20T17:30:00Z",
    "noticias": [
     {
-     "titulo": "El Espanyol se mueve por Marc Aguado y Borja Mayoral apunta a salir del Getafe",
-     "fonte": "MARCA",
-     "url": "https://www.marca.com/radio/2026/11/19/espanyol-mueve-marc-aguado-borja-mayoral-apunta-salir-getafe.html"
+     "titulo": "Independiente del Valle - Macará | Pronóstico y cuotas 20.11.2026",
+     "fonte": "Diario AS",
+     "url": "https://as.com/apuestas/pronosticos/independiente-del-valle-vs-macara-pronostico-20-11-2026/"
     },
     {
-     "titulo": "El Espanyol estudia un fichaje a coste 0",
-     "fonte": "Fichajes.com",
-     "url": "https://www.fichajes.com/a7340905074396231010-el-espanyol-estudia-un-fichaje-a-coste-0"
+     "titulo": "¡Las figuras de la segunda estrella! Estos fueron los futbolistas clave para el bicampeonato de Independiente del Valle",
+     "fonte": "Primicias",
+     "url": "https://www.primicias.ec/deportes/ligapro/independiente-del-valle/figuras-futbolistas-idv-bicampeonato-titulo-sornoza-reasco-carabajal-quintana-gonzalez-136115/"
     },
     {
-     "titulo": "Eder Sarabia no pierde de vista a Marc Aguado",
-     "fonte": "El 1900",
-     "url": "https://el1900.com/eder-sarabia-no-pierde-de-vista-marc-aguado-espanyol/"
+     "titulo": "Reto del ‘Ídolo’ en Chillo Jijón",
+     "fonte": "Prensa Mercosur",
+     "url": "https://prensamercosur.org/2026/11/19/reto-del-idolo-en-chillo-jijon/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 6,
-   "termo": "tabarnia",
+   "termo": "dos hermanas",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-19T17:40:00Z",
+   "publicado_em": "2026-11-20T17:10:00Z",
    "noticias": [
     {
-     "titulo": "Boadella, a Ayuso en los premios de Tabarnia: \"Has venido como presidenta y vas a volver como canguro de La Moreneta\"",
-     "fonte": "Libertad Digital",
-     "url": "https://www.libertaddigital.com/madrid/2026-11-19/boadella-a-ayuso-en-los-premios-de-tabarnia-has-venido-como-presidenta-y-vas-a-volver-como-canguro-de-la-moreneta-7494750/"
+     "titulo": "Un vecino de Dos Hermanas (Sevilla) gana un millón de euros con un Rasca de la ONCE",
+     "fonte": "ONCE",
+     "url": "https://www.once.es/noticias/un-vecino-de-dos-hermanas-sevilla-gana-un-millon-de-euros-con-un-rasca-de-la-once"
     },
     {
-     "titulo": "Díaz Ayuso participa en Barcelona en la gala de los Premios Valientes Hodios organizada por Tabarnia",
-     "fonte": "Comunidad de Madrid |",
-     "url": "https://www.comunidad.madrid/retransmision/2026/11/19/R_19112026"
+     "titulo": "Un vecino de Dos Hermanas (Sevilla) gana un millón de euros con un Rasca de la ONCE",
+     "fonte": "El Mundo",
+     "url": "https://www.elmundo.es/loterias/2026/11/20/6b007297e4d4d89c638b459b.html"
     },
     {
-     "titulo": "Ayuso carga contra Sánchez y el independentismo en la gala de los 'Valientes Hodios' de Tabarnia: \"Cada vez hay más catalanes que van a Madrid a ser catalanes\"",
-     "fonte": "OkDiario",
-     "url": "https://okdiario.com/espana/ayuso-carga-contra-sanchez-independentismo-gala-valientes-hodios-tabarnia-cada-vez-hay-mas-catalanes-que-van-madrid-ser-catalanes-21188491"
+     "titulo": "Un vendedor de la ONCE en Dos Hermanas, «el de las gafas blancas», da un premio de un millón de euros en el Rasca",
+     "fonte": "ABC",
+     "url": "https://www.abc.es/sevilla/provincia/dos-hermanas/vendedor-once-dos-hermanas-gafas-blancas-premio-20261120140435-nts.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 7,
-   "termo": "koldo garcía izaguirre",
-   "trafego_aproximado": "1000+",
-   "publicado_em": "2026-11-19T17:30:00Z",
+   "termo": "vst",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-20T17:10:00Z",
    "noticias": [
     {
-     "titulo": "La campaña exacerba las acusaciones de guerra sucia entre el PP y el PSOE",
-     "fonte": "El Periódico",
-     "url": "https://www.elperiodico.com/es/politica/20261119/campana-exacerba-acusaciones-guerra-sucia-136610295"
+     "titulo": "Open RB-338 ya es plugin VST 3 y CLAP: ReBirth libre y gratis llega a tu DAW con nuevos gráficos y mejoras",
+     "fonte": "Future Music España",
+     "url": "https://www.futuremusic-es.com/open-rb-338-plugins-vst3-clap-rebirth-gratis/"
     },
     {
-     "titulo": "El PSOE acusa al PP de negociar con Koldo pero cerró un pacto para pagar su defensa: decayó al ser imputado Santos Cerdán",
-     "fonte": "El Español",
-     "url": "https://www.elespanol.com/espana/20261119/psoe-acusa-pp-negociar-koldo-cerro-pacto-pagar-defensa-decayo-imputado-santos-cerdan/1003744463736_0.html"
-    },
-    {
-     "titulo": "La Fiscalía General tramita la denuncia del PSOE contra el PP por el supuesto intento de soborno a Koldo",
-     "fonte": "El Correo",
-     "url": "https://www.elcorreo.com/politica/fiscalia-general-tramita-denuncia-psoe-pp-supuesto-20261116173739-ntrc.html"
+     "titulo": "WizeMice WizeCore: distorsiones analógicas, plugins VST y NAM en un mismo multiefectos ampliable",
+     "fonte": "Guitarristas.info",
+     "url": "https://www.guitarristas.info/noticias/wizemice-wizecore-distorsiones-analogicas-plugins-vst-nam-mismo-multiefectos-ampliable/12227"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 8,
-   "termo": "angel martin",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-19T17:30:00Z",
+   "termo": "al-ahli saudi - al-nassr",
+   "trafego_aproximado": "2000+",
+   "publicado_em": "2026-11-20T17:00:00Z",
    "noticias": [
     {
-     "titulo": "Ángel Martín, el presentador al que un brote psicótico le cambió la vida: \"No tuve la sensación de que estuviese pasando nada raro\"",
-     "fonte": "Antena 3",
-     "url": "https://www.antena3.com/programas/y-ahora-sonsoles/angel-martin-presentador-que-brote-psicotico-cambio-vida-tuve-sensacion-que-estuviese-pasando-nada-raro_202611196aff350aa6f8072789eef67d.html"
+     "titulo": "LIVE: Al-Ahli SFC vs Al Nassr FC",
+     "fonte": "AllFootball",
+     "url": "https://www.allfootballapp.com/articles/6010450-live-al-ahli-sfc-vs-al"
     },
     {
-     "titulo": "Ángel Martín revela como nunca lo que sintió durante su brote psicótico: \"Abandonarse demasiado es una pista clara\"",
-     "fonte": "HOLA",
-     "url": "https://www.hola.com/actualidad/20261119936118/angel-martin-revela-sintio-durante-brote-psicotico/"
+     "titulo": "Al-Ahli star recovers from the Saudi national team curse before the Clasico after a month and a half",
+     "fonte": "Goal.com",
+     "url": "https://www.goal.com/en/news/al-ahli-star-recovers-before-the-clasico-after-a-month-and-a-half/bltd936345b93520ff3"
     },
     {
-     "titulo": "Ángel Martín, cómico y presentador, sobre su ingreso en un hospital psiquiátrico: \"En mi cabeza, mi pareja de ese momento había creado 'Wonder Woman'\"",
-     "fonte": "El Confidencial",
-     "url": "https://www.elconfidencial.com/alma-corazon-vida/2026-11-19/angel-martin-presentador-ingreso-psiquiatrico-pareja-wonder-woman-1qrt_4466109/"
+     "titulo": "Ivan Toney, Bento, Ibanez, Felix: Where Al Ahli vs Al Nassr will be won or lost",
+     "fonte": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/ivan-toney-bento-ibanez-felix-120000553.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 9,
-   "termo": "lr-113",
+   "termo": "deuda pública",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-19T17:30:00Z",
+   "publicado_em": "2026-11-20T17:00:00Z",
    "noticias": [
     {
-     "titulo": "El desprendimiento de rocas en la LR-113 deja sólo un carril abierto al tráfico",
-     "fonte": "NueveCuatroUno",
-     "url": "https://nuevecuatrouno.com/2026/11/19/el-desprendimiento-de-rocas-en-la-lr-113-deja-solo-un-carril-abierto-al-trafico/"
+     "titulo": "El PSOE promete ahora bajar la deuda pública del 100% y endosársela al Ibex y a los tecnooligarcas",
+     "fonte": "Vozpopuli",
+     "url": "https://www.vozpopuli.com/economia/macroeconomia/el-psoe-promete-ahora-bajar-la-deuda-publica-del-100-y-endosarsela-al-ibex-y-a-los-tecnooligarcas.html"
     },
     {
-     "titulo": "Paso alternativo y cortes puntuales durante este jueves y viernes en la LR-113 tras un desprendimiento de rocas en Brieva de Cameros",
-     "fonte": "La Rioja",
-     "url": "https://www.larioja.com/la-rioja/sucesos/paso-alternativo-cortes-lr113-desprendimiento-rocas-brieva-20261119171727-nt.html"
+     "titulo": "El PSOE apunta en su programa a las grandes del Ibex por su desigualdad salarial",
+     "fonte": "EL PAÍS",
+     "url": "https://elpais.com/economia/2026-11-17/el-psoe-apunta-en-su-programa-a-las-grandes-del-ibex-por-su-desigualdad-salarial.html"
     },
     {
-     "titulo": "Un desprendimiento de piedras obliga a cortar la LR-113 en el cruce de Brieva de Cameros",
-     "fonte": "elDiario.es",
-     "url": "https://www.eldiario.es/la-rioja/desprendimiento-piedras-obliga-cortar-lr-113-cruce-brieva-cameros_1_13677623.html"
+     "titulo": "Pedro Sánchez promete subir los impuestos a las empresas con brechas salariales si gana el 29-N",
+     "fonte": "La Gaceta de Canarias",
+     "url": "https://lagacetadecanarias.com/pedro-sanchez-promete-subir-los-impuestos-a-las-empresas-con-brechas-salariales-si-gana-el-29-n/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 10,
-   "termo": "detención",
+   "termo": "india a cricket team vs nepal national cricket team standings",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-19T17:20:00Z",
+   "publicado_em": "2026-11-20T17:00:00Z",
    "noticias": [
     {
-     "titulo": "Niña Pastori, ante la justicia por las amenazas de muerte de una mujer que la acosa: “Es un horror”",
-     "fonte": "La Vanguardia",
-     "url": "https://www.lavanguardia.com/gente/20261119/11688465/nina-pastori-justicia-amenazas-muerte-mujer-acosa-horror.html"
+     "titulo": "Prince, Rana rout Nepal for 26 after Tilak, Kushagra tons",
+     "fonte": "Cricinfo",
+     "url": "https://www.cricinfo.com/series/asia-cup-rising-stars-50-overs-2026-27-1562333/india-a-vs-nepal-4th-match-group-b-1562345/match-report"
     },
     {
-     "titulo": "La presunta acosadora de la cantante Niña Pastori ingresa en prisión en Cádiz",
-     "fonte": "El Confidencial",
-     "url": "https://www.elconfidencial.com/espana/andalucia/2026-11-19/nina-pastori-acoso-amenazas-prision-1tna-1tps_4468640/"
+     "titulo": "Nepal bowled out for 26 by India A: Why it won't be the lowest ODI total ever",
+     "fonte": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/nepal-bowled-26-india-why-160544669.html"
     },
     {
-     "titulo": "Niña Pastori, en los juzgados por culpa de una acosadora: amenazas de muerte, 5 detenciones y una orden de alejamiento",
-     "fonte": "HOLA",
-     "url": "https://www.hola.com/actualidad/20261119936049/nina-pastori-en-los-juzgados-por-culpa-de-una-acosadora-amenazas-de-muerte-5-detenciones-y-una-orden-de-alejamiento/"
+     "titulo": "India A vs Nepal Highlights, ACC Men's Asia Cup Rising Stars 2026: India bowl out Nepal for 26, clinch 306-run win",
+     "fonte": "The Times of India",
+     "url": "https://timesofindia.indiatimes.com/sports/cricket/india-a-vs-nepal-acc-mens-asia-cup-rising-stars-2026-live-score-match-today-scorecard-result-west-end-park-international-cricket-stadium/liveblog/136018863.cms"
     }
    ],
    "cita_ator": false
