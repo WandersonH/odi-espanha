@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "stage": "coleta-trends",
-  "run_started_utc": "2026-11-20T17:50:15Z",
+  "run_started_utc": "2026-11-21T16:48:23Z",
   "config": {
     "nota": "Google Trends, Espanha. Os valores vão de 0 a 100 e são relativos DENTRO de cada consulta: não são número de buscas e não se comparam entre consultas. Cada consulta é uma amostra do Google; repetir a mesma consulta pode dar valores um pouco diferentes. 'Vox' como termo de busca é ambíguo (a palavra existe fora da política): por isso há também o grupo de tópicos, em que o Google reúne as buscas sobre a entidade.",
     "geo": "ES",
@@ -119,95 +119,6 @@
   "aviso_metodologico": "Valores 0-100 relativos dentro de cada consulta (grupo x período). Não são volumes; não compare entre consultas diferentes.",
   "consultas": [
     {
-      "grupo": "atores_topicos",
-      "termos": [
-        "Vox",
-        "Santiago Abascal"
-      ],
-      "itens": [
-        {
-          "rotulo": "Vox",
-          "consulta": "/m/0_ql9rx",
-          "modo": "topico",
-          "topico_titulo": "VOX",
-          "topico_tipo": "Partido político"
-        },
-        {
-          "rotulo": "Santiago Abascal",
-          "consulta": "/g/121hdw5z",
-          "modo": "topico",
-          "topico_titulo": "Santiago Abascal",
-          "topico_tipo": "Diputado en el Congreso de los Diputados de España"
-        }
-      ],
-      "periodo": "now 7-d",
-      "janela_trends": "now 7-d",
-      "geo": "ES",
-      "serie_pontos": 169,
-      "uf_linhas": 19,
-      "relacionados_linhas": 2,
-      "status": "ok"
-    },
-    {
-      "grupo": "atores_topicos",
-      "termos": [
-        "Vox",
-        "Santiago Abascal"
-      ],
-      "itens": [
-        {
-          "rotulo": "Vox",
-          "consulta": "/m/0_ql9rx",
-          "modo": "topico",
-          "topico_titulo": "VOX",
-          "topico_tipo": "Partido político"
-        },
-        {
-          "rotulo": "Santiago Abascal",
-          "consulta": "/g/121hdw5z",
-          "modo": "topico",
-          "topico_titulo": "Santiago Abascal",
-          "topico_tipo": "Diputado en el Congreso de los Diputados de España"
-        }
-      ],
-      "periodo": "today 3-m",
-      "janela_trends": "today 3-m",
-      "geo": "ES",
-      "serie_pontos": 93,
-      "uf_linhas": 19,
-      "status": "ok"
-    },
-    {
-      "grupo": "atores_topicos",
-      "termos": [
-        "Vox",
-        "Santiago Abascal"
-      ],
-      "itens": [
-        {
-          "rotulo": "Vox",
-          "consulta": "/m/0_ql9rx",
-          "modo": "topico",
-          "topico_titulo": "VOX",
-          "topico_tipo": "Partido político"
-        },
-        {
-          "rotulo": "Santiago Abascal",
-          "consulta": "/g/121hdw5z",
-          "modo": "topico",
-          "topico_titulo": "Santiago Abascal",
-          "topico_tipo": "Diputado en el Congreso de los Diputados de España"
-        }
-      ],
-      "periodo": "eleitoral",
-      "janela_trends": "2026-02-16 2026-11-20",
-      "geo": "ES",
-      "serie_pontos": 40,
-      "uf_linhas": 19,
-      "relacionados_linhas": 1,
-      "status": "ok"
-    },
-    {
       "grupo": "atores_palavras",
       "termos": [
         "Vox",
@@ -330,7 +241,7 @@
         }
       ],
       "periodo": "eleitoral",
-      "janela_trends": "2026-02-16 2026-11-20",
+      "janela_trends": "2026-02-16 2026-11-21",
       "geo": "ES",
       "serie_pontos": 40,
       "uf_linhas": 19,
@@ -423,14 +334,16 @@
         }
       ],
       "periodo": "eleitoral",
-      "janela_trends": "2026-02-16 2026-11-20",
+      "janela_trends": "2026-02-16 2026-11-21",
       "geo": "ES",
       "serie_pontos": 40,
       "uf_linhas": 19,
       "status": "ok"
     }
   ],
-  "blocked": [],
-  "run_finished_utc": "2026-11-20T17:53:21Z",
-  "status": "ok"
+  "blocked": [
+    "grupo atores_topicos: HTTPError: HTTP Error 429: Too Many Requests"
+  ],
+  "run_finished_utc": "2026-11-21T16:51:16Z",
+  "status": "bloqueado"
 }

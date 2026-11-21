@@ -1,240 +1,245 @@
 {
- "coletado_em_utc": "2026-11-20T17:53:21Z",
+ "coletado_em_utc": "2026-11-21T16:51:17Z",
  "geo": "ES",
  "fonte": "Google Trends · Em alta agora (RSS público)",
  "nota": "Lista que o Google publica no momento da leitura, na ordem dele. O volume é a faixa aproximada que o Google informa, não uma contagem. Uma leitura por execução; a lista muda ao longo do dia.",
  "itens": [
   {
    "pos": 1,
-   "termo": "lola herrera",
-   "trafego_aproximado": "500+",
-   "publicado_em": "2026-11-20T17:40:00Z",
+   "termo": "sevilla - real betis",
+   "trafego_aproximado": "20000+",
+   "publicado_em": "2026-11-21T16:40:00Z",
    "noticias": [
     {
-     "titulo": "Ana Redondo y Lola Herrera suben el telón del miedo para hacer campaña",
-     "fonte": "ABC",
-     "url": "https://www.abc.es/espana/castilla-leon/ana-redondo-lola-herrera-suben-telon-miedo-20261120180152-nt.html"
+     "titulo": "RECOMENDACIONES Y RECORDATORIOS PARA ABONADOS Y PÚBLICO GENERAL PARA EL DERBI ANTE EL REAL BETIS",
+     "fonte": "Sevilla FC",
+     "url": "https://sevillafc.es/actualidad/noticias/recordatorios-acceso-derbi-laliga-2026-2027"
     },
     {
-     "titulo": "Lola Herrera asegura que España se \"juega mucho\" el 29N y pide votar para no perder derechos",
-     "fonte": "Canarias7",
-     "url": "https://www.canarias7.es/nacional/lola-herrera-asegura-espaa-juega-pide-votar-20261120134517-vi.html"
+     "titulo": "Sevilla - Betis en directo: LaLiga EA Sports hoy, en vivo",
+     "fonte": "Diario AS",
+     "url": "https://as.com/futbol/sevilla-betis-en-directo-laliga-ea-sports-hoy-en-vivo-f202611-d/"
     },
     {
-     "titulo": "Lola Herrera, a los 91 años: “Soy mujer y no puedo entender que otra mujer pueda votar a Santiago Abascal, no tiene sentido”",
-     "fonte": "Heraldo de Aragón",
-     "url": "https://www.heraldo.es/noticias/ocio-y-cultura/2026/11/19/lola-herrera-91-anos-soy-mujer-no-puedo-entender-otra-mujer-pueda-votar-santiago-abascal-no-tiene-sentido-2069273.html"
+     "titulo": "Sevilla – Real Betis: horario y dónde ver hoy por TV el partido de fútbol de LaLiga EA Sports",
+     "fonte": "La Vanguardia",
+     "url": "https://www.lavanguardia.com/deportes/futbol/20261121/24662/horario-partido-ca-sevilla-real-betis-ctx.html"
     }
    ],
-   "cita_ator": true
+   "cita_ator": false
   },
   {
    "pos": 2,
-   "termo": "bilbao",
-   "trafego_aproximado": "100+",
-   "publicado_em": "2026-11-20T17:40:00Z",
+   "termo": "newcastle - arsenal",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-21T16:40:00Z",
    "noticias": [
     {
-     "titulo": "Athletic Club vs Espanyol: Spanish La Liga stats & head-to-head",
+     "titulo": "Newcastle v Arsenal: Key stats and talking points",
      "fonte": "BBC",
-     "url": "https://www.bbc.com/sport/football/live/ckg5r28gd2l1t"
+     "url": "https://www.bbc.com/sport/football/articles/cmx2xpy9rzw4o"
     },
     {
-     "titulo": "Expert Football Betting Tips - Today's Best Football Tips For Athletic Club vs Espanyol",
-     "fonte": "Bookies.com",
-     "url": "https://bookies.com/uk/news/expert-football-betting-tips-todays-best-football-tips-athletic-club-vs-espanyol"
+     "titulo": "Latest. Confirmed line-up: Miley and Willock in for Gunners game",
+     "fonte": "Newcastle United",
+     "url": "https://www.newcastleunited.com/en/news/arsenal-h-team-news-26-27"
     },
     {
-     "titulo": "Athletic-Espanyol: Athletic arrives with four confirmed absences",
-     "fonte": "Tu Futbolero",
-     "url": "https://www.tufutbolero.com/en/news/athletic-espanyol-athletic-arrives-with-four-confirmed-fcf0d2"
+     "titulo": "BOYLE Sports betting offer: Bet £10 get £30 + 25% boost on Newcastle vs Arsenal",
+     "fonte": "talkSPORT",
+     "url": "https://talksport.com/betting/4716291/newcastle-arsenal-boost-boyle-sports/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 3,
-   "termo": "ibex 35",
-   "trafego_aproximado": "2000+",
-   "publicado_em": "2026-11-20T17:30:00Z",
+   "termo": "ireland vs south africa",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-21T16:40:00Z",
    "noticias": [
     {
-     "titulo": "El Ibex pierde los 19.000 puntos tras caer un 5,7% en su peor semana desde marzo",
-     "fonte": "Expansión",
-     "url": "https://www.expansion.com/mercados/cronica-bolsa/2026/11/20/ibex-35-anticipa-apertura-baja.html"
+     "titulo": "Preview: War of words tees up fiery Aviva Test between Ireland and South Africa",
+     "fonte": "RTE.ie",
+     "url": "https://www.rte.ie/sport/rugby/2026/1120/1600031-preview-war-of-words-tees-up-fiery-aviva-test/"
     },
     {
-     "titulo": "El Ibex 35 firma su peor semana desde marzo: las bolsas caen a los niveles del miedo y tienen otro 10% de caída hasta los del pánico",
-     "fonte": "El Economista",
-     "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14029623/11/26/el-ibex-35-firma-su-peor-semana-desde-marzo-las-bolsas-caen-a-los-niveles-del-miedo-y-tienen-otro-10-de-caida-hasta-los-del-panico.html"
+     "titulo": "'No-one is going to break us' - defiant Boks face Ireland without Erasmus",
+     "fonte": "BBC",
+     "url": "https://www.bbc.com/sport/rugby-union/articles/cm930nj435dvo"
     },
     {
-     "titulo": "Wall Street abre en negativo y apuntala la pérdida de los 19.000 puntos en el Ibex",
-     "fonte": "Cinco Días",
-     "url": "https://cincodias.elpais.com/mercados-financieros/2026-11-20/la-bolsa-y-el-ibex-35.html"
+     "titulo": "Ireland v South Africa: Nations Championship rugby union – live",
+     "fonte": "The Guardian",
+     "url": "https://www.theguardian.com/sport/live/2026/nov/21/ireland-v-south-africa-nations-championship-rugby-union-live"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 4,
-   "termo": "alcalde de madrid",
+   "termo": "posiciones de borussia mönchengladbach contra borussia dortmund",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-20T17:30:00Z",
+   "publicado_em": "2026-11-21T16:40:00Z",
    "noticias": [
     {
-     "titulo": "José Luis Martínez Almeida, alcalde de Madrid: “Después de ocho años, Barcelona está donde está y Madrid está donde está",
-     "fonte": "Atresmedia",
-     "url": "https://www.atresmedia.com/prensa/notas/corporativas/jose-luis-martinez-almeida-alcalde-madrid-despues-ocho-anos-barcelona-esta-donde-esta-madrid-esta-donde-esta_202611206b0030ecff6fec292196ba87.html"
+     "titulo": "Dortmund top the table as Batz blunder consigns Gladbach to defeat",
+     "fonte": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/dortmund-top-table-batz-blunder-162500224.html"
     },
     {
-     "titulo": "Almeida reivindica su gestión y la compara con el modelo de Colau: \"Después de ocho años, Barcelona está donde está y Madrid está donde está\"",
-     "fonte": "LaSexta",
-     "url": "https://amp.lasexta.com/metafuturo/almeida-reivindica-gestion-compara-modelo-colau-despues-ocho-anos-barcelona-esta-donde-esta-madrid-esta-donde-esta_202611206b00124ff6da642efef671c3.html"
+     "titulo": "Black-and-yellow celebrations in the battle of the Borussias",
+     "fonte": "OneFootball",
+     "url": "https://onefootball.com/en/news/black-and-yellow-celebrations-in-the-battle-of-the-borussias-43808520"
     },
     {
-     "titulo": "Almeida participa en las jornadas Metafuturo 2026",
-     "fonte": "Ayuntamiento de Madrid",
-     "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Agenda-de-hoy/Almeida-participa-en-las-jornadas-Metafuturo-2026/?vgnextfmt=default&vgnextoid=0dff2388cd4f1a10VgnVCM100000891ecb1aRCRD&vgnextchannel=8071317d3d2a7010VgnVCM100000dc0ca8c0RCRD"
+     "titulo": "Licensable picture: Bundesliga - Borussia Moenchengladbach v Borussia Dortmund",
+     "fonte": "Reuters Connect",
+     "url": "https://www.reutersconnect.com/item/bundesliga-borussia-moenchengladbach-v-borussia-dortmund/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkwxOTY4UjA"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 5,
-   "termo": "independiente del valle - macará",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-20T17:30:00Z",
+   "termo": "ufc fight night",
+   "trafego_aproximado": "100+",
+   "publicado_em": "2026-11-21T16:40:00Z",
    "noticias": [
     {
-     "titulo": "Independiente del Valle - Macará | Pronóstico y cuotas 20.11.2026",
-     "fonte": "Diario AS",
-     "url": "https://as.com/apuestas/pronosticos/independiente-del-valle-vs-macara-pronostico-20-11-2026/"
+     "titulo": "UFC Fight Night 294: Official scorecards from Qatar",
+     "fonte": "MMA Junkie",
+     "url": "https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/11/21/ufc-fight-night-qatar-jiri-prochazka-vs-navajo-stirling-official-scorecards-mma-photos/92896675007/"
     },
     {
-     "titulo": "¡Las figuras de la segunda estrella! Estos fueron los futbolistas clave para el bicampeonato de Independiente del Valle",
-     "fonte": "Primicias",
-     "url": "https://www.primicias.ec/deportes/ligapro/independiente-del-valle/figuras-futbolistas-idv-bicampeonato-titulo-sornoza-reasco-carabajal-quintana-gonzalez-136115/"
+     "titulo": "UFC Fight Night 294: Best photos from Qatar",
+     "fonte": "MMA Junkie",
+     "url": "https://mmajunkie.usatoday.com/picture-gallery/sports/ufc/2026/11/21/ufc-fight-night-qatar-jiri-prochazka-vs-navajo-stirling-best-mma-photos/92896678007/"
     },
     {
-     "titulo": "Reto del ‘Ídolo’ en Chillo Jijón",
-     "fonte": "Prensa Mercosur",
-     "url": "https://prensamercosur.org/2026/11/19/reto-del-idolo-en-chillo-jijon/"
+     "titulo": "Prelim Results | UFC Qatar",
+     "fonte": "UFC.com",
+     "url": "https://www.ufc.com/news/ufc-qatar-prelim-results-prochazka-vs-stirling"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 6,
-   "termo": "dos hermanas",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-20T17:10:00Z",
+   "termo": "parma - roma",
+   "trafego_aproximado": "500+",
+   "publicado_em": "2026-11-21T16:20:00Z",
    "noticias": [
     {
-     "titulo": "Un vecino de Dos Hermanas (Sevilla) gana un millón de euros con un Rasca de la ONCE",
-     "fonte": "ONCE",
-     "url": "https://www.once.es/noticias/un-vecino-de-dos-hermanas-sevilla-gana-un-millon-de-euros-con-un-rasca-de-la-once"
+     "titulo": "LIVE Alle 18 Parma-Roma, le ufficiali: Gilardino con Elphege dal 1', Gasp recupera Svilar e Dybala",
+     "fonte": "La Gazzetta dello Sport",
+     "url": "https://www.gazzetta.it/Calcio/Serie-A/Roma/21-11-2026/parma-roma-live-serie-a-risultato-e-gol-in-diretta.shtml"
     },
     {
-     "titulo": "Un vecino de Dos Hermanas (Sevilla) gana un millón de euros con un Rasca de la ONCE",
-     "fonte": "El Mundo",
-     "url": "https://www.elmundo.es/loterias/2026/11/20/6b007297e4d4d89c638b459b.html"
+     "titulo": "Gilardino ha scelto Tourè in avanti con Elphege - Le videoformazioni di Sandro Piovani",
+     "fonte": "Gazzetta di Parma",
+     "url": "https://www.gazzettadiparma.it/parma-calcio/2026/11/21/video/gilardino-ha-scelto-toure-in-avanti-con-elphege-le-videoformazioni-di-sandro-piovani-983002/"
     },
     {
-     "titulo": "Un vendedor de la ONCE en Dos Hermanas, «el de las gafas blancas», da un premio de un millón de euros en el Rasca",
-     "fonte": "ABC",
-     "url": "https://www.abc.es/sevilla/provincia/dos-hermanas/vendedor-once-dos-hermanas-gafas-blancas-premio-20261120140435-nts.html"
+     "titulo": "Parma Roma in tv e streaming: dove vedere la partita",
+     "fonte": "Sky Sport",
+     "url": "https://sport.sky.it/calcio/serie-a/2026/11/21/parma-roma-dove-vedere-tv-streaming"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 7,
-   "termo": "vst",
+   "termo": "burgos - unicaja",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-20T17:10:00Z",
+   "publicado_em": "2026-11-21T16:20:00Z",
    "noticias": [
     {
-     "titulo": "Open RB-338 ya es plugin VST 3 y CLAP: ReBirth libre y gratis llega a tu DAW con nuevos gráficos y mejoras",
-     "fonte": "Future Music España",
-     "url": "https://www.futuremusic-es.com/open-rb-338-plugins-vst3-clap-rebirth-gratis/"
+     "titulo": "Última cita de Liga Endesa antes del parón de noviembre",
+     "fonte": "San Pablo Burgos",
+     "url": "https://www.sanpabloburgos.com/es/noticia/ver/61424-ultima-cita-de-liga-endesa-antes-del-paron-de-noviembre.html"
     },
     {
-     "titulo": "WizeMice WizeCore: distorsiones analógicas, plugins VST y NAM en un mismo multiefectos ampliable",
-     "fonte": "Guitarristas.info",
-     "url": "https://www.guitarristas.info/noticias/wizemice-wizecore-distorsiones-analogicas-plugins-vst-nam-mismo-multiefectos-ampliable/12227"
+     "titulo": "Shannon Evans fortalece la dirección de juego del Recoletas Salud San Pablo Burgos",
+     "fonte": "ACB",
+     "url": "https://acb.com/es/liga/noticias/shannon-evans-fortalece-la-direccion-de-juego-del-recoletas-salud-san-pablo-burgos-146495"
+    },
+    {
+     "titulo": "Vidorreta avisa: «El Burgos viene de anotar 110 puntos en Lugo»",
+     "fonte": "Diario Sur",
+     "url": "https://www.diariosur.es/unicaja/vidorreta-avisa-burgos-viene-anotar-110-puntos-20261120153516-nt.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 8,
-   "termo": "al-ahli saudi - al-nassr",
-   "trafego_aproximado": "2000+",
-   "publicado_em": "2026-11-20T17:00:00Z",
+   "termo": "22 de noviembre",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-21T16:20:00Z",
    "noticias": [
     {
-     "titulo": "LIVE: Al-Ahli SFC vs Al Nassr FC",
-     "fonte": "AllFootball",
-     "url": "https://www.allfootballapp.com/articles/6010450-live-al-ahli-sfc-vs-al"
+     "titulo": "Horóscopo de Aries hoy: predicciones en amor, trabajo, salud y dinero sábado, 21 de noviembre",
+     "fonte": "La Vanguardia",
+     "url": "https://www.lavanguardia.com/magazine/horoscopo/20261120/11679865/horoscopo-diario-hoy-aries-sabado-21-noviembre-2026-ctx.html"
     },
     {
-     "titulo": "Al-Ahli star recovers from the Saudi national team curse before the Clasico after a month and a half",
-     "fonte": "Goal.com",
-     "url": "https://www.goal.com/en/news/al-ahli-star-recovers-before-the-clasico-after-a-month-and-a-half/bltd936345b93520ff3"
+     "titulo": "Descubre el horóscopo de Aries hoy, 21 de noviembre de 2026",
+     "fonte": "Vanitatis",
+     "url": "https://www.vanitatis.elconfidencial.com/horoscopo/aries/2026-11-21/hoy-21-noviembre_4468948/"
     },
     {
-     "titulo": "Ivan Toney, Bento, Ibanez, Felix: Where Al Ahli vs Al Nassr will be won or lost",
-     "fonte": "Yahoo Sports",
-     "url": "https://sports.yahoo.com/articles/ivan-toney-bento-ibanez-felix-120000553.html"
+     "titulo": "Horóscopo de Aries hoy, 22 de noviembre de 2026",
+     "fonte": "El Correo",
+     "url": "https://www.elcorreo.com/sociedad/horoscopos/horoscopo-aries-22-noviembre-2026-consulta-prediccion-20261122013000-nt.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 9,
-   "termo": "deuda pública",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-20T17:00:00Z",
+   "termo": "ufc qatar",
+   "trafego_aproximado": "100+",
+   "publicado_em": "2026-11-21T16:20:00Z",
    "noticias": [
     {
-     "titulo": "El PSOE promete ahora bajar la deuda pública del 100% y endosársela al Ibex y a los tecnooligarcas",
-     "fonte": "Vozpopuli",
-     "url": "https://www.vozpopuli.com/economia/macroeconomia/el-psoe-promete-ahora-bajar-la-deuda-publica-del-100-y-endosarsela-al-ibex-y-a-los-tecnooligarcas.html"
+     "titulo": "Prelim Results | UFC Qatar",
+     "fonte": "UFC.com",
+     "url": "https://www.ufc.com/news/ufc-qatar-prelim-results-prochazka-vs-stirling"
     },
     {
-     "titulo": "El PSOE apunta en su programa a las grandes del Ibex por su desigualdad salarial",
-     "fonte": "EL PAÍS",
-     "url": "https://elpais.com/economia/2026-11-17/el-psoe-apunta-en-su-programa-a-las-grandes-del-ibex-por-su-desigualdad-salarial.html"
+     "titulo": "Navajo Stirling Targets Alex Pereira and Three Ex-Champs",
+     "fonte": "MMA Sucka",
+     "url": "https://mmasucka.com/news/navajo-stirling-names-four-ufc-champions-he-wants-to-defeat-to-build-his-own-dynasty/"
     },
     {
-     "titulo": "Pedro Sánchez promete subir los impuestos a las empresas con brechas salariales si gana el 29-N",
-     "fonte": "La Gaceta de Canarias",
-     "url": "https://lagacetadecanarias.com/pedro-sanchez-promete-subir-los-impuestos-a-las-empresas-con-brechas-salariales-si-gana-el-29-n/"
+     "titulo": "Fight By Fight Preview | UFC Qatar",
+     "fonte": "UFC.com",
+     "url": "https://www.ufc.com/news/fight-by-fight-preview-ufc-fight-night-prochazka-vs-stirling-qatar"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 10,
-   "termo": "india a cricket team vs nepal national cricket team standings",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-20T17:00:00Z",
+   "termo": "zverev hoy",
+   "trafego_aproximado": "100+",
+   "publicado_em": "2026-11-21T16:20:00Z",
    "noticias": [
     {
-     "titulo": "Prince, Rana rout Nepal for 26 after Tilak, Kushagra tons",
-     "fonte": "Cricinfo",
-     "url": "https://www.cricinfo.com/series/asia-cup-rising-stars-50-overs-2026-27-1562333/india-a-vs-nepal-4th-match-group-b-1562345/match-report"
+     "titulo": "Alexander Zverev - Arthur Fils: Info en vivo, vídeo resumen, ganador y resultado - Robin Round - ATP Finals 2026 - Hoy",
+     "fonte": "Eurosport",
+     "url": "https://www.eurosport.es/tenis/atp-finals/2026/alexander-zverev-arthur-fils_mtc22079877/live-commentary.shtml"
     },
     {
-     "titulo": "Nepal bowled out for 26 by India A: Why it won't be the lowest ODI total ever",
-     "fonte": "Yahoo Sports",
-     "url": "https://sports.yahoo.com/articles/nepal-bowled-26-india-why-160544669.html"
+     "titulo": "ATP Finals – Zverev vs. Fils: fecha, horario y dónde ver",
+     "fonte": "bet365 - Apuestas deportivas en la red",
+     "url": "https://news.bet365.es/es-es/article/atp-finals-zverev-vs-fils-fecha-horario-y-donde-ver/2026111909001005203"
     },
     {
-     "titulo": "India A vs Nepal Highlights, ACC Men's Asia Cup Rising Stars 2026: India bowl out Nepal for 26, clinch 306-run win",
-     "fonte": "The Times of India",
-     "url": "https://timesofindia.indiatimes.com/sports/cricket/india-a-vs-nepal-acc-mens-asia-cup-rising-stars-2026-live-score-match-today-scorecard-result-west-end-park-international-cricket-stadium/liveblog/136018863.cms"
+     "titulo": "Resumen, resultado y ganador del Zverev - Fils, en directo: partido del grupo McEnroe de las ATP Finals 2026 hoy 19 de noviembre, en vivo, en AS.",
+     "fonte": "Diario AS",
+     "url": "https://as.com/tenis/final_atp/zverev-fils-en-directo-partido-del-grupo-mcenroe-de-las-atp-finals-2026-hoy-en-vivo-f202611-d/"
     }
    ],
    "cita_ator": false
