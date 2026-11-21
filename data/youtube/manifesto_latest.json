@@ -1,5 +1,5 @@
 {
- "run_started_utc": "2026-11-20T13:39:36Z",
+ "run_started_utc": "2026-11-21T13:05:48Z",
  "rede": "youtube",
  "ferramenta": "YouTube Data API v3 (channels, playlistItems, videos)",
  "modo": "carga",
@@ -40,21 +40,21 @@
    "perfil": "voxespana",
    "pedido": "lista de envios até a data inicial",
    "universo": {
-    "posts_total_plataforma": 6227,
+    "posts_total_plataforma": 6253,
     "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
-    "seguidores": 676000,
+    "seguidores": 677000,
     "nome_exibido": "VOX España",
     "canal_id": "UCRvpumrJs0qY1xLzeU0Ss1Q",
     "posts_no_periodo_plataforma": null,
     "posts_no_periodo_nota": "⛔ o YouTube não informa o total por período; a lista de envios lida até a data inicial cobre o período"
    },
    "itens": 1250,
-   "posts_do_perfil": 1166,
-   "lidos_no_periodo": 1166,
-   "novos": 15,
+   "posts_do_perfil": 1193,
+   "lidos_no_periodo": 1193,
+   "novos": 27,
    "indisponiveis": 0,
    "mais_antigo": "2026-02-16T12:16:56Z",
-   "mais_recente": "2026-11-20T13:25:39Z",
+   "mais_recente": "2026-11-21T13:03:55Z",
    "erro": null,
    "cobertura": "completa: a lista de envios do canal foi lida até a data inicial"
   },
@@ -90,7 +90,7 @@
    "universo": {
     "posts_total_plataforma": 208,
     "posts_total_nota": "videoCount: vídeos públicos de toda a vida do canal",
-    "seguidores": 27000,
+    "seguidores": 27100,
     "nome_exibido": "Santiago Abascal ",
     "canal_id": "UCHBQ9tAE9eexY8UM2NhYkXQ",
     "posts_no_periodo_plataforma": null,
@@ -119,7 +119,7 @@
    "motivo": "não localizado"
   }
  ],
- "posts_novos": 15,
- "posts_no_acervo": 1314,
+ "posts_novos": 27,
+ "posts_no_acervo": 1341,
  "status": "ok"
 }
