@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "gerado_em_utc": "2026-11-21T13:06:18Z",
+ "gerado_em_utc": "2026-11-22T12:55:11Z",
  "fonte": "YouTube Data API v3 (commentThreads.list e comments.list)",
  "nota": "Comentários e respostas dos vídeos do acervo, lidos por inteiro pela API oficial do YouTube (todas as páginas de cada vídeo), sem custo. O universo é a soma do contador de comentários que o YouTube informa em cada vídeo; o lido pode ser menor porque o contador inclui comentários retidos ou apagados que a API não entrega. Leitura 'completa' quer dizer que a paginação de todos os vídeos chegou ao fim, não que os números coincidem. Texto e autor ficam só no repositório privado; aqui há apenas contagens.",
  "universo_fonte": "soma do contador de comentários de cada vídeo (YouTube Data API, videos.list → statistics.commentCount; inclui respostas)",
@@ -9,7 +9,7 @@
    "nome": "Santiago Abascal",
    "videos": 47,
    "videos_com_contador": 47,
-   "universo_comentarios": 3279,
+   "universo_comentarios": 3281,
    "videos_lidos_por_inteiro": 47,
    "videos_com_comentarios_desativados": 0,
    "comentarios_lidos": 3276,
@@ -76,14 +76,14 @@
   },
   "vox": {
    "nome": "Vox",
-   "videos": 1193,
-   "videos_com_contador": 1193,
-   "universo_comentarios": 213026,
-   "videos_lidos_por_inteiro": 1193,
+   "videos": 1204,
+   "videos_com_contador": 1204,
+   "universo_comentarios": 216645,
+   "videos_lidos_por_inteiro": 1204,
    "videos_com_comentarios_desativados": 0,
-   "comentarios_lidos": 211618,
-   "dos_quais_respostas": 34007,
-   "autores_distintos": 42697,
+   "comentarios_lidos": 214589,
+   "dos_quais_respostas": 34406,
+   "autores_distintos": 43081,
    "por_mes": {
     "2026-02": 10508,
     "2026-03": 18284,
@@ -94,14 +94,14 @@
     "2026-08": 10681,
     "2026-09": 21800,
     "2026-10": 43356,
-    "2026-11": 42842
+    "2026-11": 45813
    },
    "erros": {},
    "cobertura": "completa: todas as páginas de todos os vídeos foram lidas até o fim"
   }
  },
- "chamadas_nesta_execucao": 321,
- "comentarios_novos_nesta_execucao": 2049,
- "comentarios_guardados": 215496,
+ "chamadas_nesta_execucao": 282,
+ "comentarios_novos_nesta_execucao": 2971,
+ "comentarios_guardados": 218467,
  "status": "ok"
 }
