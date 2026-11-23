@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "gerado_em_utc": "2026-11-22T12:55:53Z",
+ "gerado_em_utc": "2026-11-23T15:28:21Z",
  "titulo": "Brasil, Lula e a família Bolsonaro nas fontes do Atlas",
  "periodo": {
   "desde": "2026-02-16",
@@ -19,48 +19,48 @@
    "lidos": 2515,
    "citam": 4,
    "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
-   "lido_em": "2026-11-22T12:55:53Z"
+   "lido_em": "2026-11-23T15:28:21Z"
   },
   "x": {
    "rotulo": "X · publicações",
    "lidos": 3887,
    "citam": 15,
    "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
-   "lido_em": "2026-11-22T12:55:53Z"
+   "lido_em": "2026-11-23T15:28:21Z"
   },
   "facebook": {
    "rotulo": "Facebook · publicações",
    "lidos": 823,
    "citam": 4,
    "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
-   "lido_em": "2026-11-22T12:55:53Z"
+   "lido_em": "2026-11-23T15:28:21Z"
   },
   "youtube": {
    "rotulo": "YouTube · publicações",
-   "lidos": 1352,
+   "lidos": 1367,
    "citam": 0,
    "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
-   "lido_em": "2026-11-22T12:55:53Z"
+   "lido_em": "2026-11-23T15:28:21Z"
   },
   "telegram": {
    "rotulo": "Telegram · publicações",
    "lidos": 138,
    "citam": 2,
    "universo_nota": "publicações dos perfis lidas no período (ver caderno Panorama)",
-   "lido_em": "2026-11-22T12:55:53Z"
+   "lido_em": "2026-11-23T15:28:21Z"
   },
   "sites": {
    "rotulo": "Sites oficiais · artigos",
    "lidos": 153,
    "citam": 14,
-   "lido_em": "2026-11-22T12:55:53Z",
+   "lido_em": "2026-11-23T15:28:21Z",
    "universo_nota": "artigos do período; 153 lidos no texto integral, 0 só pelo título"
   },
   "comentarios_youtube": {
    "rotulo": "YouTube · comentários do público",
-   "lidos": 218467,
-   "citam": 231,
-   "lido_em": "2026-11-22T12:55:53Z",
+   "lidos": 220864,
+   "citam": 237,
+   "lido_em": "2026-11-23T15:28:21Z",
    "universo_nota": "todos os comentários e respostas dos vídeos do acervo; texto e autor só no repositório privado"
   }
  },
@@ -87,12 +87,12 @@
     "citam": 0
    },
    "youtube": {
-    "lidos": 1204,
+    "lidos": 1219,
     "citam": 0
    },
    "comentarios_youtube": {
-    "lidos": 214589,
-    "citam": 227
+    "lidos": 216986,
+    "citam": 233
    }
   },
   "martin-frias": {
@@ -242,7 +242,7 @@
   },
   "2026-11": {
    "x": 1,
-   "comentarios_youtube": 87
+   "comentarios_youtube": 93
   }
  },
  "por_grupo": {
@@ -252,7 +252,7 @@
    "facebook": 4,
    "telegram": 2,
    "sites": 13,
-   "comentarios_youtube": 169
+   "comentarios_youtube": 171
   },
   "bolsonaro": {
    "instagram": 3,
@@ -271,7 +271,7 @@
    "instagram": 1,
    "x": 5,
    "sites": 7,
-   "comentarios_youtube": 67
+   "comentarios_youtube": 71
   }
  },
  "itens": [
