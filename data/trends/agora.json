@@ -1,240 +1,245 @@
 {
- "coletado_em_utc": "2026-11-22T17:14:19Z",
+ "coletado_em_utc": "2026-11-23T21:30:51Z",
  "geo": "ES",
  "fonte": "Google Trends · Em alta agora (RSS público)",
  "nota": "Lista que o Google publica no momento da leitura, na ordem dele. O volume é a faixa aproximada que o Google informa, não uma contagem. Uma leitura por execução; a lista muda ao longo do dia.",
  "itens": [
   {
    "pos": 1,
-   "termo": "alcaraz hoy",
-   "trafego_aproximado": "2000+",
-   "publicado_em": "2026-11-22T17:00:00Z",
+   "termo": "quien es jordi wild",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-23T21:20:00Z",
    "noticias": [
     {
-     "titulo": "Zverev - Alcaraz en directo | Última hora de las ATP Finals en vivo hoy",
-     "fonte": "MARCA",
-     "url": "https://www.marca.com/tenis/copa-masters/alexander-zverev-carlos-alcaraz/2026/11/22/04_0414_20261122_15-directo.html"
+     "titulo": "El refugio de Jordi Wild donde vive y graba su podcast: calles medievales, una cueva histórica y un lago rodeado de naturaleza",
+     "fonte": "El Mundo",
+     "url": "https://www.elmundo.es/loc/famosos/2026/11/23/6b041f44e9cf4aca408b457f.html"
     },
     {
-     "titulo": "Alexander Zverev - Carlos Alcaraz en directo, la final de las ATP Finals en vivo | Tenis | Deportes",
-     "fonte": "EL PAÍS",
-     "url": "https://elpais.com/deportes/tenis/2026-11-22/alexander-zverev-carlos-alcaraz-en-directo-la-final-de-las-atp-finals-en-vivo.html"
-    },
-    {
-     "titulo": "Alcaraz - Zverev | Sigue en directo la final de la Copa de Maestros",
+     "titulo": "Quién es Jordi Wild: su nombre real, sus estudios, sus trabajo anteriores, su patrimonio y su novia",
      "fonte": "ABC",
-     "url": "https://www.abc.es/deportes/tenis/alcaraz-zverev-sigue-directo-final-copa-maestros-20261122173545-di.html"
+     "url": "https://www.abc.es/gente/vida-personal-jordi-wild-nombre-real-youtuber-20261123203000-nt.html"
+    },
+    {
+     "titulo": "¿Quién es Jordi Wild?: el youtuber que no se quiere ir a Andorra",
+     "fonte": "Las Provincias",
+     "url": "https://www.lasprovincias.es/sociedad/jordi-wild-youtuber-quiere-andorra-20261123184057-nt.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 2,
-   "termo": "osasuna malaga",
-   "trafego_aproximado": "100+",
-   "publicado_em": "2026-11-22T17:00:00Z",
+   "termo": "podcast",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-23T21:20:00Z",
    "noticias": [
     {
-     "titulo": "Osasuna - Málaga en directo: LaLiga EA Sports hoy, en vivo",
-     "fonte": "Diario AS",
-     "url": "https://as.com/futbol/osasuna-malaga-en-directo-laliga-ea-sports-hoy-en-vivo-f202611-d/"
+     "titulo": "Monét X Change’s ‘Monét Talks’ Podcast Added to Libsyn’s Hosting, Ad Roster (Exclusive)",
+     "fonte": "The Hollywood Reporter",
+     "url": "https://www.hollywoodreporter.com/business/digital/monet-x-change-libsyn-monet-talks-podcast-1236760443/"
     },
     {
-     "titulo": "El Málaga, ante la necesidad de completar un partido perfecto para ganar y frenar la crisis",
-     "fonte": "Diario Sur",
-     "url": "https://www.diariosur.es/malagacf/malaga-ante-necesidad-completar-partido-perfecto-ganar-20261121221516-nt.html"
+     "titulo": "Spotify Names 47 Rising Podcasts Across Eight Countries For Its 2026 RADAR Creators Class",
+     "fonte": "That Eric Alper",
+     "url": "https://www.thatericalper.com/2026/11/23/spotify-names-47-rising-podcasts-across-eight-countries-for-its-2026-radar-creators-class/"
     },
     {
-     "titulo": "Osasuna - Málaga: alineaciones, horario, dónde ver, pronósticos y estadísticas",
-     "fonte": "Betfair",
-     "url": "https://www.betfair.es/blog/futbol/futbol-espanol/laliga/osasuna---malaga-alineaciones-horario-donde-ver-pronosticos-y-estadisticas-211126-1210.html"
+     "titulo": "Podcast Ad Loads Reveal Big Differences In How Shows Monetize.",
+     "fonte": "www.podcastnewsdaily.com",
+     "url": "https://www.podcastnewsdaily.com/news/podcast-ad-loads-reveal-big-differences-in-how-shows-monetize/article_4b921179-c83e-42b3-a85d-7b26451e032d.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 3,
-   "termo": "vitinha",
-   "trafego_aproximado": "100+",
-   "publicado_em": "2026-11-22T17:00:00Z",
+   "termo": "atresplayer",
+   "trafego_aproximado": "500+",
+   "publicado_em": "2026-11-23T21:20:00Z",
    "noticias": [
     {
-     "titulo": "Vitinha, el siguiente en la lista",
-     "fonte": "Fichajes.com",
-     "url": "https://www.fichajes.com/a9191971785401865742-vitinha-el-siguiente-en-la-lista"
+     "titulo": "atresplayer renueva ‘Drag Race España’ por una séptima edición tras arrasar en su sexta temporada",
+     "fonte": "Atresmedia",
+     "url": "https://www.atresmedia.com/prensa/notas/atresplayer/programas/atresplayer-renueva-drag-race-espana-septima-edicion-arrasar-sexta-temporada_202611236b041c20ff6fec292198c8f0.html"
     },
     {
-     "titulo": "Contrato hasta 2032: el PSG se mueve para blindar a su estrella",
-     "fonte": "Goal.com",
-     "url": "https://www.goal.com/es/noticias/contrato-hasta-2032-el-psg-se-mueve-para-blindar-a-su-estrella/bltf85dd55d3fda904d"
+     "titulo": "Drag Race España abre el casting para su séptima temporada: ¡ya puedes apuntarte!",
+     "fonte": "atresplayer",
+     "url": "https://premium.atresplayer.com/drag-race/drag-race-espana-abre-casting-septima-temporada-puedes-apuntarte_202611236b040ac2c0d5c85b96c51028.html"
+    },
+    {
+     "titulo": "Atresmedia desvela el futuro de uno de los formatos de mayor éxito internacional que produce",
+     "fonte": "El Confidencial",
+     "url": "https://www.elconfidencial.com/television/programas-tv/2026-11-23/atresmedia-futuro-formato-exito-internacional_4470660/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 4,
-   "termo": "incendi",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-22T16:50:00Z",
+   "termo": "genesis serie",
+   "trafego_aproximado": "100+",
+   "publicado_em": "2026-11-23T21:20:00Z",
    "noticias": [
     {
-     "titulo": "Estabilizado el incendio forestal de Cala Morell (Menorca)",
-     "fonte": "El Confidencial",
-     "url": "https://www.elconfidencial.com/sucesos/2026-11-19/incendio-forestal-cala-morell-menorca-1tna-1tps_4468612/"
+     "titulo": "Carlos Cuevas: \"Albert Adrià era imprescindible en El Bulli porque se atrevía a decirle a Ferran Adrià que no\"",
+     "fonte": "El Periódico",
+     "url": "https://www.elperiodico.com/es/tele/20261123/carlos-cuevas-genesis-netflix-serie-albert-adria-134590909"
     },
     {
-     "titulo": "El incendio de Cala Morell ha tenido al menos dos focos y sospechan que pudo ser provocado",
-     "fonte": "Menorca - Es diari",
-     "url": "https://www.menorca.info/menorca/sucesos/2026/11/19/2753285/incendio-cala-morell-tenido-menos-dos-focos-sospechan-pudo-ser-provocado.html"
+     "titulo": "Ferran Adrià llegó a elBulli por casualidad y cambió la cocina mundial: la historia real que llega a Netflix",
+     "fonte": "Fotogramas ES",
+     "url": "https://www.fotogramas.es/series-tv-noticias/a74470861/ferran-adria-elbulli-cocina-netflix-genesis-serie/"
     },
     {
-     "titulo": "Extinguido el incendio forestal en Cala Morell, en Ciutadella, tras quemar 0.33 hectáreas de pinar",
-     "fonte": "Menorca al Dia",
-     "url": "https://menorcaaldia.com/articulo/actualidad/estabilizado-el-incendio-forestal-en-cala-morell-en-ciutadella-tras-movilizar-a-18-bomberos-1"
+     "titulo": "Cataluña presenta en Madrid la serie ‘Génesis’, un viaje por la esencia de elBulli y el paisaje catalán",
+     "fonte": "Demócrata",
+     "url": "https://www.democrata.es/democrata-pro/comunicados/cataluna-presenta-en-madrid-la-serie-genesis-un-viaje-por-la-esencia-de-elbulli-y-el-paisaje-catalan/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 5,
-   "termo": "daniel lacalle",
-   "trafego_aproximado": "100+",
-   "publicado_em": "2026-11-22T16:50:00Z",
+   "termo": "charlie sheen",
+   "trafego_aproximado": "1000+",
+   "publicado_em": "2026-11-23T21:10:00Z",
    "noticias": [
     {
-     "titulo": "El economista Daniel Lacalle critica el efecto de la subida del SMI: \"El coste salarial aumenta 1.210 euros y el sueldo solo 910\"",
-     "fonte": "20 Minutos",
-     "url": "https://www.20minutos.es/lainformacion/economia-y-finanzas/economista-daniel-lacalle-critica-efecto-subida-smi-coste-salarial-aumenta-1-210-euros-sueldo-solo-910_7063752_0.html"
+     "titulo": "Charlie Sheen vs. Rob Lowe: What Really Went Down and the Apology",
+     "fonte": "Yardbarker",
+     "url": "https://www.yardbarker.com/entertainment/articles/charlie_sheen_vs_rob_lowe_what_really_went_down_and_the_apology/s1_17785_44606186"
     },
     {
-     "titulo": "El SMI se dispara... ¿por qué mi sueldo no?",
-     "fonte": "ABC",
-     "url": "https://www.abc.es/economia/cuentas-corrientes/smi-dispara-sueldo-20261114024212-nt.html"
+     "titulo": "Charlie Sheen Apologizes To Famed Actor for “Unkind” Tweets Sent Before Sobriety",
+     "fonte": "Wide Open Country",
+     "url": "https://www.wideopencountry.com/charlie-sheen-apologizes-to-famed-actor-for-unkind-tweets-sent-before-sobriety/"
     },
     {
-     "titulo": "Pilar García de la Granja, analista de información económica: \"Ejércitos de personas tienen sueldos bajos y hay menos clase media. En la mitad de las provincias están en el SMI o un poco por encima\"",
-     "fonte": "COPE",
-     "url": "https://www.cope.es/programas/herrera-en-cope/economia-de-bolsillo/noticias/pilar-garcia-granja-analista-informacion-economica-ejercitos-personas-sueldos-bajos-hay-clase-media-mitad-provincias-smi-poco-encima-20261120_3478744.html"
+     "titulo": "Rob Lowe Forgives Charlie Sheen After Years of Online Attacks",
+     "fonte": "cwibc.co.id",
+     "url": "https://cwibc.co.id/en/lowe-forgives-sheen-online-attacks"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 6,
-   "termo": "girona - eibar",
+   "termo": "frente amplio",
    "trafego_aproximado": "1000+",
-   "publicado_em": "2026-11-22T16:40:00Z",
+   "publicado_em": "2026-11-23T21:10:00Z",
    "noticias": [
     {
-     "titulo": "Girona - Eibar en directo: LaLiga Hypermotion en vivo",
-     "fonte": "Diario AS",
-     "url": "https://as.com/futbol/segunda/girona-eibar-en-directo-laliga-hypermotion-en-vivo-f202611-d/"
+     "titulo": "Javier Bardem, Sorogoyen y 200 figuras más de la cultura piden el voto para el Frente Amplio y rompen con el \"voto útil\" al PSOE",
+     "fonte": "El Mundo",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/23/6b046504e9cf4add278b457d.html"
     },
     {
-     "titulo": "Girona - Eibar: alineaciones, horario, dónde ver, pronósticos y estadísticas",
-     "fonte": "Betfair",
-     "url": "https://www.betfair.es/blog/futbol/futbol-espanol/segunda-division/girona---eibar-alineaciones-horario-donde-ver-pronosticos-y-estadisticas-211126-1210.html"
+     "titulo": "Javier Bardem, Rodrigo Sorogoyen y Rosa Montero suscriben un manifiesto que llama a votar a Frente Amplio",
+     "fonte": "EL PAÍS",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-11-23/javier-bardem-rodrigo-sorogoyen-y-rosa-montero-suscriben-un-manifiesto-que-llama-a-votar-a-frente-amplio.html"
     },
     {
-     "titulo": "Un escenario propicio para relanzarse",
-     "fonte": "El Diario Vasco",
-     "url": "https://www.diariovasco.com/sdeibar/escenario-propicio-relanzarse-20261122071357-nt.html"
+     "titulo": "El voto de la Cultura entra en campaña: Bardem y Sorogoyen piden apoyar al Frente Amplio",
+     "fonte": "La Vanguardia",
+     "url": "https://www.lavanguardia.com/politica/20261123/11691557/voto-cultural-entra-campana-bardem-sorogoyen-piden-apoyar-frente-amplio.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 7,
-   "termo": "take-two interactive grand theft auto v",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-22T16:40:00Z",
+   "termo": "tierra de mafiosos temporada 3",
+   "trafego_aproximado": "100+",
+   "publicado_em": "2026-11-23T21:10:00Z",
    "noticias": [
     {
-     "titulo": "‘Grand Theft Auto VI’ is an astonishing American epic",
-     "fonte": "The Washington Post",
-     "url": "https://www.washingtonpost.com/entertainment/video-games/2026/11/18/grand-theft-auto-vi-is-an-astonishing-american-epic/"
+     "titulo": "Es oficial: ‘Tierra de mafiosos’ comienza el rodaje de su temporada 3 y confirma el regreso de Tom Hardy, Hele",
+     "fonte": "Diario AS",
+     "url": "https://as.com/meristation/series/es-oficial-tierra-de-mafiosos-comienza-el-rodaje-de-su-temporada-3-y-confirma-el-regreso-de-tom-hardy-helen-mirren-y-pierce-brosnan-f202611-n/"
     },
     {
-     "titulo": "‘GTA 6’ Hits Massive $3.79 Billion in First-Day Sales",
-     "fonte": "Variety",
-     "url": "https://variety.com/2026/gaming/news/gta-6-sales-billions-first-day-1236954198/"
+     "titulo": "Paramount arranca con el rodaje de la tercera temporada de MobLand",
+     "fonte": "MUNDIARIO",
+     "url": "https://www.mundiario.com/cineseries/paramount-arranca-rodaje-tercera-temporada-mobland/20261121013303454093.html"
     },
     {
-     "titulo": "Find Serenity in Grand Theft Auto VI. (Or Just Embrace the Chaos.)",
-     "fonte": "The New York Times",
-     "url": "https://www.nytimes.com/2026/11/21/arts/grand-theft-auto-vi-notebook-chaos-serenity.html"
+     "titulo": "\"Tierra de mafiosos\" inicia el rodaje de su tercera temporada con Tom Hardy al frente del reparto",
+     "fonte": "La Razón",
+     "url": "https://www.larazon.es/television/series/tierra-mafiosos-rodaje-tercera-temporada_202611206b0072a1f6da642efef6c4f5.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 8,
-   "termo": "ricardo acuña",
-   "trafego_aproximado": "100+",
-   "publicado_em": "2026-11-22T16:40:00Z",
+   "termo": "junts",
+   "trafego_aproximado": "500+",
+   "publicado_em": "2026-11-23T21:00:00Z",
    "noticias": [
     {
-     "titulo": "El deporte chileno está de luto: Falleció Ricardo Acuña, destacado ex tenista",
-     "fonte": "Emol",
-     "url": "https://www.emol.com/noticias/Deportes/2026/11/22/1217822/ricardo-acuna-fallecimiento-tenis-chileno.html"
+     "titulo": "Nogueras, of Junts, kicks off the debate at eight using Catalan",
+     "fonte": "Demócrata",
+     "url": "https://www.democrata.es/en/politics/nogueras-of-junts-kicks-off-the-debate-at-eight-using-catalan/"
     },
     {
-     "titulo": "Luto en el tenis nacional: muere Ricardo Acuña tras una lucha contra el Alzheimer",
-     "fonte": "La Cuarta",
-     "url": "https://www.lacuarta.com/deportes/noticia/luto-en-el-tenis-nacional-muere-ricardo-acuna-tras-una-lucha-contra-el-alzheimer/"
+     "titulo": "Nogueras, de Junts, arranca el debate a ocho utilizando el catalán",
+     "fonte": "Demócrata",
+     "url": "https://www.democrata.es/politica/nogueras-de-junts-arranca-el-debate-a-ocho-utilizando-el-catalan/"
     },
     {
-     "titulo": "Luto en el tenis chileno: fallece Ricardo Acuña, ex top 50 del ATP e histórico en Wimbledon",
-     "fonte": "RedGol",
-     "url": "https://redgol.cl/tenis/luto-en-el-tenis-chileno-fallece-ricardo-acuna-ex-top-50-del-atp-e-historico-en-wimbledon"
+     "titulo": "Nogueras (Junts) opta por el catalán para iniciar el debate a ocho",
+     "fonte": "PressDigital",
+     "url": "https://www.pressdigital.es/articulo/politica/2026-11-23/6105815-nogueras-junts-opta-catalan-iniciar-debate-ocho"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 9,
-   "termo": "milan - frosinone",
-   "trafego_aproximado": "1000+",
-   "publicado_em": "2026-11-22T16:30:00Z",
+   "termo": "muerte",
+   "trafego_aproximado": "500+",
+   "publicado_em": "2026-11-23T21:00:00Z",
    "noticias": [
     {
-     "titulo": "LIVE Alle 18 Milan-Frosinone: Maignan recupera e gioca, Alvini senza punta",
-     "fonte": "La Gazzetta dello Sport",
-     "url": "https://www.gazzetta.it/Calcio/Serie-A/Milan/22-11-2026/milan-frosinone-live-risultato-e-gol-in-diretta-serie-a.shtml"
+     "titulo": "El Gobierno ampliará este martes el permiso de duelo por fallecimiento a 10 días",
+     "fonte": "EL PAÍS",
+     "url": "https://elpais.com/economia/2026-11-23/el-gobierno-ampliara-este-martes-el-permiso-de-fallecimiento-a-10-dias.html"
     },
     {
-     "titulo": "TRIBUNA.COM * SERIE A: «LA SOSTA NAZIONALI HA CARICATO BARTESAGHI: \"SONO PRONTO A DARE IL MIO CONTRIBUTO, LA STRADA È QUELLA GIUSTA!\"",
-     "fonte": "www.agenziagiornalisticaopinione.it",
-     "url": "https://www.agenziagiornalisticaopinione.it/opinionmix/tribuna-com-serie-a-la-sosta-nazionali-ha-caricato-bartesaghi-sono-pronto-a-dare-il-mio-contributo-la-strada-e-quella-giusta/"
+     "titulo": "Debate electoral elecciones 29-N a ocho hoy: dónde ver por TV, participantes y última hora, en directo",
+     "fonte": "El Confidencial",
+     "url": "https://www.elconfidencial.com/espana/2026-11-23/debate-electoral-elecciones-23-noviembre-directo_4470983/"
     },
     {
-     "titulo": "Milan-Frosinone, Alvini \"spiega\" la sua scelta di formazione a DAZN",
-     "fonte": "DAZN",
-     "url": "https://www.dazn.com/it-IT/news/calcio/milan-frosinone-alvini-spiega-la-formazione-a-dazn/2h9v6tcnhz2t1rctcv6yhlfx4"
+     "titulo": "El Gobierno aprueba el permiso de 10 días por la muerte de un familiar: «Nadie tendrá que elegir entre su trabajo y sostener la mano de sus seres queridos»",
+     "fonte": "La Voz de Galicia",
+     "url": "https://www.lavozdegalicia.es/noticia/espana/2026/11/23/sanchez-aprueba-permiso-10-dias-fallecimiento-familiar-29n-tendra-elegir-trabajo-sostener-mano-seres-queridos/00031795456919769369319.htm"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 10,
-   "termo": "edurne",
-   "trafego_aproximado": "1000+",
-   "publicado_em": "2026-11-22T16:30:00Z",
+   "termo": "junts per catalunya",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-23T21:00:00Z",
    "noticias": [
     {
-     "titulo": "La cantante Edurne y una gran estrella de luz encienden la Navidad de Murcia ante miles de asistentes",
-     "fonte": "El Confidencial",
-     "url": "https://www.elconfidencial.com/espana/2026-11-21/murcia-enciende-navidad-1tna-1tps_4469986/"
+     "titulo": "Un manifest d’independentistes d’esquerra demana el vot per a Junts a les eleccions espanyoles",
+     "fonte": "VilaWeb",
+     "url": "https://www.vilaweb.cat/noticies/un-manifest-dindependentistes-desquerra-demana-el-vot-per-junts-a-les-eleccions-espanyoles/"
     },
     {
-     "titulo": "A qué hora se encienden las luces de Navidad de Murcia hoy y dónde están las calles iluminadas, árboles y belenes",
-     "fonte": "ABC",
-     "url": "https://www.abc.es/espana/murcia/hora-encienden-luces-navidad-murcia-hoy-calles-20261121051500-nt.html"
+     "titulo": "La 80a de noms que donen suport a Junts per \"la llibertat nacional i la justícia social\"",
+     "fonte": "El Món",
+     "url": "https://elmon.cat/politica/partits/un-manifest-que-reivindica-la-llibertat-nacional-i-la-justicia-social-demana-el-vot-per-a-junts-1208474/"
     },
     {
-     "titulo": "Edurne brilla con ‘Blanca Navidad’",
-     "fonte": "La Opinión de Murcia",
-     "url": "https://www.laopiniondemurcia.es/murcia/2026/11/21/edurne-brilla-blanca-navidad-136707336.html"
+     "titulo": "A manifesto of “left-wing independence supporters” enters the campaign to support Junts",
+     "fonte": "Diari ARA",
+     "url": "https://en.ara.cat/politics/manifesto-of-left-wing-independence-supporters-enters-the-campaign-to-support-junts_1_5919500.html"
     }
    ],
    "cita_ator": false
