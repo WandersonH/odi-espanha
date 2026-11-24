@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-23T15:28:36Z",
+ "gerado_em_utc": "2026-11-24T15:23:10Z",
  "formato": "IRaMuTeQ (**** *variáveis)",
  "idioma_dos_textos": "espanhol (como publicado)",
  "variaveis": [
@@ -25,10 +25,10 @@
    "sem_texto": 18
   },
   "youtube": {
-   "posts_no_acervo": 1367,
-   "textos_no_corpus": 1367,
+   "posts_no_acervo": 1380,
+   "textos_no_corpus": 1380,
    "sem_texto": 0
   }
  },
- "textos_no_corpus": 8348
+ "textos_no_corpus": 8361
 }
