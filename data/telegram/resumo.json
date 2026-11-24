@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "gerado_em_utc": "2026-11-23T15:27:24Z",
+ "gerado_em_utc": "2026-11-24T15:21:46Z",
  "fonte": "Telegram · prévia pública na web (t.me/s)",
  "nota": "Só canais públicos, lidos pela prévia que o próprio Telegram publica na web (t.me/s), sem login. Grupos e conversas privadas não são lidos. O Telegram informa o número de inscritos, mas não o total de mensagens de um canal; as visualizações são as exibidas na prévia no momento da leitura.",
  "desde": "2026-02-16",
@@ -11,8 +11,8 @@
    "canal": "VOXtelegram",
    "url": "https://t.me/VOXtelegram",
    "nome_exibido": "VOX España 🇪🇸",
-   "inscritos": 891,
-   "inscritos_exibido": "891",
+   "inscritos": 902,
+   "inscritos_exibido": "902",
    "universo_mensagens": null,
    "universo_nota": "⛔ o Telegram não informa o total de mensagens do canal",
    "maior_numero_de_mensagem": 1,
@@ -119,14 +119,14 @@
      "url": "https://t.me/fdisenso/1217",
      "publicado_em": "2026-10-30T14:32:39Z",
      "texto": "🔥 \"Según los datos facilitados por el director general de la Policía, de los 133 detenidos en los disturbios en Barcelona, 85 son menores y un 32 % extranjeros. Y es un secreto a voces la importante presencia de jóvenes de origen magrebí.\"\n\n🖊️ Manuel Medeiros analiza en un nuevo artículo los disturb",
-     "visualizacoes": 408,
+     "visualizacoes": 410,
      "tipo": "texto"
     },
     {
      "url": "https://t.me/fdisenso/1216",
      "publicado_em": "2026-10-29T16:11:16Z",
      "texto": "📢 \"Quienes viajamos en tren sabemos muy bien cuáles son las causas: el abandono y la desidia de un Gobierno y un ministro que han desatendido sus responsabilidades, los transportes, todo porque su prioridad es Twitter y la bronca «matonista».\"\n\n🖊️Nuevo artículo de Aquilino Cayuela:\n\nhttps://fundacio",
-     "visualizacoes": 416,
+     "visualizacoes": 417,
      "tipo": "texto"
     },
     {
@@ -189,7 +189,7 @@
      "url": "https://t.me/fdisenso/1207",
      "publicado_em": "2026-10-05T15:40:22Z",
      "texto": "📖 \"Aquel «no se nace mujer, se llega a serlo», de 'El segundo sexo', preparó bien el terreno para que la sencilla pregunta «¿Qué es una mujer?», que un analfabeto del siglo XVIII hubiera contestado sin dudar, provoque hoy auténticos cortocircuitos en ámbitos universitarios, intelectuales y políticos",
-     "visualizacoes": 596,
+     "visualizacoes": 597,
      "tipo": "texto"
     },
     {
