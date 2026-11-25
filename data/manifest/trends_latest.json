@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "stage": "coleta-trends",
-  "run_started_utc": "2026-11-24T20:11:27Z",
+  "run_started_utc": "2026-11-25T19:19:25Z",
   "config": {
     "nota": "Google Trends, Espanha. Os valores vão de 0 a 100 e são relativos DENTRO de cada consulta: não são número de buscas e não se comparam entre consultas. Cada consulta é uma amostra do Google; repetir a mesma consulta pode dar valores um pouco diferentes. 'Vox' como termo de busca é ambíguo (a palavra existe fora da política): por isso há também o grupo de tópicos, em que o Google reúne as buscas sobre a entidade.",
     "geo": "ES",
@@ -200,7 +200,7 @@
         }
       ],
       "periodo": "eleitoral",
-      "janela_trends": "2026-02-16 2026-11-24",
+      "janela_trends": "2026-02-16 2026-11-25",
       "geo": "ES",
       "serie_pontos": 41,
       "uf_linhas": 19,
@@ -330,7 +330,7 @@
         }
       ],
       "periodo": "eleitoral",
-      "janela_trends": "2026-02-16 2026-11-24",
+      "janela_trends": "2026-02-16 2026-11-25",
       "geo": "ES",
       "serie_pontos": 41,
       "uf_linhas": 19,
@@ -423,7 +423,7 @@
         }
       ],
       "periodo": "eleitoral",
-      "janela_trends": "2026-02-16 2026-11-24",
+      "janela_trends": "2026-02-16 2026-11-25",
       "geo": "ES",
       "serie_pontos": 41,
       "uf_linhas": 19,
@@ -431,6 +431,6 @@
     }
   ],
   "blocked": [],
-  "run_finished_utc": "2026-11-24T20:14:35Z",
+  "run_finished_utc": "2026-11-25T19:22:43Z",
   "status": "ok"
 }
