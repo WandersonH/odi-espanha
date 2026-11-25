@@ -1,0 +1,5 @@
+ator_id;ator_nome;rede;perfil;url;nome_exibido;seguidores;posts_total;verificado;captured_at;fonte
+foro-madrid;Foro Madrid;youtube;UCANexQ2_g7B5QgoSIdsHtCQ;https://www.youtube.com/channel/UCANexQ2_g7B5QgoSIdsHtCQ;Foro Madrid;1250;87;;2026-11-25;YouTube Data API (channels.list, statistics)
+vox;Vox;youtube;voxespana;https://www.youtube.com/user/voxespana;VOX España;679000;6303;;2026-11-25;YouTube Data API (channels.list, statistics)
+disenso;Fundación Disenso;youtube;@fundaciondisenso;https://www.youtube.com/@fundaciondisenso;Fundación Disenso;22400;339;;2026-11-25;YouTube Data API (channels.list, statistics)
+abascal;Santiago Abascal;youtube;@Santi_ABASCAL;https://www.youtube.com/@Santi_ABASCAL;Santiago Abascal ;27400;208;;2026-11-25;YouTube Data API (channels.list, statistics)

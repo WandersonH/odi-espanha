@@ -1,0 +1,47 @@
+{
+ "run_started_utc": "2026-11-25T15:02:52Z",
+ "rede": "telegram",
+ "ferramenta": "prévia pública t.me/s (sem login)",
+ "modo": "carga",
+ "custo_usd": 0.0,
+ "periodo": {
+  "desde": "2026-02-16",
+  "ate": "2027-01-30"
+ },
+ "perfis": [
+  {
+   "ator_id": "vox",
+   "canal": "VOXtelegram",
+   "lidas_nesta_execucao": 0,
+   "no_acervo": 0,
+   "paginas_lidas": 1,
+   "cobertura": "completa: a leitura chegou à data inicial do período",
+   "erro": null,
+   "mais_antiga": null,
+   "mais_recente": null
+  },
+  {
+   "ator_id": "foro-madrid",
+   "canal": "foromadrid",
+   "lidas_nesta_execucao": 2,
+   "no_acervo": 2,
+   "paginas_lidas": 1,
+   "cobertura": "completa: a leitura chegou à data inicial do período",
+   "erro": null,
+   "mais_antiga": "2026-09-02T00:30:14Z",
+   "mais_recente": "2026-09-23T20:29:32Z"
+  },
+  {
+   "ator_id": "disenso",
+   "canal": "fdisenso",
+   "lidas_nesta_execucao": 136,
+   "no_acervo": 136,
+   "paginas_lidas": 7,
+   "cobertura": "completa: a leitura chegou à data inicial do período",
+   "erro": null,
+   "mais_antiga": "2026-02-16T16:57:40Z",
+   "mais_recente": "2026-10-30T14:32:39Z"
+  }
+ ],
+ "status": "ok"
+}

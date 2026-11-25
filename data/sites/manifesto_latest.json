@@ -1,5 +1,5 @@
 {
- "run_started_utc": "2026-11-24T15:20:57Z",
+ "run_started_utc": "2026-11-25T15:02:02Z",
  "ferramenta": "API pública do WordPress (wp-json) · RSS",
  "modo": "carga",
  "user_agent": "odi-espanha-coletor/1.0 (+https://github.com/WandersonH/odi-espanha)",
@@ -26,7 +26,7 @@
     }
    ],
    "lidos_no_periodo": 129,
-   "novos": 1,
+   "novos": 2,
    "erro": null,
    "cobertura": "parcial ⛔ ou universo desconhecido (ver tipos)"
   },
@@ -87,7 +87,7 @@
    "cobertura": "⛔ não lido"
   }
  ],
- "artigos_no_acervo": 154,
- "artigos_novos": 1,
+ "artigos_no_acervo": 156,
+ "artigos_novos": 2,
  "status": "parcial: 1 site(s) não lido(s)"
 }

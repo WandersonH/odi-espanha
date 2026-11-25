@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "gerado_em_utc": "2026-11-24T15:21:46Z",
+ "gerado_em_utc": "2026-11-25T15:02:52Z",
  "fonte": "Telegram · prévia pública na web (t.me/s)",
  "nota": "Só canais públicos, lidos pela prévia que o próprio Telegram publica na web (t.me/s), sem login. Grupos e conversas privadas não são lidos. O Telegram informa o número de inscritos, mas não o total de mensagens de um canal; as visualizações são as exibidas na prévia no momento da leitura.",
  "desde": "2026-02-16",
@@ -11,8 +11,8 @@
    "canal": "VOXtelegram",
    "url": "https://t.me/VOXtelegram",
    "nome_exibido": "VOX España 🇪🇸",
-   "inscritos": 902,
-   "inscritos_exibido": "902",
+   "inscritos": 912,
+   "inscritos_exibido": "912",
    "universo_mensagens": null,
    "universo_nota": "⛔ o Telegram não informa o total de mensagens do canal",
    "maior_numero_de_mensagem": 1,
@@ -119,42 +119,42 @@
      "url": "https://t.me/fdisenso/1217",
      "publicado_em": "2026-10-30T14:32:39Z",
      "texto": "🔥 \"Según los datos facilitados por el director general de la Policía, de los 133 detenidos en los disturbios en Barcelona, 85 son menores y un 32 % extranjeros. Y es un secreto a voces la importante presencia de jóvenes de origen magrebí.\"\n\n🖊️ Manuel Medeiros analiza en un nuevo artículo los disturb",
-     "visualizacoes": 410,
+     "visualizacoes": 416,
      "tipo": "texto"
     },
     {
      "url": "https://t.me/fdisenso/1216",
      "publicado_em": "2026-10-29T16:11:16Z",
      "texto": "📢 \"Quienes viajamos en tren sabemos muy bien cuáles son las causas: el abandono y la desidia de un Gobierno y un ministro que han desatendido sus responsabilidades, los transportes, todo porque su prioridad es Twitter y la bronca «matonista».\"\n\n🖊️Nuevo artículo de Aquilino Cayuela:\n\nhttps://fundacio",
-     "visualizacoes": 417,
+     "visualizacoes": 423,
      "tipo": "texto"
     },
     {
      "url": "https://t.me/fdisenso/1215",
      "publicado_em": "2026-10-27T17:28:12Z",
      "texto": "🇪🇸📉 \"En España, el 25,7 % de la población, unos 12,6 millones de personas, vive en riesgo de pobreza o exclusión social. Es la quinta tasa más alta de la UE, cuya media es del 20,9 %. Y el 36,4 % no puede afrontar un gasto imprevisto.\"\n\n🖊️ Eduardo Arriero aborda el mito esgrimido por el PSOE y Sánch",
-     "visualizacoes": 427,
+     "visualizacoes": 431,
      "tipo": "texto"
     },
     {
      "url": "https://t.me/fdisenso/1214",
      "publicado_em": "2026-10-22T13:20:36Z",
      "texto": "🔥 \"Una de las evidencias de los disturbios en Francia, de las no-go zones en Europa, de la invasión de Ceuta, o de la implantación de mafias basadas en clanes (de sirios, afganos, pakistaníes o africanos) es la relación entre las sociedades multiculturales y la violencia\".\n\n🖊️ Pedro Fernández Barbad",
-     "visualizacoes": 544,
+     "visualizacoes": 547,
      "tipo": "texto"
     },
     {
      "url": "https://t.me/fdisenso/1213",
      "publicado_em": "2026-10-20T15:03:16Z",
      "texto": "📌 Hoy se cumplen 15 años del anuncio del «cese definitivo de la actividad armada» de ETA.\n\n854 asesinados, 84 secuestrados, cerca de 3.000 heridos y 180.000 personas obligadas a abandonar el País Vasco.\n\n¿Qué queda de su legado político? La Fundación Disenso presenta una nueva Nota de José Luis Orel",
-     "visualizacoes": 478,
+     "visualizacoes": 479,
      "tipo": "texto"
     },
     {
      "url": "https://t.me/fdisenso/1212",
      "publicado_em": "2026-10-19T17:41:13Z",
      "texto": "🗳️ \"La victoria electoral del demócrata Zohran Mamdani en Nueva York o la reciente victoria en las primarias demócratas al Senado en Michigan del musulmán Abdul El-Sayed se enmarcan en este «Woke Two» que combina socialismo e islam y que no se limita a los Estados Unidos.\"\n\n🖊️ Jorge Soley Climent an",
-     "visualizacoes": 405,
+     "visualizacoes": 406,
      "tipo": "texto"
     },
     {
@@ -182,7 +182,7 @@
      "url": "https://t.me/fdisenso/1208",
      "publicado_em": "2026-10-08T14:13:33Z",
      "texto": "🏠 \"Actualmente, el 52 % de la demanda en el mercado de alquiler procede de población extranjera. Este dato implica que los españoles deben competir en condiciones de desigualdad con personas de todo el mundo.\"\n\n🖊️ Ignacio Caballero analiza en un nuevo artículo cómo la inmigración masiva ha causado h",
-     "visualizacoes": 618,
+     "visualizacoes": 619,
      "tipo": "texto"
     },
     {
