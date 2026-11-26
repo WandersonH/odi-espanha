@@ -1,5 +1,5 @@
 {
- "verificado_em_utc": "2026-11-25T15:04:19Z",
+ "verificado_em_utc": "2026-11-26T14:33:56Z",
  "nota": "Séries que o Atlas promete atualizar sozinho. 'max_horas' é o atraso máximo aceito desde o último dado real (não desde a última tentativa). Mesmo critério do ODI Atlas.",
  "series": [
   {
@@ -8,7 +8,7 @@
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
    "ultimo_dado": "2026-11-15T19:58:42Z",
-   "horas_desde_ultimo_dado": 235.1,
+   "horas_desde_ultimo_dado": 258.6,
    "ultima_execucao": "2026-11-15T21:12:47Z",
    "status_ultima_execucao": "⛔ nenhum perfil lido: private"
   },
@@ -18,7 +18,7 @@
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
    "ultimo_dado": "2026-11-15T19:56:04Z",
-   "horas_desde_ultimo_dado": 235.1,
+   "horas_desde_ultimo_dado": 258.6,
    "ultima_execucao": "2026-11-15T19:56:04Z",
    "status_ultima_execucao": "ok"
   },
@@ -28,7 +28,7 @@
    "situacao": "inativa (coleta diária sem teto autorizado)",
    "max_horas": 36,
    "ultimo_dado": "2026-11-15T20:18:32Z",
-   "horas_desde_ultimo_dado": 234.8,
+   "horas_desde_ultimo_dado": 258.3,
    "ultima_execucao": "2026-11-15T20:18:32Z",
    "status_ultima_execucao": "ok"
   },
@@ -47,9 +47,9 @@
    "serie": "youtube",
    "situacao": "em dia",
    "max_horas": 36,
-   "ultimo_dado": "2026-11-25T15:02:37Z",
+   "ultimo_dado": "2026-11-26T14:32:34Z",
    "horas_desde_ultimo_dado": 0.0,
-   "ultima_execucao": "2026-11-25T15:02:37Z",
+   "ultima_execucao": "2026-11-26T14:32:34Z",
    "status_ultima_execucao": "ok"
   },
   {
@@ -57,10 +57,10 @@
    "serie": "sites",
    "situacao": "em dia",
    "max_horas": 36,
-   "ultimo_dado": "2026-11-25T15:02:02Z",
+   "ultimo_dado": "2026-11-26T14:32:16Z",
    "horas_desde_ultimo_dado": 0.0,
-   "ultima_execucao": "2026-11-25T15:02:02Z",
-   "status_ultima_execucao": "parcial: 1 site(s) não lido(s)"
+   "ultima_execucao": "2026-11-26T14:32:16Z",
+   "status_ultima_execucao": "parcial: 2 site(s) não lido(s)"
   }
  ],
  "em_dia": 2,
