@@ -1,5 +1,5 @@
 {
- "run_started_utc": "2026-11-25T15:02:02Z",
+ "run_started_utc": "2026-11-26T14:32:16Z",
  "ferramenta": "API pública do WordPress (wp-json) · RSS",
  "modo": "carga",
  "user_agent": "odi-espanha-coletor/1.0 (+https://github.com/WandersonH/odi-espanha)",
@@ -26,45 +26,29 @@
     }
    ],
    "lidos_no_periodo": 129,
-   "novos": 2,
+   "novos": 0,
    "erro": null,
    "cobertura": "parcial ⛔ ou universo desconhecido (ver tipos)"
   },
   {
    "site_id": "foro-madrid",
    "base": "https://foromadrid.org",
-   "robots": "lido",
-   "via": "wp-json",
+   "robots": "sem robots.txt legível (HTTP 403)",
+   "via": "rss",
    "tipos": [
     {
      "tipo": "post",
-     "universo_total": 185,
-     "universo_no_periodo": 20,
-     "lidos": 20,
-     "erro": null,
-     "cobertura": "completa: lidos todos os que o site informa no período"
-    },
-    {
-     "tipo": "encuentros-reg",
-     "universo_total": 5,
-     "universo_no_periodo": 1,
-     "lidos": 1,
-     "erro": null,
-     "cobertura": "completa: lidos todos os que o site informa no período"
-    },
-    {
-     "tipo": "programas",
-     "universo_total": 7,
-     "universo_no_periodo": 0,
+     "universo_total": null,
+     "universo_no_periodo": null,
      "lidos": 0,
-     "erro": null,
-     "cobertura": "completa: lidos todos os que o site informa no período"
+     "erro": "HTTP 403 no RSS (página 1)",
+     "cobertura": "parcial ⛔: HTTP 403 no RSS (página 1)"
     }
    ],
-   "lidos_no_periodo": 21,
+   "lidos_no_periodo": 0,
    "novos": 0,
-   "erro": null,
-   "cobertura": "completa"
+   "erro": "HTTP 403 no RSS (página 1)",
+   "cobertura": "⛔ não lido"
   },
   {
    "site_id": "vox",
@@ -88,6 +72,6 @@
   }
  ],
  "artigos_no_acervo": 156,
- "artigos_novos": 2,
- "status": "parcial: 1 site(s) não lido(s)"
+ "artigos_novos": 0,
+ "status": "parcial: 2 site(s) não lido(s)"
 }
