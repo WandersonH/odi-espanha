@@ -1,197 +1,197 @@
 {
- "coletado_em_utc": "2026-11-26T19:06:45Z",
+ "coletado_em_utc": "2026-11-27T19:03:40Z",
  "geo": "ES",
  "fonte": "Google Trends · Em alta agora (RSS público)",
  "nota": "Lista que o Google publica no momento da leitura, na ordem dele. O volume é a faixa aproximada que o Google informa, não uma contagem. Uma leitura por execução; a lista muda ao longo do dia.",
  "itens": [
   {
    "pos": 1,
-   "termo": "debate a 4",
-   "trafego_aproximado": "10000+",
-   "publicado_em": "2026-11-26T18:50:00Z",
+   "termo": "embarcación",
+   "trafego_aproximado": "5000+",
+   "publicado_em": "2026-11-27T18:50:00Z",
    "noticias": [
     {
-     "titulo": "Elecciones del 29-N, en directo | Sánchez, Feijóo, Abascal y Colau se miden en un debate a cuatro que dibujará los dos bloques ante el 29N",
+     "titulo": "Salvamento Marítimo halla varios fallecidos en un cayuco rescatado a 62 kilómetros de El Hierro",
      "fonte": "El Mundo",
-     "url": "https://www.elmundo.es/espana/2026/11/26/6b07ced1d4582356195e1751-directo.html"
+     "url": "https://www.elmundo.es/espana/2026/11/27/6b097b4ae85ece933c8b45bb.html"
     },
     {
-     "titulo": "Debate electoral a cuatro, hoy en directo | A qué hora es, dónde ver y última hora de Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal y Ada Colau",
-     "fonte": "El Español",
-     "url": "https://www.elespanol.com/espana/20261126/debate-electoral-hoy-directo-hora-ver-ultima-pedro-sanchez-alberto-nunez-feijoo-santiago-abascal-ada-colau/1003744473723_10.html"
+     "titulo": "Canarias Informativos: Archipiélago Noticias Canarias - 27/11/26 | RNE Audio",
+     "fonte": "RTVE.es",
+     "url": "https://www.rtve.es/play/audios/canarias-informativos/archipielago-noticias-canarias-27-11-26/17334797/"
     },
     {
-     "titulo": "Elecciones generales 29N, en directo: debates, encuestas, sondeos y última hora del debate a 4 la campaña electoral",
-     "fonte": "Diario AS",
-     "url": "https://as.com/actualidad/politica/elecciones-generales-29n-en-directo-debates-encuestas-sondeos-y-ultima-hora-del-debate-a-4-la-campana-electoral-f202611-d/"
+     "titulo": "Nuevo drama en la ruta migratoria canaria: al menos diez muertos en un cayuco que se dirige a El Hierro",
+     "fonte": "La Vanguardia",
+     "url": "https://www.lavanguardia.com/local/canarias/20261127/11695005/evacuados-seis-migrantes-cayuco-iba-hierro-cadaveres-pasaje.html"
     }
    ],
-   "cita_ator": true
+   "cita_ator": false
   },
   {
    "pos": 2,
-   "termo": "rodionov",
+   "termo": "matias prats",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-26T18:50:00Z",
+   "publicado_em": "2026-11-27T18:50:00Z",
    "noticias": [
     {
-     "titulo": "Jurij Rodionov - Rafa Jódar, la Copa Davis en directo",
+     "titulo": "El encendido de las luces de Navidad de Málaga: a qué hora es hoy, dónde ver el espectáculo, cantante invitado y todas las novedades",
      "fonte": "El Mundo",
-     "url": "https://www.elmundo.es/deportes/tenis/copa-davis/jurij-rodionov-rafa-jodar/2026/11/26/04_0416_20261126_117-directo.html"
+     "url": "https://www.elmundo.es/andalucia/2026/11/27/6b09464ae9cf4a5f4b8b4588.html"
     },
     {
-     "titulo": "España - Austria, en directo | Copa Davis de tenis: partidos de Dani Mérida y Rafa Jódar, en vivo y online",
-     "fonte": "Mundo Deportivo",
-     "url": "https://www.mundodeportivo.com/tenis/copa-davis/20261126/1004255577/espana-austria-directo-copa-davis-tenis-partidos-carlos-alcaraz-rafa-jodar-vivo-online.html"
-    },
-    {
-     "titulo": "Rafa Jódar - Jurij Rodionov, en directo: resultado y ganador del partido de España en cuartos de la Copa Da...",
+     "titulo": "Encendido de las luces de Navidad en Málaga, en directo: espectáculo de la calle Larios con Matías Prats y calles iluminadas",
      "fonte": "ABC",
-     "url": "https://www.abc.es/deportes/tenis/rafa-jodar-jurij-rodionov-directo-resultado-ganador-20261126171526-di.html"
+     "url": "https://www.abc.es/espana/andalucia/malaga/encendido-luces-navidad-malaga-directo-espectaculo-calle-20261127184706-nts.html"
+    },
+    {
+     "titulo": "El Parque y la Alameda de Málaga estarán cortados al tráfico este viernes por el encendido de las luces",
+     "fonte": "Diario Sur",
+     "url": "https://www.diariosur.es/malaga-capital/parque-alameda-malaga-cortados-trafico-viernes-encendido-20261126111210-nt.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 3,
-   "termo": "tumba de alejandro magno",
+   "termo": "juanma rodríguez",
    "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-26T18:50:00Z",
+   "publicado_em": "2026-11-27T18:50:00Z",
    "noticias": [
     {
-     "titulo": "Un hallazgo en Alejandría reabre el misterio de la tumba de Alejandro Magno",
-     "fonte": "Historia National Geographic",
-     "url": "https://historia.nationalgeographic.com.es/a/encuentran-alejandria-cimientos-edificio-que-podria-ocultar-tumbas-reyes-ptolemaicos_27355"
+     "titulo": "Encontronazo público entre Juanma Rodríguez y Alfredo Duro, de 'El Chiringuito', tras el debate a 4: \"¿Por qué no condenas la violencia de género?\"",
+     "fonte": "El HuffPost",
+     "url": "https://www.huffingtonpost.es/virales/encontronazo-publico-juanma-rodriguez-alfredo-duro-el-chiringuito-debate-4-por-que-condenas-violencia-genero-f202611.html"
     },
     {
-     "titulo": "Hallan bajo un parque de Alejandría los cimientos de un edificio gigante que podría ser la tumba real de los Ptolomeos y de Alejandro Magno",
-     "fonte": "La Brújula Verde",
-     "url": "https://www.labrujulaverde.com/2026/11/hallan-bajo-un-parque-de-alejandria-los-cimientos-de-un-edificio-gigante-que-podria-ser-la-tumba-real-de-los-ptolomeos-y-de-alejandro-magno"
+     "titulo": "El gran mes de Bellingham",
+     "fonte": "Real Madrid CF | Web Oficial",
+     "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/el-gran-mes-de-bellingham-25-11-2026"
     },
     {
-     "titulo": "Egipto descubre restos de lo que podría ser una tumba real ptolemaica.",
-     "fonte": "Vietnam.vn",
-     "url": "https://www.vietnam.vn/es/ai-cap-phat-hien-dau-tich-cong-trinh-co-the-la-lang-mo-hoang-gia-thoi-ptolemaic"
+     "titulo": "Análisis de rendimiento de la Champions League: las claves de la exhibición de Jude Bellingham",
+     "fonte": "UEFA.com",
+     "url": "https://es.uefa.com/uefachampionsleague/news/02ab-222bce8f77e7-8a07602301a8-1000--analisis-de-rendimiento-de-la-champions-league-las-claves-/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 4,
-   "termo": "leonardo dicaprio",
-   "trafego_aproximado": "100+",
-   "publicado_em": "2026-11-26T18:50:00Z",
+   "termo": "comisión europea",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-27T18:50:00Z",
    "noticias": [
     {
-     "titulo": "Brad Pitt Explains Why Leonardo DiCaprio’s Cameo in ‘Cliff Booth’ Movie Fell Apart",
-     "fonte": "The Hollywood Reporter",
-     "url": "https://www.hollywoodreporter.com/movies/movie-news/brad-pitt-explains-leonardo-dicaprio-cameo-cliff-booth-fell-apart-1236756581/"
+     "titulo": "Golpe de Bruselas a la prioridad nacional de Vox: las medidas de vivienda aprobadas en Valencia vulneran la ley europea",
+     "fonte": "EL PAÍS",
+     "url": "https://elpais.com/espana/comunidad-valenciana/2026-11-27/golpe-de-bruselas-a-la-prioridad-nacional-de-vox-las-medidas-de-vivienda-aprobadas-en-valencia-vulneran-la-ley-europea.html"
     },
     {
-     "titulo": "Brad Pitt Reveals Why Leonardo DiCaprio Didn’t Return for Once Upon a Time in Hollywood Sequel",
-     "fonte": "E! News",
-     "url": "https://www.eonline.com/news/1438194/brad-pitt-explains-why-leonardo-dicaprio-isnt-in-cliff-booth-movie"
+     "titulo": "La Comisión Europea cuestiona la \"prioridad nacional\" de Vox porque vulneraría el derecho europeo",
+     "fonte": "El Confidencial",
+     "url": "https://www.elconfidencial.com/mundo/2026-11-27/comision-europea-cuestiona-prioridad-nacional-vox-vulneraria-derecho-europeo_4474481/"
     },
     {
-     "titulo": "NEWS OF THE WEEK: Brad Pitt explains why Leonardo DiCaprio's cameo in Cliff Booth movie fell through",
-     "fonte": "Yahoo",
-     "url": "https://www.yahoo.com/news/videos/news-week-brad-pitt-explains-120000098.html"
+     "titulo": "Bruselas considera que la \"prioridad nacional\" que PP y Vox aprobaron en la Comunitat Valenciana vulnera la ley europea",
+     "fonte": "LaSexta",
+     "url": "https://www.lasexta.com/noticias/nacional/bruselas-considera-que-prioridad-nacional-que-vox-aprobaron-comunitat-valenciana-vulnera-ley-europea_202611276b0961e3f6da642efefc4f83.html"
     }
    ],
-   "cita_ator": false
+   "cita_ator": true
   },
   {
    "pos": 5,
-   "termo": "soborno",
-   "trafego_aproximado": "100+",
-   "publicado_em": "2026-11-26T18:50:00Z",
+   "termo": "thiago pitarch",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-27T18:50:00Z",
    "noticias": [
     {
-     "titulo": "Arrestan por aceptar sobornos a un subcomandante de las Fuerzas Aeroespaciales de Rusia",
-     "fonte": "La Vanguardia",
-     "url": "https://www.lavanguardia.com/internacional/20261126/11694043/arrestan-por-aceptar-sobornos-a-un-subcomandante-de-las-fuerzas-aeroespaciales-de-rusia-grejov.html"
+     "titulo": "Exit-linked Real Madrid starlet remains calm about his situation despite lack of game-time",
+     "fonte": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/soccer/articles/exit-linked-real-madrid-starlet-182900810.html"
     },
     {
-     "titulo": "Han surgido informes que indican que el subcomandante de las Fuerzas Aeroespaciales Rusas ha sido arrestado.",
-     "fonte": "Vietnam.vn",
-     "url": "https://www.vietnam.vn/es/ro-tin-pho-tu-lenh-luc-luong-hang-khong-vu-tru-nga-bi-bat"
+     "titulo": "Real Madrid youth prodigy could leave the team in the coming months – report",
+     "fonte": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/soccer/articles/real-madrid-youth-prodigy-could-092000446.html"
     },
     {
-     "titulo": "Detenido un subcomandante de las Fuerzas Aeroespaciales rusas por un presunto delito de soborno",
-     "fonte": "Europa Press",
-     "url": "https://www.europapress.es/internacional/noticia-detenido-subcomandante-fuerzas-aeroespaciales-rusas-presunto-delito-soborno-20261126183843.html"
+     "titulo": "Thiago, mente fría",
+     "fonte": "Diario AS",
+     "url": "https://as.com/futbol/thiago-mente-fria-f202611-n/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 6,
-   "termo": "puerto",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-26T18:40:00Z",
+   "termo": "monica carrillo",
+   "trafego_aproximado": "2000+",
+   "publicado_em": "2026-11-27T18:40:00Z",
    "noticias": [
     {
-     "titulo": "Tigers defeat Wisconsin in 1st game in Puerto Rico",
-     "fonte": "The Auburn Plainsman",
-     "url": "https://www.theplainsman.com/article/tigers-defeat-wisconsin-in-1st-game-in-puerto-rico-20261126"
+     "titulo": "Mónica Carrillo vuelve a la ficción tras seis años con ‘El día menos pensado’: “Con las redes sociales es mucho más difícil cerrar definitivamente una historia de amor”",
+     "fonte": "LOS40",
+     "url": "https://los40.com/2026/11/27/monica-carrillo-vuelve-a-la-ficcion-tras-seis-anos-con-el-dia-menos-pensado-con-las-redes-sociales-es-mucho-mas-dificil-cerrar-definitivamente-una-historia-de-amor/"
     },
     {
-     "titulo": "Auburn set for Thanksgiving hoops at Discover Puerto Rico Shootout",
-     "fonte": "Auburn Tigers - Official Athletics Website",
-     "url": "https://auburntigers.com/news/2026/11/24/auburn-set-for-thanksgiving-hoops-at-discover-puerto-rico-shootout"
+     "titulo": "Mónica Carrillo explora la dependencia emocional en las relaciones sentimentales en 'El día menos pensado'",
+     "fonte": "Diario de Navarra",
+     "url": "https://www.diariodenavarra.es/noticias/cultura-ocio/cultura/2026/11/26/monica-carrillo-explora-dependencia-emocional-relaciones-sentimentales-dia-pensado-843881-104.html"
     },
     {
-     "titulo": "3 things that stood out from Wisconsin women's basketball's decisive loss to Auburn",
-     "fonte": "Wisconsin State Journal",
-     "url": "https://madison.com/sports/college/basketball/women/article_0e5f037a-e112-5128-9d0b-fe013484af68.html"
+     "titulo": "Mónica Carrillo: ‘‘Confío plenamente en que no permitiremos retroceder en derechos’’",
+     "fonte": "Cosmopolitan",
+     "url": "https://www.cosmopolitan.com/es/entretenimiento-cultura/a74528601/monica-carrillo-el-dia-menos-pensado-entrevista/"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 7,
-   "termo": "pedro acosta",
-   "trafego_aproximado": "1000+",
-   "publicado_em": "2026-11-26T18:30:00Z",
+   "termo": "jorge sanz",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-27T18:40:00Z",
    "noticias": [
     {
-     "titulo": "Acosta: \"No puedes comparar a Marc Márquez, que ganó diez títulos, con uno que ganó una carrera\"",
-     "fonte": "MARCA",
-     "url": "https://www.marca.com/motor/motogp/gp-valencia/2026/11/26/acosta-puedes-comparar-marc-marquez-gano-diez-titulos-gano-carrera.html"
+     "titulo": "Los actores Fernando Tejero y Jorge Sanz también se suman al manifiesto que pide el voto a Frente Amplio",
+     "fonte": "Europa Press",
+     "url": "https://www.europapress.es/cultura/cine-00128/noticia-actores-fernando-tejero-jorge-sanz-tambien-suman-manifiesto-pide-voto-frente-amplio-20261126142258.html"
     },
     {
-     "titulo": "\"No se puede comparar un 10 veces campeón del mundo con uno que ha ganado solo un gran premio, os estáis haciendo muchas pajas mentales\"",
-     "fonte": "Mundo Deportivo",
-     "url": "https://www.mundodeportivo.com/motor/motogp/20261126/1004255903/no-comparar-10-veces-campeon-mundo-ganado-gran-premio-estais-haciendo-muchas-pajas-mentales.html"
+     "titulo": "Sale a la luz el partido político al que votará Javier Bardem en las elecciones",
+     "fonte": "Diario AS",
+     "url": "https://as.com/tikitakas/famosos/sale-a-la-luz-el-partido-politico-al-que-votara-javier-bardem-en-las-elecciones-f202611-n/"
     },
     {
-     "titulo": "Pedro Acosta, sobre el décimo de Marc Márquez: \"Me sorprendió verle a la defensiva. Está claro que el título lo ha perdido Aprilia\"",
-     "fonte": "Motorpasión Moto",
-     "url": "https://www.motorpasionmoto.com/motogp/pedro-acosta-decimo-marc-marquez-me-sorprendio-verle-a-defensiva-esta-claro-que-titulo-ha-perdido-aprilia"
+     "titulo": "Rodrigo Sorogoyen: “Expresar a quién voto y explicar por qué me parece sano”",
+     "fonte": "EL PAÍS",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-11-25/rodrigo-sorogoyen-expresar-a-quien-voto-y-explicar-por-que-me-parece-sano.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 8,
-   "termo": "josé luis ábalos",
-   "trafego_aproximado": "500+",
-   "publicado_em": "2026-11-26T18:30:00Z",
+   "termo": "ejército de tierra",
+   "trafego_aproximado": "200+",
+   "publicado_em": "2026-11-27T18:30:00Z",
    "noticias": [
     {
-     "titulo": "El Supremo fija el final de la pena de Ábalos el 11 de mayo de 2042 y el 2 de noviembre de 2040 la de Koldo",
-     "fonte": "El Mundo",
-     "url": "https://www.elmundo.es/espana/2026/11/26/6b08386ee85eced9618b456e.html"
+     "titulo": "El jefe del Ejército de Tierra plantea reforzar la reserva voluntaria para aumentar los efectivos y cubrir especialidades",
+     "fonte": "Infodefensa",
+     "url": "https://www.infodefensa.com/texto-diario/mostrar/6112242/jefe-ejercito-plantea-reforzar-reserva-voluntaria-aumentar-efectivos-cubrir-especialidades"
     },
     {
-     "titulo": "El Supremo fija el fin de la condena de prisión de Ábalos en mayo de 2042",
-     "fonte": "EL PAÍS",
-     "url": "https://elpais.com/espana/2026-11-26/el-supremo-fija-el-fin-de-la-condena-de-prision-de-abalos-en-mayo-de-2042.html"
+     "titulo": "Los JEMES de una veintena de ejércitos europeos coinciden en los tres grandes problemas que deben afrontar en el futuro",
+     "fonte": "Libertad Digital",
+     "url": "https://www.libertaddigital.com/defensa/2026-11-27/los-jemes-de-una-veintena-de-ejercitos-europeos-coinciden-en-los-tres-grandes-problemas-que-deben-afrontar-en-el-futuro-7498587/"
     },
     {
-     "titulo": "El Supremo calcula en 2042 la salida definitiva de José Luis Ábalos de la cárcel",
-     "fonte": "La Vanguardia",
-     "url": "https://www.lavanguardia.com/politica/20261126/11694132/supremo-calcula-2042-salida-definitiva-jose-luis-abalos-carcel.html"
+     "titulo": "El JEME reivindica el papel de los suboficiales y la reserva voluntaria para reforzar los ejércitos europeos",
+     "fonte": "El Debate",
+     "url": "https://www.eldebate.com/espana/defensa/20261127/jeme-reivindica-papel-suboficiales-reserva-voluntaria-reforzar-ejercitos-europeos_486050.html"
     }
    ],
    "cita_ator": false
@@ -200,12 +200,12 @@
    "pos": 9,
    "termo": "barbara rey",
    "trafego_aproximado": "500+",
-   "publicado_em": "2026-11-26T18:30:00Z",
+   "publicado_em": "2026-11-27T18:30:00Z",
    "noticias": [
     {
-     "titulo": "Loles León amenaza con “explicarlo todo” de Felipe González",
-     "fonte": "La Vanguardia",
-     "url": "https://www.lavanguardia.com/politica/20261125/11693425/loles-leon-amenaza-explicarlo-felipe-gonzalez.html"
+     "titulo": "Mario Vaquerizo reacciona al discurso de Loles León en un mitin del PSOE: “No podéis obligar a la gente a deci",
+     "fonte": "Diario AS",
+     "url": "https://as.com/tikitakas/famosos/mario-vaquerizo-reacciona-al-discurso-de-loles-leon-en-un-mitin-del-psoe-no-podeis-obligar-a-la-gente-a-decir-lo-que-quereis-escuchar-f202611-n/"
     },
     {
      "titulo": "Loles León, actriz, advierte a Felipe González: \"Le aconsejo que se muera antes de que lo cuente todo\"",
@@ -213,33 +213,33 @@
      "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/26/6b07fc2be9cf4aac7d8b4571.html"
     },
     {
-     "titulo": "El \"mitin\" de Loles León a favor de Sánchez: \"Somos las abuelas de los 70 con las tetas bien puestas\"",
-     "fonte": "Antena 3 Noticias",
-     "url": "https://www.antena3.com/noticias/espana/mitin-loles-leon-favor-sanchez-somos-abuelas-70-tetas-bien-puestas_202611256b06ac00c0d5c85b96c6be9e.html"
+     "titulo": "El hermano, su mujer, y las cosas del querer",
+     "fonte": "Diario Sur",
+     "url": "https://www.diariosur.es/opinion/javier-muriel-hermano-mujer-querer-20261127223909-nt.html"
     }
    ],
    "cita_ator": false
   },
   {
    "pos": 10,
-   "termo": "benfica",
-   "trafego_aproximado": "200+",
-   "publicado_em": "2026-11-26T18:30:00Z",
+   "termo": "juez",
+   "trafego_aproximado": "2000+",
+   "publicado_em": "2026-11-27T18:10:00Z",
    "noticias": [
     {
-     "titulo": "Revolução e surpresas: o onze do Benfica para visita à Chéquia",
-     "fonte": "A Bola",
-     "url": "https://www.abola.pt/noticias/revolucao-e-surpresas-o-onze-do-benfica-para-visita-a-chequia-2026112615495208033"
+     "titulo": "Un juez en activo entra en “campaña” con un vídeo en redes contra el Gobierno, el PSOE y la periodista Silvia Intxaurrondo",
+     "fonte": "EL PAÍS",
+     "url": "https://elpais.com/espana/2026-11-26/un-juez-en-activo-entra-en-campana-con-un-video-en-redes-contra-el-gobierno-el-psoe-y-la-periodista-silvia-intxaurrondo.html"
     },
     {
-     "titulo": "FORA DE JOGO: MARCO SILVA COM MEDO DE PERDER PRESTIANNI",
-     "fonte": "24Horas.pt",
-     "url": "https://24horas.pt/noticia/fora-de-jogo-marco-silva-com-medo-de-perder-prestianni"
+     "titulo": "Un juez publica en redes un vídeo donde ataca al PSOE y a Silvia Intxaurrondo y luego lo borra",
+     "fonte": "Diario Público",
+     "url": "https://www.publico.es/politica/tribunales/juez-publica-redes-video-ataca-psoe-silvia-intxaurrondo-luego-borra.html"
     },
     {
-     "titulo": "Lenglet e a final da Europa League: «Temos condições para lá chegar»",
-     "fonte": "SAPO",
-     "url": "https://sapo.pt/artigo/lenglet-e-a-final-da-europa-league-temos-condicoes-para-la-chegar-6b0864fbed7962199d344a91"
+     "titulo": "El juez Manuel Ruiz de Lara publica un vídeo en redes contra el PSOE y Silvia Intxaurrondo y luego lo borra",
+     "fonte": "elDiario.es",
+     "url": "https://www.eldiario.es/politica/juez-manuel-ruiz-lara-publica-video-redes-psoe-silvia-intxaurrondo-luego-borra_1_13696415.html"
     }
    ],
    "cita_ator": false
